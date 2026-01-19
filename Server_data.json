@@ -1,0 +1,130 @@
+[
+  {
+    "GENESIS TECHNOLOGIES LTD": "Server Room Device",
+    "Unnamed: 1": NaN,
+    "Unnamed: 2": NaN,
+    "Unnamed: 3": NaN,
+    "Unnamed: 4": NaN,
+    "Unnamed: 5": NaN
+  },
+  {
+    "GENESIS TECHNOLOGIES LTD": "S/L",
+    "Unnamed: 1": "Device Name",
+    "Unnamed: 2": "Model",
+    "Unnamed: 3": "Serial",
+    "Unnamed: 4": "Status",
+    "Unnamed: 5": "Remarks"
+  },
+  {
+    "GENESIS TECHNOLOGIES LTD": 1,
+    "Unnamed: 1": "ACS Soyal Conveter",
+    "Unnamed: 2": "AR-727CM-V3",
+    "Unnamed: 3": NaN,
+    "Unnamed: 4": NaN,
+    "Unnamed: 5": "Excellent"
+  },
+  {
+    "GENESIS TECHNOLOGIES LTD": 2,
+    "Unnamed: 1": "MikroTik Router Board",
+    "Unnamed: 2": "RB2011UiAS-RM",
+    "Unnamed: 3": NaN,
+    "Unnamed: 4": NaN,
+    "Unnamed: 5": "Excellent"
+  },
+  {
+    "GENESIS TECHNOLOGIES LTD": 3,
+    "Unnamed: 1": "Mikrotik Switch 16 Port",
+    "Unnamed: 2": "CCR2004-16G-2S+",
+    "Unnamed: 3": "HBJ07MPR6YD/150",
+    "Unnamed: 4": NaN,
+    "Unnamed: 5": "Excellent"
+  },
+  {
+    "GENESIS TECHNOLOGIES LTD": 4,
+    "Unnamed: 1": "TP-Link Switch 24 Port",
+    "Unnamed: 2": "TL-SG1024D",
+    "Unnamed: 3": "216C906001181",
+    "Unnamed: 4": NaN,
+    "Unnamed: 5": "Excellent"
+  },
+  {
+    "GENESIS TECHNOLOGIES LTD": 5,
+    "Unnamed: 1": "Cisco Switch 24 Port",
+    "Unnamed: 2": "CBS350-24T-4G",
+    "Unnamed: 3": "TOC2552YFVQ",
+    "Unnamed: 4": NaN,
+    "Unnamed: 5": "Excellent"
+  },
+  {
+    "GENESIS TECHNOLOGIES LTD": 6,
+    "Unnamed: 1": "KVM Switch 8 Port",
+    "Unnamed: 2": "KVM-0831",
+    "Unnamed: 3": "590831213200011",
+    "Unnamed: 4": NaN,
+    "Unnamed: 5": "Excellent"
+  },
+  {
+    "GENESIS TECHNOLOGIES LTD": 7,
+    "Unnamed: 1": "TP-Link Switch 8 Port",
+    "Unnamed: 2": "T1500G-10PS",
+    "Unnamed: 3": NaN,
+    "Unnamed: 4": NaN,
+    "Unnamed: 5": "Excellent"
+  },
+  {
+    "GENESIS TECHNOLOGIES LTD": 8,
+    "Unnamed: 1": "Hikvision DVR 8 Port",
+    "Unnamed: 2": "DS-720BHGH1-F2",
+    "Unnamed: 3": "E74263082",
+    "Unnamed: 4": NaN,
+    "Unnamed: 5": "Excellent"
+  },
+  {
+    "GENESIS TECHNOLOGIES LTD": 9,
+    "Unnamed: 1": "Hikvision DVR 16 Port",
+    "Unnamed: 2": "DS-7216HQH1-K2",
+    "Unnamed: 3": "D4560254B",
+    "Unnamed: 4": NaN,
+    "Unnamed: 5": "Excellent"
+  },
+  {
+    "GENESIS TECHNOLOGIES LTD": 10,
+    "Unnamed: 1": "Pass Panel 24 Port",
+    "Unnamed: 2": "Net Key",
+    "Unnamed: 3": NaN,
+    "Unnamed: 4": NaN,
+    "Unnamed: 5": "Excellent"
+  },
+  {
+    "GENESIS TECHNOLOGIES LTD": 11,
+    "Unnamed: 1": "Cable Manager",
+    "Unnamed: 2": "AMP",
+    "Unnamed: 3": NaN,
+    "Unnamed: 4": NaN,
+    "Unnamed: 5": "Excellent"
+  },
+  {
+    "GENESIS TECHNOLOGIES LTD": 12,
+    "Unnamed: 1": "PBAX Controller ",
+    "Unnamed: 2": "KX-Tes824BX",
+    "Unnamed: 3": "2AACV070870",
+    "Unnamed: 4": NaN,
+    "Unnamed: 5": "Excellent"
+  },
+  {
+    "GENESIS TECHNOLOGIES LTD": 13,
+    "Unnamed: 1": "UPS",
+    "Unnamed: 2": "APC/SRCE6KUX1",
+    "Unnamed: 3": NaN,
+    "Unnamed: 4": NaN,
+    "Unnamed: 5": "Excellent"
+  },
+  {
+    "GENESIS TECHNOLOGIES LTD": 14,
+    "Unnamed: 1": "UPS Battery 16 PCS",
+    "Unnamed: 2": NaN,
+    "Unnamed: 3": NaN,
+    "Unnamed: 4": NaN,
+    "Unnamed: 5": "Excellent"
+  }
+]
