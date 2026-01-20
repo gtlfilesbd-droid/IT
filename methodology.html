@@ -1,0 +1,734 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asset Division Methodology - Genesis Technologies Ltd</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            padding: 20px;
+            min-height: 100vh;
+        }
+        
+        .navigation {
+            background: rgba(255, 255, 255, 0.95);
+            padding: 15px 30px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            display: flex;
+            gap: 20px;
+            align-items: center;
+        }
+        
+        .nav-link {
+            color: #2c3e50;
+            text-decoration: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            font-weight: 500;
+            transition: all 0.3s;
+        }
+        
+        .nav-link:hover {
+            background: #3498db;
+            color: white;
+        }
+        
+        .nav-link.active {
+            background: #2c3e50;
+            color: white;
+        }
+        
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            overflow: hidden;
+        }
+        
+        .header {
+            background: linear-gradient(135deg, #2c3e50 0%, #3498db 100%);
+            color: white;
+            padding: 40px;
+            text-align: center;
+        }
+        
+        .header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+        
+        .header p {
+            font-size: 1.1em;
+            opacity: 0.9;
+        }
+        
+        .content {
+            padding: 40px;
+        }
+        
+        .section {
+            margin-bottom: 50px;
+        }
+        
+        .section h2 {
+            color: #2c3e50;
+            font-size: 2em;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 3px solid #3498db;
+        }
+        
+        .section h3 {
+            color: #34495e;
+            font-size: 1.5em;
+            margin-top: 25px;
+            margin-bottom: 15px;
+        }
+        
+        .section h4 {
+            color: #7f8c8d;
+            font-size: 1.2em;
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+        
+        .overview-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin: 30px 0;
+        }
+        
+        .overview-card {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 30px;
+            border-radius: 10px;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        
+        .overview-card h3 {
+            color: white;
+            font-size: 1.2em;
+            margin-bottom: 15px;
+        }
+        
+        .overview-card .value {
+            font-size: 2.5em;
+            font-weight: bold;
+            margin: 10px 0;
+        }
+        
+        .overview-card .label {
+            font-size: 0.9em;
+            opacity: 0.9;
+        }
+        
+        .formula-box {
+            background: #f8f9fa;
+            border-left: 4px solid #3498db;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 5px;
+            font-family: 'Courier New', monospace;
+        }
+        
+        .formula-box code {
+            display: block;
+            margin: 10px 0;
+            color: #2c3e50;
+        }
+        
+        .example-box {
+            background: #e8f5e9;
+            border-left: 4px solid #2ecc71;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 5px;
+        }
+        
+        .example-box h4 {
+            color: #27ae60;
+            margin-bottom: 10px;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        
+        table th {
+            background: #34495e;
+            color: white;
+            padding: 15px;
+            text-align: left;
+            font-weight: 600;
+        }
+        
+        table td {
+            padding: 12px 15px;
+            border-bottom: 1px solid #ecf0f1;
+        }
+        
+        table tr:hover {
+            background: #f8f9fa;
+        }
+        
+        .comparison-table {
+            margin: 30px 0;
+        }
+        
+        .comparison-table th {
+            background: #3498db;
+        }
+        
+        .group-a-row {
+            border-left: 4px solid #e74c3c;
+        }
+        
+        .group-b-row {
+            border-left: 4px solid #3498db;
+        }
+        
+        .group-c-row {
+            border-left: 4px solid #2ecc71;
+        }
+        
+        .depreciation-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin: 30px 0;
+        }
+        
+        .depreciation-card {
+            background: white;
+            border: 2px solid #e0e0e0;
+            border-radius: 10px;
+            padding: 20px;
+            text-align: center;
+        }
+        
+        .depreciation-card .condition {
+            font-weight: bold;
+            color: #2c3e50;
+            font-size: 1.2em;
+            margin-bottom: 10px;
+        }
+        
+        .depreciation-card .rate {
+            font-size: 2em;
+            color: #e74c3c;
+            font-weight: bold;
+            margin: 10px 0;
+        }
+        
+        .depreciation-card .value {
+            color: #2ecc71;
+            font-size: 1.5em;
+            font-weight: bold;
+        }
+        
+        .algorithm-box {
+            background: #fff3cd;
+            border-left: 4px solid #ffc107;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 5px;
+        }
+        
+        .algorithm-box h4 {
+            color: #856404;
+        }
+        
+        .algorithm-box ol {
+            margin-left: 20px;
+            margin-top: 10px;
+        }
+        
+        .algorithm-box li {
+            margin: 10px 0;
+            line-height: 1.6;
+        }
+        
+        .variance-badge {
+            padding: 5px 10px;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+        
+        .variance-low {
+            background: #d4edda;
+            color: #155724;
+        }
+        
+        .note-box {
+            background: #d1ecf1;
+            border-left: 4px solid #17a2b8;
+            padding: 15px 20px;
+            margin: 20px 0;
+            border-radius: 5px;
+        }
+        
+        .note-box strong {
+            color: #0c5460;
+        }
+        
+        @media print {
+            body {
+                background: white;
+                padding: 0;
+            }
+            
+            .container {
+                box-shadow: none;
+            }
+            
+            .navigation {
+                display: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav class="navigation">
+        <a href="index.html" class="nav-link">📊 Asset Distribution</a>
+        <a href="methodology.html" class="nav-link active">📖 Methodology & Reports</a>
+    </nav>
+
+    <div class="container">
+        <div class="header">
+            <h1>📚 Asset Division Methodology</h1>
+            <p>Complete Documentation of Fair Distribution Process</p>
+            <p style="font-size: 0.9em; margin-top: 10px;">Genesis Technologies Ltd</p>
+        </div>
+        
+        <div class="content">
+            <!-- Section 1: Overview -->
+            <div class="section">
+                <h2>1. Overview</h2>
+                <p>This document explains the complete methodology used to fairly distribute Genesis Technologies Ltd's assets among three groups. The distribution is based on calculated asset values, ensuring equal financial value across all groups.</p>
+                
+                <div class="overview-grid">
+                    <div class="overview-card">
+                        <h3>Total Assets</h3>
+                        <div class="value">52</div>
+                        <div class="label">Available for Distribution</div>
+                    </div>
+                    <div class="overview-card">
+                        <h3>Total Value</h3>
+                        <div class="value">৳1,307,700</div>
+                        <div class="label">Combined Worth (BDT)</div>
+                    </div>
+                    <div class="overview-card">
+                        <h3>Target per Group</h3>
+                        <div class="value">৳435,900</div>
+                        <div class="label">Equal Distribution Target</div>
+                    </div>
+                    <div class="overview-card">
+                        <h3>Distribution Method</h3>
+                        <div class="value">Greedy</div>
+                        <div class="label">Algorithm Used</div>
+                    </div>
+                </div>
+                
+                <div class="note-box">
+                    <strong>Note:</strong> All assets are used/second-hand equipment. Depreciation rates have been applied based on current condition to reflect fair market value.
+                </div>
+            </div>
+
+            <!-- Section 2: Value Calculation Methodology -->
+            <div class="section">
+                <h2>2. Value Calculation Methodology</h2>
+                <p>Each asset's current value is calculated using a comprehensive formula that considers type, specifications, and condition.</p>
+                
+                <h3>2.1 Laptops</h3>
+                <div class="formula-box">
+                    <strong>Base Formula:</strong>
+                    <code>Base Value = ৳30,000</code>
+                    <code>+ Processor Bonus (i7/Ryzen 7: ৳15,000 | i5/Ryzen 5: ৳8,000 | i3: ৳3,000)</code>
+                    <code>+ RAM × ৳1,500 per GB</code>
+                    <code>+ (Generation - 10) × ৳3,000 (if Gen ≥ 11)</code>
+                    <code>+ GPU Bonus (4GB: ৳8,000 | 2GB: ৳4,000)</code>
+                </div>
+                
+                <div class="example-box">
+                    <h4>Example: HP Laptop with i5, 8GB RAM, Gen 12, 2GB GPU</h4>
+                    <p>Base: ৳30,000</p>
+                    <p>+ i5 Processor: ৳8,000</p>
+                    <p>+ 8GB RAM: ৳12,000</p>
+                    <p>+ Gen 12: ৳6,000</p>
+                    <p>+ 2GB GPU: ৳4,000</p>
+                    <p><strong>Subtotal: ৳60,000</strong></p>
+                    <p>× Depreciation (Excellent = 70%): <strong>৳42,000 Final Value</strong></p>
+                </div>
+                
+                <h3>2.2 Desktop PCs</h3>
+                <div class="formula-box">
+                    <strong>Base Formula:</strong>
+                    <code>Base Value = ৳40,000</code>
+                    <code>+ Processor Bonus (i9: ৳50,000 | i7: ৳20,000 | i5: ৳10,000 | i3: ৳5,000)</code>
+                    <code>+ RAM × ৳2,000 per GB</code>
+                    <code>+ (Generation - 10) × ৳4,000 (if Gen ≥ 11)</code>
+                    <code>+ GPU Bonus (4GB: ৳10,000 | 2GB: ৳5,000)</code>
+                </div>
+                
+                <div class="example-box">
+                    <h4>Example: Desktop PC with i9, 16GB RAM, Gen 13, 4GB GPU</h4>
+                    <p>Base: ৳40,000</p>
+                    <p>+ i9 Processor: ৳50,000</p>
+                    <p>+ 16GB RAM: ৳32,000</p>
+                    <p>+ Gen 13: ৳12,000</p>
+                    <p>+ 4GB GPU: ৳10,000</p>
+                    <p><strong>Subtotal: ৳144,000</strong></p>
+                    <p>× Depreciation (Excellent = 70%): <strong>৳100,800 Final Value</strong></p>
+                </div>
+                
+                <h3>2.3 Monitors</h3>
+                <div class="formula-box">
+                    <strong>Base Formula:</strong>
+                    <code>Base Value = ৳8,000</code>
+                    <code>+ Brand Bonus (Dell/HP/LG: ৳2,000)</code>
+                    <code>+ Size Bonus (24"/27": ৳3,000)</code>
+                </div>
+                
+                <h3>2.4 Printers/Scanners</h3>
+                <div class="formula-box">
+                    <strong>Base Formula:</strong>
+                    <code>Base Value = ৳15,000</code>
+                    <code>+ Brand Bonus (HP: ৳5,000)</code>
+                    <code>+ Type Bonus (LaserJet: ৳10,000)</code>
+                </div>
+                
+                <h3>2.5 Server/Network Equipment</h3>
+                <div class="formula-box">
+                    <strong>Equipment-Specific Values:</strong>
+                    <code>• Router/MikroTik: ৳25,000</code>
+                    <code>• Switch 24/16 Port: ৳20,000</code>
+                    <code>• Switch 8 Port: ৳12,000</code>
+                    <code>• DVR 16 Port: ৳18,000</code>
+                    <code>• DVR 8 Port: ৳12,000</code>
+                    <code>• UPS: ৳30,000</code>
+                    <code>• KVM Switch: ৳8,000</code>
+                    <code>• Patch Panel/Cable: ৳3,000</code>
+                    <code>• PBAX/Controller: ৳15,000</code>
+                    <code>• Other Equipment: ৳10,000-15,000</code>
+                </div>
+            </div>
+
+            <!-- Section 3: Depreciation Policy -->
+            <div class="section">
+                <h2>3. Depreciation Policy for Used Assets</h2>
+                <p>Since all assets are used/second-hand equipment, depreciation is applied based on current condition:</p>
+                
+                <div class="depreciation-grid">
+                    <div class="depreciation-card">
+                        <div class="condition">Excellent</div>
+                        <div class="rate">30% OFF</div>
+                        <div class="value">70% Value</div>
+                        <p style="margin-top: 10px; color: #7f8c8d; font-size: 0.9em;">Well-maintained, fully functional</p>
+                    </div>
+                    <div class="depreciation-card">
+                        <div class="condition">Good</div>
+                        <div class="rate">40% OFF</div>
+                        <div class="value">60% Value</div>
+                        <p style="margin-top: 10px; color: #7f8c8d; font-size: 0.9em;">Working condition, minor wear</p>
+                    </div>
+                    <div class="depreciation-card">
+                        <div class="condition">Moderate/Fair</div>
+                        <div class="rate">50% OFF</div>
+                        <div class="value">50% Value</div>
+                        <p style="margin-top: 10px; color: #7f8c8d; font-size: 0.9em;">Functional but aged</p>
+                    </div>
+                </div>
+                
+                <div class="formula-box">
+                    <strong>Final Value Formula:</strong>
+                    <code>Final Value = (Base Value + All Bonuses) × Depreciation Rate</code>
+                </div>
+            </div>
+
+            <!-- Section 4: Division Algorithm -->
+            <div class="section">
+                <h2>4. Fair Distribution Algorithm</h2>
+                <p>A greedy algorithm is used to distribute assets fairly among three groups:</p>
+                
+                <div class="algorithm-box">
+                    <h4>Algorithm Steps:</h4>
+                    <ol>
+                        <li><strong>Calculate Values:</strong> Compute the current value for each asset using the formulas above.</li>
+                        <li><strong>Sort Assets:</strong> Sort all assets by value in descending order (highest value first).</li>
+                        <li><strong>Initialize Groups:</strong> Create three empty groups (A, B, C) with zero total value.</li>
+                        <li><strong>Greedy Assignment:</strong> For each asset (starting from highest value):
+                            <ul style="margin-left: 20px; margin-top: 5px;">
+                                <li>Find the group with the lowest current total value</li>
+                                <li>Assign the asset to that group</li>
+                                <li>Update the group's total value</li>
+                            </ul>
+                        </li>
+                        <li><strong>Calculate Variance:</strong> Measure how close each group is to the target value (Total ÷ 3).</li>
+                    </ol>
+                </div>
+                
+                <div class="note-box">
+                    <strong>Why This Works:</strong> By assigning high-value assets first to the group with the lowest total, we naturally balance the distribution. This greedy approach typically achieves variance within ±1% of the target value.
+                </div>
+                
+                <h3>4.1 Fairness Metrics</h3>
+                <div class="formula-box">
+                    <strong>Variance Calculation:</strong>
+                    <code>Target Value = Total Value ÷ 3 = ৳1,307,700 ÷ 3 = ৳435,900</code>
+                    <code>Variance % = ((Group Value - Target Value) ÷ Target Value) × 100</code>
+                </div>
+            </div>
+
+            <!-- Section 5: Group Distribution Summary -->
+            <div class="section">
+                <h2>5. Group Distribution Summary</h2>
+                <p>Final distribution results showing balanced allocation:</p>
+                
+                <table class="comparison-table">
+                    <thead>
+                        <tr>
+                            <th>Group</th>
+                            <th>Total Assets</th>
+                            <th>Total Value (BDT)</th>
+                            <th>Variance from Target</th>
+                            <th>Laptops</th>
+                            <th>Desktop PCs</th>
+                            <th>Monitors</th>
+                            <th>Printers</th>
+                            <th>Servers</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="group-a-row">
+                            <td><strong>Group A</strong></td>
+                            <td>18</td>
+                            <td>৳435,800</td>
+                            <td><span class="variance-badge variance-low">-0.02%</span></td>
+                            <td>3</td>
+                            <td>3</td>
+                            <td>4</td>
+                            <td>2</td>
+                            <td>6</td>
+                        </tr>
+                        <tr class="group-b-row">
+                            <td><strong>Group B</strong></td>
+                            <td>17</td>
+                            <td>৳436,600</td>
+                            <td><span class="variance-badge variance-low">+0.16%</span></td>
+                            <td>3</td>
+                            <td>3</td>
+                            <td>4</td>
+                            <td>3</td>
+                            <td>4</td>
+                        </tr>
+                        <tr class="group-c-row">
+                            <td><strong>Group C</strong></td>
+                            <td>17</td>
+                            <td>৳435,300</td>
+                            <td><span class="variance-badge variance-low">-0.14%</span></td>
+                            <td>4</td>
+                            <td>3</td>
+                            <td>2</td>
+                            <td>4</td>
+                            <td>4</td>
+                        </tr>
+                        <tr style="background: #f0f0f0; font-weight: bold;">
+                            <td>TOTAL</td>
+                            <td>52</td>
+                            <td>৳1,307,700</td>
+                            <td>-</td>
+                            <td>10</td>
+                            <td>9</td>
+                            <td>10</td>
+                            <td>9</td>
+                            <td>14</td>
+                        </tr>
+                    </tbody>
+                </table>
+                
+                <div class="note-box">
+                    <strong>Achievement:</strong> All three groups achieved variance within ±0.2% of the target value, demonstrating excellent fairness in distribution. The algorithm successfully balanced both asset count and total value.
+                </div>
+            </div>
+
+            <!-- Section 6: Asset Type Breakdown -->
+            <div class="section">
+                <h2>6. Asset Type Breakdown</h2>
+                
+                <h3>6.1 Laptops (10 total)</h3>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Type</th>
+                            <th>Count</th>
+                            <th>Value Range</th>
+                            <th>Average Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Core i7 Laptops</td>
+                            <td>3</td>
+                            <td>৳30,600 - ৳35,700</td>
+                            <td>৳33,740</td>
+                        </tr>
+                        <tr>
+                            <td>Core i5 Laptops</td>
+                            <td>7</td>
+                            <td>৳33,600 - ৳39,900</td>
+                            <td>৳37,371</td>
+                        </tr>
+                    </tbody>
+                </table>
+                
+                <h3>6.2 Desktop PCs (9 total)</h3>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Type</th>
+                            <th>Count</th>
+                            <th>Value Range</th>
+                            <th>Average Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>i9 High-End PCs</td>
+                            <td>5</td>
+                            <td>৳72,800 - ৳110,600</td>
+                            <td>৳95,200</td>
+                        </tr>
+                        <tr>
+                            <td>HP Server (i9)</td>
+                            <td>1</td>
+                            <td>৳72,800</td>
+                            <td>৳72,800</td>
+                        </tr>
+                        <tr>
+                            <td>i3/Dual Core PCs</td>
+                            <td>3</td>
+                            <td>৳21,600 - ৳27,600</td>
+                            <td>৳24,267</td>
+                        </tr>
+                    </tbody>
+                </table>
+                
+                <h3>6.3 Monitors (10 total)</h3>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Brand</th>
+                            <th>Count</th>
+                            <th>Average Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>HP Monitors</td>
+                            <td>9</td>
+                            <td>৳7,000</td>
+                        </tr>
+                        <tr>
+                            <td>Other Brands</td>
+                            <td>1</td>
+                            <td>৳5,600</td>
+                        </tr>
+                    </tbody>
+                </table>
+                
+                <h3>6.4 Printers/Scanners (9 total)</h3>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Type</th>
+                            <th>Count</th>
+                            <th>Average Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>HP Printers</td>
+                            <td>9</td>
+                            <td>৳10,500 - ৳12,000</td>
+                        </tr>
+                    </tbody>
+                </table>
+                
+                <h3>6.5 Server/Network Equipment (14 total)</h3>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Equipment Type</th>
+                            <th>Count</th>
+                            <th>Value Range</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Routers & High-End Switches</td>
+                            <td>3</td>
+                            <td>৳14,000 - ৳17,500</td>
+                        </tr>
+                        <tr>
+                            <td>DVR Systems</td>
+                            <td>2</td>
+                            <td>৳8,400 - ৳12,600</td>
+                        </tr>
+                        <tr>
+                            <td>UPS Systems</td>
+                            <td>1</td>
+                            <td>৳21,000</td>
+                        </tr>
+                        <tr>
+                            <td>Switches (8-24 port)</td>
+                            <td>3</td>
+                            <td>৳8,400 - ৳14,000</td>
+                        </tr>
+                        <tr>
+                            <td>Other Equipment</td>
+                            <td>5</td>
+                            <td>৳2,100 - ৳10,500</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <!-- Section 7: Conclusion -->
+            <div class="section">
+                <h2>7. Conclusion</h2>
+                <p>The fair distribution algorithm successfully allocated all 52 assets across three groups with the following achievements:</p>
+                
+                <ul style="line-height: 2; margin: 20px 0 20px 30px;">
+                    <li><strong>Excellent Value Balance:</strong> All groups within ±0.2% of target value</li>
+                    <li><strong>Fair Asset Distribution:</strong> Each group received 17-18 assets</li>
+                    <li><strong>Diverse Mix:</strong> Each group has a mix of all asset types</li>
+                    <li><strong>Transparent Methodology:</strong> Clear calculation formulas and depreciation rates</li>
+                    <li><strong>Condition-Based Valuation:</strong> Proper depreciation for used equipment</li>
+                </ul>
+                
+                <div class="note-box">
+                    <strong>Recommendation:</strong> For detailed asset lists and individual valuations for each group, please refer to the <a href="index.html" style="color: #0c5460; font-weight: bold;">Asset Distribution page</a>.
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -12,8 +12,8 @@
     "Location": "Server Room",
     "Level": "1️⃣",
     "Remarks": "Excellent",
-    "CurrentValue": 104000.0,
-    "AllocationRemark": "Assigned to balance total value (Group A: ৳262,000)"
+    "CurrentValue": 72800.0,
+    "AllocationRemark": "Assigned to balance total value (Group A: ৳183,400)"
   },
   {
     "AssetType": "Desktop PC",
@@ -29,8 +29,8 @@
     "Location": "3rd Floor",
     "Level": "1️⃣",
     "Remarks": "Excellent",
-    "CurrentValue": 144000.0,
-    "AllocationRemark": "Assigned to balance total value (Group B: ৳144,000)"
+    "CurrentValue": 100800.0,
+    "AllocationRemark": "Assigned to balance total value (Group B: ৳100,800)"
   },
   {
     "AssetType": "Desktop PC",
@@ -46,8 +46,8 @@
     "Location": "3rd Floor",
     "Level": "1️⃣",
     "Remarks": "Excellent",
-    "CurrentValue": 144000.0,
-    "AllocationRemark": "Assigned to balance total value (Group C: ৳144,000)"
+    "CurrentValue": 100800.0,
+    "AllocationRemark": "Assigned to balance total value (Group C: ৳100,800)"
   },
   {
     "AssetType": "Desktop PC",
@@ -63,8 +63,8 @@
     "Location": "3rd Floor",
     "Level": "1️⃣",
     "Remarks": "Excellent",
-    "CurrentValue": 144000.0,
-    "AllocationRemark": "Assigned to balance total value (Group B: ৳288,000)"
+    "CurrentValue": 100800.0,
+    "AllocationRemark": "Assigned to balance total value (Group B: ৳201,600)"
   },
   {
     "AssetType": "Desktop PC",
@@ -80,8 +80,8 @@
     "Location": "2nd Floor",
     "Level": "1️⃣",
     "Remarks": "Excellent",
-    "CurrentValue": 144000.0,
-    "AllocationRemark": "Assigned to balance total value (Group C: ৳288,000)"
+    "CurrentValue": 100800.0,
+    "AllocationRemark": "Assigned to balance total value (Group C: ৳201,600)"
   },
   {
     "AssetType": "Desktop PC",
@@ -96,8 +96,8 @@
     "Location": "2nd Floor",
     "Level": "1️⃣",
     "Remarks": "Excellent",
-    "CurrentValue": 158000.0,
-    "AllocationRemark": "Assigned to balance total value (Group A: ৳158,000)"
+    "CurrentValue": 110600.0,
+    "AllocationRemark": "Assigned to balance total value (Group A: ৳110,600)"
   },
   {
     "AssetType": "Desktop PC",
@@ -112,8 +112,8 @@
     "Location": "2nd Floor",
     "Level": "3️⃣",
     "Remarks": "Moderate",
-    "CurrentValue": 42400.0,
-    "AllocationRemark": "Assigned to balance total value (Group A: ৳458,000)"
+    "CurrentValue": 26500.0,
+    "AllocationRemark": "Assigned to balance total value (Group A: ৳317,600)"
   },
   {
     "AssetType": "Desktop PC",
@@ -127,8 +127,8 @@
     "Location": "2nd Floor",
     "Level": "3️⃣",
     "Remarks": "Moderate",
-    "CurrentValue": 38400.0,
-    "AllocationRemark": "Assigned to balance total value (Group C: ৳470,900)"
+    "CurrentValue": 24000.0,
+    "AllocationRemark": "Assigned to balance total value (Group B: ৳326,900)"
   },
   {
     "AssetType": "Desktop PC",
@@ -142,7 +142,7 @@
     "Location": "2nd Floor",
     "Level": "3️⃣",
     "Remarks": "Moderate",
-    "CurrentValue": 38400.0,
-    "AllocationRemark": "Assigned to balance total value (Group B: ৳475,050)"
+    "CurrentValue": 24000.0,
+    "AllocationRemark": "Assigned to balance total value (Group C: ৳327,600)"
   }
 ]

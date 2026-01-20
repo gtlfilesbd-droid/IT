@@ -380,17 +380,18 @@ def calculate_asset_value(asset):
             base_value = 10000
     
     # Depreciation based on condition/remarks
+    # All assets are used, so minimum 30% depreciation
     remarks = asset.get('Remarks', '').lower()
     status = asset.get('Status', '').lower()
     
     if 'excellent' in remarks:
-        depreciation = 1.0
+        depreciation = 0.70  # 30% depreciation for excellent used condition
     elif 'good' in remarks or 'working' in status:
-        depreciation = 0.85
-    elif 'fair' in remarks:
-        depreciation = 0.70
+        depreciation = 0.60  # 40% depreciation for good used condition
+    elif 'fair' in remarks or 'moderate' in remarks:
+        depreciation = 0.50  # 50% depreciation for fair/moderate used condition
     else:
-        depreciation = 0.80
+        depreciation = 0.60  # 40% depreciation as default
     
     final_value = base_value * depreciation
     

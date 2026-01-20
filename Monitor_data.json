@@ -8,8 +8,8 @@
     "Location": "2nd Floor",
     "Level": "1️⃣",
     "Remarks": "Excellent",
-    "CurrentValue": 8000.0,
-    "AllocationRemark": "Assigned to balance total value (Group A: ৳608,200)"
+    "CurrentValue": 5600.0,
+    "AllocationRemark": "Assigned to balance total value (Group A: ৳423,300)"
   },
   {
     "AssetType": "Monitor",
@@ -20,8 +20,8 @@
     "Location": "2nd Floor",
     "Level": "1️⃣",
     "Remarks": "Excellent",
-    "CurrentValue": 8000.0,
-    "AllocationRemark": "Assigned to balance total value (Group C: ৳612,900)"
+    "CurrentValue": 5600.0,
+    "AllocationRemark": "Assigned to balance total value (Group B: ৳426,200)"
   },
   {
     "AssetType": "Monitor",
@@ -32,8 +32,8 @@
     "Location": "2nd Floor",
     "Level": "1️⃣",
     "Remarks": "Excellent",
-    "CurrentValue": 8000.0,
-    "AllocationRemark": "Assigned to balance total value (Group B: ৳613,050)"
+    "CurrentValue": 5600.0,
+    "AllocationRemark": "Assigned to balance total value (Group C: ৳427,600)"
   },
   {
     "AssetType": "Monitor",
@@ -44,8 +44,8 @@
     "Location": "2nd Floor",
     "Level": "1️⃣",
     "Remarks": "Excellent",
-    "CurrentValue": 8000.0,
-    "AllocationRemark": "Assigned to balance total value (Group A: ৳616,200)"
+    "CurrentValue": 5600.0,
+    "AllocationRemark": "Assigned to balance total value (Group A: ৳428,900)"
   },
   {
     "AssetType": "Monitor",
@@ -56,8 +56,8 @@
     "Location": "3th Floor",
     "Level": "1️⃣",
     "Remarks": "Excellent",
-    "CurrentValue": 8000.0,
-    "AllocationRemark": "Assigned to balance total value (Group C: ৳620,900)"
+    "CurrentValue": 5600.0,
+    "AllocationRemark": "Assigned to balance total value (Group B: ৳431,800)"
   },
   {
     "AssetType": "Monitor",
@@ -68,8 +68,8 @@
     "Location": "3rd Floor",
     "Level": "2️⃣",
     "Remarks": "Excellent",
-    "CurrentValue": 11000.0,
-    "AllocationRemark": "Assigned to balance total value (Group A: ৳600,200)"
+    "CurrentValue": 7700.0,
+    "AllocationRemark": "Assigned to balance total value (Group A: ৳417,700)"
   },
   {
     "AssetType": "Monitor",
@@ -80,8 +80,8 @@
     "Location": "3rd Floor",
     "Level": "2️⃣",
     "Remarks": "Excellent",
-    "CurrentValue": 11000.0,
-    "AllocationRemark": "Assigned to balance total value (Group C: ৳604,900)"
+    "CurrentValue": 7700.0,
+    "AllocationRemark": "Assigned to balance total value (Group B: ৳420,600)"
   },
   {
     "AssetType": "Monitor",
@@ -92,8 +92,8 @@
     "Location": "3rd Floor",
     "Level": "2️⃣",
     "Remarks": "Excellent",
-    "CurrentValue": 8000.0,
-    "AllocationRemark": "Assigned to balance total value (Group B: ৳621,050)"
+    "CurrentValue": 5600.0,
+    "AllocationRemark": "Assigned to balance total value (Group C: ৳433,200)"
   },
   {
     "AssetType": "Monitor",
@@ -104,8 +104,8 @@
     "Location": "2nd Floor",
     "Level": "3️⃣",
     "Remarks": "Good",
-    "CurrentValue": 6800.0,
-    "AllocationRemark": "Assigned to balance total value (Group A: ৳623,000)"
+    "CurrentValue": 4800.0,
+    "AllocationRemark": "Assigned to balance total value (Group A: ৳433,700)"
   },
   {
     "AssetType": "Monitor",
@@ -116,7 +116,7 @@
     "Location": "8th Floor",
     "Level": "3️⃣",
     "Remarks": "Good",
-    "CurrentValue": 6800.0,
-    "AllocationRemark": "Assigned to balance total value (Group C: ৳627,700)"
+    "CurrentValue": 4800.0,
+    "AllocationRemark": "Assigned to balance total value (Group B: ৳436,600)"
   }
 ]

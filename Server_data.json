@@ -5,8 +5,8 @@
     "Name": "ACS Soyal Conveter",
     "Model": "AR-727CM-V3",
     "Remarks": "Excellent",
-    "CurrentValue": 10000.0,
-    "AllocationRemark": "Assigned to balance total value (Group B: ৳605,050)"
+    "CurrentValue": 7000.0,
+    "AllocationRemark": "Assigned to balance total value (Group C: ৳422,000)"
   },
   {
     "AssetType": "Server",
@@ -14,8 +14,8 @@
     "Name": "MikroTik Router Board",
     "Model": "RB2011UiAS-RM",
     "Remarks": "Excellent",
-    "CurrentValue": 25000.0,
-    "AllocationRemark": "Assigned to balance total value (Group A: ৳514,200)"
+    "CurrentValue": 17500.0,
+    "AllocationRemark": "Assigned to balance total value (Group A: ৳356,100)"
   },
   {
     "AssetType": "Server",
@@ -24,8 +24,8 @@
     "Model": "CCR2004-16G-2S+",
     "DeviceSerial": "HBJ07MPR6YD/150",
     "Remarks": "Excellent",
-    "CurrentValue": 25000.0,
-    "AllocationRemark": "Assigned to balance total value (Group C: ৳525,900)"
+    "CurrentValue": 17500.0,
+    "AllocationRemark": "Assigned to balance total value (Group C: ৳364,600)"
   },
   {
     "AssetType": "Server",
@@ -34,8 +34,8 @@
     "Model": "TL-SG1024D",
     "DeviceSerial": "216C906001181",
     "Remarks": "Excellent",
-    "CurrentValue": 20000.0,
-    "AllocationRemark": "Assigned to balance total value (Group B: ৳525,050)"
+    "CurrentValue": 14000.0,
+    "AllocationRemark": "Assigned to balance total value (Group B: ৳361,900)"
   },
   {
     "AssetType": "Server",
@@ -44,8 +44,8 @@
     "Model": "CBS350-24T-4G",
     "DeviceSerial": "TOC2552YFVQ",
     "Remarks": "Excellent",
-    "CurrentValue": 20000.0,
-    "AllocationRemark": "Assigned to balance total value (Group A: ৳534,200)"
+    "CurrentValue": 14000.0,
+    "AllocationRemark": "Assigned to balance total value (Group A: ৳370,100)"
   },
   {
     "AssetType": "Server",
@@ -54,8 +54,8 @@
     "Model": "KVM-0831",
     "DeviceSerial": "590831213200011",
     "Remarks": "Excellent",
-    "CurrentValue": 12000.0,
-    "AllocationRemark": "Assigned to balance total value (Group A: ৳589,200)"
+    "CurrentValue": 8400.0,
+    "AllocationRemark": "Assigned to balance total value (Group A: ৳410,000)"
   },
   {
     "AssetType": "Server",
@@ -63,8 +63,8 @@
     "Name": "TP-Link Switch 8 Port",
     "Model": "T1500G-10PS",
     "Remarks": "Excellent",
-    "CurrentValue": 12000.0,
-    "AllocationRemark": "Assigned to balance total value (Group C: ৳593,900)"
+    "CurrentValue": 8400.0,
+    "AllocationRemark": "Assigned to balance total value (Group B: ৳412,900)"
   },
   {
     "AssetType": "Server",
@@ -73,8 +73,8 @@
     "Model": "DS-720BHGH1-F2",
     "DeviceSerial": "E74263082",
     "Remarks": "Excellent",
-    "CurrentValue": 12000.0,
-    "AllocationRemark": "Assigned to balance total value (Group B: ৳595,050)"
+    "CurrentValue": 8400.0,
+    "AllocationRemark": "Assigned to balance total value (Group C: ৳415,000)"
   },
   {
     "AssetType": "Server",
@@ -83,8 +83,8 @@
     "Model": "DS-7216HQH1-K2",
     "DeviceSerial": "D4560254B",
     "Remarks": "Excellent",
-    "CurrentValue": 18000.0,
-    "AllocationRemark": "Assigned to balance total value (Group B: ৳543,050)"
+    "CurrentValue": 12600.0,
+    "AllocationRemark": "Assigned to balance total value (Group B: ৳374,500)"
   },
   {
     "AssetType": "Server",
@@ -92,8 +92,8 @@
     "Name": "Patch Panel 24 Port",
     "Model": "Net Key",
     "Remarks": "Excellent",
-    "CurrentValue": 3000.0,
-    "AllocationRemark": "Assigned to balance total value (Group B: ৳624,050)"
+    "CurrentValue": 2100.0,
+    "AllocationRemark": "Assigned to balance total value (Group C: ৳435,300)"
   },
   {
     "AssetType": "Server",
@@ -101,8 +101,8 @@
     "Name": "Cable Manager",
     "Model": "AMP",
     "Remarks": "Excellent",
-    "CurrentValue": 3000.0,
-    "AllocationRemark": "Assigned to balance total value (Group A: ৳626,000)"
+    "CurrentValue": 2100.0,
+    "AllocationRemark": "Assigned to balance total value (Group A: ৳435,800)"
   },
   {
     "AssetType": "Server",
@@ -111,8 +111,8 @@
     "Model": "KX-Tes824BX",
     "DeviceSerial": "2AACV070870",
     "Remarks": "Excellent",
-    "CurrentValue": 15000.0,
-    "AllocationRemark": "Assigned to balance total value (Group A: ৳565,200)"
+    "CurrentValue": 10500.0,
+    "AllocationRemark": "Assigned to balance total value (Group A: ৳392,600)"
   },
   {
     "AssetType": "Server",
@@ -120,15 +120,15 @@
     "Name": "UPS",
     "Model": "APC/SRCE6KUX1",
     "Remarks": "Excellent",
-    "CurrentValue": 30000.0,
-    "AllocationRemark": "Assigned to balance total value (Group C: ৳500,900)"
+    "CurrentValue": 21000.0,
+    "AllocationRemark": "Assigned to balance total value (Group A: ৳338,600)"
   },
   {
     "AssetType": "Server",
     "Serial": 14,
     "Name": "UPS Battery 16 PCS",
     "Remarks": "Excellent",
-    "CurrentValue": 30000.0,
-    "AllocationRemark": "Assigned to balance total value (Group B: ৳505,050)"
+    "CurrentValue": 21000.0,
+    "AllocationRemark": "Assigned to balance total value (Group B: ৳347,900)"
   }
 ]
