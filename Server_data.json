@@ -1,130 +1,134 @@
 [
   {
-    "GENESIS TECHNOLOGIES LTD": "Server Room Device",
-    "Unnamed: 1": NaN,
-    "Unnamed: 2": NaN,
-    "Unnamed: 3": NaN,
-    "Unnamed: 4": NaN,
-    "Unnamed: 5": NaN
+    "AssetType": "Server",
+    "Serial": 1,
+    "Name": "ACS Soyal Conveter",
+    "Model": "AR-727CM-V3",
+    "Remarks": "Excellent",
+    "CurrentValue": 10000.0,
+    "AllocationRemark": "Assigned to balance total value (Group B: ৳605,050)"
   },
   {
-    "GENESIS TECHNOLOGIES LTD": "S/L",
-    "Unnamed: 1": "Device Name",
-    "Unnamed: 2": "Model",
-    "Unnamed: 3": "Serial",
-    "Unnamed: 4": "Status",
-    "Unnamed: 5": "Remarks"
+    "AssetType": "Server",
+    "Serial": 2,
+    "Name": "MikroTik Router Board",
+    "Model": "RB2011UiAS-RM",
+    "Remarks": "Excellent",
+    "CurrentValue": 25000.0,
+    "AllocationRemark": "Assigned to balance total value (Group A: ৳514,200)"
   },
   {
-    "GENESIS TECHNOLOGIES LTD": 1,
-    "Unnamed: 1": "ACS Soyal Conveter",
-    "Unnamed: 2": "AR-727CM-V3",
-    "Unnamed: 3": NaN,
-    "Unnamed: 4": NaN,
-    "Unnamed: 5": "Excellent"
+    "AssetType": "Server",
+    "Serial": 3,
+    "Name": "Mikrotik Switch 16 Port",
+    "Model": "CCR2004-16G-2S+",
+    "DeviceSerial": "HBJ07MPR6YD/150",
+    "Remarks": "Excellent",
+    "CurrentValue": 25000.0,
+    "AllocationRemark": "Assigned to balance total value (Group C: ৳525,900)"
   },
   {
-    "GENESIS TECHNOLOGIES LTD": 2,
-    "Unnamed: 1": "MikroTik Router Board",
-    "Unnamed: 2": "RB2011UiAS-RM",
-    "Unnamed: 3": NaN,
-    "Unnamed: 4": NaN,
-    "Unnamed: 5": "Excellent"
+    "AssetType": "Server",
+    "Serial": 4,
+    "Name": "TP-Link Switch 24 Port",
+    "Model": "TL-SG1024D",
+    "DeviceSerial": "216C906001181",
+    "Remarks": "Excellent",
+    "CurrentValue": 20000.0,
+    "AllocationRemark": "Assigned to balance total value (Group B: ৳525,050)"
   },
   {
-    "GENESIS TECHNOLOGIES LTD": 3,
-    "Unnamed: 1": "Mikrotik Switch 16 Port",
-    "Unnamed: 2": "CCR2004-16G-2S+",
-    "Unnamed: 3": "HBJ07MPR6YD/150",
-    "Unnamed: 4": NaN,
-    "Unnamed: 5": "Excellent"
+    "AssetType": "Server",
+    "Serial": 5,
+    "Name": "Cisco Switch 24 Port",
+    "Model": "CBS350-24T-4G",
+    "DeviceSerial": "TOC2552YFVQ",
+    "Remarks": "Excellent",
+    "CurrentValue": 20000.0,
+    "AllocationRemark": "Assigned to balance total value (Group A: ৳534,200)"
   },
   {
-    "GENESIS TECHNOLOGIES LTD": 4,
-    "Unnamed: 1": "TP-Link Switch 24 Port",
-    "Unnamed: 2": "TL-SG1024D",
-    "Unnamed: 3": "216C906001181",
-    "Unnamed: 4": NaN,
-    "Unnamed: 5": "Excellent"
+    "AssetType": "Server",
+    "Serial": 6,
+    "Name": "KVM Switch 8 Port",
+    "Model": "KVM-0831",
+    "DeviceSerial": "590831213200011",
+    "Remarks": "Excellent",
+    "CurrentValue": 12000.0,
+    "AllocationRemark": "Assigned to balance total value (Group A: ৳589,200)"
   },
   {
-    "GENESIS TECHNOLOGIES LTD": 5,
-    "Unnamed: 1": "Cisco Switch 24 Port",
-    "Unnamed: 2": "CBS350-24T-4G",
-    "Unnamed: 3": "TOC2552YFVQ",
-    "Unnamed: 4": NaN,
-    "Unnamed: 5": "Excellent"
+    "AssetType": "Server",
+    "Serial": 7,
+    "Name": "TP-Link Switch 8 Port",
+    "Model": "T1500G-10PS",
+    "Remarks": "Excellent",
+    "CurrentValue": 12000.0,
+    "AllocationRemark": "Assigned to balance total value (Group C: ৳593,900)"
   },
   {
-    "GENESIS TECHNOLOGIES LTD": 6,
-    "Unnamed: 1": "KVM Switch 8 Port",
-    "Unnamed: 2": "KVM-0831",
-    "Unnamed: 3": "590831213200011",
-    "Unnamed: 4": NaN,
-    "Unnamed: 5": "Excellent"
+    "AssetType": "Server",
+    "Serial": 8,
+    "Name": "Hikvision DVR 8 Port",
+    "Model": "DS-720BHGH1-F2",
+    "DeviceSerial": "E74263082",
+    "Remarks": "Excellent",
+    "CurrentValue": 12000.0,
+    "AllocationRemark": "Assigned to balance total value (Group B: ৳595,050)"
   },
   {
-    "GENESIS TECHNOLOGIES LTD": 7,
-    "Unnamed: 1": "TP-Link Switch 8 Port",
-    "Unnamed: 2": "T1500G-10PS",
-    "Unnamed: 3": NaN,
-    "Unnamed: 4": NaN,
-    "Unnamed: 5": "Excellent"
+    "AssetType": "Server",
+    "Serial": 9,
+    "Name": "Hikvision DVR 16 Port",
+    "Model": "DS-7216HQH1-K2",
+    "DeviceSerial": "D4560254B",
+    "Remarks": "Excellent",
+    "CurrentValue": 18000.0,
+    "AllocationRemark": "Assigned to balance total value (Group B: ৳543,050)"
   },
   {
-    "GENESIS TECHNOLOGIES LTD": 8,
-    "Unnamed: 1": "Hikvision DVR 8 Port",
-    "Unnamed: 2": "DS-720BHGH1-F2",
-    "Unnamed: 3": "E74263082",
-    "Unnamed: 4": NaN,
-    "Unnamed: 5": "Excellent"
+    "AssetType": "Server",
+    "Serial": 10,
+    "Name": "Patch Panel 24 Port",
+    "Model": "Net Key",
+    "Remarks": "Excellent",
+    "CurrentValue": 3000.0,
+    "AllocationRemark": "Assigned to balance total value (Group B: ৳624,050)"
   },
   {
-    "GENESIS TECHNOLOGIES LTD": 9,
-    "Unnamed: 1": "Hikvision DVR 16 Port",
-    "Unnamed: 2": "DS-7216HQH1-K2",
-    "Unnamed: 3": "D4560254B",
-    "Unnamed: 4": NaN,
-    "Unnamed: 5": "Excellent"
+    "AssetType": "Server",
+    "Serial": 11,
+    "Name": "Cable Manager",
+    "Model": "AMP",
+    "Remarks": "Excellent",
+    "CurrentValue": 3000.0,
+    "AllocationRemark": "Assigned to balance total value (Group A: ৳626,000)"
   },
   {
-    "GENESIS TECHNOLOGIES LTD": 10,
-    "Unnamed: 1": "Pass Panel 24 Port",
-    "Unnamed: 2": "Net Key",
-    "Unnamed: 3": NaN,
-    "Unnamed: 4": NaN,
-    "Unnamed: 5": "Excellent"
+    "AssetType": "Server",
+    "Serial": 12,
+    "Name": "PBAX Controller",
+    "Model": "KX-Tes824BX",
+    "DeviceSerial": "2AACV070870",
+    "Remarks": "Excellent",
+    "CurrentValue": 15000.0,
+    "AllocationRemark": "Assigned to balance total value (Group A: ৳565,200)"
   },
   {
-    "GENESIS TECHNOLOGIES LTD": 11,
-    "Unnamed: 1": "Cable Manager",
-    "Unnamed: 2": "AMP",
-    "Unnamed: 3": NaN,
-    "Unnamed: 4": NaN,
-    "Unnamed: 5": "Excellent"
+    "AssetType": "Server",
+    "Serial": 13,
+    "Name": "UPS",
+    "Model": "APC/SRCE6KUX1",
+    "Remarks": "Excellent",
+    "CurrentValue": 30000.0,
+    "AllocationRemark": "Assigned to balance total value (Group C: ৳500,900)"
   },
   {
-    "GENESIS TECHNOLOGIES LTD": 12,
-    "Unnamed: 1": "PBAX Controller ",
-    "Unnamed: 2": "KX-Tes824BX",
-    "Unnamed: 3": "2AACV070870",
-    "Unnamed: 4": NaN,
-    "Unnamed: 5": "Excellent"
-  },
-  {
-    "GENESIS TECHNOLOGIES LTD": 13,
-    "Unnamed: 1": "UPS",
-    "Unnamed: 2": "APC/SRCE6KUX1",
-    "Unnamed: 3": NaN,
-    "Unnamed: 4": NaN,
-    "Unnamed: 5": "Excellent"
-  },
-  {
-    "GENESIS TECHNOLOGIES LTD": 14,
-    "Unnamed: 1": "UPS Battery 16 PCS",
-    "Unnamed: 2": NaN,
-    "Unnamed: 3": NaN,
-    "Unnamed: 4": NaN,
-    "Unnamed: 5": "Excellent"
+    "AssetType": "Server",
+    "Serial": 14,
+    "Name": "UPS Battery 16 PCS",
+    "Remarks": "Excellent",
+    "CurrentValue": 30000.0,
+    "AllocationRemark": "Assigned to balance total value (Group B: ৳505,050)"
   }
 ]

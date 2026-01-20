@@ -103,145 +103,109 @@
             box-shadow: 0 4px 6px rgba(0,0,0,0.1);
         }
         
+        .group-a {
+            border: 3px solid #e74c3c;
+        }
+        
+        .group-b {
+            border: 3px solid #3498db;
+        }
+        
+        .group-c {
+            border: 3px solid #2ecc71;
+        }
+        
         .group-header {
-            padding: 25px;
+            padding: 20px 30px;
             color: white;
             font-size: 1.5em;
             font-weight: bold;
         }
         
         .group-a .group-header {
-            background: linear-gradient(135deg, #FF6B6B 0%, #C92A2A 100%);
+            background: linear-gradient(135deg, #e74c3c 0%, #c0392b 100%);
         }
         
         .group-b .group-header {
-            background: linear-gradient(135deg, #51CF66 0%, #2F9E44 100%);
+            background: linear-gradient(135deg, #3498db 0%, #2980b9 100%);
         }
         
         .group-c .group-header {
-            background: linear-gradient(135deg, #4DABF7 0%, #1971C2 100%);
+            background: linear-gradient(135deg, #2ecc71 0%, #27ae60 100%);
         }
         
         .group-stats {
-            background: #f8f9fa;
-            padding: 20px;
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
             gap: 15px;
+            padding: 20px 30px;
+            background: #f8f9fa;
         }
         
         .stat {
             text-align: center;
-            padding: 10px;
-            background: white;
-            border-radius: 5px;
         }
         
-        .stat .stat-label {
-            font-size: 0.85em;
+        .stat-label {
             color: #7f8c8d;
+            font-size: 0.9em;
             margin-bottom: 5px;
         }
         
-        .stat .stat-value {
+        .stat-value {
+            color: #2c3e50;
             font-size: 1.3em;
             font-weight: bold;
-            color: #2c3e50;
         }
         
-        .asset-section {
-            margin-top: 30px;
-        }
-        
-        .asset-section-title {
-            background: #2c3e50;
-            color: white;
-            padding: 15px 20px;
-            font-size: 1.2em;
-            font-weight: bold;
-            margin-bottom: 0;
-        }
-        
-        table {
+        .asset-table {
             width: 100%;
             border-collapse: collapse;
-            background: white;
         }
         
-        thead {
+        .asset-table th {
             background: #34495e;
             color: white;
-        }
-        
-        th {
             padding: 12px;
             text-align: left;
             font-weight: 600;
-            font-size: 0.85em;
-            text-transform: uppercase;
-            letter-spacing: 0.5px;
         }
         
-        td {
+        .asset-table td {
             padding: 10px 12px;
             border-bottom: 1px solid #ecf0f1;
-            font-size: 0.9em;
         }
         
-        tbody tr:hover {
+        .asset-table tr:hover {
             background: #f8f9fa;
         }
         
-        .badge {
-            display: inline-block;
-            padding: 4px 10px;
-            border-radius: 15px;
-            font-size: 0.8em;
-            font-weight: 600;
+        .asset-type-section {
+            margin: 20px 30px;
         }
         
-        .badge-excellent {
-            background: #d1ecf1;
-            color: #0c5460;
-        }
-        
-        .badge-good {
-            background: #cce5ff;
-            color: #004085;
-        }
-        
-        .badge-moderate {
-            background: #f8d7da;
-            color: #721c24;
-        }
-        
-        .badge-new {
-            background: #d4edda;
-            color: #155724;
-        }
-        
-        .badge-recon {
-            background: #fff3cd;
-            color: #856404;
-        }
-        
-        .level-1 { color: #2ecc71; font-weight: bold; }
-        .level-2 { color: #3498db; font-weight: bold; }
-        .level-3 { color: #e67e22; font-weight: bold; }
-        
-        .remark-cell {
-            font-size: 0.85em;
-            color: #555;
-            font-style: italic;
-            max-width: 300px;
-        }
-        
-        .footer {
-            background: #2c3e50;
+        .asset-type-header {
+            background: #34495e;
             color: white;
-            text-align: center;
-            padding: 20px;
+            padding: 15px 20px;
+            margin-top: 20px;
+            border-radius: 5px;
+            font-size: 1.2em;
+            font-weight: bold;
+        }
+        
+        .value-badge {
+            background: #3498db;
+            color: white;
+            padding: 4px 8px;
+            border-radius: 4px;
             font-size: 0.9em;
+        }
+        
+        .level-badge {
+            padding: 4px 8px;
+            border-radius: 4px;
+            font-size: 0.85em;
         }
         
         @media print {
@@ -249,6 +213,7 @@
                 background: white;
                 padding: 0;
             }
+            
             .container {
                 box-shadow: none;
             }
@@ -260,37 +225,37 @@
         <div class="header">
             <h1>🖥️ Genesis Technologies Ltd</h1>
             <p>Complete Asset Division Report - Equal Distribution Among Three Groups</p>
-            <p style="font-size: 0.9em; margin-top: 10px;">January 19, 2026</p>
+            <p style="font-size: 0.9em; margin-top: 10px;">Generated on January 20, 2026 at 04:25 PM</p>
         </div>
         
         <div class="notice">
-            <strong>✅ Equal Distribution Achieved:</strong> All three groups have values within ±0.04% variance. Each asset includes detailed allocation remarks explaining why it was assigned to its group.
+            <strong>✅ Updated Asset Division:</strong> This report reflects only the assets currently available for sharing. Assets have been equally distributed among three groups based on total value.
         </div>
         
         <div class="summary">
             <div class="summary-card">
                 <h3>Total Assets</h3>
-                <div class="value">88</div>
-                <div class="label">Complete Inventory</div>
+                <div class="value">52</div>
+                <div class="label">Available for Sharing</div>
             </div>
             <div class="summary-card">
                 <h3>Laptops</h3>
-                <div class="value">34</div>
+                <div class="value">10</div>
                 <div class="label">Laptop Computers</div>
             </div>
             <div class="summary-card">
                 <h3>Desktop PCs</h3>
-                <div class="value">14</div>
+                <div class="value">9</div>
                 <div class="label">Desktop Computers</div>
             </div>
             <div class="summary-card">
                 <h3>Monitors</h3>
-                <div class="value">14</div>
+                <div class="value">10</div>
                 <div class="label">Display Monitors</div>
             </div>
             <div class="summary-card">
                 <h3>Printers</h3>
-                <div class="value">10</div>
+                <div class="value">9</div>
                 <div class="label">Printers & Scanners</div>
             </div>
             <div class="summary-card">
@@ -300,17 +265,18 @@
             </div>
             <div class="summary-card">
                 <h3>Total Value</h3>
-                <div class="value">৳1,496,069</div>
+                <div class="value">৳1,877,750</div>
                 <div class="label">Combined Worth (BDT)</div>
             </div>
             <div class="summary-card">
                 <h3>Target per Group</h3>
-                <div class="value">৳498,690</div>
+                <div class="value">৳625,917</div>
                 <div class="label">Equal Distribution Target</div>
             </div>
         </div>
 
         <div class="groups-container">
+
             <div class="group group-a">
                 <div class="group-header">
                     Group A - Complete Asset Allocation
@@ -319,24 +285,24 @@
                 <div class="group-stats">
                     <div class="stat">
                         <div class="stat-label">Total Assets</div>
-                        <div class="stat-value">28</div>
+                        <div class="stat-value">18</div>
                     </div>
                     <div class="stat">
                         <div class="stat-label">Total Value</div>
-                        <div class="stat-value">৳498,479</div>
+                        <div class="stat-value">৳626,000</div>
                     </div>
                     <div class="stat">
                         <div class="stat-label">Variance</div>
-                        <div class="stat-value">-0.04%</div>
+                        <div class="stat-value">+0.01%</div>
                     </div>
                     <div class="stat">
                         <div class="stat-label">Avg per Asset</div>
-                        <div class="stat-value">৳17,803</div>
+                        <div class="stat-value">৳34,778</div>
                     </div>
 
                     <div class="stat">
                         <div class="stat-label">Laptop</div>
-                        <div class="stat-value">10</div>
+                        <div class="stat-value">4</div>
                     </div>
 
                     <div class="stat">
@@ -346,511 +312,311 @@
 
                     <div class="stat">
                         <div class="stat-label">Monitor</div>
-                        <div class="stat-value">5</div>
+                        <div class="stat-value">4</div>
                     </div>
 
                     <div class="stat">
                         <div class="stat-label">Printer</div>
-                        <div class="stat-value">3</div>
+                        <div class="stat-value">2</div>
                     </div>
 
                     <div class="stat">
-                        <div class="stat-label">Scanner</div>
-                        <div class="stat-value">1</div>
-                    </div>
-
-                    <div class="stat">
-                        <div class="stat-label">Server Device</div>
-                        <div class="stat-value">6</div>
+                        <div class="stat-label">Server</div>
+                        <div class="stat-value">5</div>
                     </div>
 
                 </div>
+                
+                <div class="asset-type-section">
 
-                <div class="asset-section">
-                    <div class="asset-section-title">💻 Laptops</div>
-                    <table>
+                    <div class="asset-type-header">
+                        Laptops (4) - Total Value: ৳184,800
+                    </div>
+                    
+                    <table class="asset-table">
                         <thead>
                             <tr>
-                                <th>#</th>
-                                <th>Name & Model</th>
+                                <th>Serial</th>
+                                <th>Name</th>
+                                <th>Model</th>
                                 <th>Specs</th>
-                                <th>Level</th>
-                                <th>Type</th>
-                                <th>Condition</th>
-                                <th>Value (BDT)</th>
-                                <th>Allocation Remark</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-
-                            <tr>
-                                <td><strong>5</strong></td>
-                                <td>
-                                    <strong>HP Laptop</strong><br>
-                                    <small style="color: #7f8c8d;">15s-fq5317TU</small>
-                                </td>
-                                <td><small>i5 Gen12, 8GB RAM</small></td>
-                                <td class="level-1">1️⃣</td>
-                                <td><span class="badge badge-new">New</span></td>
-                                <td><span class="badge badge-excellent">Excellent</span></td>
-                                <td><strong>৳56,062</strong></td>
-                                <td class="remark-cell">High-value item. assigned to maintain balanced distribution. compensates for receiving fewer items. excellent condition adds value. balances asset type mix. high-value item distributed to ensure equal group totals.</td>
-                            </tr>
-
-                            <tr>
-                                <td><strong>2</strong></td>
-                                <td>
-                                    <strong>Dell Laptop</strong><br>
-                                    <small style="color: #7f8c8d;">P106F</small>
-                                </td>
-                                <td><small>i7 Gen11, 8GB RAM</small></td>
-                                <td class="level-2">2️⃣</td>
-                                <td><span class="badge badge-new">New</span></td>
-                                <td><span class="badge badge-good">Good</span></td>
-                                <td><strong>৳36,000</strong></td>
-                                <td class="remark-cell">High-value item. assigned to maintain balanced distribution. compensates for receiving fewer items. good condition. balances asset type mix.</td>
-                            </tr>
-
-                            <tr>
-                                <td><strong>9</strong></td>
-                                <td>
-                                    <strong>Dell Laptop</strong><br>
-                                    <small style="color: #7f8c8d;">Inspiron 15 3511</small>
-                                </td>
-                                <td><small>i5 Gen11, 8GB RAM</small></td>
-                                <td class="level-2">2️⃣</td>
-                                <td><span class="badge badge-new">New</span></td>
-                                <td><span class="badge badge-good">Good</span></td>
-                                <td><strong>৳29,250</strong></td>
-                                <td class="remark-cell">High-value item. assigned to maintain balanced distribution. compensates for receiving fewer items. good condition. balances asset type mix.</td>
-                            </tr>
-
-                            <tr>
-                                <td><strong>15</strong></td>
-                                <td>
-                                    <strong>DELL</strong><br>
-                                    <small style="color: #7f8c8d;">Inspiron 3511</small>
-                                </td>
-                                <td><small>i3 Gen11, 4GB RAM</small></td>
-                                <td class="level-2">2️⃣</td>
-                                <td><span class="badge badge-new">New</span></td>
-                                <td><span class="badge badge-good">Good</span></td>
-                                <td><strong>৳18,000</strong></td>
-                                <td class="remark-cell">Standard-value item. assigned to maintain balanced distribution. compensates for receiving fewer items. good condition. balances asset type mix.</td>
-                            </tr>
-
-                            <tr>
-                                <td><strong>13</strong></td>
-                                <td>
-                                    <strong>DELL</strong><br>
-                                    <small style="color: #7f8c8d;">Inspiron 3493</small>
-                                </td>
-                                <td><small>i5 Gen10, 4GB RAM, 128MB</small></td>
-                                <td class="level-3">3️⃣</td>
-                                <td><span class="badge badge-new">New</span></td>
-                                <td><span class="badge badge-moderate">Moderate</span></td>
-                                <td><strong>৳8,397</strong></td>
-                                <td class="remark-cell">Lower-value item. assigned to maintain balanced distribution. compensates for receiving fewer items. moderate condition. balances asset type mix.</td>
-                            </tr>
-
-                            <tr>
-                                <td><strong>21</strong></td>
-                                <td>
-                                    <strong>HP</strong><br>
-                                    <small style="color: #7f8c8d;">830 G5</small>
-                                </td>
-                                <td><small>i5 Gen8, 4GB RAM</small></td>
-                                <td class="level-1">1️⃣</td>
-                                <td><span class="badge badge-recon">Reconditioned</span></td>
-                                <td><span class="badge badge-excellent">Excellent</span></td>
-                                <td><strong>৳5,000</strong></td>
-                                <td class="remark-cell">Lower-value item. assigned to maintain balanced distribution. compensates for receiving fewer items. excellent condition adds value. balances asset type mix.</td>
-                            </tr>
-
-                            <tr>
-                                <td><strong>24</strong></td>
-                                <td>
-                                    <strong>HP</strong><br>
-                                    <small style="color: #7f8c8d;">Elitbook840 G3</small>
-                                </td>
-                                <td><small>i5 Gen7, 8GB RAM</small></td>
-                                <td class="level-2">2️⃣</td>
-                                <td><span class="badge badge-recon">Reconditioned</span></td>
-                                <td><span class="badge badge-good">Good</span></td>
-                                <td><strong>৳5,000</strong></td>
-                                <td class="remark-cell">Lower-value item. assigned to maintain balanced distribution. compensates for receiving fewer items. good condition. balances asset type mix.</td>
-                            </tr>
-
-                            <tr>
-                                <td><strong>27</strong></td>
-                                <td>
-                                    <strong>LENOVO</strong><br>
-                                    <small style="color: #7f8c8d;">X230</small>
-                                </td>
-                                <td><small>i5 Gen3, 4GB RAM</small></td>
-                                <td class="level-3">3️⃣</td>
-                                <td><span class="badge badge-recon">Reconditioned</span></td>
-                                <td><span class="badge badge-moderate">Moderate</span></td>
-                                <td><strong>৳5,000</strong></td>
-                                <td class="remark-cell">Lower-value item. assigned to maintain balanced distribution. compensates for receiving fewer items. moderate condition. balances asset type mix.</td>
-                            </tr>
-
-                            <tr>
-                                <td><strong>30</strong></td>
-                                <td>
-                                    <strong>LENOVO</strong><br>
-                                    <small style="color: #7f8c8d;">X230</small>
-                                </td>
-                                <td><small>i5 Gen3, 4GB RAM</small></td>
-                                <td class="level-3">3️⃣</td>
-                                <td><span class="badge badge-recon">Reconditioned</span></td>
-                                <td><span class="badge badge-moderate">Moderate</span></td>
-                                <td><strong>৳5,000</strong></td>
-                                <td class="remark-cell">Lower-value item. assigned to maintain balanced distribution. compensates for receiving fewer items. moderate condition. balances asset type mix.</td>
-                            </tr>
-
-                            <tr>
-                                <td><strong>33</strong></td>
-                                <td>
-                                    <strong>HP</strong><br>
-                                    <small style="color: #7f8c8d;">440-G2</small>
-                                </td>
-                                <td><small>i3 Gen5, 4GB RAM</small></td>
-                                <td class="level-3">3️⃣</td>
-                                <td><span class="badge badge-recon">Reconditioned</span></td>
-                                <td><span class="badge badge-moderate">Moderate</span></td>
-                                <td><strong>৳5,000</strong></td>
-                                <td class="remark-cell">Lower-value item. assigned to maintain balanced distribution. compensates for receiving fewer items. moderate condition. balances asset type mix.</td>
-                            </tr>
-
-                        </tbody>
-                    </table>
-                </div>
-
-                <div class="asset-section">
-                    <div class="asset-section-title">🖥️ Desktop PCs</div>
-                    <table>
-                        <thead>
-                            <tr>
-                                <th>#</th>
-                                <th>Name & Model</th>
-                                <th>Specs</th>
-                                <th>Level</th>
-                                <th>Condition</th>
-                                <th>Value (BDT)</th>
-                                <th>Allocation Remark</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-
-                            <tr>
-                                <td><strong>1</strong></td>
-                                <td>
-                                    <strong>HP Server</strong><br>
-                                    <small style="color: #7f8c8d;">ProLiant DL380 Gen10 Plus</small>
-                                </td>
-                                <td><small>Intel(R) Xeon(R) Silver 4310 CPU @ 2.10GHz 2.10 GHz Gen4, 32GB RAM</small></td>
-                                <td class="level-1">1️⃣</td>
-                                <td><span class="badge badge-excellent">Excellent</span></td>
-                                <td><strong>৳117,300</strong></td>
-                                <td class="remark-cell">High-value item. assigned to maintain balanced distribution. compensates for receiving fewer items. excellent condition adds value. balances asset type mix. high-value item distributed to ensure equal group totals.</td>
-                            </tr>
-
-                            <tr>
-                                <td><strong>4</strong></td>
-                                <td>
-                                    <strong>Desktop</strong><br>
-                                    <small style="color: #7f8c8d;">Clone PC</small>
-                                </td>
-                                <td><small>i9 Gen13, 19GB RAM, 4GB</small></td>
-                                <td class="level-1">1️⃣</td>
-                                <td><span class="badge badge-excellent">Excellent</span></td>
-                                <td><strong>৳106,950</strong></td>
-                                <td class="remark-cell">High-value item. assigned to maintain balanced distribution. compensates for receiving fewer items. excellent condition adds value. balances asset type mix. high-value item distributed to ensure equal group totals.</td>
-                            </tr>
-
-                            <tr>
-                                <td><strong>13</strong></td>
-                                <td>
-                                    <strong>Desktop</strong><br>
-                                    <small style="color: #7f8c8d;">Clone PC</small>
-                                </td>
-                                <td><small>N/A Gen0, 0GB RAM</small></td>
-                                <td class="level-3">3️⃣</td>
-                                <td><span class="badge badge-moderate">Moderate</span></td>
-                                <td><strong>৳5,100</strong></td>
-                                <td class="remark-cell">Lower-value item. assigned to maintain balanced distribution. compensates for receiving fewer items. moderate condition. balances asset type mix.</td>
-                            </tr>
-
-                        </tbody>
-                    </table>
-                </div>
-
-                <div class="asset-section">
-                    <div class="asset-section-title">🖥️ Monitors</div>
-                    <table>
-                        <thead>
-                            <tr>
-                                <th>#</th>
-                                <th>Name & Model</th>
                                 <th>User/Location</th>
-                                <th>Value Ratio</th>
-                                <th>Condition</th>
-                                <th>Value (BDT)</th>
-                                <th>Allocation Remark</th>
+                                <th>Status</th>
+                                <th>Value</th>
                             </tr>
                         </thead>
                         <tbody>
 
                             <tr>
-                                <td><strong>2</strong></td>
-                                <td>
-                                    <strong>HP Monitor</strong><br>
-                                    <small style="color: #7f8c8d;">M22f</small>
-                                </td>
-                                <td><small>IT Room - 2nd Floor</small></td>
-                                <td>1️⃣</td>
-                                <td><span class="badge badge-excellent">Excellent</span></td>
-                                <td><strong>৳6,720</strong></td>
-                                <td class="remark-cell">Lower-value item. assigned to maintain balanced distribution. compensates for receiving fewer items. excellent condition adds value.</td>
-                            </tr>
-
-                            <tr>
                                 <td><strong>5</strong></td>
-                                <td>
-                                    <strong>HP Monitor</strong><br>
-                                    <small style="color: #7f8c8d;">M22f</small>
-                                </td>
-                                <td><small>Enamul - 3rd Floor</small></td>
-                                <td>1️⃣</td>
-                                <td><span class="badge badge-excellent">Excellent</span></td>
-                                <td><strong>৳6,720</strong></td>
-                                <td class="remark-cell">Lower-value item. assigned to maintain balanced distribution. compensates for receiving fewer items. excellent condition adds value.</td>
+                                <td>HP</td>
+                                <td>probook 440 G8</td>
+                                <td><small>CPU: i5<br>RAM: 8GB<br>Storage: 500<br>GPU: 2GB<br>Gen: 11</small></td>
+                                <td><small>Md. Tariqul Islam<br>User</small></td>
+                                <td><small>N/A<br><small>Excellent</small></small></td>
+                                <td><span class="value-badge">৳57,000</span></td>
                             </tr>
 
                             <tr>
-                                <td><strong>7</strong></td>
-                                <td>
-                                    <strong>ASUS Monitor</strong><br>
-                                    <small style="color: #7f8c8d;">VP229HE</small>
-                                </td>
-                                <td><small>Faysal Comercial - 2nd Floor</small></td>
-                                <td>2️⃣</td>
-                                <td><span class="badge badge-excellent">Excellent</span></td>
-                                <td><strong>৳5,600</strong></td>
-                                <td class="remark-cell">Lower-value item. assigned to maintain balanced distribution. compensates for receiving fewer items. excellent condition adds value.</td>
+                                <td><strong>2</strong></td>
+                                <td>Dell Laptop</td>
+                                <td>P106F</td>
+                                <td><small>CPU: i7<br>RAM: 8GB<br>Storage: 500<br>Gen: 11</small></td>
+                                <td><small>Nahid<br>In Stock</small></td>
+                                <td><small>N/A<br><small>Good</small></small></td>
+                                <td><span class="value-badge">৳51,000</span></td>
+                            </tr>
+
+                            <tr>
+                                <td><strong>3</strong></td>
+                                <td>HP</td>
+                                <td>Probook 440 G4</td>
+                                <td><small>CPU: i7<br>RAM: 8GB<br>Storage: 128/1000<br>Gen: 7</small></td>
+                                <td><small>Faysal Hossain(Design)<br>User</small></td>
+                                <td><small>N/A<br><small>Moderate</small></small></td>
+                                <td><span class="value-badge">৳45,600</span></td>
                             </tr>
 
                             <tr>
                                 <td><strong>10</strong></td>
-                                <td>
-                                    <strong>HP Monitor</strong><br>
-                                    <small style="color: #7f8c8d;">LV1911</small>
-                                </td>
-                                <td><small>Design Team - 3rd Floor</small></td>
-                                <td>2️⃣</td>
-                                <td><span class="badge badge-excellent">Excellent</span></td>
-                                <td><strong>৳4,200</strong></td>
-                                <td class="remark-cell">Lower-value item. assigned to maintain balanced distribution. compensates for receiving fewer items. excellent condition adds value.</td>
-                            </tr>
-
-                            <tr>
-                                <td><strong>14</strong></td>
-                                <td>
-                                    <strong>Dell Monitor</strong><br>
-                                    <small style="color: #7f8c8d;">E170SC</small>
-                                </td>
-                                <td><small>Reception - 8th Floor</small></td>
-                                <td>3️⃣</td>
-                                <td><span class="badge badge-good">Good</span></td>
-                                <td><strong>৳1,680</strong></td>
-                                <td class="remark-cell">Lower-value item. assigned to maintain balanced distribution. compensates for receiving fewer items. good condition.</td>
+                                <td>DELL</td>
+                                <td>Latitute 3350</td>
+                                <td><small>CPU: i3<br>RAM: 4GB<br>Storage: 500<br>GPU: 128MB<br>Gen: 5</small></td>
+                                <td><small>Debasish Mondol<br>User</small></td>
+                                <td><small>N/A<br><small>Moderate</small></small></td>
+                                <td><span class="value-badge">৳31,200</span></td>
                             </tr>
 
                         </tbody>
                     </table>
-                </div>
 
-                <div class="asset-section">
-                    <div class="asset-section-title">🖨️ Printers</div>
-                    <table>
+                    <div class="asset-type-header">
+                        Desktop PCs (3) - Total Value: ৳304,400
+                    </div>
+                    
+                    <table class="asset-table">
                         <thead>
                             <tr>
-                                <th>#</th>
-                                <th>Category</th>
-                                <th>Device Name & Model</th>
-                                <th>Function</th>
-                                <th>Location</th>
-                                <th>Condition</th>
-                                <th>Value (BDT)</th>
-                                <th>Allocation Remark</th>
+                                <th>Serial</th>
+                                <th>Name</th>
+                                <th>Model</th>
+                                <th>Specs</th>
+                                <th>User/Location</th>
+                                <th>Status</th>
+                                <th>Value</th>
                             </tr>
                         </thead>
                         <tbody>
 
                             <tr>
+                                <td><strong>6</strong></td>
+                                <td>Desktop</td>
+                                <td>Clone PC</td>
+                                <td><small>CPU: i9<br>RAM: 32GB<br>Storage: 1000/2000<br>Gen: 11</small></td>
+                                <td><small>IT Room<br>2nd Floor</small></td>
+                                <td><small>N/A<br><small>Excellent</small></small></td>
+                                <td><span class="value-badge">৳158,000</span></td>
+                            </tr>
+
+                            <tr>
                                 <td><strong>1</strong></td>
-                                <td><strong>A3</strong></td>
-                                <td>
-                                    <strong>EPSON A3</strong><br>
-                                    <small style="color: #7f8c8d;">C722B1</small>
-                                </td>
-                                <td><small>Color, Copy, Scanner, Duplex</small></td>
-                                <td><small>2nd Floor Marketing Room</small></td>
-                                <td><span class="badge badge-excellent">Excellent</span></td>
-                                <td><strong>৳15,600</strong></td>
-                                <td class="remark-cell">Standard-value item. assigned to maintain balanced distribution. compensates for receiving fewer items. excellent condition adds value. balances asset type mix.</td>
+                                <td>HP Server</td>
+                                <td>ProLiant DL380 Gen10 Plus</td>
+                                <td><small>CPU: Intel(R) Xeon(R) Silver 4310 CPU @ 2.10GHz 2.10 GHz<br>RAM: 32GB<br>Storage: 4TB<br>Gen: 4</small></td>
+                                <td><small>IT<br>Server Room</small></td>
+                                <td><small>N/A<br><small>Excellent</small></small></td>
+                                <td><span class="value-badge">৳104,000</span></td>
                             </tr>
 
                             <tr>
                                 <td><strong>7</strong></td>
-                                <td><strong>A4</strong></td>
-                                <td>
-                                    <strong>Canon</strong><br>
-                                    <small style="color: #7f8c8d;">F166500</small>
-                                </td>
-                                <td><small>Duplex</small></td>
-                                <td><small>3rd Floor Accounts Room</small></td>
-                                <td><span class="badge badge-excellent">Excellent</span></td>
-                                <td><strong>৳5,040</strong></td>
-                                <td class="remark-cell">Lower-value item. assigned to maintain balanced distribution. compensates for receiving fewer items. excellent condition adds value. balances asset type mix.</td>
-                            </tr>
-
-                            <tr>
-                                <td><strong>8</strong></td>
-                                <td><strong>A4</strong></td>
-                                <td>
-                                    <strong>HP</strong><br>
-                                    <small style="color: #7f8c8d;">HP Laser 107w</small>
-                                </td>
-                                <td><small>Single</small></td>
-                                <td><small>2nd Floor FPT Room</small></td>
-                                <td><span class="badge badge-excellent">Excellent</span></td>
-                                <td><strong>৳4,320</strong></td>
-                                <td class="remark-cell">Lower-value item. assigned to maintain balanced distribution. compensates for receiving fewer items. excellent condition adds value. balances asset type mix.</td>
+                                <td>Desktop</td>
+                                <td>Clone PC</td>
+                                <td><small>CPU: i3<br>RAM: 4GB<br>Storage: 1000<br>Gen: 4</small></td>
+                                <td><small>Comercial Room<br>2nd Floor</small></td>
+                                <td><small>N/A<br><small>Moderate</small></small></td>
+                                <td><span class="value-badge">৳42,400</span></td>
                             </tr>
 
                         </tbody>
                     </table>
-                </div>
 
-                <div class="asset-section">
-                    <div class="asset-section-title">📄 Scanners</div>
-                    <table>
+                    <div class="asset-type-header">
+                        Monitors (4) - Total Value: ৳33,800
+                    </div>
+                    
+                    <table class="asset-table">
                         <thead>
                             <tr>
-                                <th>#</th>
-                                <th>Device Name & Model</th>
-                                <th>Function</th>
-                                <th>Location</th>
-                                <th>Condition</th>
-                                <th>Value (BDT)</th>
-                                <th>Allocation Remark</th>
+                                <th>Serial</th>
+                                <th>Name</th>
+                                <th>Model</th>
+                                <th>Specs</th>
+                                <th>User/Location</th>
+                                <th>Status</th>
+                                <th>Value</th>
                             </tr>
                         </thead>
                         <tbody>
 
                             <tr>
-                                <td><strong>12</strong></td>
-                                <td>
-                                    <strong>Canon(Scaneer)</strong><br>
-                                    <small style="color: #7f8c8d;">Canon EUROPA</small>
-                                </td>
-                                <td><small>Scaneer</small></td>
-                                <td><small>2nd Floor Commercial  Room</small></td>
-                                <td><span class="badge badge-excellent">Excellent</span></td>
-                                <td><strong>৳6,240</strong></td>
-                                <td class="remark-cell">Lower-value item. assigned to maintain balanced distribution. compensates for receiving fewer items. excellent condition adds value.</td>
+                                <td><strong>6</strong></td>
+                                <td>Dell Monitor</td>
+                                <td>52240Lc</td>
+                                <td><small>N/A</small></td>
+                                <td><small>Design Team<br>3rd Floor</small></td>
+                                <td><small>N/A<br><small>Excellent</small></small></td>
+                                <td><span class="value-badge">৳11,000</span></td>
+                            </tr>
+
+                            <tr>
+                                <td><strong>1</strong></td>
+                                <td>HP Monitor</td>
+                                <td>M22f</td>
+                                <td><small>N/A</small></td>
+                                <td><small>Masum<br>2nd Floor</small></td>
+                                <td><small>N/A<br><small>Excellent</small></small></td>
+                                <td><span class="value-badge">৳8,000</span></td>
+                            </tr>
+
+                            <tr>
+                                <td><strong>4</strong></td>
+                                <td>HP Monitor</td>
+                                <td>M22f</td>
+                                <td><small>N/A</small></td>
+                                <td><small>Nayon<br>2nd Floor</small></td>
+                                <td><small>N/A<br><small>Excellent</small></small></td>
+                                <td><span class="value-badge">৳8,000</span></td>
+                            </tr>
+
+                            <tr>
+                                <td><strong>9</strong></td>
+                                <td>Dell Monitor</td>
+                                <td>E1916HVF</td>
+                                <td><small>N/A</small></td>
+                                <td><small>Comercial Room<br>2nd Floor</small></td>
+                                <td><small>N/A<br><small>Good</small></small></td>
+                                <td><span class="value-badge">৳6,800</span></td>
                             </tr>
 
                         </tbody>
                     </table>
-                </div>
 
-                <div class="asset-section">
-                    <div class="asset-section-title">🔌 Server & Network Devices</div>
-                    <table>
+                    <div class="asset-type-header">
+                        Printer/Scanners (2) - Total Value: ৳28,000
+                    </div>
+                    
+                    <table class="asset-table">
                         <thead>
                             <tr>
-                                <th>#</th>
-                                <th>Device Name</th>
-                                <th>Model</th>
                                 <th>Serial</th>
-                                <th>Condition</th>
-                                <th>Value (BDT)</th>
-                                <th>Allocation Remark</th>
+                                <th>Name</th>
+                                <th>Model</th>
+                                <th>Specs</th>
+                                <th>User/Location</th>
+                                <th>Status</th>
+                                <th>Value</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+
+                            <tr>
+                                <td><strong>4</strong></td>
+                                <td>HP</td>
+                                <td>Laser jet Pro M404dw</td>
+                                <td><small>N/A</small></td>
+                                <td><small>PHFYH03206<br>Duplex</small></td>
+                                <td><small>4️⃣<br><small></small></small></td>
+                                <td><span class="value-badge">৳16,000</span></td>
+                            </tr>
+
+                            <tr>
+                                <td><strong>6</strong></td>
+                                <td>PANTUiM</td>
+                                <td>P3010DW</td>
+                                <td><small>N/A</small></td>
+                                <td><small>CM5C00D405<br>Duplex</small></td>
+                                <td><small>5️⃣<br><small></small></small></td>
+                                <td><span class="value-badge">৳12,000</span></td>
+                            </tr>
+
+                        </tbody>
+                    </table>
+
+                    <div class="asset-type-header">
+                        Servers (5) - Total Value: ৳75,000
+                    </div>
+                    
+                    <table class="asset-table">
+                        <thead>
+                            <tr>
+                                <th>Serial</th>
+                                <th>Name</th>
+                                <th>Model</th>
+                                <th>Specs</th>
+                                <th>User/Location</th>
+                                <th>Status</th>
+                                <th>Value</th>
                             </tr>
                         </thead>
                         <tbody>
 
                             <tr>
                                 <td><strong>2</strong></td>
-                                <td><strong>MikroTik Router Board</strong></td>
-                                <td><small>RB2011UiAS-RM</small></td>
+                                <td>MikroTik Router Board</td>
+                                <td>RB2011UiAS-RM</td>
                                 <td><small>N/A</small></td>
-                                <td><span class="badge badge-excellent">Excellent</span></td>
-                                <td><strong>৳9,750</strong></td>
-                                <td class="remark-cell">Standard-value item. assigned to maintain balanced distribution. compensates for receiving fewer items. excellent condition adds value.</td>
+                                <td><small>N/A<br>N/A</small></td>
+                                <td><small>N/A<br><small>Excellent</small></small></td>
+                                <td><span class="value-badge">৳25,000</span></td>
                             </tr>
 
                             <tr>
                                 <td><strong>5</strong></td>
-                                <td><strong>Cisco Switch 24 Port</strong></td>
-                                <td><small>CBS350-24T-4G</small></td>
-                                <td><small>TOC2552YFVQ</small></td>
-                                <td><span class="badge badge-excellent">Excellent</span></td>
-                                <td><strong>৳9,750</strong></td>
-                                <td class="remark-cell">Standard-value item. assigned to maintain balanced distribution. compensates for receiving fewer items. excellent condition adds value.</td>
+                                <td>Cisco Switch 24 Port</td>
+                                <td>CBS350-24T-4G</td>
+                                <td><small>N/A</small></td>
+                                <td><small>N/A<br>N/A</small></td>
+                                <td><small>N/A<br><small>Excellent</small></small></td>
+                                <td><span class="value-badge">৳20,000</span></td>
                             </tr>
 
                             <tr>
                                 <td><strong>12</strong></td>
-                                <td><strong>PBAX Controller </strong></td>
-                                <td><small>KX-Tes824BX</small></td>
-                                <td><small>2AACV070870</small></td>
-                                <td><span class="badge badge-excellent">Excellent</span></td>
-                                <td><strong>৳6,500</strong></td>
-                                <td class="remark-cell">Lower-value item. assigned to maintain balanced distribution. compensates for receiving fewer items. excellent condition adds value.</td>
-                            </tr>
-
-                            <tr>
-                                <td><strong>1</strong></td>
-                                <td><strong>ACS Soyal Conveter</strong></td>
-                                <td><small>AR-727CM-V3</small></td>
+                                <td>PBAX Controller</td>
+                                <td>KX-Tes824BX</td>
                                 <td><small>N/A</small></td>
-                                <td><span class="badge badge-excellent">Excellent</span></td>
-                                <td><strong>৳5,200</strong></td>
-                                <td class="remark-cell">Lower-value item. assigned to maintain balanced distribution. compensates for receiving fewer items. excellent condition adds value.</td>
-                            </tr>
-
-                            <tr>
-                                <td><strong>8</strong></td>
-                                <td><strong>Hikvision DVR 8 Port</strong></td>
-                                <td><small>DS-720BHGH1-F2</small></td>
-                                <td><small>E74263082</small></td>
-                                <td><span class="badge badge-excellent">Excellent</span></td>
-                                <td><strong>৳5,200</strong></td>
-                                <td class="remark-cell">Lower-value item. assigned to maintain balanced distribution. compensates for receiving fewer items. excellent condition adds value.</td>
+                                <td><small>N/A<br>N/A</small></td>
+                                <td><small>N/A<br><small>Excellent</small></small></td>
+                                <td><span class="value-badge">৳15,000</span></td>
                             </tr>
 
                             <tr>
                                 <td><strong>6</strong></td>
-                                <td><strong>KVM Switch 8 Port</strong></td>
-                                <td><small>KVM-0831</small></td>
-                                <td><small>590831213200011</small></td>
-                                <td><span class="badge badge-excellent">Excellent</span></td>
-                                <td><strong>৳3,900</strong></td>
-                                <td class="remark-cell">Lower-value item. assigned to maintain balanced distribution. compensates for receiving fewer items. excellent condition adds value.</td>
+                                <td>KVM Switch 8 Port</td>
+                                <td>KVM-0831</td>
+                                <td><small>N/A</small></td>
+                                <td><small>N/A<br>N/A</small></td>
+                                <td><small>N/A<br><small>Excellent</small></small></td>
+                                <td><span class="value-badge">৳12,000</span></td>
+                            </tr>
+
+                            <tr>
+                                <td><strong>11</strong></td>
+                                <td>Cable Manager</td>
+                                <td>AMP</td>
+                                <td><small>N/A</small></td>
+                                <td><small>N/A<br>N/A</small></td>
+                                <td><small>N/A<br><small>Excellent</small></small></td>
+                                <td><span class="value-badge">৳3,000</span></td>
                             </tr>
 
                         </tbody>
                     </table>
+
                 </div>
-
             </div>
-        </div>
 
-        <div class="groups-container">
             <div class="group group-b">
                 <div class="group-header">
                     Group B - Complete Asset Allocation
@@ -859,570 +625,34 @@
                 <div class="group-stats">
                     <div class="stat">
                         <div class="stat-label">Total Assets</div>
-                        <div class="stat-value">29</div>
+                        <div class="stat-value">17</div>
                     </div>
                     <div class="stat">
                         <div class="stat-label">Total Value</div>
-                        <div class="stat-value">৳498,693</div>
+                        <div class="stat-value">৳624,050</div>
                     </div>
                     <div class="stat">
                         <div class="stat-label">Variance</div>
-                        <div class="stat-value">+0.00%</div>
+                        <div class="stat-value">-0.30%</div>
                     </div>
                     <div class="stat">
                         <div class="stat-label">Avg per Asset</div>
-                        <div class="stat-value">৳17,196</div>
+                        <div class="stat-value">৳36,709</div>
                     </div>
 
                     <div class="stat">
                         <div class="stat-label">Laptop</div>
-                        <div class="stat-value">11</div>
+                        <div class="stat-value">3</div>
                     </div>
 
                     <div class="stat">
                         <div class="stat-label">Desktop PC</div>
-                        <div class="stat-value">6</div>
+                        <div class="stat-value">3</div>
                     </div>
 
                     <div class="stat">
                         <div class="stat-label">Monitor</div>
-                        <div class="stat-value">4</div>
-                    </div>
-
-                    <div class="stat">
-                        <div class="stat-label">Printer</div>
-                        <div class="stat-value">4</div>
-                    </div>
-
-                    <div class="stat">
-                        <div class="stat-label">Server Device</div>
-                        <div class="stat-value">4</div>
-                    </div>
-
-                </div>
-
-                <div class="asset-section">
-                    <div class="asset-section-title">💻 Laptops</div>
-                    <table>
-                        <thead>
-                            <tr>
-                                <th>#</th>
-                                <th>Name & Model</th>
-                                <th>Specs</th>
-                                <th>Level</th>
-                                <th>Type</th>
-                                <th>Condition</th>
-                                <th>Value (BDT)</th>
-                                <th>Allocation Remark</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-
-                            <tr>
-                                <td><strong>1</strong></td>
-                                <td>
-                                    <strong>DELL</strong><br>
-                                    <small style="color: #7f8c8d;">N/A</small>
-                                </td>
-                                <td><small>i7 Gen11, 8GB RAM</small></td>
-                                <td class="level-2">2️⃣</td>
-                                <td><span class="badge badge-new">New</span></td>
-                                <td><span class="badge badge-good">Good</span></td>
-                                <td><strong>৳36,000</strong></td>
-                                <td class="remark-cell">High-value item. assigned to maintain balanced distribution. good condition. balances asset type mix.</td>
-                            </tr>
-
-                            <tr>
-                                <td><strong>11</strong></td>
-                                <td>
-                                    <strong>DELL</strong><br>
-                                    <small style="color: #7f8c8d;">Inspiron 3511</small>
-                                </td>
-                                <td><small>i5 Gen11, 8GB RAM, 2GB</small></td>
-                                <td class="level-2">2️⃣</td>
-                                <td><span class="badge badge-new">New</span></td>
-                                <td><span class="badge badge-good">Good</span></td>
-                                <td><strong>৳32,850</strong></td>
-                                <td class="remark-cell">High-value item. assigned to maintain balanced distribution. good condition. balances asset type mix.</td>
-                            </tr>
-
-                            <tr>
-                                <td><strong>10</strong></td>
-                                <td>
-                                    <strong>Dell Laptop</strong><br>
-                                    <small style="color: #7f8c8d;">Inspiron 5410</small>
-                                </td>
-                                <td><small>i5 Gen11, 8GB RAM</small></td>
-                                <td class="level-2">2️⃣</td>
-                                <td><span class="badge badge-new">New</span></td>
-                                <td><span class="badge badge-good">Good</span></td>
-                                <td><strong>৳29,250</strong></td>
-                                <td class="remark-cell">High-value item. assigned to maintain balanced distribution. good condition. balances asset type mix.</td>
-                            </tr>
-
-                            <tr>
-                                <td><strong>17</strong></td>
-                                <td>
-                                    <strong>LENOVO</strong><br>
-                                    <small style="color: #7f8c8d;">V14-G2-ITL</small>
-                                </td>
-                                <td><small>i3 Gen11, 4GB RAM</small></td>
-                                <td class="level-2">2️⃣</td>
-                                <td><span class="badge badge-new">New</span></td>
-                                <td><span class="badge badge-good">Good</span></td>
-                                <td><strong>৳18,000</strong></td>
-                                <td class="remark-cell">Standard-value item. assigned to maintain balanced distribution. good condition. balances asset type mix.</td>
-                            </tr>
-
-                            <tr>
-                                <td><strong>18</strong></td>
-                                <td>
-                                    <strong>LENOVO</strong><br>
-                                    <small style="color: #7f8c8d;">V14-G2-ITL</small>
-                                </td>
-                                <td><small>i3 Gen11, 4GB RAM</small></td>
-                                <td class="level-3">3️⃣</td>
-                                <td><span class="badge badge-new">New</span></td>
-                                <td><span class="badge badge-moderate">Moderate</span></td>
-                                <td><strong>৳11,475</strong></td>
-                                <td class="remark-cell">Standard-value item. assigned to maintain balanced distribution. moderate condition. balances asset type mix.</td>
-                            </tr>
-
-                            <tr>
-                                <td><strong>19</strong></td>
-                                <td>
-                                    <strong>HP</strong><br>
-                                    <small style="color: #7f8c8d;">440-G4</small>
-                                </td>
-                                <td><small>i7 Gen7, 8GB RAM, 2GB</small></td>
-                                <td class="level-1">1️⃣</td>
-                                <td><span class="badge badge-recon">Reconditioned</span></td>
-                                <td><span class="badge badge-excellent">Excellent</span></td>
-                                <td><strong>৳5,000</strong></td>
-                                <td class="remark-cell">Lower-value item. assigned to maintain balanced distribution. excellent condition adds value. balances asset type mix.</td>
-                            </tr>
-
-                            <tr>
-                                <td><strong>22</strong></td>
-                                <td>
-                                    <strong>HP</strong><br>
-                                    <small style="color: #7f8c8d;">Elitbook</small>
-                                </td>
-                                <td><small>i5 Gen8, 8GB RAM, 128MB</small></td>
-                                <td class="level-1">1️⃣</td>
-                                <td><span class="badge badge-recon">Reconditioned</span></td>
-                                <td><span class="badge badge-excellent">Excellent</span></td>
-                                <td><strong>৳5,000</strong></td>
-                                <td class="remark-cell">Lower-value item. assigned to maintain balanced distribution. excellent condition adds value. balances asset type mix.</td>
-                            </tr>
-
-                            <tr>
-                                <td><strong>25</strong></td>
-                                <td>
-                                    <strong>HP</strong><br>
-                                    <small style="color: #7f8c8d;">HSN-112C</small>
-                                </td>
-                                <td><small>i5 Gen8, 8GB RAM</small></td>
-                                <td class="level-2">2️⃣</td>
-                                <td><span class="badge badge-recon">Reconditioned</span></td>
-                                <td><span class="badge badge-good">Good</span></td>
-                                <td><strong>৳5,000</strong></td>
-                                <td class="remark-cell">Lower-value item. assigned to maintain balanced distribution. good condition. balances asset type mix.</td>
-                            </tr>
-
-                            <tr>
-                                <td><strong>28</strong></td>
-                                <td>
-                                    <strong>Lenovo Thinkpad</strong><br>
-                                    <small style="color: #7f8c8d;">X230</small>
-                                </td>
-                                <td><small>i5 Gen3, 4GB RAM</small></td>
-                                <td class="level-3">3️⃣</td>
-                                <td><span class="badge badge-recon">Reconditioned</span></td>
-                                <td><span class="badge badge-moderate">Moderate</span></td>
-                                <td><strong>৳5,000</strong></td>
-                                <td class="remark-cell">Lower-value item. assigned to maintain balanced distribution. moderate condition. balances asset type mix.</td>
-                            </tr>
-
-                            <tr>
-                                <td><strong>31</strong></td>
-                                <td>
-                                    <strong>DELL</strong><br>
-                                    <small style="color: #7f8c8d;">Latitute 3350</small>
-                                </td>
-                                <td><small>i3 Gen5, 4GB RAM, 128MB</small></td>
-                                <td class="level-3">3️⃣</td>
-                                <td><span class="badge badge-recon">Reconditioned</span></td>
-                                <td><span class="badge badge-moderate">Moderate</span></td>
-                                <td><strong>৳5,000</strong></td>
-                                <td class="remark-cell">Lower-value item. assigned to maintain balanced distribution. moderate condition. balances asset type mix.</td>
-                            </tr>
-
-                            <tr>
-                                <td><strong>34</strong></td>
-                                <td>
-                                    <strong>ASUS </strong><br>
-                                    <small style="color: #7f8c8d;">N/A</small>
-                                </td>
-                                <td><small>i3 Gen6, 4GB RAM</small></td>
-                                <td class="level-3">3️⃣</td>
-                                <td><span class="badge badge-recon">Reconditioned</span></td>
-                                <td><span class="badge badge-moderate">Moderate</span></td>
-                                <td><strong>৳5,000</strong></td>
-                                <td class="remark-cell">Lower-value item. assigned to maintain balanced distribution. moderate condition. balances asset type mix.</td>
-                            </tr>
-
-                        </tbody>
-                    </table>
-                </div>
-
-                <div class="asset-section">
-                    <div class="asset-section-title">🖥️ Desktop PCs</div>
-                    <table>
-                        <thead>
-                            <tr>
-                                <th>#</th>
-                                <th>Name & Model</th>
-                                <th>Specs</th>
-                                <th>Level</th>
-                                <th>Condition</th>
-                                <th>Value (BDT)</th>
-                                <th>Allocation Remark</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-
-                            <tr>
-                                <td><strong>2</strong></td>
-                                <td>
-                                    <strong>Desktop</strong><br>
-                                    <small style="color: #7f8c8d;">Clone PC</small>
-                                </td>
-                                <td><small>i9 Gen13, 17GB RAM, 4GB</small></td>
-                                <td class="level-1">1️⃣</td>
-                                <td><span class="badge badge-excellent">Excellent</span></td>
-                                <td><strong>৳106,950</strong></td>
-                                <td class="remark-cell">High-value item. assigned to maintain balanced distribution. excellent condition adds value. high-value item distributed to ensure equal group totals.</td>
-                            </tr>
-
-                            <tr>
-                                <td><strong>5</strong></td>
-                                <td>
-                                    <strong>Desktop</strong><br>
-                                    <small style="color: #7f8c8d;">Clone PC</small>
-                                </td>
-                                <td><small>i9 Gen13, 16GB RAM, 4GB</small></td>
-                                <td class="level-1">1️⃣</td>
-                                <td><span class="badge badge-excellent">Excellent</span></td>
-                                <td><strong>৳106,950</strong></td>
-                                <td class="remark-cell">High-value item. assigned to maintain balanced distribution. excellent condition adds value. high-value item distributed to ensure equal group totals.</td>
-                            </tr>
-
-                            <tr>
-                                <td><strong>9</strong></td>
-                                <td>
-                                    <strong>Desktop</strong><br>
-                                    <small style="color: #7f8c8d;">Clone PC</small>
-                                </td>
-                                <td><small>i9 Gen11, 32GB RAM</small></td>
-                                <td class="level-1">1️⃣</td>
-                                <td><span class="badge badge-excellent">Excellent</span></td>
-                                <td><strong>৳45,281</strong></td>
-                                <td class="remark-cell">High-value item. assigned to maintain balanced distribution. excellent condition adds value.</td>
-                            </tr>
-
-                            <tr>
-                                <td><strong>8</strong></td>
-                                <td>
-                                    <strong>Desktop</strong><br>
-                                    <small style="color: #7f8c8d;">Clone PC</small>
-                                </td>
-                                <td><small>i3 Gen10, 8GB RAM</small></td>
-                                <td class="level-2">2️⃣</td>
-                                <td><span class="badge badge-good">Good</span></td>
-                                <td><strong>৳9,112</strong></td>
-                                <td class="remark-cell">Standard-value item. assigned to maintain balanced distribution. good condition.</td>
-                            </tr>
-
-                            <tr>
-                                <td><strong>14</strong></td>
-                                <td>
-                                    <strong>Desktop</strong><br>
-                                    <small style="color: #7f8c8d;">Clone PC</small>
-                                </td>
-                                <td><small>N/A Gen0, 0GB RAM</small></td>
-                                <td class="level-3">3️⃣</td>
-                                <td><span class="badge badge-moderate">Moderate</span></td>
-                                <td><strong>৳5,100</strong></td>
-                                <td class="remark-cell">Lower-value item. assigned to maintain balanced distribution. moderate condition.</td>
-                            </tr>
-
-                            <tr>
-                                <td><strong>11</strong></td>
-                                <td>
-                                    <strong>Desktop</strong><br>
-                                    <small style="color: #7f8c8d;">Clone PC</small>
-                                </td>
-                                <td><small>i3 Gen4, 4GB RAM</small></td>
-                                <td class="level-3">3️⃣</td>
-                                <td><span class="badge badge-moderate">Moderate</span></td>
-                                <td><strong>৳574</strong></td>
-                                <td class="remark-cell">Lower-value item. assigned to maintain balanced distribution. moderate condition.</td>
-                            </tr>
-
-                        </tbody>
-                    </table>
-                </div>
-
-                <div class="asset-section">
-                    <div class="asset-section-title">🖥️ Monitors</div>
-                    <table>
-                        <thead>
-                            <tr>
-                                <th>#</th>
-                                <th>Name & Model</th>
-                                <th>User/Location</th>
-                                <th>Value Ratio</th>
-                                <th>Condition</th>
-                                <th>Value (BDT)</th>
-                                <th>Allocation Remark</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-
-                            <tr>
-                                <td><strong>3</strong></td>
-                                <td>
-                                    <strong>HP Monitor</strong><br>
-                                    <small style="color: #7f8c8d;">M22f</small>
-                                </td>
-                                <td><small>Commercial Room - 2nd Floor</small></td>
-                                <td>1️⃣</td>
-                                <td><span class="badge badge-excellent">Excellent</span></td>
-                                <td><strong>৳6,720</strong></td>
-                                <td class="remark-cell">Lower-value item. assigned to maintain balanced distribution. excellent condition adds value. balances asset type mix.</td>
-                            </tr>
-
-                            <tr>
-                                <td><strong>6</strong></td>
-                                <td>
-                                    <strong>HP Monitor</strong><br>
-                                    <small style="color: #7f8c8d;">M22f</small>
-                                </td>
-                                <td><small>Faysal Design - 3th Floor</small></td>
-                                <td>1️⃣</td>
-                                <td><span class="badge badge-excellent">Excellent</span></td>
-                                <td><strong>৳6,720</strong></td>
-                                <td class="remark-cell">Lower-value item. assigned to maintain balanced distribution. excellent condition adds value. balances asset type mix.</td>
-                            </tr>
-
-                            <tr>
-                                <td><strong>8</strong></td>
-                                <td>
-                                    <strong>Dell Monitor</strong><br>
-                                    <small style="color: #7f8c8d;">52240Lc</small>
-                                </td>
-                                <td><small>Design Team - 3rd Floor</small></td>
-                                <td>2️⃣</td>
-                                <td><span class="badge badge-excellent">Excellent</span></td>
-                                <td><strong>৳5,600</strong></td>
-                                <td class="remark-cell">Lower-value item. assigned to maintain balanced distribution. excellent condition adds value. balances asset type mix.</td>
-                            </tr>
-
-                            <tr>
-                                <td><strong>11</strong></td>
-                                <td>
-                                    <strong>Dell Monitor</strong><br>
-                                    <small style="color: #7f8c8d;">D1918Ho</small>
-                                </td>
-                                <td><small>Mostak - 3th Floor</small></td>
-                                <td>2️⃣</td>
-                                <td><span class="badge badge-excellent">Excellent</span></td>
-                                <td><strong>৳4,200</strong></td>
-                                <td class="remark-cell">Lower-value item. assigned to maintain balanced distribution. excellent condition adds value. balances asset type mix.</td>
-                            </tr>
-
-                        </tbody>
-                    </table>
-                </div>
-
-                <div class="asset-section">
-                    <div class="asset-section-title">🖨️ Printers</div>
-                    <table>
-                        <thead>
-                            <tr>
-                                <th>#</th>
-                                <th>Category</th>
-                                <th>Device Name & Model</th>
-                                <th>Function</th>
-                                <th>Location</th>
-                                <th>Condition</th>
-                                <th>Value (BDT)</th>
-                                <th>Allocation Remark</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-
-                            <tr>
-                                <td><strong>2</strong></td>
-                                <td><strong>A4</strong></td>
-                                <td>
-                                    <strong>EPSON</strong><br>
-                                    <small style="color: #7f8c8d;">L3250</small>
-                                </td>
-                                <td><small>Color, Copy, Scanner, Duplex</small></td>
-                                <td><small>3rd Floor CO Sir Room</small></td>
-                                <td><span class="badge badge-excellent">Excellent</span></td>
-                                <td><strong>৳7,200</strong></td>
-                                <td class="remark-cell">Lower-value item. assigned to maintain balanced distribution. excellent condition adds value.</td>
-                            </tr>
-
-                            <tr>
-                                <td><strong>3</strong></td>
-                                <td><strong>A4</strong></td>
-                                <td>
-                                    <strong>HP</strong><br>
-                                    <small style="color: #7f8c8d;">HP Laser Pro MFP M26nw</small>
-                                </td>
-                                <td><small>Copy, Scanner, Duplex</small></td>
-                                <td><small>2nd Floor Director  Room</small></td>
-                                <td><span class="badge badge-excellent">Excellent</span></td>
-                                <td><strong>৳6,480</strong></td>
-                                <td class="remark-cell">Lower-value item. assigned to maintain balanced distribution. excellent condition adds value.</td>
-                            </tr>
-
-                            <tr>
-                                <td><strong>4</strong></td>
-                                <td><strong>A4</strong></td>
-                                <td>
-                                    <strong>HP</strong><br>
-                                    <small style="color: #7f8c8d;">Laser jet Pro M404dw</small>
-                                </td>
-                                <td><small>Duplex</small></td>
-                                <td><small>2nd Floor Marketing Room</small></td>
-                                <td><span class="badge badge-excellent">Excellent</span></td>
-                                <td><strong>৳5,760</strong></td>
-                                <td class="remark-cell">Lower-value item. assigned to maintain balanced distribution. excellent condition adds value.</td>
-                            </tr>
-
-                            <tr>
-                                <td><strong>9</strong></td>
-                                <td><strong>A4</strong></td>
-                                <td>
-                                    <strong>SAMSUNG</strong><br>
-                                    <small style="color: #7f8c8d;">Xpress M2820ND</small>
-                                </td>
-                                <td><small>Both Side  Print</small></td>
-                                <td><small>2nd Floor Commercial  Room</small></td>
-                                <td><span class="badge badge-excellent">Excellent</span></td>
-                                <td><strong>৳4,320</strong></td>
-                                <td class="remark-cell">Lower-value item. assigned to maintain balanced distribution. excellent condition adds value.</td>
-                            </tr>
-
-                        </tbody>
-                    </table>
-                </div>
-
-                <div class="asset-section">
-                    <div class="asset-section-title">🔌 Server & Network Devices</div>
-                    <table>
-                        <thead>
-                            <tr>
-                                <th>#</th>
-                                <th>Device Name</th>
-                                <th>Model</th>
-                                <th>Serial</th>
-                                <th>Condition</th>
-                                <th>Value (BDT)</th>
-                                <th>Allocation Remark</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-
-                            <tr>
-                                <td><strong>4</strong></td>
-                                <td><strong>TP-Link Switch 24 Port</strong></td>
-                                <td><small>TL-SG1024D</small></td>
-                                <td><small>216C906001181</small></td>
-                                <td><span class="badge badge-excellent">Excellent</span></td>
-                                <td><strong>৳9,750</strong></td>
-                                <td class="remark-cell">Standard-value item. assigned to maintain balanced distribution. excellent condition adds value. balances asset type mix.</td>
-                            </tr>
-
-                            <tr>
-                                <td><strong>14</strong></td>
-                                <td><strong>UPS Battery 16 PCS</strong></td>
-                                <td><small>N/A</small></td>
-                                <td><small>N/A</small></td>
-                                <td><span class="badge badge-excellent">Excellent</span></td>
-                                <td><strong>৳5,200</strong></td>
-                                <td class="remark-cell">Lower-value item. assigned to maintain balanced distribution. excellent condition adds value. balances asset type mix.</td>
-                            </tr>
-
-                            <tr>
-                                <td><strong>7</strong></td>
-                                <td><strong>TP-Link Switch 8 Port</strong></td>
-                                <td><small>T1500G-10PS</small></td>
-                                <td><small>N/A</small></td>
-                                <td><span class="badge badge-excellent">Excellent</span></td>
-                                <td><strong>৳3,900</strong></td>
-                                <td class="remark-cell">Lower-value item. assigned to maintain balanced distribution. excellent condition adds value. balances asset type mix.</td>
-                            </tr>
-
-                            <tr>
-                                <td><strong>11</strong></td>
-                                <td><strong>Cable Manager</strong></td>
-                                <td><small>AMP</small></td>
-                                <td><small>N/A</small></td>
-                                <td><span class="badge badge-excellent">Excellent</span></td>
-                                <td><strong>৳1,300</strong></td>
-                                <td class="remark-cell">Lower-value item. assigned to maintain balanced distribution. excellent condition adds value. balances asset type mix.</td>
-                            </tr>
-
-                        </tbody>
-                    </table>
-                </div>
-
-            </div>
-        </div>
-
-        <div class="groups-container">
-            <div class="group group-c">
-                <div class="group-header">
-                    Group C - Complete Asset Allocation
-                </div>
-                
-                <div class="group-stats">
-                    <div class="stat">
-                        <div class="stat-label">Total Assets</div>
-                        <div class="stat-value">31</div>
-                    </div>
-                    <div class="stat">
-                        <div class="stat-label">Total Value</div>
-                        <div class="stat-value">৳498,897</div>
-                    </div>
-                    <div class="stat">
-                        <div class="stat-label">Variance</div>
-                        <div class="stat-value">+0.04%</div>
-                    </div>
-                    <div class="stat">
-                        <div class="stat-label">Avg per Asset</div>
-                        <div class="stat-value">৳16,093</div>
-                    </div>
-
-                    <div class="stat">
-                        <div class="stat-label">Laptop</div>
-                        <div class="stat-value">13</div>
-                    </div>
-
-                    <div class="stat">
-                        <div class="stat-label">Desktop PC</div>
-                        <div class="stat-value">5</div>
-                    </div>
-
-                    <div class="stat">
-                        <div class="stat-label">Monitor</div>
-                        <div class="stat-value">5</div>
+                        <div class="stat-value">2</div>
                     </div>
 
                     <div class="stat">
@@ -1431,553 +661,622 @@
                     </div>
 
                     <div class="stat">
-                        <div class="stat-label">Scanner</div>
-                        <div class="stat-value">1</div>
-                    </div>
-
-                    <div class="stat">
-                        <div class="stat-label">Server Device</div>
-                        <div class="stat-value">4</div>
+                        <div class="stat-label">Server</div>
+                        <div class="stat-value">6</div>
                     </div>
 
                 </div>
+                
+                <div class="asset-type-section">
 
-                <div class="asset-section">
-                    <div class="asset-section-title">💻 Laptops</div>
-                    <table>
+                    <div class="asset-type-header">
+                        Laptops (3) - Total Value: ৳148,650
+                    </div>
+                    
+                    <table class="asset-table">
                         <thead>
                             <tr>
-                                <th>#</th>
-                                <th>Name & Model</th>
+                                <th>Serial</th>
+                                <th>Name</th>
+                                <th>Model</th>
                                 <th>Specs</th>
-                                <th>Level</th>
-                                <th>Type</th>
-                                <th>Condition</th>
-                                <th>Value (BDT)</th>
-                                <th>Allocation Remark</th>
+                                <th>User/Location</th>
+                                <th>Status</th>
+                                <th>Value</th>
                             </tr>
                         </thead>
                         <tbody>
 
                             <tr>
                                 <td><strong>4</strong></td>
-                                <td>
-                                    <strong>HP Laptop</strong><br>
-                                    <small style="color: #7f8c8d;">N/A</small>
-                                </td>
-                                <td><small>i5 Gen12, 8GB RAM</small></td>
-                                <td class="level-1">1️⃣</td>
-                                <td><span class="badge badge-new">New</span></td>
-                                <td><span class="badge badge-excellent">Excellent</span></td>
-                                <td><strong>৳56,062</strong></td>
-                                <td class="remark-cell">High-value item. assigned to maintain balanced distribution. group received more items but lower total value. excellent condition adds value. high-value item distributed to ensure equal group totals.</td>
+                                <td>HP Laptop</td>
+                                <td>15s-fq5317TU</td>
+                                <td><small>CPU: i5<br>RAM: 8GB<br>Storage: 500<br>Gen: 12</small></td>
+                                <td><small>Jahidul Kabir<br>In Stock</small></td>
+                                <td><small>N/A<br><small>Excellent</small></small></td>
+                                <td><span class="value-badge">৳56,000</span></td>
                             </tr>
 
                             <tr>
                                 <td><strong>6</strong></td>
-                                <td>
-                                    <strong>HP</strong><br>
-                                    <small style="color: #7f8c8d;">probook 440 G8</small>
-                                </td>
-                                <td><small>i5 Gen11, 8GB RAM, 2GB</small></td>
-                                <td class="level-1">1️⃣</td>
-                                <td><span class="badge badge-new">New</span></td>
-                                <td><span class="badge badge-excellent">Excellent</span></td>
-                                <td><strong>৳47,222</strong></td>
-                                <td class="remark-cell">High-value item. assigned to maintain balanced distribution. group received more items but lower total value. excellent condition adds value.</td>
-                            </tr>
-
-                            <tr>
-                                <td><strong>7</strong></td>
-                                <td>
-                                    <strong>DELL</strong><br>
-                                    <small style="color: #7f8c8d;">Inspiron 3511</small>
-                                </td>
-                                <td><small>i5 Gen11, 8GB RAM, 2GB</small></td>
-                                <td class="level-1">1️⃣</td>
-                                <td><span class="badge badge-new">New</span></td>
-                                <td><span class="badge badge-excellent">Excellent</span></td>
-                                <td><strong>৳47,222</strong></td>
-                                <td class="remark-cell">High-value item. assigned to maintain balanced distribution. group received more items but lower total value. excellent condition adds value.</td>
+                                <td>HP Laptop</td>
+                                <td>RTL8822CE</td>
+                                <td><small>CPU: i5<br>RAM: 8GB<br>Storage: 240<br>Gen: 12</small></td>
+                                <td><small>Aminul T3<br>In Stock</small></td>
+                                <td><small>N/A<br><small>Good</small></small></td>
+                                <td><span class="value-badge">৳47,600</span></td>
                             </tr>
 
                             <tr>
                                 <td><strong>8</strong></td>
-                                <td>
-                                    <strong>HP Laptop</strong><br>
-                                    <small style="color: #7f8c8d;">RTL8822CE</small>
-                                </td>
-                                <td><small>i5 Gen12, 8GB RAM</small></td>
-                                <td class="level-2">2️⃣</td>
-                                <td><span class="badge badge-new">New</span></td>
-                                <td><span class="badge badge-good">Good</span></td>
-                                <td><strong>৳39,000</strong></td>
-                                <td class="remark-cell">High-value item. assigned to maintain balanced distribution. group received more items but lower total value. good condition.</td>
-                            </tr>
-
-                            <tr>
-                                <td><strong>12</strong></td>
-                                <td>
-                                    <strong>DELL</strong><br>
-                                    <small style="color: #7f8c8d;">Inspiron 3511</small>
-                                </td>
-                                <td><small>i5 Gen11, 8GB RAM, 2GB</small></td>
-                                <td class="level-2">2️⃣</td>
-                                <td><span class="badge badge-new">New</span></td>
-                                <td><span class="badge badge-good">Good</span></td>
-                                <td><strong>৳32,850</strong></td>
-                                <td class="remark-cell">High-value item. assigned to maintain balanced distribution. group received more items but lower total value. good condition.</td>
-                            </tr>
-
-                            <tr>
-                                <td><strong>14</strong></td>
-                                <td>
-                                    <strong>HP</strong><br>
-                                    <small style="color: #7f8c8d;">15s-fq2643TU</small>
-                                </td>
-                                <td><small>i5 Gen11, 8GB RAM</small></td>
-                                <td class="level-3">3️⃣</td>
-                                <td><span class="badge badge-new">New</span></td>
-                                <td><span class="badge badge-moderate">Moderate</span></td>
-                                <td><strong>৳18,647</strong></td>
-                                <td class="remark-cell">Standard-value item. assigned to maintain balanced distribution. group received more items but lower total value. moderate condition.</td>
-                            </tr>
-
-                            <tr>
-                                <td><strong>16</strong></td>
-                                <td>
-                                    <strong>LENOVO</strong><br>
-                                    <small style="color: #7f8c8d;">V14-G2-ITL</small>
-                                </td>
-                                <td><small>i3 Gen11, 4GB RAM</small></td>
-                                <td class="level-2">2️⃣</td>
-                                <td><span class="badge badge-new">New</span></td>
-                                <td><span class="badge badge-good">Good</span></td>
-                                <td><strong>৳18,000</strong></td>
-                                <td class="remark-cell">Standard-value item. assigned to maintain balanced distribution. group received more items but lower total value. good condition.</td>
-                            </tr>
-
-                            <tr>
-                                <td><strong>3</strong></td>
-                                <td>
-                                    <strong>HP</strong><br>
-                                    <small style="color: #7f8c8d;">Probook 440 G4</small>
-                                </td>
-                                <td><small>i7 Gen7, 8GB RAM</small></td>
-                                <td class="level-3">3️⃣</td>
-                                <td><span class="badge badge-new">New</span></td>
-                                <td><span class="badge badge-moderate">Moderate</span></td>
-                                <td><strong>৳5,000</strong></td>
-                                <td class="remark-cell">Lower-value item. assigned to maintain balanced distribution. group received more items but lower total value. moderate condition.</td>
-                            </tr>
-
-                            <tr>
-                                <td><strong>20</strong></td>
-                                <td>
-                                    <strong>HP</strong><br>
-                                    <small style="color: #7f8c8d;">Elitbook 840 G3</small>
-                                </td>
-                                <td><small>i5 Gen8, 7GB RAM</small></td>
-                                <td class="level-1">1️⃣</td>
-                                <td><span class="badge badge-recon">Reconditioned</span></td>
-                                <td><span class="badge badge-excellent">Excellent</span></td>
-                                <td><strong>৳5,000</strong></td>
-                                <td class="remark-cell">Lower-value item. assigned to maintain balanced distribution. group received more items but lower total value. excellent condition adds value.</td>
-                            </tr>
-
-                            <tr>
-                                <td><strong>23</strong></td>
-                                <td>
-                                    <strong>HP Laptop</strong><br>
-                                    <small style="color: #7f8c8d;">N/A</small>
-                                </td>
-                                <td><small>i5 Gen0, 4GB RAM, 128MB</small></td>
-                                <td class="level-2">2️⃣</td>
-                                <td><span class="badge badge-recon">Reconditioned</span></td>
-                                <td><span class="badge badge-good">Good</span></td>
-                                <td><strong>৳5,000</strong></td>
-                                <td class="remark-cell">Lower-value item. assigned to maintain balanced distribution. group received more items but lower total value. good condition.</td>
-                            </tr>
-
-                            <tr>
-                                <td><strong>26</strong></td>
-                                <td>
-                                    <strong>HP</strong><br>
-                                    <small style="color: #7f8c8d;">Elitbook840 G3</small>
-                                </td>
-                                <td><small>i5 Gen7, 8GB RAM, 128MB</small></td>
-                                <td class="level-2">2️⃣</td>
-                                <td><span class="badge badge-recon">Reconditioned</span></td>
-                                <td><span class="badge badge-good">Good</span></td>
-                                <td><strong>৳5,000</strong></td>
-                                <td class="remark-cell">Lower-value item. assigned to maintain balanced distribution. group received more items but lower total value. good condition.</td>
-                            </tr>
-
-                            <tr>
-                                <td><strong>29</strong></td>
-                                <td>
-                                    <strong>LENOVO</strong><br>
-                                    <small style="color: #7f8c8d;">X230</small>
-                                </td>
-                                <td><small>i5 Gen3, 4GB RAM</small></td>
-                                <td class="level-3">3️⃣</td>
-                                <td><span class="badge badge-recon">Reconditioned</span></td>
-                                <td><span class="badge badge-moderate">Moderate</span></td>
-                                <td><strong>৳5,000</strong></td>
-                                <td class="remark-cell">Lower-value item. assigned to maintain balanced distribution. group received more items but lower total value. moderate condition.</td>
-                            </tr>
-
-                            <tr>
-                                <td><strong>32</strong></td>
-                                <td>
-                                    <strong>DELL</strong><br>
-                                    <small style="color: #7f8c8d;">inspiron 3542</small>
-                                </td>
-                                <td><small>i3 Gen4, 4GB RAM</small></td>
-                                <td class="level-3">3️⃣</td>
-                                <td><span class="badge badge-recon">Reconditioned</span></td>
-                                <td><span class="badge badge-moderate">Moderate</span></td>
-                                <td><strong>৳5,000</strong></td>
-                                <td class="remark-cell">Lower-value item. assigned to maintain balanced distribution. group received more items but lower total value. moderate condition.</td>
+                                <td>Dell Laptop</td>
+                                <td>Inspiron 5410</td>
+                                <td><small>CPU: i5<br>RAM: 8GB<br>Storage: 500<br>Gen: 11</small></td>
+                                <td><small>Salim<br>In Stock</small></td>
+                                <td><small>N/A<br><small>Good</small></small></td>
+                                <td><span class="value-badge">৳45,050</span></td>
                             </tr>
 
                         </tbody>
                     </table>
-                </div>
 
-                <div class="asset-section">
-                    <div class="asset-section-title">🖥️ Desktop PCs</div>
-                    <table>
+                    <div class="asset-type-header">
+                        Desktop PCs (3) - Total Value: ৳326,400
+                    </div>
+                    
+                    <table class="asset-table">
                         <thead>
                             <tr>
-                                <th>#</th>
-                                <th>Name & Model</th>
+                                <th>Serial</th>
+                                <th>Name</th>
+                                <th>Model</th>
                                 <th>Specs</th>
-                                <th>Level</th>
-                                <th>Condition</th>
-                                <th>Value (BDT)</th>
-                                <th>Allocation Remark</th>
+                                <th>User/Location</th>
+                                <th>Status</th>
+                                <th>Value</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+
+                            <tr>
+                                <td><strong>2</strong></td>
+                                <td>Desktop</td>
+                                <td>Clone PC</td>
+                                <td><small>CPU: i9<br>RAM: 16GB<br>Storage: 256/1000<br>GPU: 4GB<br>Gen: 13</small></td>
+                                <td><small>Humayon Design<br>3rd Floor</small></td>
+                                <td><small>N/A<br><small>Excellent</small></small></td>
+                                <td><span class="value-badge">৳144,000</span></td>
+                            </tr>
+
+                            <tr>
+                                <td><strong>4</strong></td>
+                                <td>Desktop</td>
+                                <td>Clone PC</td>
+                                <td><small>CPU: i9<br>RAM: 16GB<br>Storage: 256/1000<br>GPU: 4GB<br>Gen: 13</small></td>
+                                <td><small>Design Team<br>3rd Floor</small></td>
+                                <td><small>N/A<br><small>Excellent</small></small></td>
+                                <td><span class="value-badge">৳144,000</span></td>
+                            </tr>
+
+                            <tr>
+                                <td><strong>9</strong></td>
+                                <td>Desktop</td>
+                                <td>Clone PC</td>
+                                <td><small>CPU: Dual core<br>RAM: 4GB<br>Gen: 4</small></td>
+                                <td><small>IT Room<br>2nd Floor</small></td>
+                                <td><small>N/A<br><small>Moderate</small></small></td>
+                                <td><span class="value-badge">৳38,400</span></td>
+                            </tr>
+
+                        </tbody>
+                    </table>
+
+                    <div class="asset-type-header">
+                        Monitors (2) - Total Value: ৳16,000
+                    </div>
+                    
+                    <table class="asset-table">
+                        <thead>
+                            <tr>
+                                <th>Serial</th>
+                                <th>Name</th>
+                                <th>Model</th>
+                                <th>Specs</th>
+                                <th>User/Location</th>
+                                <th>Status</th>
+                                <th>Value</th>
                             </tr>
                         </thead>
                         <tbody>
 
                             <tr>
                                 <td><strong>3</strong></td>
-                                <td>
-                                    <strong>Desktop</strong><br>
-                                    <small style="color: #7f8c8d;">Clone PC</small>
-                                </td>
-                                <td><small>i9 Gen13, 18GB RAM, 4GB</small></td>
-                                <td class="level-1">1️⃣</td>
-                                <td><span class="badge badge-excellent">Excellent</span></td>
-                                <td><strong>৳106,950</strong></td>
-                                <td class="remark-cell">High-value item. assigned to maintain balanced distribution. group received more items but lower total value. excellent condition adds value. high-value item distributed to ensure equal group totals.</td>
+                                <td>HP Monitor</td>
+                                <td>M22f</td>
+                                <td><small>N/A</small></td>
+                                <td><small>Commercial Room<br>2nd Floor</small></td>
+                                <td><small>N/A<br><small>Excellent</small></small></td>
+                                <td><span class="value-badge">৳8,000</span></td>
                             </tr>
 
                             <tr>
-                                <td><strong>10</strong></td>
-                                <td>
-                                    <strong>Desktop</strong><br>
-                                    <small style="color: #7f8c8d;">Clone PC</small>
-                                </td>
-                                <td><small>i5 Gen10, 8GB RAM</small></td>
-                                <td class="level-2">2️⃣</td>
-                                <td><span class="badge badge-good">Good</span></td>
-                                <td><strong>৳10,800</strong></td>
-                                <td class="remark-cell">Standard-value item. assigned to maintain balanced distribution. group received more items but lower total value. good condition.</td>
-                            </tr>
-
-                            <tr>
-                                <td><strong>7</strong></td>
-                                <td>
-                                    <strong>Desktop</strong><br>
-                                    <small style="color: #7f8c8d;">Clone PC</small>
-                                </td>
-                                <td><small>i3 Gen10, 8GB RAM</small></td>
-                                <td class="level-2">2️⃣</td>
-                                <td><span class="badge badge-good">Good</span></td>
-                                <td><strong>৳9,112</strong></td>
-                                <td class="remark-cell">Standard-value item. assigned to maintain balanced distribution. group received more items but lower total value. good condition.</td>
-                            </tr>
-
-                            <tr>
-                                <td><strong>12</strong></td>
-                                <td>
-                                    <strong>Desktop</strong><br>
-                                    <small style="color: #7f8c8d;">Clone PC</small>
-                                </td>
-                                <td><small>N/A Gen0, 0GB RAM</small></td>
-                                <td class="level-3">3️⃣</td>
-                                <td><span class="badge badge-moderate">Moderate</span></td>
-                                <td><strong>৳5,100</strong></td>
-                                <td class="remark-cell">Lower-value item. assigned to maintain balanced distribution. group received more items but lower total value. moderate condition.</td>
-                            </tr>
-
-                            <tr>
-                                <td><strong>6</strong></td>
-                                <td>
-                                    <strong>Desktop</strong><br>
-                                    <small style="color: #7f8c8d;">Clone PC</small>
-                                </td>
-                                <td><small>i3 Gen4, 8GB RAM</small></td>
-                                <td class="level-2">2️⃣</td>
-                                <td><span class="badge badge-good">Good</span></td>
-                                <td><strong>৳1,021</strong></td>
-                                <td class="remark-cell">Lower-value item. assigned to maintain balanced distribution. group received more items but lower total value. good condition.</td>
+                                <td><strong>8</strong></td>
+                                <td>HP Monitor</td>
+                                <td>LV1911</td>
+                                <td><small>N/A</small></td>
+                                <td><small>Design Team<br>3rd Floor</small></td>
+                                <td><small>N/A<br><small>Excellent</small></small></td>
+                                <td><span class="value-badge">৳8,000</span></td>
                             </tr>
 
                         </tbody>
                     </table>
-                </div>
 
-                <div class="asset-section">
-                    <div class="asset-section-title">🖥️ Monitors</div>
-                    <table>
+                    <div class="asset-type-header">
+                        Printer/Scanners (3) - Total Value: ৳40,000
+                    </div>
+                    
+                    <table class="asset-table">
                         <thead>
                             <tr>
-                                <th>#</th>
-                                <th>Name & Model</th>
+                                <th>Serial</th>
+                                <th>Name</th>
+                                <th>Model</th>
+                                <th>Specs</th>
                                 <th>User/Location</th>
-                                <th>Value Ratio</th>
-                                <th>Condition</th>
-                                <th>Value (BDT)</th>
-                                <th>Allocation Remark</th>
+                                <th>Status</th>
+                                <th>Value</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+
+                            <tr>
+                                <td><strong>7</strong></td>
+                                <td>HP</td>
+                                <td>HP Laser 107w</td>
+                                <td><small>N/A</small></td>
+                                <td><small>CNB3PD60YJ<br>Single</small></td>
+                                <td><small>6️⃣<br><small></small></small></td>
+                                <td><span class="value-badge">৳16,000</span></td>
+                            </tr>
+
+                            <tr>
+                                <td><strong>2</strong></td>
+                                <td>EPSON</td>
+                                <td>L3250</td>
+                                <td><small>N/A</small></td>
+                                <td><small>N/A<br>Color, Copy, Scanner, Duplex</small></td>
+                                <td><small>2️⃣<br><small></small></small></td>
+                                <td><span class="value-badge">৳12,000</span></td>
+                            </tr>
+
+                            <tr>
+                                <td><strong>9</strong></td>
+                                <td>EPSON(Scaneer)</td>
+                                <td>J371A</td>
+                                <td><small>N/A</small></td>
+                                <td><small>VCHY136633<br>Scaneer</small></td>
+                                <td><small>1️⃣<br><small></small></small></td>
+                                <td><span class="value-badge">৳12,000</span></td>
+                            </tr>
+
+                        </tbody>
+                    </table>
+
+                    <div class="asset-type-header">
+                        Servers (6) - Total Value: ৳93,000
+                    </div>
+                    
+                    <table class="asset-table">
+                        <thead>
+                            <tr>
+                                <th>Serial</th>
+                                <th>Name</th>
+                                <th>Model</th>
+                                <th>Specs</th>
+                                <th>User/Location</th>
+                                <th>Status</th>
+                                <th>Value</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+
+                            <tr>
+                                <td><strong>14</strong></td>
+                                <td>UPS Battery 16 PCS</td>
+                                <td>N/A</td>
+                                <td><small>N/A</small></td>
+                                <td><small>N/A<br>N/A</small></td>
+                                <td><small>N/A<br><small>Excellent</small></small></td>
+                                <td><span class="value-badge">৳30,000</span></td>
+                            </tr>
+
+                            <tr>
+                                <td><strong>4</strong></td>
+                                <td>TP-Link Switch 24 Port</td>
+                                <td>TL-SG1024D</td>
+                                <td><small>N/A</small></td>
+                                <td><small>N/A<br>N/A</small></td>
+                                <td><small>N/A<br><small>Excellent</small></small></td>
+                                <td><span class="value-badge">৳20,000</span></td>
+                            </tr>
+
+                            <tr>
+                                <td><strong>9</strong></td>
+                                <td>Hikvision DVR 16 Port</td>
+                                <td>DS-7216HQH1-K2</td>
+                                <td><small>N/A</small></td>
+                                <td><small>N/A<br>N/A</small></td>
+                                <td><small>N/A<br><small>Excellent</small></small></td>
+                                <td><span class="value-badge">৳18,000</span></td>
+                            </tr>
+
+                            <tr>
+                                <td><strong>8</strong></td>
+                                <td>Hikvision DVR 8 Port</td>
+                                <td>DS-720BHGH1-F2</td>
+                                <td><small>N/A</small></td>
+                                <td><small>N/A<br>N/A</small></td>
+                                <td><small>N/A<br><small>Excellent</small></small></td>
+                                <td><span class="value-badge">৳12,000</span></td>
+                            </tr>
+
+                            <tr>
+                                <td><strong>1</strong></td>
+                                <td>ACS Soyal Conveter</td>
+                                <td>AR-727CM-V3</td>
+                                <td><small>N/A</small></td>
+                                <td><small>N/A<br>N/A</small></td>
+                                <td><small>N/A<br><small>Excellent</small></small></td>
+                                <td><span class="value-badge">৳10,000</span></td>
+                            </tr>
+
+                            <tr>
+                                <td><strong>10</strong></td>
+                                <td>Patch Panel 24 Port</td>
+                                <td>Net Key</td>
+                                <td><small>N/A</small></td>
+                                <td><small>N/A<br>N/A</small></td>
+                                <td><small>N/A<br><small>Excellent</small></small></td>
+                                <td><span class="value-badge">৳3,000</span></td>
+                            </tr>
+
+                        </tbody>
+                    </table>
+
+                </div>
+            </div>
+
+            <div class="group group-c">
+                <div class="group-header">
+                    Group C - Complete Asset Allocation
+                </div>
+                
+                <div class="group-stats">
+                    <div class="stat">
+                        <div class="stat-label">Total Assets</div>
+                        <div class="stat-value">17</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-label">Total Value</div>
+                        <div class="stat-value">৳627,700</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-label">Variance</div>
+                        <div class="stat-value">+0.28%</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-label">Avg per Asset</div>
+                        <div class="stat-value">৳36,924</div>
+                    </div>
+
+                    <div class="stat">
+                        <div class="stat-label">Laptop</div>
+                        <div class="stat-value">3</div>
+                    </div>
+
+                    <div class="stat">
+                        <div class="stat-label">Desktop PC</div>
+                        <div class="stat-value">3</div>
+                    </div>
+
+                    <div class="stat">
+                        <div class="stat-label">Monitor</div>
+                        <div class="stat-value">4</div>
+                    </div>
+
+                    <div class="stat">
+                        <div class="stat-label">Printer</div>
+                        <div class="stat-value">4</div>
+                    </div>
+
+                    <div class="stat">
+                        <div class="stat-label">Server</div>
+                        <div class="stat-value">3</div>
+                    </div>
+
+                </div>
+                
+                <div class="asset-type-section">
+
+                    <div class="asset-type-header">
+                        Laptops (3) - Total Value: ৳144,500
+                    </div>
+                    
+                    <table class="asset-table">
+                        <thead>
+                            <tr>
+                                <th>Serial</th>
+                                <th>Name</th>
+                                <th>Model</th>
+                                <th>Specs</th>
+                                <th>User/Location</th>
+                                <th>Status</th>
+                                <th>Value</th>
                             </tr>
                         </thead>
                         <tbody>
 
                             <tr>
                                 <td><strong>1</strong></td>
-                                <td>
-                                    <strong>HP Monitor</strong><br>
-                                    <small style="color: #7f8c8d;">M22f</small>
-                                </td>
-                                <td><small>Masum - 2nd Floor</small></td>
-                                <td>1️⃣</td>
-                                <td><span class="badge badge-excellent">Excellent</span></td>
-                                <td><strong>৳6,720</strong></td>
-                                <td class="remark-cell">Lower-value item. assigned to maintain balanced distribution. group received more items but lower total value. excellent condition adds value.</td>
-                            </tr>
-
-                            <tr>
-                                <td><strong>4</strong></td>
-                                <td>
-                                    <strong>HP Monitor</strong><br>
-                                    <small style="color: #7f8c8d;">M22f</small>
-                                </td>
-                                <td><small>Nayon - 2nd Floor</small></td>
-                                <td>1️⃣</td>
-                                <td><span class="badge badge-excellent">Excellent</span></td>
-                                <td><strong>৳6,720</strong></td>
-                                <td class="remark-cell">Lower-value item. assigned to maintain balanced distribution. group received more items but lower total value. excellent condition adds value.</td>
+                                <td>DELL</td>
+                                <td>N/A</td>
+                                <td><small>CPU: i7<br>RAM: 8GB<br>Storage: 500<br>Gen: 11</small></td>
+                                <td><small>Masum Billah<br>User</small></td>
+                                <td><small>N/A<br><small>Good</small></small></td>
+                                <td><span class="value-badge">৳51,000</span></td>
                             </tr>
 
                             <tr>
                                 <td><strong>9</strong></td>
-                                <td>
-                                    <strong>Dell Monitor</strong><br>
-                                    <small style="color: #7f8c8d;">52240Lc</small>
-                                </td>
-                                <td><small>Design Team - 3rd Floor</small></td>
-                                <td>2️⃣</td>
-                                <td><span class="badge badge-excellent">Excellent</span></td>
-                                <td><strong>৳5,600</strong></td>
-                                <td class="remark-cell">Lower-value item. assigned to maintain balanced distribution. group received more items but lower total value. excellent condition adds value.</td>
+                                <td>DELL</td>
+                                <td>Inspiron 3511</td>
+                                <td><small>CPU: i5<br>RAM: 8GB<br>Storage: 500<br>GPU: 2GB<br>Gen: 11</small></td>
+                                <td><small>Safaur Rahman<br>User</small></td>
+                                <td><small>N/A<br><small>Good</small></small></td>
+                                <td><span class="value-badge">৳48,450</span></td>
                             </tr>
 
                             <tr>
-                                <td><strong>12</strong></td>
-                                <td>
-                                    <strong>Dell Monitor</strong><br>
-                                    <small style="color: #7f8c8d;">G2QR5D2</small>
-                                </td>
-                                <td><small>Kawser - 3rd Floor</small></td>
-                                <td>2️⃣</td>
-                                <td><span class="badge badge-excellent">Excellent</span></td>
-                                <td><strong>৳4,200</strong></td>
-                                <td class="remark-cell">Lower-value item. assigned to maintain balanced distribution. group received more items but lower total value. excellent condition adds value.</td>
-                            </tr>
-
-                            <tr>
-                                <td><strong>13</strong></td>
-                                <td>
-                                    <strong>Dell Monitor</strong><br>
-                                    <small style="color: #7f8c8d;">E1916HVF</small>
-                                </td>
-                                <td><small>Comercial Room - 2nd Floor</small></td>
-                                <td>3️⃣</td>
-                                <td><span class="badge badge-good">Good</span></td>
-                                <td><strong>৳2,520</strong></td>
-                                <td class="remark-cell">Lower-value item. assigned to maintain balanced distribution. group received more items but lower total value. good condition.</td>
+                                <td><strong>7</strong></td>
+                                <td>Dell Laptop</td>
+                                <td>Inspiron 15 3511</td>
+                                <td><small>CPU: i5<br>RAM: 8GB<br>Storage: 500<br>Gen: 11</small></td>
+                                <td><small>Tareq<br>In Stock</small></td>
+                                <td><small>N/A<br><small>Good</small></small></td>
+                                <td><span class="value-badge">৳45,050</span></td>
                             </tr>
 
                         </tbody>
                     </table>
-                </div>
 
-                <div class="asset-section">
-                    <div class="asset-section-title">🖨️ Printers</div>
-                    <table>
+                    <div class="asset-type-header">
+                        Desktop PCs (3) - Total Value: ৳326,400
+                    </div>
+                    
+                    <table class="asset-table">
                         <thead>
                             <tr>
-                                <th>#</th>
-                                <th>Category</th>
-                                <th>Device Name & Model</th>
-                                <th>Function</th>
-                                <th>Location</th>
-                                <th>Condition</th>
-                                <th>Value (BDT)</th>
-                                <th>Allocation Remark</th>
+                                <th>Serial</th>
+                                <th>Name</th>
+                                <th>Model</th>
+                                <th>Specs</th>
+                                <th>User/Location</th>
+                                <th>Status</th>
+                                <th>Value</th>
                             </tr>
                         </thead>
                         <tbody>
 
                             <tr>
-                                <td><strong>5</strong></td>
-                                <td><strong>A4</strong></td>
-                                <td>
-                                    <strong>HP</strong><br>
-                                    <small style="color: #7f8c8d;">Laser jet Pro M402dn</small>
-                                </td>
-                                <td><small>Duplex</small></td>
-                                <td><small>3rd Floor  Open Space</small></td>
-                                <td><span class="badge badge-excellent">Excellent</span></td>
-                                <td><strong>৳5,760</strong></td>
-                                <td class="remark-cell">Lower-value item. assigned to maintain balanced distribution. group received more items but lower total value. excellent condition adds value. balances asset type mix.</td>
+                                <td><strong>3</strong></td>
+                                <td>Desktop</td>
+                                <td>Clone PC</td>
+                                <td><small>CPU: i9<br>RAM: 16GB<br>Storage: 256/1000<br>GPU: 4GB<br>Gen: 13</small></td>
+                                <td><small>Faysal Design<br>3rd Floor</small></td>
+                                <td><small>N/A<br><small>Excellent</small></small></td>
+                                <td><span class="value-badge">৳144,000</span></td>
                             </tr>
 
                             <tr>
-                                <td><strong>6</strong></td>
-                                <td><strong>A4</strong></td>
-                                <td>
-                                    <strong>PANTUiM</strong><br>
-                                    <small style="color: #7f8c8d;">P3010DW</small>
-                                </td>
-                                <td><small>Duplex</small></td>
-                                <td><small>3rd Floor Supply Manager Room</small></td>
-                                <td><span class="badge badge-excellent">Excellent</span></td>
-                                <td><strong>৳5,040</strong></td>
-                                <td class="remark-cell">Lower-value item. assigned to maintain balanced distribution. group received more items but lower total value. excellent condition adds value. balances asset type mix.</td>
+                                <td><strong>5</strong></td>
+                                <td>Desktop</td>
+                                <td>Clone PC</td>
+                                <td><small>CPU: i9<br>RAM: 16GB<br>Storage: 256/1000<br>GPU: 4GB<br>Gen: 13</small></td>
+                                <td><small>Nayon Design<br>2nd Floor</small></td>
+                                <td><small>N/A<br><small>Excellent</small></small></td>
+                                <td><span class="value-badge">৳144,000</span></td>
+                            </tr>
+
+                            <tr>
+                                <td><strong>8</strong></td>
+                                <td>Desktop</td>
+                                <td>Clone PC</td>
+                                <td><small>CPU: Dual core<br>RAM: 4GB<br>Gen: 4</small></td>
+                                <td><small>Management Room<br>2nd Floor</small></td>
+                                <td><small>N/A<br><small>Moderate</small></small></td>
+                                <td><span class="value-badge">৳38,400</span></td>
+                            </tr>
+
+                        </tbody>
+                    </table>
+
+                    <div class="asset-type-header">
+                        Monitors (4) - Total Value: ৳33,800
+                    </div>
+                    
+                    <table class="asset-table">
+                        <thead>
+                            <tr>
+                                <th>Serial</th>
+                                <th>Name</th>
+                                <th>Model</th>
+                                <th>Specs</th>
+                                <th>User/Location</th>
+                                <th>Status</th>
+                                <th>Value</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+
+                            <tr>
+                                <td><strong>7</strong></td>
+                                <td>Dell Monitor</td>
+                                <td>52240Lc</td>
+                                <td><small>N/A</small></td>
+                                <td><small>Design Team<br>3rd Floor</small></td>
+                                <td><small>N/A<br><small>Excellent</small></small></td>
+                                <td><span class="value-badge">৳11,000</span></td>
+                            </tr>
+
+                            <tr>
+                                <td><strong>2</strong></td>
+                                <td>HP Monitor</td>
+                                <td>M22f</td>
+                                <td><small>N/A</small></td>
+                                <td><small>IT Room<br>2nd Floor</small></td>
+                                <td><small>N/A<br><small>Excellent</small></small></td>
+                                <td><span class="value-badge">৳8,000</span></td>
+                            </tr>
+
+                            <tr>
+                                <td><strong>5</strong></td>
+                                <td>HP Monitor</td>
+                                <td>M22f</td>
+                                <td><small>N/A</small></td>
+                                <td><small>Faysal Design<br>3th Floor</small></td>
+                                <td><small>N/A<br><small>Excellent</small></small></td>
+                                <td><span class="value-badge">৳8,000</span></td>
                             </tr>
 
                             <tr>
                                 <td><strong>10</strong></td>
-                                <td><strong>A4</strong></td>
-                                <td>
-                                    <strong>T3 Project Printer</strong><br>
-                                    <small style="color: #7f8c8d;">N/A</small>
-                                </td>
+                                <td>Dell Monitor</td>
+                                <td>E170SC</td>
                                 <td><small>N/A</small></td>
-                                <td><small>GTL Warehouse </small></td>
-                                <td><span class="badge badge-good">Good</span></td>
-                                <td><strong>৳4,860</strong></td>
-                                <td class="remark-cell">Lower-value item. assigned to maintain balanced distribution. group received more items but lower total value. good condition. balances asset type mix.</td>
+                                <td><small>Reception<br>8th Floor</small></td>
+                                <td><small>N/A<br><small>Good</small></small></td>
+                                <td><span class="value-badge">৳6,800</span></td>
                             </tr>
 
                         </tbody>
                     </table>
-                </div>
 
-                <div class="asset-section">
-                    <div class="asset-section-title">📄 Scanners</div>
-                    <table>
+                    <div class="asset-type-header">
+                        Printer/Scanners (4) - Total Value: ৳56,000
+                    </div>
+                    
+                    <table class="asset-table">
                         <thead>
                             <tr>
-                                <th>#</th>
-                                <th>Device Name & Model</th>
-                                <th>Function</th>
-                                <th>Location</th>
-                                <th>Condition</th>
-                                <th>Value (BDT)</th>
-                                <th>Allocation Remark</th>
+                                <th>Serial</th>
+                                <th>Name</th>
+                                <th>Model</th>
+                                <th>Specs</th>
+                                <th>User/Location</th>
+                                <th>Status</th>
+                                <th>Value</th>
                             </tr>
                         </thead>
                         <tbody>
 
                             <tr>
-                                <td><strong>11</strong></td>
-                                <td>
-                                    <strong>EPSON(Scaneer) </strong><br>
-                                    <small style="color: #7f8c8d;">J371A</small>
-                                </td>
-                                <td><small>Scaneer</small></td>
-                                <td><small>2nd Floor Marketing Room</small></td>
-                                <td><span class="badge badge-excellent">Excellent</span></td>
-                                <td><strong>৳6,240</strong></td>
-                                <td class="remark-cell">Lower-value item. assigned to maintain balanced distribution. group received more items but lower total value. excellent condition adds value.</td>
+                                <td><strong>3</strong></td>
+                                <td>HP</td>
+                                <td>HP Laser Pro MFP M26nw</td>
+                                <td><small>N/A</small></td>
+                                <td><small>CNBKKCSGDZ<br>Copy, Scanner, Duplex</small></td>
+                                <td><small>3️⃣<br><small></small></small></td>
+                                <td><span class="value-badge">৳16,000</span></td>
+                            </tr>
+
+                            <tr>
+                                <td><strong>5</strong></td>
+                                <td>HP</td>
+                                <td>Laser jet Pro M402dn</td>
+                                <td><small>N/A</small></td>
+                                <td><small>PHCND75197<br>Duplex</small></td>
+                                <td><small>4️⃣<br><small></small></small></td>
+                                <td><span class="value-badge">৳16,000</span></td>
+                            </tr>
+
+                            <tr>
+                                <td><strong>1</strong></td>
+                                <td>EPSON A3</td>
+                                <td>C722B1</td>
+                                <td><small>N/A</small></td>
+                                <td><small>X88L009083<br>Color, Copy, Scanner, Duplex</small></td>
+                                <td><small>1️⃣<br><small></small></small></td>
+                                <td><span class="value-badge">৳12,000</span></td>
+                            </tr>
+
+                            <tr>
+                                <td><strong>8</strong></td>
+                                <td>T3 Project Printer</td>
+                                <td>N/A</td>
+                                <td><small>N/A</small></td>
+                                <td><small>N/A<br>N/A</small></td>
+                                <td><small>N/A<br><small></small></small></td>
+                                <td><span class="value-badge">৳12,000</span></td>
                             </tr>
 
                         </tbody>
                     </table>
-                </div>
 
-                <div class="asset-section">
-                    <div class="asset-section-title">🔌 Server & Network Devices</div>
-                    <table>
+                    <div class="asset-type-header">
+                        Servers (3) - Total Value: ৳67,000
+                    </div>
+                    
+                    <table class="asset-table">
                         <thead>
                             <tr>
-                                <th>#</th>
-                                <th>Device Name</th>
-                                <th>Model</th>
                                 <th>Serial</th>
-                                <th>Condition</th>
-                                <th>Value (BDT)</th>
-                                <th>Allocation Remark</th>
+                                <th>Name</th>
+                                <th>Model</th>
+                                <th>Specs</th>
+                                <th>User/Location</th>
+                                <th>Status</th>
+                                <th>Value</th>
                             </tr>
                         </thead>
                         <tbody>
 
                             <tr>
                                 <td><strong>13</strong></td>
-                                <td><strong>UPS</strong></td>
-                                <td><small>APC/SRCE6KUX1</small></td>
+                                <td>UPS</td>
+                                <td>APC/SRCE6KUX1</td>
                                 <td><small>N/A</small></td>
-                                <td><span class="badge badge-excellent">Excellent</span></td>
-                                <td><strong>৳13,000</strong></td>
-                                <td class="remark-cell">Standard-value item. assigned to maintain balanced distribution. group received more items but lower total value. excellent condition adds value. balances asset type mix.</td>
-                            </tr>
-
-                            <tr>
-                                <td><strong>9</strong></td>
-                                <td><strong>Hikvision DVR 16 Port</strong></td>
-                                <td><small>DS-7216HQH1-K2</small></td>
-                                <td><small>D4560254B</small></td>
-                                <td><span class="badge badge-excellent">Excellent</span></td>
-                                <td><strong>৳7,800</strong></td>
-                                <td class="remark-cell">Lower-value item. assigned to maintain balanced distribution. group received more items but lower total value. excellent condition adds value. balances asset type mix.</td>
+                                <td><small>N/A<br>N/A</small></td>
+                                <td><small>N/A<br><small>Excellent</small></small></td>
+                                <td><span class="value-badge">৳30,000</span></td>
                             </tr>
 
                             <tr>
                                 <td><strong>3</strong></td>
-                                <td><strong>Mikrotik Switch 16 Port</strong></td>
-                                <td><small>CCR2004-16G-2S+</small></td>
-                                <td><small>HBJ07MPR6YD/150</small></td>
-                                <td><span class="badge badge-excellent">Excellent</span></td>
-                                <td><strong>৳6,500</strong></td>
-                                <td class="remark-cell">Lower-value item. assigned to maintain balanced distribution. group received more items but lower total value. excellent condition adds value. balances asset type mix.</td>
+                                <td>Mikrotik Switch 16 Port</td>
+                                <td>CCR2004-16G-2S+</td>
+                                <td><small>N/A</small></td>
+                                <td><small>N/A<br>N/A</small></td>
+                                <td><small>N/A<br><small>Excellent</small></small></td>
+                                <td><span class="value-badge">৳25,000</span></td>
                             </tr>
 
                             <tr>
-                                <td><strong>10</strong></td>
-                                <td><strong>Pass Panel 24 Port</strong></td>
-                                <td><small>Net Key</small></td>
+                                <td><strong>7</strong></td>
+                                <td>TP-Link Switch 8 Port</td>
+                                <td>T1500G-10PS</td>
                                 <td><small>N/A</small></td>
-                                <td><span class="badge badge-excellent">Excellent</span></td>
-                                <td><strong>৳1,950</strong></td>
-                                <td class="remark-cell">Lower-value item. assigned to maintain balanced distribution. group received more items but lower total value. excellent condition adds value. balances asset type mix.</td>
+                                <td><small>N/A<br>N/A</small></td>
+                                <td><small>N/A<br><small>Excellent</small></small></td>
+                                <td><span class="value-badge">৳12,000</span></td>
                             </tr>
 
                         </tbody>
                     </table>
+
                 </div>
-
             </div>
-        </div>
 
-        <div class="footer">
-            <p><strong>Genesis Technologies Ltd</strong> - Complete Asset Division Report</p>
-            <p>Equal distribution achieved with ±0.04% variance. All values in BDT with depreciation applied for OLD assets.</p>
-            <p style="margin-top: 10px; font-size: 0.85em;">Each asset includes detailed allocation remarks explaining the reasoning behind its assignment to ensure transparency and fairness.</p>
         </div>
     </div>
 </body>
