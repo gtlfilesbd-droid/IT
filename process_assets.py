@@ -117,6 +117,11 @@ def read_excel_data(file_path, asset_type):
             if has_category:
                 # Laptop.xlsx format: 0=Category, 1=Serial, 2=Name, 3=Model, 4=RAM, 5=Processor, etc.
                 col_offset = 1
+                # Check category for new purchase detection (for laptops)
+                if asset_type == 'Laptop' and len(row) > 0:
+                    category = str(row.iloc[0]).lower() if not pd.isna(row.iloc[0]) else ''
+                    if 'new purchase' in category or 'new' in category:
+                        asset['PurchaseType'] = 'New'
             else:
                 # PC.xlsx/Monitor.xlsx format: 0=Serial, 1=Name, 2=Model, 3=RAM, 4=Processor, etc.
                 col_offset = 0
@@ -256,12 +261,41 @@ def read_excel_data(file_path, asset_type):
 
 def calculate_asset_value(asset):
     """Calculate current value of an asset based on type, specs, and condition."""
+    
+    # Manual value overrides for specific models (final values after depreciation)
+    # These bypass calculation and return the exact value
+    model = asset.get('Model', '').lower()
+    name = asset.get('Name', '').lower()
+    
+    # Check for manual overrides first
+    if asset['AssetType'] == 'Monitor':
+        if 'm22f' in model:
+            return 10000.0  # Final value for HP M22f monitor
+    
+    if asset['AssetType'] == 'Printer/Scanner':
+        if 'l8180' in model or ('a3' in name and 'epson' in name):
+            return 50000.0  # Final value for Epson A3 L8180
+        if 'l3250' in model:
+            return 15000.0  # Final value for Epson L3250
+        if 'm402dn' in model or 'laserjet pro m402dn' in model.lower():
+            return 30000.0  # Final value for HP LaserJet Pro M402dn
+    
     base_value = 0
+    
+    # Check if this is a new laptop (has PurchaseType = "New" or from "New Purchase" category)
+    is_new_laptop = False
+    if asset['AssetType'] == 'Laptop':
+        purchase_type = asset.get('PurchaseType', '').lower()
+        if purchase_type == 'new' or 'new purchase' in name.lower():
+            is_new_laptop = True
     
     # Base values by type and specs
     if asset['AssetType'] == 'Laptop':
-        # Base laptop value
-        base_value = 30000
+        # Base laptop value - higher for new laptops
+        if is_new_laptop:
+            base_value = 50000  # New laptop base value
+        else:
+            base_value = 30000  # Used/reconditioned laptop base value
         
         # Processor bonus
         processor = asset.get('Processor', '').lower()
@@ -337,11 +371,9 @@ def calculate_asset_value(asset):
             base_value += 3000
         
     elif asset['AssetType'] == 'Printer/Scanner':
-        # Base printer value
+        # Specific printers are handled by manual override above
+        # Base printer value for other printers
         base_value = 15000
-        
-        model = asset.get('Model', '').lower()
-        name = asset.get('Name', '').lower()
         
         if 'hp' in name or 'hp' in model:
             base_value += 5000
@@ -380,18 +412,27 @@ def calculate_asset_value(asset):
             base_value = 10000
     
     # Depreciation based on condition/remarks
-    # All assets are used, so minimum 30% depreciation
     remarks = asset.get('Remarks', '').lower()
     status = asset.get('Status', '').lower()
     
-    if 'excellent' in remarks:
-        depreciation = 0.70  # 30% depreciation for excellent used condition
-    elif 'good' in remarks or 'working' in status:
-        depreciation = 0.60  # 40% depreciation for good used condition
-    elif 'fair' in remarks or 'moderate' in remarks:
-        depreciation = 0.50  # 50% depreciation for fair/moderate used condition
+    # New laptops get minimal depreciation (5-10%)
+    if is_new_laptop:
+        if 'excellent' in remarks:
+            depreciation = 0.95  # 5% depreciation for new excellent
+        elif 'good' in remarks:
+            depreciation = 0.90  # 10% depreciation for new good
+        else:
+            depreciation = 0.90  # 10% default for new
     else:
-        depreciation = 0.60  # 40% depreciation as default
+        # Used assets get standard depreciation (30-50%)
+        if 'excellent' in remarks:
+            depreciation = 0.70  # 30% depreciation for excellent used condition
+        elif 'good' in remarks or 'working' in status:
+            depreciation = 0.60  # 40% depreciation for good used condition
+        elif 'fair' in remarks or 'moderate' in remarks:
+            depreciation = 0.50  # 50% depreciation for fair/moderate used condition
+        else:
+            depreciation = 0.60  # 40% depreciation as default
     
     final_value = base_value * depreciation
     

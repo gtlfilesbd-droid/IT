@@ -8,8 +8,8 @@
     "Location": "Color, Copy, Scanner, Duplex",
     "Level": "2nd Floor Marketing Room",
     "Status": "1️⃣",
-    "CurrentValue": 9000.0,
-    "AllocationRemark": "Assigned to balance total value (Group B: ৳395,500)"
+    "CurrentValue": 50000.0,
+    "AllocationRemark": "Assigned to balance total value (Group A: ৳233,400)"
   },
   {
     "AssetType": "Printer/Scanner",
@@ -19,8 +19,8 @@
     "Location": "Color, Copy, Scanner, Duplex",
     "Level": "3rd Floor CO Sir Room",
     "Status": "2️⃣",
-    "CurrentValue": 9000.0,
-    "AllocationRemark": "Assigned to balance total value (Group C: ৳397,600)"
+    "CurrentValue": 15000.0,
+    "AllocationRemark": "Assigned to balance total value (Group C: ৳391,600)"
   },
   {
     "AssetType": "Printer/Scanner",
@@ -32,7 +32,7 @@
     "Level": "2nd Floor Director  Room",
     "Status": "3️⃣",
     "CurrentValue": 12000.0,
-    "AllocationRemark": "Assigned to balance total value (Group C: ৳376,600)"
+    "AllocationRemark": "Assigned to balance total value (Group B: ৳406,000)"
   },
   {
     "AssetType": "Printer/Scanner",
@@ -44,7 +44,7 @@
     "Level": "2nd Floor Marketing Room",
     "Status": "4️⃣",
     "CurrentValue": 12000.0,
-    "AllocationRemark": "Assigned to balance total value (Group A: ৳382,100)"
+    "AllocationRemark": "Assigned to balance total value (Group A: ৳416,600)"
   },
   {
     "AssetType": "Printer/Scanner",
@@ -55,8 +55,8 @@
     "Location": "Duplex",
     "Level": "3rd Floor  Open Space",
     "Status": "4️⃣",
-    "CurrentValue": 12000.0,
-    "AllocationRemark": "Assigned to balance total value (Group B: ৳386,500)"
+    "CurrentValue": 30000.0,
+    "AllocationRemark": "Assigned to balance total value (Group A: ৳333,000)"
   },
   {
     "AssetType": "Printer/Scanner",
@@ -68,7 +68,7 @@
     "Level": "3rd Floor Supply Manager Room",
     "Status": "5️⃣",
     "CurrentValue": 9000.0,
-    "AllocationRemark": "Assigned to balance total value (Group A: ৳401,600)"
+    "AllocationRemark": "Assigned to balance total value (Group C: ৳436,600)"
   },
   {
     "AssetType": "Printer/Scanner",
@@ -80,7 +80,7 @@
     "Level": "2nd Floor FPT Room",
     "Status": "6️⃣",
     "CurrentValue": 12000.0,
-    "AllocationRemark": "Assigned to balance total value (Group C: ৳388,600)"
+    "AllocationRemark": "Assigned to balance total value (Group C: ৳417,600)"
   },
   {
     "AssetType": "Printer/Scanner",
@@ -88,7 +88,7 @@
     "Name": "T3 Project Printer",
     "Level": "GTL Warehouse",
     "CurrentValue": 9000.0,
-    "AllocationRemark": "Assigned to balance total value (Group B: ৳404,500)"
+    "AllocationRemark": "Assigned to balance total value (Group B: ৳445,500)"
   },
   {
     "AssetType": "Printer/Scanner",
@@ -100,6 +100,6 @@
     "Level": "2nd Floor Marketing Room",
     "Status": "1️⃣",
     "CurrentValue": 9000.0,
-    "AllocationRemark": "Assigned to balance total value (Group C: ৳406,600)"
+    "AllocationRemark": "Assigned to balance total value (Group A: ৳445,600)"
   }
 ]

@@ -12,7 +12,7 @@
     "Level": "2️⃣",
     "Remarks": "Good",
     "CurrentValue": 36000.0,
-    "AllocationRemark": "Assigned to balance total value (Group C: ৳237,600)"
+    "AllocationRemark": "Assigned to balance total value (Group A: ৳269,400)"
   },
   {
     "AssetType": "Laptop",
@@ -28,7 +28,7 @@
     "Level": "2️⃣",
     "Remarks": "Good",
     "CurrentValue": 36000.0,
-    "AllocationRemark": "Assigned to balance total value (Group A: ৳259,300)"
+    "AllocationRemark": "Assigned to balance total value (Group C: ৳276,800)"
   },
   {
     "AssetType": "Laptop",
@@ -44,7 +44,7 @@
     "Level": "3️⃣",
     "Remarks": "Moderate",
     "CurrentValue": 28500.0,
-    "AllocationRemark": "Assigned to balance total value (Group B: ৳302,900)"
+    "AllocationRemark": "Assigned to balance total value (Group B: ৳336,000)"
   },
   {
     "AssetType": "Laptop",
@@ -60,7 +60,7 @@
     "Level": "1️⃣",
     "Remarks": "Excellent",
     "CurrentValue": 39200.0,
-    "AllocationRemark": "Assigned to balance total value (Group B: ৳240,800)"
+    "AllocationRemark": "Assigned to balance total value (Group C: ৳240,800)"
   },
   {
     "AssetType": "Laptop",
@@ -77,7 +77,7 @@
     "Level": "1️⃣",
     "Remarks": "Excellent",
     "CurrentValue": 39900.0,
-    "AllocationRemark": "Assigned to balance total value (Group A: ৳223,300)"
+    "AllocationRemark": "Assigned to balance total value (Group B: ৳241,500)"
   },
   {
     "AssetType": "Laptop",
@@ -93,7 +93,7 @@
     "Level": "2️⃣",
     "Remarks": "Good",
     "CurrentValue": 33600.0,
-    "AllocationRemark": "Assigned to balance total value (Group B: ৳274,400)"
+    "AllocationRemark": "Assigned to balance total value (Group A: ৳303,000)"
   },
   {
     "AssetType": "Laptop",
@@ -109,7 +109,7 @@
     "Level": "2️⃣",
     "Remarks": "Good",
     "CurrentValue": 31800.0,
-    "AllocationRemark": "Assigned to balance total value (Group A: ৳291,100)"
+    "AllocationRemark": "Assigned to balance total value (Group B: ৳307,500)"
   },
   {
     "AssetType": "Laptop",
@@ -125,7 +125,7 @@
     "Level": "2️⃣",
     "Remarks": "Good",
     "CurrentValue": 31800.0,
-    "AllocationRemark": "Assigned to balance total value (Group C: ৳303,600)"
+    "AllocationRemark": "Assigned to balance total value (Group C: ৳308,600)"
   },
   {
     "AssetType": "Laptop",
@@ -142,7 +142,7 @@
     "Level": "2️⃣",
     "Remarks": "Good",
     "CurrentValue": 34200.0,
-    "AllocationRemark": "Assigned to balance total value (Group C: ৳271,800)"
+    "AllocationRemark": "Assigned to balance total value (Group B: ৳275,700)"
   },
   {
     "AssetType": "Laptop",
@@ -159,7 +159,7 @@
     "Level": "3️⃣",
     "Remarks": "Moderate",
     "CurrentValue": 19500.0,
-    "AllocationRemark": "Assigned to balance total value (Group C: ৳347,100)"
+    "AllocationRemark": "Assigned to balance total value (Group B: ৳376,500)"
   },
   {
     "AssetType": "Desktop PC",
@@ -275,7 +275,7 @@
     "Level": "3️⃣",
     "Remarks": "Moderate",
     "CurrentValue": 26500.0,
-    "AllocationRemark": "Assigned to balance total value (Group A: ৳317,600)"
+    "AllocationRemark": "Assigned to balance total value (Group C: ৳335,100)"
   },
   {
     "AssetType": "Desktop PC",
@@ -290,7 +290,7 @@
     "Level": "3️⃣",
     "Remarks": "Moderate",
     "CurrentValue": 24000.0,
-    "AllocationRemark": "Assigned to balance total value (Group B: ৳326,900)"
+    "AllocationRemark": "Assigned to balance total value (Group A: ৳357,000)"
   },
   {
     "AssetType": "Desktop PC",
@@ -305,7 +305,7 @@
     "Level": "3️⃣",
     "Remarks": "Moderate",
     "CurrentValue": 24000.0,
-    "AllocationRemark": "Assigned to balance total value (Group C: ৳327,600)"
+    "AllocationRemark": "Assigned to balance total value (Group C: ৳359,100)"
   },
   {
     "AssetType": "Monitor",
@@ -316,8 +316,8 @@
     "Location": "2nd Floor",
     "Level": "1️⃣",
     "Remarks": "Excellent",
-    "CurrentValue": 5600.0,
-    "AllocationRemark": "Assigned to balance total value (Group A: ৳423,300)"
+    "CurrentValue": 10000.0,
+    "AllocationRemark": "Assigned to balance total value (Group B: ৳426,500)"
   },
   {
     "AssetType": "Monitor",
@@ -328,8 +328,8 @@
     "Location": "2nd Floor",
     "Level": "1️⃣",
     "Remarks": "Excellent",
-    "CurrentValue": 5600.0,
-    "AllocationRemark": "Assigned to balance total value (Group B: ৳426,200)"
+    "CurrentValue": 10000.0,
+    "AllocationRemark": "Assigned to balance total value (Group A: ৳426,600)"
   },
   {
     "AssetType": "Monitor",
@@ -340,7 +340,7 @@
     "Location": "2nd Floor",
     "Level": "1️⃣",
     "Remarks": "Excellent",
-    "CurrentValue": 5600.0,
+    "CurrentValue": 10000.0,
     "AllocationRemark": "Assigned to balance total value (Group C: ৳427,600)"
   },
   {
@@ -352,8 +352,8 @@
     "Location": "2nd Floor",
     "Level": "1️⃣",
     "Remarks": "Excellent",
-    "CurrentValue": 5600.0,
-    "AllocationRemark": "Assigned to balance total value (Group A: ৳428,900)"
+    "CurrentValue": 10000.0,
+    "AllocationRemark": "Assigned to balance total value (Group B: ৳436,500)"
   },
   {
     "AssetType": "Monitor",
@@ -364,8 +364,8 @@
     "Location": "3th Floor",
     "Level": "1️⃣",
     "Remarks": "Excellent",
-    "CurrentValue": 5600.0,
-    "AllocationRemark": "Assigned to balance total value (Group B: ৳431,800)"
+    "CurrentValue": 10000.0,
+    "AllocationRemark": "Assigned to balance total value (Group A: ৳436,600)"
   },
   {
     "AssetType": "Monitor",
@@ -377,7 +377,7 @@
     "Level": "2️⃣",
     "Remarks": "Excellent",
     "CurrentValue": 7700.0,
-    "AllocationRemark": "Assigned to balance total value (Group A: ৳417,700)"
+    "AllocationRemark": "Assigned to balance total value (Group A: ৳453,300)"
   },
   {
     "AssetType": "Monitor",
@@ -389,7 +389,7 @@
     "Level": "2️⃣",
     "Remarks": "Excellent",
     "CurrentValue": 7700.0,
-    "AllocationRemark": "Assigned to balance total value (Group B: ৳420,600)"
+    "AllocationRemark": "Assigned to balance total value (Group A: ৳461,000)"
   },
   {
     "AssetType": "Monitor",
@@ -401,7 +401,7 @@
     "Level": "2️⃣",
     "Remarks": "Excellent",
     "CurrentValue": 5600.0,
-    "AllocationRemark": "Assigned to balance total value (Group C: ৳433,200)"
+    "AllocationRemark": "Assigned to balance total value (Group B: ৳459,500)"
   },
   {
     "AssetType": "Monitor",
@@ -413,7 +413,7 @@
     "Level": "3️⃣",
     "Remarks": "Good",
     "CurrentValue": 4800.0,
-    "AllocationRemark": "Assigned to balance total value (Group A: ৳433,700)"
+    "AllocationRemark": "Assigned to balance total value (Group B: ৳464,300)"
   },
   {
     "AssetType": "Monitor",
@@ -425,7 +425,7 @@
     "Level": "3️⃣",
     "Remarks": "Good",
     "CurrentValue": 4800.0,
-    "AllocationRemark": "Assigned to balance total value (Group B: ৳436,600)"
+    "AllocationRemark": "Assigned to balance total value (Group C: ৳465,200)"
   },
   {
     "AssetType": "Printer/Scanner",
@@ -436,8 +436,8 @@
     "Location": "Color, Copy, Scanner, Duplex",
     "Level": "2nd Floor Marketing Room",
     "Status": "1️⃣",
-    "CurrentValue": 9000.0,
-    "AllocationRemark": "Assigned to balance total value (Group B: ৳395,500)"
+    "CurrentValue": 50000.0,
+    "AllocationRemark": "Assigned to balance total value (Group A: ৳233,400)"
   },
   {
     "AssetType": "Printer/Scanner",
@@ -447,8 +447,8 @@
     "Location": "Color, Copy, Scanner, Duplex",
     "Level": "3rd Floor CO Sir Room",
     "Status": "2️⃣",
-    "CurrentValue": 9000.0,
-    "AllocationRemark": "Assigned to balance total value (Group C: ৳397,600)"
+    "CurrentValue": 15000.0,
+    "AllocationRemark": "Assigned to balance total value (Group C: ৳391,600)"
   },
   {
     "AssetType": "Printer/Scanner",
@@ -460,7 +460,7 @@
     "Level": "2nd Floor Director  Room",
     "Status": "3️⃣",
     "CurrentValue": 12000.0,
-    "AllocationRemark": "Assigned to balance total value (Group C: ৳376,600)"
+    "AllocationRemark": "Assigned to balance total value (Group B: ৳406,000)"
   },
   {
     "AssetType": "Printer/Scanner",
@@ -472,7 +472,7 @@
     "Level": "2nd Floor Marketing Room",
     "Status": "4️⃣",
     "CurrentValue": 12000.0,
-    "AllocationRemark": "Assigned to balance total value (Group A: ৳382,100)"
+    "AllocationRemark": "Assigned to balance total value (Group A: ৳416,600)"
   },
   {
     "AssetType": "Printer/Scanner",
@@ -483,8 +483,8 @@
     "Location": "Duplex",
     "Level": "3rd Floor  Open Space",
     "Status": "4️⃣",
-    "CurrentValue": 12000.0,
-    "AllocationRemark": "Assigned to balance total value (Group B: ৳386,500)"
+    "CurrentValue": 30000.0,
+    "AllocationRemark": "Assigned to balance total value (Group A: ৳333,000)"
   },
   {
     "AssetType": "Printer/Scanner",
@@ -496,7 +496,7 @@
     "Level": "3rd Floor Supply Manager Room",
     "Status": "5️⃣",
     "CurrentValue": 9000.0,
-    "AllocationRemark": "Assigned to balance total value (Group A: ৳401,600)"
+    "AllocationRemark": "Assigned to balance total value (Group C: ৳436,600)"
   },
   {
     "AssetType": "Printer/Scanner",
@@ -508,7 +508,7 @@
     "Level": "2nd Floor FPT Room",
     "Status": "6️⃣",
     "CurrentValue": 12000.0,
-    "AllocationRemark": "Assigned to balance total value (Group C: ৳388,600)"
+    "AllocationRemark": "Assigned to balance total value (Group C: ৳417,600)"
   },
   {
     "AssetType": "Printer/Scanner",
@@ -516,7 +516,7 @@
     "Name": "T3 Project Printer",
     "Level": "GTL Warehouse",
     "CurrentValue": 9000.0,
-    "AllocationRemark": "Assigned to balance total value (Group B: ৳404,500)"
+    "AllocationRemark": "Assigned to balance total value (Group B: ৳445,500)"
   },
   {
     "AssetType": "Printer/Scanner",
@@ -528,7 +528,7 @@
     "Level": "2nd Floor Marketing Room",
     "Status": "1️⃣",
     "CurrentValue": 9000.0,
-    "AllocationRemark": "Assigned to balance total value (Group C: ৳406,600)"
+    "AllocationRemark": "Assigned to balance total value (Group A: ৳445,600)"
   },
   {
     "AssetType": "Server",
@@ -537,7 +537,7 @@
     "Model": "AR-727CM-V3",
     "Remarks": "Excellent",
     "CurrentValue": 7000.0,
-    "AllocationRemark": "Assigned to balance total value (Group C: ৳422,000)"
+    "AllocationRemark": "Assigned to balance total value (Group C: ৳460,400)"
   },
   {
     "AssetType": "Server",
@@ -546,7 +546,7 @@
     "Model": "RB2011UiAS-RM",
     "Remarks": "Excellent",
     "CurrentValue": 17500.0,
-    "AllocationRemark": "Assigned to balance total value (Group A: ৳356,100)"
+    "AllocationRemark": "Assigned to balance total value (Group C: ৳376,600)"
   },
   {
     "AssetType": "Server",
@@ -556,7 +556,7 @@
     "DeviceSerial": "HBJ07MPR6YD/150",
     "Remarks": "Excellent",
     "CurrentValue": 17500.0,
-    "AllocationRemark": "Assigned to balance total value (Group C: ৳364,600)"
+    "AllocationRemark": "Assigned to balance total value (Group B: ৳394,000)"
   },
   {
     "AssetType": "Server",
@@ -566,7 +566,7 @@
     "DeviceSerial": "216C906001181",
     "Remarks": "Excellent",
     "CurrentValue": 14000.0,
-    "AllocationRemark": "Assigned to balance total value (Group B: ৳361,900)"
+    "AllocationRemark": "Assigned to balance total value (Group A: ৳392,000)"
   },
   {
     "AssetType": "Server",
@@ -576,7 +576,7 @@
     "DeviceSerial": "TOC2552YFVQ",
     "Remarks": "Excellent",
     "CurrentValue": 14000.0,
-    "AllocationRemark": "Assigned to balance total value (Group A: ৳370,100)"
+    "AllocationRemark": "Assigned to balance total value (Group C: ৳405,600)"
   },
   {
     "AssetType": "Server",
@@ -586,7 +586,7 @@
     "DeviceSerial": "590831213200011",
     "Remarks": "Excellent",
     "CurrentValue": 8400.0,
-    "AllocationRemark": "Assigned to balance total value (Group A: ৳410,000)"
+    "AllocationRemark": "Assigned to balance total value (Group C: ৳445,000)"
   },
   {
     "AssetType": "Server",
@@ -595,7 +595,7 @@
     "Model": "T1500G-10PS",
     "Remarks": "Excellent",
     "CurrentValue": 8400.0,
-    "AllocationRemark": "Assigned to balance total value (Group B: ৳412,900)"
+    "AllocationRemark": "Assigned to balance total value (Group C: ৳453,400)"
   },
   {
     "AssetType": "Server",
@@ -605,7 +605,7 @@
     "DeviceSerial": "E74263082",
     "Remarks": "Excellent",
     "CurrentValue": 8400.0,
-    "AllocationRemark": "Assigned to balance total value (Group C: ৳415,000)"
+    "AllocationRemark": "Assigned to balance total value (Group B: ৳453,900)"
   },
   {
     "AssetType": "Server",
@@ -615,7 +615,7 @@
     "DeviceSerial": "D4560254B",
     "Remarks": "Excellent",
     "CurrentValue": 12600.0,
-    "AllocationRemark": "Assigned to balance total value (Group B: ৳374,500)"
+    "AllocationRemark": "Assigned to balance total value (Group A: ৳404,600)"
   },
   {
     "AssetType": "Server",
@@ -624,7 +624,7 @@
     "Model": "Net Key",
     "Remarks": "Excellent",
     "CurrentValue": 2100.0,
-    "AllocationRemark": "Assigned to balance total value (Group C: ৳435,300)"
+    "AllocationRemark": "Assigned to balance total value (Group A: ৳463,100)"
   },
   {
     "AssetType": "Server",
@@ -633,7 +633,7 @@
     "Model": "AMP",
     "Remarks": "Excellent",
     "CurrentValue": 2100.0,
-    "AllocationRemark": "Assigned to balance total value (Group A: ৳435,800)"
+    "AllocationRemark": "Assigned to balance total value (Group A: ৳465,200)"
   },
   {
     "AssetType": "Server",
@@ -643,7 +643,7 @@
     "DeviceSerial": "2AACV070870",
     "Remarks": "Excellent",
     "CurrentValue": 10500.0,
-    "AllocationRemark": "Assigned to balance total value (Group A: ৳392,600)"
+    "AllocationRemark": "Assigned to balance total value (Group B: ৳416,500)"
   },
   {
     "AssetType": "Server",
@@ -652,7 +652,7 @@
     "Model": "APC/SRCE6KUX1",
     "Remarks": "Excellent",
     "CurrentValue": 21000.0,
-    "AllocationRemark": "Assigned to balance total value (Group A: ৳338,600)"
+    "AllocationRemark": "Assigned to balance total value (Group B: ৳357,000)"
   },
   {
     "AssetType": "Server",
@@ -660,6 +660,6 @@
     "Name": "UPS Battery 16 PCS",
     "Remarks": "Excellent",
     "CurrentValue": 21000.0,
-    "AllocationRemark": "Assigned to balance total value (Group B: ৳347,900)"
+    "AllocationRemark": "Assigned to balance total value (Group A: ৳378,000)"
   }
 ]

@@ -366,16 +366,19 @@
                 
                 <h3>2.1 Laptops</h3>
                 <div class="formula-box">
-                    <strong>Base Formula:</strong>
+                    <strong>Base Formula (Used/Reconditioned):</strong>
                     <code>Base Value = ৳30,000</code>
                     <code>+ Processor Bonus (i7/Ryzen 7: ৳15,000 | i5/Ryzen 5: ৳8,000 | i3: ৳3,000)</code>
                     <code>+ RAM × ৳1,500 per GB</code>
                     <code>+ (Generation - 10) × ৳3,000 (if Gen ≥ 11)</code>
                     <code>+ GPU Bonus (4GB: ৳8,000 | 2GB: ৳4,000)</code>
+                    <code></code>
+                    <code><strong>New Laptops:</strong></code>
+                    <code>Base Value = ৳50,000 (with minimal 5-10% depreciation)</code>
                 </div>
                 
                 <div class="example-box">
-                    <h4>Example: HP Laptop with i5, 8GB RAM, Gen 12, 2GB GPU</h4>
+                    <h4>Example: Used HP Laptop with i5, 8GB RAM, Gen 12, 2GB GPU</h4>
                     <p>Base: ৳30,000</p>
                     <p>+ i5 Processor: ৳8,000</p>
                     <p>+ 8GB RAM: ৳12,000</p>
@@ -383,6 +386,17 @@
                     <p>+ 2GB GPU: ৳4,000</p>
                     <p><strong>Subtotal: ৳60,000</strong></p>
                     <p>× Depreciation (Excellent = 70%): <strong>৳42,000 Final Value</strong></p>
+                </div>
+                
+                <div class="example-box">
+                    <h4>Example: New Laptop with i5, 8GB RAM, Gen 12, 2GB GPU</h4>
+                    <p>Base: ৳50,000</p>
+                    <p>+ i5 Processor: ৳8,000</p>
+                    <p>+ 8GB RAM: ৳12,000</p>
+                    <p>+ Gen 12: ৳6,000</p>
+                    <p>+ 2GB GPU: ৳4,000</p>
+                    <p><strong>Subtotal: ৳80,000</strong></p>
+                    <p>× Depreciation (New Excellent = 95%): <strong>৳76,000 Final Value</strong></p>
                 </div>
                 
                 <h3>2.2 Desktop PCs</h3>
@@ -412,6 +426,9 @@
                     <code>Base Value = ৳8,000</code>
                     <code>+ Brand Bonus (Dell/HP/LG: ৳2,000)</code>
                     <code>+ Size Bonus (24"/27": ৳3,000)</code>
+                    <code></code>
+                    <code><strong>Manual Override:</strong></code>
+                    <code>• HP M22f Monitor: ৳10,000 (final value)</code>
                 </div>
                 
                 <h3>2.4 Printers/Scanners</h3>
@@ -420,6 +437,11 @@
                     <code>Base Value = ৳15,000</code>
                     <code>+ Brand Bonus (HP: ৳5,000)</code>
                     <code>+ Type Bonus (LaserJet: ৳10,000)</code>
+                    <code></code>
+                    <code><strong>Manual Overrides (Final Values):</strong></code>
+                    <code>• Epson A3 Printer (L8180): ৳50,000</code>
+                    <code>• Epson L3250 Printer: ৳15,000</code>
+                    <code>• HP LaserJet Pro M402dn: ৳30,000</code>
                 </div>
                 
                 <h3>2.5 Server/Network Equipment</h3>
@@ -440,9 +462,11 @@
 
             <!-- Section 3: Depreciation Policy -->
             <div class="section">
-                <h2>3. Depreciation Policy for Used Assets</h2>
-                <p>Since all assets are used/second-hand equipment, depreciation is applied based on current condition:</p>
+                <h2>3. Depreciation Policy</h2>
+                <p>Depreciation is applied based on asset type and condition:</p>
                 
+                <h3>3.1 Used/Reconditioned Assets</h3>
+                <p>Since most assets are used/second-hand equipment, standard depreciation is applied:</p>
                 <div class="depreciation-grid">
                     <div class="depreciation-card">
                         <div class="condition">Excellent</div>
@@ -461,6 +485,23 @@
                         <div class="rate">50% OFF</div>
                         <div class="value">50% Value</div>
                         <p style="margin-top: 10px; color: #7f8c8d; font-size: 0.9em;">Functional but aged</p>
+                    </div>
+                </div>
+                
+                <h3>3.2 New Laptops</h3>
+                <p>New laptops receive minimal depreciation (5-10%):</p>
+                <div class="depreciation-grid">
+                    <div class="depreciation-card">
+                        <div class="condition">Excellent</div>
+                        <div class="rate">5% OFF</div>
+                        <div class="value">95% Value</div>
+                        <p style="margin-top: 10px; color: #7f8c8d; font-size: 0.9em;">Brand new condition</p>
+                    </div>
+                    <div class="depreciation-card">
+                        <div class="condition">Good</div>
+                        <div class="rate">10% OFF</div>
+                        <div class="value">90% Value</div>
+                        <p style="margin-top: 10px; color: #7f8c8d; font-size: 0.9em;">Slightly used, excellent condition</p>
                     </div>
                 </div>
                 
