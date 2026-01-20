@@ -664,7 +664,6 @@ def generate_html(groups, group_values, group_counts, all_assets):
         <div class="header">
             <h1>🖥️ Genesis Technologies Ltd</h1>
             <p>Complete Asset Division Report - Equal Distribution Among Three Groups</p>
-            <p style="font-size: 0.9em; margin-top: 10px;">Generated on {datetime.now().strftime('%B %d, %Y at %I:%M %p')}</p>
         </div>
         
         <div class="notice">
