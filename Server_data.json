@@ -6,7 +6,7 @@
     "Model": "AR-727CM-V3",
     "Remarks": "Excellent",
     "CurrentValue": 7000.0,
-    "AllocationRemark": "Assigned to balance total value (Group C: ৳460,400)"
+    "AllocationRemark": "Assigned to balance total value (Group B: ৳566,200)"
   },
   {
     "AssetType": "Server",
@@ -15,7 +15,7 @@
     "Model": "RB2011UiAS-RM",
     "Remarks": "Excellent",
     "CurrentValue": 17500.0,
-    "AllocationRemark": "Assigned to balance total value (Group C: ৳376,600)"
+    "AllocationRemark": "Assigned to balance total value (Group A: ৳485,450)"
   },
   {
     "AssetType": "Server",
@@ -25,7 +25,7 @@
     "DeviceSerial": "HBJ07MPR6YD/150",
     "Remarks": "Excellent",
     "CurrentValue": 17500.0,
-    "AllocationRemark": "Assigned to balance total value (Group B: ৳394,000)"
+    "AllocationRemark": "Assigned to balance total value (Group B: ৳497,800)"
   },
   {
     "AssetType": "Server",
@@ -35,7 +35,7 @@
     "DeviceSerial": "216C906001181",
     "Remarks": "Excellent",
     "CurrentValue": 14000.0,
-    "AllocationRemark": "Assigned to balance total value (Group A: ৳392,000)"
+    "AllocationRemark": "Assigned to balance total value (Group A: ৳499,450)"
   },
   {
     "AssetType": "Server",
@@ -45,7 +45,7 @@
     "DeviceSerial": "TOC2552YFVQ",
     "Remarks": "Excellent",
     "CurrentValue": 14000.0,
-    "AllocationRemark": "Assigned to balance total value (Group C: ৳405,600)"
+    "AllocationRemark": "Assigned to balance total value (Group C: ৳511,100)"
   },
   {
     "AssetType": "Server",
@@ -55,7 +55,7 @@
     "DeviceSerial": "590831213200011",
     "Remarks": "Excellent",
     "CurrentValue": 8400.0,
-    "AllocationRemark": "Assigned to balance total value (Group C: ৳445,000)"
+    "AllocationRemark": "Assigned to balance total value (Group B: ৳550,800)"
   },
   {
     "AssetType": "Server",
@@ -64,7 +64,7 @@
     "Model": "T1500G-10PS",
     "Remarks": "Excellent",
     "CurrentValue": 8400.0,
-    "AllocationRemark": "Assigned to balance total value (Group C: ৳453,400)"
+    "AllocationRemark": "Assigned to balance total value (Group B: ৳559,200)"
   },
   {
     "AssetType": "Server",
@@ -74,7 +74,7 @@
     "DeviceSerial": "E74263082",
     "Remarks": "Excellent",
     "CurrentValue": 8400.0,
-    "AllocationRemark": "Assigned to balance total value (Group B: ৳453,900)"
+    "AllocationRemark": "Assigned to balance total value (Group A: ৳559,350)"
   },
   {
     "AssetType": "Server",
@@ -84,7 +84,7 @@
     "DeviceSerial": "D4560254B",
     "Remarks": "Excellent",
     "CurrentValue": 12600.0,
-    "AllocationRemark": "Assigned to balance total value (Group A: ৳404,600)"
+    "AllocationRemark": "Assigned to balance total value (Group B: ৳510,400)"
   },
   {
     "AssetType": "Server",
@@ -93,7 +93,7 @@
     "Model": "Net Key",
     "Remarks": "Excellent",
     "CurrentValue": 2100.0,
-    "AllocationRemark": "Assigned to balance total value (Group A: ৳463,100)"
+    "AllocationRemark": "Assigned to balance total value (Group C: ৳568,600)"
   },
   {
     "AssetType": "Server",
@@ -102,7 +102,7 @@
     "Model": "AMP",
     "Remarks": "Excellent",
     "CurrentValue": 2100.0,
-    "AllocationRemark": "Assigned to balance total value (Group A: ৳465,200)"
+    "AllocationRemark": "Assigned to balance total value (Group C: ৳570,700)"
   },
   {
     "AssetType": "Server",
@@ -112,7 +112,7 @@
     "DeviceSerial": "2AACV070870",
     "Remarks": "Excellent",
     "CurrentValue": 10500.0,
-    "AllocationRemark": "Assigned to balance total value (Group B: ৳416,500)"
+    "AllocationRemark": "Assigned to balance total value (Group A: ৳521,950)"
   },
   {
     "AssetType": "Server",
@@ -121,7 +121,7 @@
     "Model": "APC/SRCE6KUX1",
     "Remarks": "Excellent",
     "CurrentValue": 21000.0,
-    "AllocationRemark": "Assigned to balance total value (Group B: ৳357,000)"
+    "AllocationRemark": "Assigned to balance total value (Group A: ৳467,950)"
   },
   {
     "AssetType": "Server",
@@ -129,6 +129,6 @@
     "Name": "UPS Battery 16 PCS",
     "Remarks": "Excellent",
     "CurrentValue": 21000.0,
-    "AllocationRemark": "Assigned to balance total value (Group A: ৳378,000)"
+    "AllocationRemark": "Assigned to balance total value (Group B: ৳480,300)"
   }
 ]

@@ -9,7 +9,7 @@
     "Level": "1️⃣",
     "Remarks": "Excellent",
     "CurrentValue": 10000.0,
-    "AllocationRemark": "Assigned to balance total value (Group B: ৳426,500)"
+    "AllocationRemark": "Assigned to balance total value (Group A: ৳531,950)"
   },
   {
     "AssetType": "Monitor",
@@ -21,7 +21,7 @@
     "Level": "1️⃣",
     "Remarks": "Excellent",
     "CurrentValue": 10000.0,
-    "AllocationRemark": "Assigned to balance total value (Group A: ৳426,600)"
+    "AllocationRemark": "Assigned to balance total value (Group B: ৳532,400)"
   },
   {
     "AssetType": "Monitor",
@@ -33,7 +33,7 @@
     "Level": "1️⃣",
     "Remarks": "Excellent",
     "CurrentValue": 10000.0,
-    "AllocationRemark": "Assigned to balance total value (Group C: ৳427,600)"
+    "AllocationRemark": "Assigned to balance total value (Group C: ৳533,100)"
   },
   {
     "AssetType": "Monitor",
@@ -45,7 +45,7 @@
     "Level": "1️⃣",
     "Remarks": "Excellent",
     "CurrentValue": 10000.0,
-    "AllocationRemark": "Assigned to balance total value (Group B: ৳436,500)"
+    "AllocationRemark": "Assigned to balance total value (Group A: ৳541,950)"
   },
   {
     "AssetType": "Monitor",
@@ -57,7 +57,7 @@
     "Level": "1️⃣",
     "Remarks": "Excellent",
     "CurrentValue": 10000.0,
-    "AllocationRemark": "Assigned to balance total value (Group A: ৳436,600)"
+    "AllocationRemark": "Assigned to balance total value (Group B: ৳542,400)"
   },
   {
     "AssetType": "Monitor",
@@ -69,7 +69,7 @@
     "Level": "2️⃣",
     "Remarks": "Excellent",
     "CurrentValue": 7700.0,
-    "AllocationRemark": "Assigned to balance total value (Group A: ৳453,300)"
+    "AllocationRemark": "Assigned to balance total value (Group C: ৳558,800)"
   },
   {
     "AssetType": "Monitor",
@@ -81,7 +81,7 @@
     "Level": "2️⃣",
     "Remarks": "Excellent",
     "CurrentValue": 7700.0,
-    "AllocationRemark": "Assigned to balance total value (Group A: ৳461,000)"
+    "AllocationRemark": "Assigned to balance total value (Group C: ৳566,500)"
   },
   {
     "AssetType": "Monitor",
@@ -93,7 +93,7 @@
     "Level": "2️⃣",
     "Remarks": "Excellent",
     "CurrentValue": 5600.0,
-    "AllocationRemark": "Assigned to balance total value (Group B: ৳459,500)"
+    "AllocationRemark": "Assigned to balance total value (Group A: ৳564,950)"
   },
   {
     "AssetType": "Monitor",
@@ -105,7 +105,7 @@
     "Level": "3️⃣",
     "Remarks": "Good",
     "CurrentValue": 4800.0,
-    "AllocationRemark": "Assigned to balance total value (Group B: ৳464,300)"
+    "AllocationRemark": "Assigned to balance total value (Group A: ৳569,750)"
   },
   {
     "AssetType": "Monitor",
@@ -117,6 +117,6 @@
     "Level": "3️⃣",
     "Remarks": "Good",
     "CurrentValue": 4800.0,
-    "AllocationRemark": "Assigned to balance total value (Group C: ৳465,200)"
+    "AllocationRemark": "Assigned to balance total value (Group B: ৳571,000)"
   }
 ]

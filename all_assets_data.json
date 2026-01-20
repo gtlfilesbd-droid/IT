@@ -19,6 +19,24 @@
           "AllocationRemark": "Assigned to balance total value (Group A: ৳110,600)"
         },
         {
+          "AssetType": "Laptop",
+          "Serial": 5,
+          "PurchaseType": "New",
+          "Name": "HP",
+          "Model": "probook 440 G8",
+          "RAM": 8,
+          "Processor": "i5",
+          "Storage": "500",
+          "Gen": 11,
+          "GPU": "2GB",
+          "User": "Md. Tariqul Islam",
+          "Location": "User",
+          "Level": "1️⃣",
+          "Remarks": "Excellent",
+          "CurrentValue": 73150.0,
+          "AllocationRemark": "Assigned to balance total value (Group A: ৳183,750)"
+        },
+        {
           "AssetType": "Desktop PC",
           "Serial": 1,
           "Name": "HP Server",
@@ -32,7 +50,41 @@
           "Level": "1️⃣",
           "Remarks": "Excellent",
           "CurrentValue": 72800.0,
-          "AllocationRemark": "Assigned to balance total value (Group A: ৳183,400)"
+          "AllocationRemark": "Assigned to balance total value (Group A: ৳256,550)"
+        },
+        {
+          "AssetType": "Laptop",
+          "Serial": 2,
+          "PurchaseType": "New",
+          "Name": "Dell Laptop",
+          "Model": "P106F",
+          "RAM": 8,
+          "Processor": "i7",
+          "Storage": "500",
+          "Gen": 11,
+          "User": "Nahid",
+          "Location": "In Stock",
+          "Level": "2️⃣",
+          "Remarks": "Good",
+          "CurrentValue": 72000.0,
+          "AllocationRemark": "Assigned to balance total value (Group A: ৳328,550)"
+        },
+        {
+          "AssetType": "Laptop",
+          "Serial": 6,
+          "PurchaseType": "New",
+          "Name": "HP Laptop",
+          "Model": "RTL8822CE",
+          "RAM": 8,
+          "Processor": "i5",
+          "Storage": "240",
+          "Gen": 12,
+          "User": "Aminul T3",
+          "Location": "In Stock",
+          "Level": "2️⃣",
+          "Remarks": "Good",
+          "CurrentValue": 68400.0,
+          "AllocationRemark": "Assigned to balance total value (Group A: ৳396,950)"
         },
         {
           "AssetType": "Printer/Scanner",
@@ -44,73 +96,25 @@
           "Level": "2nd Floor Marketing Room",
           "Status": "1️⃣",
           "CurrentValue": 50000.0,
-          "AllocationRemark": "Assigned to balance total value (Group A: ৳233,400)"
-        },
-        {
-          "AssetType": "Laptop",
-          "Serial": 1,
-          "Name": "DELL",
-          "RAM": 8,
-          "Processor": "i7",
-          "Storage": "500",
-          "Gen": 11,
-          "User": "Masum Billah",
-          "Location": "User",
-          "Level": "2️⃣",
-          "Remarks": "Good",
-          "CurrentValue": 36000.0,
-          "AllocationRemark": "Assigned to balance total value (Group A: ৳269,400)"
-        },
-        {
-          "AssetType": "Laptop",
-          "Serial": 6,
-          "Name": "HP Laptop",
-          "Model": "RTL8822CE",
-          "RAM": 8,
-          "Processor": "i5",
-          "Storage": "240",
-          "Gen": 12,
-          "User": "Aminul T3",
-          "Location": "In Stock",
-          "Level": "2️⃣",
-          "Remarks": "Good",
-          "CurrentValue": 33600.0,
-          "AllocationRemark": "Assigned to balance total value (Group A: ৳303,000)"
-        },
-        {
-          "AssetType": "Printer/Scanner",
-          "Serial": 5,
-          "Name": "HP",
-          "Model": "Laser jet Pro M402dn",
-          "User": "PHCND75197",
-          "Location": "Duplex",
-          "Level": "3rd Floor  Open Space",
-          "Status": "4️⃣",
-          "CurrentValue": 30000.0,
-          "AllocationRemark": "Assigned to balance total value (Group A: ৳333,000)"
-        },
-        {
-          "AssetType": "Desktop PC",
-          "Serial": 8,
-          "Name": "Desktop",
-          "Model": "Clone PC",
-          "RAM": 4,
-          "Processor": "Dual core",
-          "Gen": 4,
-          "User": "Management Room",
-          "Location": "2nd Floor",
-          "Level": "3️⃣",
-          "Remarks": "Moderate",
-          "CurrentValue": 24000.0,
-          "AllocationRemark": "Assigned to balance total value (Group A: ৳357,000)"
+          "AllocationRemark": "Assigned to balance total value (Group A: ৳446,950)"
         },
         {
           "AssetType": "Server",
-          "Serial": 14,
-          "Name": "UPS Battery 16 PCS",
+          "Serial": 13,
+          "Name": "UPS",
+          "Model": "APC/SRCE6KUX1",
           "Remarks": "Excellent",
           "CurrentValue": 21000.0,
-          "AllocationRemark": "Assigned to balance total value (Group A: ৳378,000)"
+          "AllocationRemark": "Assigned to balance total value (Group A: ৳467,950)"
+        },
+        {
+          "AssetType": "Server",
+          "Serial": 2,
+          "Name": "MikroTik Router Board",
+          "Model": "RB2011UiAS-RM",
+          "Remarks": "Excellent",
+          "CurrentValue": 17500.0,
+          "AllocationRemark": "Assigned to balance total value (Group A: ৳485,450)"
         },
         {
           "AssetType": "Server",
@@ -120,111 +124,99 @@
           "DeviceSerial": "216C906001181",
           "Remarks": "Excellent",
           "CurrentValue": 14000.0,
-          "AllocationRemark": "Assigned to balance total value (Group A: ৳392,000)"
-        },
-        {
-          "AssetType": "Server",
-          "Serial": 9,
-          "Name": "Hikvision DVR 16 Port",
-          "Model": "DS-7216HQH1-K2",
-          "DeviceSerial": "D4560254B",
-          "Remarks": "Excellent",
-          "CurrentValue": 12600.0,
-          "AllocationRemark": "Assigned to balance total value (Group A: ৳404,600)"
+          "AllocationRemark": "Assigned to balance total value (Group A: ৳499,450)"
         },
         {
           "AssetType": "Printer/Scanner",
-          "Serial": 4,
+          "Serial": 3,
           "Name": "HP",
-          "Model": "Laser jet Pro M404dw",
-          "User": "PHFYH03206",
-          "Location": "Duplex",
-          "Level": "2nd Floor Marketing Room",
-          "Status": "4️⃣",
+          "Model": "HP Laser Pro MFP M26nw",
+          "User": "CNBKKCSGDZ",
+          "Location": "Copy, Scanner, Duplex",
+          "Level": "2nd Floor Director  Room",
+          "Status": "3️⃣",
           "CurrentValue": 12000.0,
-          "AllocationRemark": "Assigned to balance total value (Group A: ৳416,600)"
+          "AllocationRemark": "Assigned to balance total value (Group A: ৳511,450)"
+        },
+        {
+          "AssetType": "Server",
+          "Serial": 12,
+          "Name": "PBAX Controller",
+          "Model": "KX-Tes824BX",
+          "DeviceSerial": "2AACV070870",
+          "Remarks": "Excellent",
+          "CurrentValue": 10500.0,
+          "AllocationRemark": "Assigned to balance total value (Group A: ৳521,950)"
         },
         {
           "AssetType": "Monitor",
-          "Serial": 2,
+          "Serial": 1,
           "Name": "HP Monitor",
           "Model": "M22f",
-          "User": "IT Room",
+          "User": "Masum",
           "Location": "2nd Floor",
           "Level": "1️⃣",
           "Remarks": "Excellent",
           "CurrentValue": 10000.0,
-          "AllocationRemark": "Assigned to balance total value (Group A: ৳426,600)"
+          "AllocationRemark": "Assigned to balance total value (Group A: ৳531,950)"
         },
         {
           "AssetType": "Monitor",
-          "Serial": 5,
+          "Serial": 4,
           "Name": "HP Monitor",
           "Model": "M22f",
-          "User": "Faysal Design",
-          "Location": "3th Floor",
+          "User": "Nayon",
+          "Location": "2nd Floor",
           "Level": "1️⃣",
           "Remarks": "Excellent",
           "CurrentValue": 10000.0,
-          "AllocationRemark": "Assigned to balance total value (Group A: ৳436,600)"
+          "AllocationRemark": "Assigned to balance total value (Group A: ৳541,950)"
         },
         {
           "AssetType": "Printer/Scanner",
-          "Serial": 9,
-          "Name": "EPSON(Scaneer)",
-          "Model": "J371A",
-          "User": "VCHY136633",
-          "Location": "Scaneer",
-          "Level": "2nd Floor Marketing Room",
-          "Status": "1️⃣",
+          "Serial": 8,
+          "Name": "T3 Project Printer",
+          "Level": "GTL Warehouse",
           "CurrentValue": 9000.0,
-          "AllocationRemark": "Assigned to balance total value (Group A: ৳445,600)"
+          "AllocationRemark": "Assigned to balance total value (Group A: ৳550,950)"
+        },
+        {
+          "AssetType": "Server",
+          "Serial": 8,
+          "Name": "Hikvision DVR 8 Port",
+          "Model": "DS-720BHGH1-F2",
+          "DeviceSerial": "E74263082",
+          "Remarks": "Excellent",
+          "CurrentValue": 8400.0,
+          "AllocationRemark": "Assigned to balance total value (Group A: ৳559,350)"
         },
         {
           "AssetType": "Monitor",
-          "Serial": 6,
-          "Name": "Dell Monitor",
-          "Model": "52240Lc",
+          "Serial": 8,
+          "Name": "HP Monitor",
+          "Model": "LV1911",
           "User": "Design Team",
           "Location": "3rd Floor",
           "Level": "2️⃣",
           "Remarks": "Excellent",
-          "CurrentValue": 7700.0,
-          "AllocationRemark": "Assigned to balance total value (Group A: ৳453,300)"
+          "CurrentValue": 5600.0,
+          "AllocationRemark": "Assigned to balance total value (Group A: ৳564,950)"
         },
         {
           "AssetType": "Monitor",
-          "Serial": 7,
+          "Serial": 9,
           "Name": "Dell Monitor",
-          "Model": "52240Lc",
-          "User": "Design Team",
-          "Location": "3rd Floor",
-          "Level": "2️⃣",
-          "Remarks": "Excellent",
-          "CurrentValue": 7700.0,
-          "AllocationRemark": "Assigned to balance total value (Group A: ৳461,000)"
-        },
-        {
-          "AssetType": "Server",
-          "Serial": 10,
-          "Name": "Patch Panel 24 Port",
-          "Model": "Net Key",
-          "Remarks": "Excellent",
-          "CurrentValue": 2100.0,
-          "AllocationRemark": "Assigned to balance total value (Group A: ৳463,100)"
-        },
-        {
-          "AssetType": "Server",
-          "Serial": 11,
-          "Name": "Cable Manager",
-          "Model": "AMP",
-          "Remarks": "Excellent",
-          "CurrentValue": 2100.0,
-          "AllocationRemark": "Assigned to balance total value (Group A: ৳465,200)"
+          "Model": "E1916HVF",
+          "User": "Comercial Room",
+          "Location": "2nd Floor",
+          "Level": "3️⃣",
+          "Remarks": "Good",
+          "CurrentValue": 4800.0,
+          "AllocationRemark": "Assigned to balance total value (Group A: ৳569,750)"
         }
       ],
-      "total_value": 465200.0,
-      "count": 18
+      "total_value": 569750.0,
+      "count": 17
     },
     "B": {
       "assets": [
@@ -264,24 +256,25 @@
         },
         {
           "AssetType": "Laptop",
-          "Serial": 5,
-          "Name": "HP",
-          "Model": "probook 440 G8",
+          "Serial": 4,
+          "PurchaseType": "New",
+          "Name": "HP Laptop",
+          "Model": "15s-fq5317TU",
           "RAM": 8,
           "Processor": "i5",
           "Storage": "500",
-          "Gen": 11,
-          "GPU": "2GB",
-          "User": "Md. Tariqul Islam",
-          "Location": "User",
+          "Gen": 12,
+          "User": "Jahidul Kabir",
+          "Location": "In Stock",
           "Level": "1️⃣",
           "Remarks": "Excellent",
-          "CurrentValue": 39900.0,
-          "AllocationRemark": "Assigned to balance total value (Group B: ৳241,500)"
+          "CurrentValue": 72200.0,
+          "AllocationRemark": "Assigned to balance total value (Group B: ৳273,800)"
         },
         {
           "AssetType": "Laptop",
           "Serial": 9,
+          "PurchaseType": "New",
           "Name": "DELL",
           "Model": "Inspiron 3511",
           "RAM": 8,
@@ -293,66 +286,64 @@
           "Location": "User",
           "Level": "2️⃣",
           "Remarks": "Good",
-          "CurrentValue": 34200.0,
-          "AllocationRemark": "Assigned to balance total value (Group B: ৳275,700)"
+          "CurrentValue": 69300.0,
+          "AllocationRemark": "Assigned to balance total value (Group B: ৳343,100)"
         },
         {
           "AssetType": "Laptop",
-          "Serial": 7,
+          "Serial": 8,
+          "PurchaseType": "New",
           "Name": "Dell Laptop",
-          "Model": "Inspiron 15 3511",
+          "Model": "Inspiron 5410",
           "RAM": 8,
           "Processor": "i5",
           "Storage": "500",
           "Gen": 11,
-          "User": "Tareq",
+          "User": "Salim",
           "Location": "In Stock",
           "Level": "2️⃣",
           "Remarks": "Good",
-          "CurrentValue": 31800.0,
-          "AllocationRemark": "Assigned to balance total value (Group B: ৳307,500)"
+          "CurrentValue": 65700.0,
+          "AllocationRemark": "Assigned to balance total value (Group B: ৳408,800)"
         },
         {
-          "AssetType": "Laptop",
-          "Serial": 3,
-          "Name": "HP",
-          "Model": "Probook 440 G4",
-          "RAM": 8,
-          "Processor": "i7",
-          "Storage": "128/1000",
-          "Gen": 7,
-          "User": "Faysal Hossain(Design)",
-          "Location": "User",
+          "AssetType": "Desktop PC",
+          "Serial": 7,
+          "Name": "Desktop",
+          "Model": "Clone PC",
+          "RAM": 4,
+          "Processor": "i3",
+          "Storage": "1000",
+          "Gen": 4,
+          "User": "Comercial Room",
+          "Location": "2nd Floor",
           "Level": "3️⃣",
           "Remarks": "Moderate",
-          "CurrentValue": 28500.0,
-          "AllocationRemark": "Assigned to balance total value (Group B: ৳336,000)"
+          "CurrentValue": 26500.0,
+          "AllocationRemark": "Assigned to balance total value (Group B: ৳435,300)"
+        },
+        {
+          "AssetType": "Desktop PC",
+          "Serial": 8,
+          "Name": "Desktop",
+          "Model": "Clone PC",
+          "RAM": 4,
+          "Processor": "Dual core",
+          "Gen": 4,
+          "User": "Management Room",
+          "Location": "2nd Floor",
+          "Level": "3️⃣",
+          "Remarks": "Moderate",
+          "CurrentValue": 24000.0,
+          "AllocationRemark": "Assigned to balance total value (Group B: ৳459,300)"
         },
         {
           "AssetType": "Server",
-          "Serial": 13,
-          "Name": "UPS",
-          "Model": "APC/SRCE6KUX1",
+          "Serial": 14,
+          "Name": "UPS Battery 16 PCS",
           "Remarks": "Excellent",
           "CurrentValue": 21000.0,
-          "AllocationRemark": "Assigned to balance total value (Group B: ৳357,000)"
-        },
-        {
-          "AssetType": "Laptop",
-          "Serial": 10,
-          "Name": "DELL",
-          "Model": "Latitute 3350",
-          "RAM": 4,
-          "Processor": "i3",
-          "Storage": "500",
-          "Gen": 5,
-          "GPU": "128MB",
-          "User": "Debasish Mondol",
-          "Location": "User",
-          "Level": "3️⃣",
-          "Remarks": "Moderate",
-          "CurrentValue": 19500.0,
-          "AllocationRemark": "Assigned to balance total value (Group B: ৳376,500)"
+          "AllocationRemark": "Assigned to balance total value (Group B: ৳480,300)"
         },
         {
           "AssetType": "Server",
@@ -362,98 +353,96 @@
           "DeviceSerial": "HBJ07MPR6YD/150",
           "Remarks": "Excellent",
           "CurrentValue": 17500.0,
-          "AllocationRemark": "Assigned to balance total value (Group B: ৳394,000)"
-        },
-        {
-          "AssetType": "Printer/Scanner",
-          "Serial": 3,
-          "Name": "HP",
-          "Model": "HP Laser Pro MFP M26nw",
-          "User": "CNBKKCSGDZ",
-          "Location": "Copy, Scanner, Duplex",
-          "Level": "2nd Floor Director  Room",
-          "Status": "3️⃣",
-          "CurrentValue": 12000.0,
-          "AllocationRemark": "Assigned to balance total value (Group B: ৳406,000)"
+          "AllocationRemark": "Assigned to balance total value (Group B: ৳497,800)"
         },
         {
           "AssetType": "Server",
-          "Serial": 12,
-          "Name": "PBAX Controller",
-          "Model": "KX-Tes824BX",
-          "DeviceSerial": "2AACV070870",
+          "Serial": 9,
+          "Name": "Hikvision DVR 16 Port",
+          "Model": "DS-7216HQH1-K2",
+          "DeviceSerial": "D4560254B",
           "Remarks": "Excellent",
-          "CurrentValue": 10500.0,
-          "AllocationRemark": "Assigned to balance total value (Group B: ৳416,500)"
+          "CurrentValue": 12600.0,
+          "AllocationRemark": "Assigned to balance total value (Group B: ৳510,400)"
         },
         {
-          "AssetType": "Monitor",
-          "Serial": 1,
-          "Name": "HP Monitor",
-          "Model": "M22f",
-          "User": "Masum",
-          "Location": "2nd Floor",
-          "Level": "1️⃣",
-          "Remarks": "Excellent",
-          "CurrentValue": 10000.0,
-          "AllocationRemark": "Assigned to balance total value (Group B: ৳426,500)"
-        },
-        {
-          "AssetType": "Monitor",
+          "AssetType": "Printer/Scanner",
           "Serial": 4,
+          "Name": "HP",
+          "Model": "Laser jet Pro M404dw",
+          "User": "PHFYH03206",
+          "Location": "Duplex",
+          "Level": "2nd Floor Marketing Room",
+          "Status": "4️⃣",
+          "CurrentValue": 12000.0,
+          "AllocationRemark": "Assigned to balance total value (Group B: ৳522,400)"
+        },
+        {
+          "AssetType": "Monitor",
+          "Serial": 2,
           "Name": "HP Monitor",
           "Model": "M22f",
-          "User": "Nayon",
+          "User": "IT Room",
           "Location": "2nd Floor",
           "Level": "1️⃣",
           "Remarks": "Excellent",
           "CurrentValue": 10000.0,
-          "AllocationRemark": "Assigned to balance total value (Group B: ৳436,500)"
+          "AllocationRemark": "Assigned to balance total value (Group B: ৳532,400)"
         },
         {
-          "AssetType": "Printer/Scanner",
-          "Serial": 8,
-          "Name": "T3 Project Printer",
-          "Level": "GTL Warehouse",
-          "CurrentValue": 9000.0,
-          "AllocationRemark": "Assigned to balance total value (Group B: ৳445,500)"
+          "AssetType": "Monitor",
+          "Serial": 5,
+          "Name": "HP Monitor",
+          "Model": "M22f",
+          "User": "Faysal Design",
+          "Location": "3th Floor",
+          "Level": "1️⃣",
+          "Remarks": "Excellent",
+          "CurrentValue": 10000.0,
+          "AllocationRemark": "Assigned to balance total value (Group B: ৳542,400)"
         },
         {
           "AssetType": "Server",
-          "Serial": 8,
-          "Name": "Hikvision DVR 8 Port",
-          "Model": "DS-720BHGH1-F2",
-          "DeviceSerial": "E74263082",
+          "Serial": 6,
+          "Name": "KVM Switch 8 Port",
+          "Model": "KVM-0831",
+          "DeviceSerial": "590831213200011",
           "Remarks": "Excellent",
           "CurrentValue": 8400.0,
-          "AllocationRemark": "Assigned to balance total value (Group B: ৳453,900)"
+          "AllocationRemark": "Assigned to balance total value (Group B: ৳550,800)"
         },
         {
-          "AssetType": "Monitor",
-          "Serial": 8,
-          "Name": "HP Monitor",
-          "Model": "LV1911",
-          "User": "Design Team",
-          "Location": "3rd Floor",
-          "Level": "2️⃣",
+          "AssetType": "Server",
+          "Serial": 7,
+          "Name": "TP-Link Switch 8 Port",
+          "Model": "T1500G-10PS",
           "Remarks": "Excellent",
-          "CurrentValue": 5600.0,
-          "AllocationRemark": "Assigned to balance total value (Group B: ৳459,500)"
+          "CurrentValue": 8400.0,
+          "AllocationRemark": "Assigned to balance total value (Group B: ৳559,200)"
+        },
+        {
+          "AssetType": "Server",
+          "Serial": 1,
+          "Name": "ACS Soyal Conveter",
+          "Model": "AR-727CM-V3",
+          "Remarks": "Excellent",
+          "CurrentValue": 7000.0,
+          "AllocationRemark": "Assigned to balance total value (Group B: ৳566,200)"
         },
         {
           "AssetType": "Monitor",
-          "Serial": 9,
+          "Serial": 10,
           "Name": "Dell Monitor",
-          "Model": "E1916HVF",
-          "User": "Comercial Room",
-          "Location": "2nd Floor",
+          "Model": "E170SC",
+          "User": "Reception",
+          "Location": "8th Floor",
           "Level": "3️⃣",
           "Remarks": "Good",
           "CurrentValue": 4800.0,
-          "AllocationRemark": "Assigned to balance total value (Group B: ৳464,300)"
+          "AllocationRemark": "Assigned to balance total value (Group B: ৳571,000)"
         }
       ],
-      "total_value": 464300.0,
+      "total_value": 571000.0,
       "count": 17
     },
     "C": {
@@ -494,67 +483,65 @@
         },
         {
           "AssetType": "Laptop",
-          "Serial": 4,
-          "Name": "HP Laptop",
-          "Model": "15s-fq5317TU",
-          "RAM": 8,
-          "Processor": "i5",
-          "Storage": "500",
-          "Gen": 12,
-          "User": "Jahidul Kabir",
-          "Location": "In Stock",
-          "Level": "1️⃣",
-          "Remarks": "Excellent",
-          "CurrentValue": 39200.0,
-          "AllocationRemark": "Assigned to balance total value (Group C: ৳240,800)"
-        },
-        {
-          "AssetType": "Laptop",
-          "Serial": 2,
-          "Name": "Dell Laptop",
-          "Model": "P106F",
+          "Serial": 1,
+          "PurchaseType": "New",
+          "Name": "DELL",
           "RAM": 8,
           "Processor": "i7",
           "Storage": "500",
           "Gen": 11,
-          "User": "Nahid",
-          "Location": "In Stock",
+          "User": "Masum Billah",
+          "Location": "User",
           "Level": "2️⃣",
           "Remarks": "Good",
-          "CurrentValue": 36000.0,
-          "AllocationRemark": "Assigned to balance total value (Group C: ৳276,800)"
+          "CurrentValue": 72000.0,
+          "AllocationRemark": "Assigned to balance total value (Group C: ৳273,600)"
         },
         {
           "AssetType": "Laptop",
-          "Serial": 8,
+          "Serial": 3,
+          "PurchaseType": "New",
+          "Name": "HP",
+          "Model": "Probook 440 G4",
+          "RAM": 8,
+          "Processor": "i7",
+          "Storage": "128/1000",
+          "Gen": 7,
+          "User": "Faysal Hossain(Design)",
+          "Location": "User",
+          "Level": "3️⃣",
+          "Remarks": "Moderate",
+          "CurrentValue": 69300.0,
+          "AllocationRemark": "Assigned to balance total value (Group C: ৳342,900)"
+        },
+        {
+          "AssetType": "Laptop",
+          "Serial": 7,
+          "PurchaseType": "New",
           "Name": "Dell Laptop",
-          "Model": "Inspiron 5410",
+          "Model": "Inspiron 15 3511",
           "RAM": 8,
           "Processor": "i5",
           "Storage": "500",
           "Gen": 11,
-          "User": "Salim",
+          "User": "Tareq",
           "Location": "In Stock",
           "Level": "2️⃣",
           "Remarks": "Good",
-          "CurrentValue": 31800.0,
-          "AllocationRemark": "Assigned to balance total value (Group C: ৳308,600)"
+          "CurrentValue": 65700.0,
+          "AllocationRemark": "Assigned to balance total value (Group C: ৳408,600)"
         },
         {
-          "AssetType": "Desktop PC",
-          "Serial": 7,
-          "Name": "Desktop",
-          "Model": "Clone PC",
-          "RAM": 4,
-          "Processor": "i3",
-          "Storage": "1000",
-          "Gen": 4,
-          "User": "Comercial Room",
-          "Location": "2nd Floor",
-          "Level": "3️⃣",
-          "Remarks": "Moderate",
-          "CurrentValue": 26500.0,
-          "AllocationRemark": "Assigned to balance total value (Group C: ৳335,100)"
+          "AssetType": "Printer/Scanner",
+          "Serial": 5,
+          "Name": "HP",
+          "Model": "Laser jet Pro M402dn",
+          "User": "PHCND75197",
+          "Location": "Duplex",
+          "Level": "3rd Floor  Open Space",
+          "Status": "4️⃣",
+          "CurrentValue": 30000.0,
+          "AllocationRemark": "Assigned to balance total value (Group C: ৳438,600)"
         },
         {
           "AssetType": "Desktop PC",
@@ -569,16 +556,24 @@
           "Level": "3️⃣",
           "Remarks": "Moderate",
           "CurrentValue": 24000.0,
-          "AllocationRemark": "Assigned to balance total value (Group C: ৳359,100)"
+          "AllocationRemark": "Assigned to balance total value (Group C: ৳462,600)"
         },
         {
-          "AssetType": "Server",
-          "Serial": 2,
-          "Name": "MikroTik Router Board",
-          "Model": "RB2011UiAS-RM",
-          "Remarks": "Excellent",
-          "CurrentValue": 17500.0,
-          "AllocationRemark": "Assigned to balance total value (Group C: ৳376,600)"
+          "AssetType": "Laptop",
+          "Serial": 10,
+          "Name": "DELL",
+          "Model": "Latitute 3350",
+          "RAM": 4,
+          "Processor": "i3",
+          "Storage": "500",
+          "Gen": 5,
+          "GPU": "128MB",
+          "User": "Debasish Mondol",
+          "Location": "User",
+          "Level": "3️⃣",
+          "Remarks": "Moderate",
+          "CurrentValue": 19500.0,
+          "AllocationRemark": "Assigned to balance total value (Group C: ৳482,100)"
         },
         {
           "AssetType": "Printer/Scanner",
@@ -589,7 +584,7 @@
           "Level": "3rd Floor CO Sir Room",
           "Status": "2️⃣",
           "CurrentValue": 15000.0,
-          "AllocationRemark": "Assigned to balance total value (Group C: ৳391,600)"
+          "AllocationRemark": "Assigned to balance total value (Group C: ৳497,100)"
         },
         {
           "AssetType": "Server",
@@ -599,7 +594,7 @@
           "DeviceSerial": "TOC2552YFVQ",
           "Remarks": "Excellent",
           "CurrentValue": 14000.0,
-          "AllocationRemark": "Assigned to balance total value (Group C: ৳405,600)"
+          "AllocationRemark": "Assigned to balance total value (Group C: ৳511,100)"
         },
         {
           "AssetType": "Printer/Scanner",
@@ -611,7 +606,7 @@
           "Level": "2nd Floor FPT Room",
           "Status": "6️⃣",
           "CurrentValue": 12000.0,
-          "AllocationRemark": "Assigned to balance total value (Group C: ৳417,600)"
+          "AllocationRemark": "Assigned to balance total value (Group C: ৳523,100)"
         },
         {
           "AssetType": "Monitor",
@@ -623,7 +618,7 @@
           "Level": "1️⃣",
           "Remarks": "Excellent",
           "CurrentValue": 10000.0,
-          "AllocationRemark": "Assigned to balance total value (Group C: ৳427,600)"
+          "AllocationRemark": "Assigned to balance total value (Group C: ৳533,100)"
         },
         {
           "AssetType": "Printer/Scanner",
@@ -635,51 +630,65 @@
           "Level": "3rd Floor Supply Manager Room",
           "Status": "5️⃣",
           "CurrentValue": 9000.0,
-          "AllocationRemark": "Assigned to balance total value (Group C: ৳436,600)"
+          "AllocationRemark": "Assigned to balance total value (Group C: ৳542,100)"
         },
         {
-          "AssetType": "Server",
-          "Serial": 6,
-          "Name": "KVM Switch 8 Port",
-          "Model": "KVM-0831",
-          "DeviceSerial": "590831213200011",
-          "Remarks": "Excellent",
-          "CurrentValue": 8400.0,
-          "AllocationRemark": "Assigned to balance total value (Group C: ৳445,000)"
-        },
-        {
-          "AssetType": "Server",
-          "Serial": 7,
-          "Name": "TP-Link Switch 8 Port",
-          "Model": "T1500G-10PS",
-          "Remarks": "Excellent",
-          "CurrentValue": 8400.0,
-          "AllocationRemark": "Assigned to balance total value (Group C: ৳453,400)"
-        },
-        {
-          "AssetType": "Server",
-          "Serial": 1,
-          "Name": "ACS Soyal Conveter",
-          "Model": "AR-727CM-V3",
-          "Remarks": "Excellent",
-          "CurrentValue": 7000.0,
-          "AllocationRemark": "Assigned to balance total value (Group C: ৳460,400)"
+          "AssetType": "Printer/Scanner",
+          "Serial": 9,
+          "Name": "EPSON(Scaneer)",
+          "Model": "J371A",
+          "User": "VCHY136633",
+          "Location": "Scaneer",
+          "Level": "2nd Floor Marketing Room",
+          "Status": "1️⃣",
+          "CurrentValue": 9000.0,
+          "AllocationRemark": "Assigned to balance total value (Group C: ৳551,100)"
         },
         {
           "AssetType": "Monitor",
-          "Serial": 10,
+          "Serial": 6,
           "Name": "Dell Monitor",
-          "Model": "E170SC",
-          "User": "Reception",
-          "Location": "8th Floor",
-          "Level": "3️⃣",
-          "Remarks": "Good",
-          "CurrentValue": 4800.0,
-          "AllocationRemark": "Assigned to balance total value (Group C: ৳465,200)"
+          "Model": "52240Lc",
+          "User": "Design Team",
+          "Location": "3rd Floor",
+          "Level": "2️⃣",
+          "Remarks": "Excellent",
+          "CurrentValue": 7700.0,
+          "AllocationRemark": "Assigned to balance total value (Group C: ৳558,800)"
+        },
+        {
+          "AssetType": "Monitor",
+          "Serial": 7,
+          "Name": "Dell Monitor",
+          "Model": "52240Lc",
+          "User": "Design Team",
+          "Location": "3rd Floor",
+          "Level": "2️⃣",
+          "Remarks": "Excellent",
+          "CurrentValue": 7700.0,
+          "AllocationRemark": "Assigned to balance total value (Group C: ৳566,500)"
+        },
+        {
+          "AssetType": "Server",
+          "Serial": 10,
+          "Name": "Patch Panel 24 Port",
+          "Model": "Net Key",
+          "Remarks": "Excellent",
+          "CurrentValue": 2100.0,
+          "AllocationRemark": "Assigned to balance total value (Group C: ৳568,600)"
+        },
+        {
+          "AssetType": "Server",
+          "Serial": 11,
+          "Name": "Cable Manager",
+          "Model": "AMP",
+          "Remarks": "Excellent",
+          "CurrentValue": 2100.0,
+          "AllocationRemark": "Assigned to balance total value (Group C: ৳570,700)"
         }
       ],
-      "total_value": 465200.0,
-      "count": 17
+      "total_value": 570700.0,
+      "count": 18
     }
   }
 }

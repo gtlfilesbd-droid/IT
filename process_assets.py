@@ -90,9 +90,31 @@ def read_excel_data(file_path, asset_type):
         # or starts directly with Serial (like PC.xlsx, Monitor.xlsx)
         has_category = (serial_col == 1)  # If Serial is in column 1, there's a Category column
         
+        # Track current section for new laptop detection
+        # Check rows BEFORE header to find section markers
+        current_section = ''
+        if has_category and asset_type == 'Laptop':
+            for idx in range(0, header_row):
+                row = df.iloc[idx]
+                if len(row) > 0:
+                    first_col = str(row.iloc[0]).lower() if not pd.isna(row.iloc[0]) else ''
+                    if 'new purchase' in first_col:
+                        current_section = 'new'
+                        break
+        
         # Process data rows after the header
         for idx in range(header_row + 1, len(df)):
             row = df.iloc[idx]
+            
+            # Check if this is a section header row (for laptops)
+            if has_category and asset_type == 'Laptop' and len(row) > 0:
+                first_col = str(row.iloc[0]).lower() if not pd.isna(row.iloc[0]) else ''
+                if 'new purchase' in first_col:
+                    current_section = 'new'
+                    continue
+                elif 'recondition' in first_col or 'used' in first_col:
+                    current_section = 'used'
+                    continue
             
             # Get serial number from the appropriate column
             serial = row.iloc[serial_col] if len(row) > serial_col else None
@@ -117,11 +139,9 @@ def read_excel_data(file_path, asset_type):
             if has_category:
                 # Laptop.xlsx format: 0=Category, 1=Serial, 2=Name, 3=Model, 4=RAM, 5=Processor, etc.
                 col_offset = 1
-                # Check category for new purchase detection (for laptops)
-                if asset_type == 'Laptop' and len(row) > 0:
-                    category = str(row.iloc[0]).lower() if not pd.isna(row.iloc[0]) else ''
-                    if 'new purchase' in category or 'new' in category:
-                        asset['PurchaseType'] = 'New'
+                # Mark laptop as new based on current section
+                if asset_type == 'Laptop' and current_section == 'new':
+                    asset['PurchaseType'] = 'New'
             else:
                 # PC.xlsx/Monitor.xlsx format: 0=Serial, 1=Name, 2=Model, 3=RAM, 4=Processor, etc.
                 col_offset = 0
