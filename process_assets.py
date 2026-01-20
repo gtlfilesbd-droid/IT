@@ -494,15 +494,52 @@ def generate_html(groups, group_values, group_counts, all_assets):
         body {{
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            padding: 20px;
+            padding: 0;
             min-height: 100vh;
+        }}
+        
+        .tab-navigation {{
+            max-width: 1600px;
+            margin: 20px auto 0 auto;
+            padding: 0 20px;
+            display: flex;
+            gap: 5px;
+            background: transparent;
+        }}
+        
+        .tab-link {{
+            color: rgba(255, 255, 255, 0.8);
+            text-decoration: none;
+            padding: 15px 30px;
+            border-radius: 10px 10px 0 0;
+            font-weight: 600;
+            font-size: 1.05em;
+            transition: all 0.3s ease;
+            background: rgba(255, 255, 255, 0.1);
+            border: 2px solid transparent;
+            border-bottom: none;
+            position: relative;
+            top: 2px;
+        }}
+        
+        .tab-link:hover {{
+            background: rgba(255, 255, 255, 0.2);
+            color: white;
+        }}
+        
+        .tab-link.active {{
+            background: white;
+            color: #2c3e50;
+            border: 2px solid white;
+            border-bottom: none;
+            box-shadow: 0 -2px 10px rgba(0,0,0,0.1);
         }}
         
         .container {{
             max-width: 1600px;
-            margin: 0 auto;
+            margin: 0 auto 20px auto;
             background: white;
-            border-radius: 15px;
+            border-radius: 0 15px 15px 15px;
             box-shadow: 0 20px 60px rgba(0,0,0,0.3);
             overflow: hidden;
         }}
@@ -701,6 +738,11 @@ def generate_html(groups, group_values, group_counts, all_assets):
     </style>
 </head>
 <body>
+    <nav class="tab-navigation">
+        <a href="index.html" class="tab-link active">Asset Distribution</a>
+        <a href="methodology.html" class="tab-link">Methodology & Reports</a>
+    </nav>
+
     <div class="container">
         <div class="header">
             <h1>🖥️ Genesis Technologies Ltd</h1>
