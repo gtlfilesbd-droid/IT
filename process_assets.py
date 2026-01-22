@@ -98,7 +98,7 @@ MARKET_PRICES = {
         'Cable Manager': 2000,  # Cable management
         'PBAX KX-Tes824BX': 25000,  # PABX controller
         'ACS Soyal AR-727CM-V3': 15000,  # Access control converter
-        'UPS generic': 35000,  # UPS system
+        'UPS generic': 160000,  # UPS system (16 PCS batteries)
         'Switch generic': 10000,  # Generic switch
     }
 }
@@ -278,7 +278,7 @@ def get_market_price(asset):
         elif 'acs' in name_lower or 'soyal' in name_lower:
             return 15000
         elif 'ups' in name_lower:
-            return 35000
+            return 160000  # UPS with 16 PCS batteries
         return 10000  # Generic network device
     
     return 50000  # Final fallback
