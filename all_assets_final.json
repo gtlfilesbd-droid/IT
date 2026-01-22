@@ -57,7 +57,7 @@
     "CurrentValue": 50750.0,
     "DepreciationRate": "30%",
     "RemarkCategory": "Excellent",
-    "AllocationRemark": "Assigned to balance total value (Group C: BDT 764,750)"
+    "AllocationRemark": "Assigned to balance total value (Group B: BDT 760,750)"
   },
   {
     "AssetType": "Laptop",
@@ -77,7 +77,7 @@
     "CurrentValue": 50750.0,
     "DepreciationRate": "30%",
     "RemarkCategory": "Excellent",
-    "AllocationRemark": "Assigned to balance total value (Group A: BDT 798,750)"
+    "AllocationRemark": "Assigned to balance total value (Group C: BDT 789,250)"
   },
   {
     "AssetType": "Laptop",
@@ -98,7 +98,7 @@
     "CurrentValue": 59500.0,
     "DepreciationRate": "30%",
     "RemarkCategory": "Excellent",
-    "AllocationRemark": "Assigned to balance total value (Group A: BDT 695,500)"
+    "AllocationRemark": "Assigned to balance total value (Group C: BDT 686,000)"
   },
   {
     "AssetType": "Laptop",
@@ -119,7 +119,7 @@
     "CurrentValue": 52500.0,
     "DepreciationRate": "30%",
     "RemarkCategory": "Excellent",
-    "AllocationRemark": "Assigned to balance total value (Group A: BDT 748,000)"
+    "AllocationRemark": "Assigned to balance total value (Group C: BDT 738,500)"
   },
   {
     "AssetType": "Laptop",
@@ -139,7 +139,7 @@
     "CurrentValue": 43500.0,
     "DepreciationRate": "40%",
     "RemarkCategory": "Good",
-    "AllocationRemark": "Assigned to balance total value (Group C: BDT 853,250)"
+    "AllocationRemark": "Assigned to balance total value (Group B: BDT 849,250)"
   },
   {
     "AssetType": "Laptop",
@@ -159,7 +159,7 @@
     "CurrentValue": 45000.0,
     "DepreciationRate": "40%",
     "RemarkCategory": "Good",
-    "AllocationRemark": "Assigned to balance total value (Group B: BDT 809,500)"
+    "AllocationRemark": "Assigned to balance total value (Group A: BDT 791,500)"
   },
   {
     "AssetType": "Laptop",
@@ -179,7 +179,7 @@
     "CurrentValue": 45000.0,
     "DepreciationRate": "40%",
     "RemarkCategory": "Good",
-    "AllocationRemark": "Assigned to balance total value (Group C: BDT 809,750)"
+    "AllocationRemark": "Assigned to balance total value (Group B: BDT 805,750)"
   },
   {
     "AssetType": "Laptop",
@@ -200,7 +200,7 @@
     "CurrentValue": 45000.0,
     "DepreciationRate": "40%",
     "RemarkCategory": "Good",
-    "AllocationRemark": "Assigned to balance total value (Group A: BDT 843,750)"
+    "AllocationRemark": "Assigned to balance total value (Group C: BDT 834,250)"
   },
   {
     "AssetType": "Laptop",
@@ -221,7 +221,7 @@
     "CurrentValue": 45000.0,
     "DepreciationRate": "40%",
     "RemarkCategory": "Good",
-    "AllocationRemark": "Assigned to balance total value (Group B: BDT 854,500)"
+    "AllocationRemark": "Assigned to balance total value (Group A: BDT 836,500)"
   },
   {
     "AssetType": "Laptop",
@@ -242,7 +242,7 @@
     "CurrentValue": 37500.0,
     "DepreciationRate": "50%",
     "RemarkCategory": "Moderate",
-    "AllocationRemark": "Assigned to balance total value (Group A: BDT 881,250)"
+    "AllocationRemark": "Assigned to balance total value (Group C: BDT 871,750)"
   },
   {
     "AssetType": "Laptop",
@@ -262,7 +262,7 @@
     "CurrentValue": 35000.0,
     "DepreciationRate": "50%",
     "RemarkCategory": "Moderate",
-    "AllocationRemark": "Assigned to balance total value (Group B: BDT 889,500)"
+    "AllocationRemark": "Assigned to balance total value (Group B: BDT 884,250)"
   },
   {
     "AssetType": "Laptop",
@@ -282,7 +282,7 @@
     "CurrentValue": 30000.0,
     "DepreciationRate": "40%",
     "RemarkCategory": "Good",
-    "AllocationRemark": "Assigned to balance total value (Group C: BDT 953,750)"
+    "AllocationRemark": "Assigned to balance total value (Group A: BDT 939,000)"
   },
   {
     "AssetType": "Laptop",
@@ -302,7 +302,7 @@
     "CurrentValue": 28800.0,
     "DepreciationRate": "40%",
     "RemarkCategory": "Good",
-    "AllocationRemark": "Assigned to balance total value (Group A: BDT 978,050)"
+    "AllocationRemark": "Assigned to balance total value (Group A: BDT 967,800)"
   },
   {
     "AssetType": "Laptop",
@@ -322,7 +322,7 @@
     "CurrentValue": 28800.0,
     "DepreciationRate": "40%",
     "RemarkCategory": "Good",
-    "AllocationRemark": "Assigned to balance total value (Group C: BDT 982,550)"
+    "AllocationRemark": "Assigned to balance total value (Group C: BDT 968,550)"
   },
   {
     "AssetType": "Laptop",
@@ -342,7 +342,7 @@
     "CurrentValue": 24000.0,
     "DepreciationRate": "50%",
     "RemarkCategory": "Moderate",
-    "AllocationRemark": "Assigned to balance total value (Group B: BDT 977,900)"
+    "AllocationRemark": "Assigned to balance total value (Group B: BDT 970,650)"
   },
   {
     "AssetType": "Laptop",
@@ -363,7 +363,7 @@
     "CurrentValue": 24000.0,
     "DepreciationRate": "60%",
     "RemarkCategory": "Excellent",
-    "AllocationRemark": "Assigned to balance total value (Group B: BDT 1,001,900)"
+    "AllocationRemark": "Assigned to balance total value (Group A: BDT 991,800)"
   },
   {
     "AssetType": "Laptop",
@@ -383,7 +383,7 @@
     "CurrentValue": 19000.0,
     "DepreciationRate": "80%",
     "RemarkCategory": "Moderate",
-    "AllocationRemark": "Assigned to balance total value (Group B: BDT 1,042,900)"
+    "AllocationRemark": "Assigned to balance total value (Group C: BDT 1,033,050)"
   },
   {
     "AssetType": "Laptop",
@@ -403,7 +403,7 @@
     "CurrentValue": 19200.0,
     "DepreciationRate": "60%",
     "RemarkCategory": "Excellent",
-    "AllocationRemark": "Assigned to balance total value (Group A: BDT 1,042,750)"
+    "AllocationRemark": "Assigned to balance total value (Group A: BDT 1,033,000)"
   },
   {
     "AssetType": "Laptop",
@@ -423,7 +423,7 @@
     "CurrentValue": 22000.0,
     "DepreciationRate": "60%",
     "RemarkCategory": "Excellent",
-    "AllocationRemark": "Assigned to balance total value (Group B: BDT 1,023,900)"
+    "AllocationRemark": "Assigned to balance total value (Group A: BDT 1,013,800)"
   },
   {
     "AssetType": "Laptop",
@@ -444,7 +444,7 @@
     "CurrentValue": 18000.0,
     "DepreciationRate": "60%",
     "RemarkCategory": "Excellent",
-    "AllocationRemark": "Assigned to balance total value (Group C: BDT 1,044,050)"
+    "AllocationRemark": "Assigned to balance total value (Group B: BDT 1,032,150)"
   },
   {
     "AssetType": "Laptop",
@@ -463,7 +463,7 @@
     "CurrentValue": 13500.0,
     "DepreciationRate": "70%",
     "RemarkCategory": "Good",
-    "AllocationRemark": "Assigned to balance total value (Group B: BDT 1,088,600)"
+    "AllocationRemark": "Assigned to balance total value (Group C: BDT 1,078,050)"
   },
   {
     "AssetType": "Laptop",
@@ -483,7 +483,7 @@
     "CurrentValue": 13500.0,
     "DepreciationRate": "70%",
     "RemarkCategory": "Good",
-    "AllocationRemark": "Assigned to balance total value (Group A: BDT 1,088,750)"
+    "AllocationRemark": "Assigned to balance total value (Group B: BDT 1,078,150)"
   },
   {
     "AssetType": "Laptop",
@@ -503,7 +503,7 @@
     "CurrentValue": 15000.0,
     "DepreciationRate": "70%",
     "RemarkCategory": "Good",
-    "AllocationRemark": "Assigned to balance total value (Group A: BDT 1,075,250)"
+    "AllocationRemark": "Assigned to balance total value (Group B: BDT 1,064,650)"
   },
   {
     "AssetType": "Laptop",
@@ -524,7 +524,7 @@
     "CurrentValue": 13500.0,
     "DepreciationRate": "70%",
     "RemarkCategory": "Good",
-    "AllocationRemark": "Assigned to balance total value (Group C: BDT 1,089,050)"
+    "AllocationRemark": "Assigned to balance total value (Group A: BDT 1,078,700)"
   },
   {
     "AssetType": "Laptop",
@@ -544,7 +544,7 @@
     "CurrentValue": 5600.0,
     "DepreciationRate": "80%",
     "RemarkCategory": "Moderate",
-    "AllocationRemark": "Assigned to balance total value (Group C: BDT 1,177,000)"
+    "AllocationRemark": "Assigned to balance total value (Group B: BDT 1,166,450)"
   },
   {
     "AssetType": "Laptop",
@@ -564,7 +564,7 @@
     "CurrentValue": 5600.0,
     "DepreciationRate": "80%",
     "RemarkCategory": "Moderate",
-    "AllocationRemark": "Assigned to balance total value (Group B: BDT 1,177,200)"
+    "AllocationRemark": "Assigned to balance total value (Group C: BDT 1,166,650)"
   },
   {
     "AssetType": "Laptop",
@@ -584,7 +584,7 @@
     "CurrentValue": 5600.0,
     "DepreciationRate": "80%",
     "RemarkCategory": "Moderate",
-    "AllocationRemark": "Assigned to balance total value (Group A: BDT 1,182,350)"
+    "AllocationRemark": "Assigned to balance total value (Group A: BDT 1,171,950)"
   },
   {
     "AssetType": "Laptop",
@@ -604,7 +604,7 @@
     "CurrentValue": 5600.0,
     "DepreciationRate": "80%",
     "RemarkCategory": "Moderate",
-    "AllocationRemark": "Assigned to balance total value (Group C: BDT 1,182,600)"
+    "AllocationRemark": "Assigned to balance total value (Group B: BDT 1,172,050)"
   },
   {
     "AssetType": "Laptop",
@@ -625,7 +625,7 @@
     "CurrentValue": 7000.0,
     "DepreciationRate": "80%",
     "RemarkCategory": "Moderate",
-    "AllocationRemark": "Assigned to balance total value (Group C: BDT 1,158,000)"
+    "AllocationRemark": "Assigned to balance total value (Group A: BDT 1,147,650)"
   },
   {
     "AssetType": "Laptop",
@@ -645,7 +645,7 @@
     "CurrentValue": 6400.0,
     "DepreciationRate": "80%",
     "RemarkCategory": "Moderate",
-    "AllocationRemark": "Assigned to balance total value (Group C: BDT 1,171,400)"
+    "AllocationRemark": "Assigned to balance total value (Group B: BDT 1,160,850)"
   },
   {
     "AssetType": "Laptop",
@@ -665,7 +665,7 @@
     "CurrentValue": 6000.0,
     "DepreciationRate": "80%",
     "RemarkCategory": "Moderate",
-    "AllocationRemark": "Assigned to balance total value (Group A: BDT 1,171,050)"
+    "AllocationRemark": "Assigned to balance total value (Group A: BDT 1,160,650)"
   },
   {
     "AssetType": "Laptop",
@@ -684,7 +684,7 @@
     "CurrentValue": 5600.0,
     "DepreciationRate": "80%",
     "RemarkCategory": "Moderate",
-    "AllocationRemark": "Assigned to balance total value (Group B: BDT 1,182,800)"
+    "AllocationRemark": "Assigned to balance total value (Group C: BDT 1,172,250)"
   },
   {
     "AssetType": "PC",
@@ -822,7 +822,7 @@
     "CurrentValue": 21000.0,
     "DepreciationRate": "40%",
     "RemarkCategory": "Good",
-    "AllocationRemark": "Assigned to balance total value (Group C: BDT 1,026,050)"
+    "AllocationRemark": "Assigned to balance total value (Group B: BDT 1,014,150)"
   },
   {
     "AssetType": "PC",
@@ -841,7 +841,7 @@
     "CurrentValue": 33000.0,
     "DepreciationRate": "40%",
     "RemarkCategory": "Good",
-    "AllocationRemark": "Assigned to balance total value (Group C: BDT 923,750)"
+    "AllocationRemark": "Assigned to balance total value (Group B: BDT 917,250)"
   },
   {
     "AssetType": "PC",
@@ -860,7 +860,7 @@
     "CurrentValue": 33000.0,
     "DepreciationRate": "40%",
     "RemarkCategory": "Good",
-    "AllocationRemark": "Assigned to balance total value (Group A: BDT 949,250)"
+    "AllocationRemark": "Assigned to balance total value (Group C: BDT 939,750)"
   },
   {
     "AssetType": "PC",
@@ -898,7 +898,7 @@
     "CurrentValue": 51000.0,
     "DepreciationRate": "40%",
     "RemarkCategory": "Good",
-    "AllocationRemark": "Assigned to balance total value (Group B: BDT 764,500)"
+    "AllocationRemark": "Assigned to balance total value (Group A: BDT 746,500)"
   },
   {
     "AssetType": "PC",
@@ -917,7 +917,7 @@
     "CurrentValue": 17500.0,
     "DepreciationRate": "50%",
     "RemarkCategory": "Moderate",
-    "AllocationRemark": "Assigned to balance total value (Group A: BDT 1,060,250)"
+    "AllocationRemark": "Assigned to balance total value (Group B: BDT 1,049,650)"
   },
   {
     "AssetType": "PC",
@@ -936,7 +936,7 @@
     "CurrentValue": 37500.0,
     "DepreciationRate": "50%",
     "RemarkCategory": "Moderate",
-    "AllocationRemark": "Assigned to balance total value (Group C: BDT 890,750)"
+    "AllocationRemark": "Assigned to balance total value (Group A: BDT 874,000)"
   },
   {
     "AssetType": "PC",
@@ -951,7 +951,7 @@
     "CurrentValue": 35000.0,
     "DepreciationRate": "50%",
     "RemarkCategory": "Moderate",
-    "AllocationRemark": "Assigned to balance total value (Group A: BDT 916,250)"
+    "AllocationRemark": "Assigned to balance total value (Group C: BDT 906,750)"
   },
   {
     "AssetType": "PC",
@@ -966,7 +966,7 @@
     "CurrentValue": 35000.0,
     "DepreciationRate": "50%",
     "RemarkCategory": "Moderate",
-    "AllocationRemark": "Assigned to balance total value (Group B: BDT 924,500)"
+    "AllocationRemark": "Assigned to balance total value (Group A: BDT 909,000)"
   },
   {
     "AssetType": "PC",
@@ -985,7 +985,7 @@
     "CurrentValue": 22500.0,
     "DepreciationRate": "50%",
     "RemarkCategory": "Moderate",
-    "AllocationRemark": "Assigned to balance total value (Group C: BDT 1,005,050)"
+    "AllocationRemark": "Assigned to balance total value (Group B: BDT 993,150)"
   },
   {
     "AssetType": "Monitor",
@@ -1000,7 +1000,7 @@
     "CurrentValue": 10850.0,
     "DepreciationRate": "30%",
     "RemarkCategory": "Excellent",
-    "AllocationRemark": "Assigned to balance total value (Group C: BDT 1,111,100)"
+    "AllocationRemark": "Assigned to balance total value (Group A: BDT 1,100,750)"
   },
   {
     "AssetType": "Monitor",
@@ -1015,7 +1015,7 @@
     "CurrentValue": 10850.0,
     "DepreciationRate": "30%",
     "RemarkCategory": "Excellent",
-    "AllocationRemark": "Assigned to balance total value (Group B: BDT 1,112,050)"
+    "AllocationRemark": "Assigned to balance total value (Group C: BDT 1,101,500)"
   },
   {
     "AssetType": "Monitor",
@@ -1030,7 +1030,7 @@
     "CurrentValue": 10850.0,
     "DepreciationRate": "30%",
     "RemarkCategory": "Excellent",
-    "AllocationRemark": "Assigned to balance total value (Group A: BDT 1,112,200)"
+    "AllocationRemark": "Assigned to balance total value (Group B: BDT 1,101,600)"
   },
   {
     "AssetType": "Monitor",
@@ -1045,7 +1045,7 @@
     "CurrentValue": 10850.0,
     "DepreciationRate": "30%",
     "RemarkCategory": "Excellent",
-    "AllocationRemark": "Assigned to balance total value (Group C: BDT 1,121,950)"
+    "AllocationRemark": "Assigned to balance total value (Group A: BDT 1,111,600)"
   },
   {
     "AssetType": "Monitor",
@@ -1060,7 +1060,7 @@
     "CurrentValue": 10850.0,
     "DepreciationRate": "30%",
     "RemarkCategory": "Excellent",
-    "AllocationRemark": "Assigned to balance total value (Group B: BDT 1,122,900)"
+    "AllocationRemark": "Assigned to balance total value (Group C: BDT 1,112,350)"
   },
   {
     "AssetType": "Monitor",
@@ -1075,7 +1075,7 @@
     "CurrentValue": 10850.0,
     "DepreciationRate": "30%",
     "RemarkCategory": "Excellent",
-    "AllocationRemark": "Assigned to balance total value (Group A: BDT 1,123,050)"
+    "AllocationRemark": "Assigned to balance total value (Group B: BDT 1,112,450)"
   },
   {
     "AssetType": "Monitor",
@@ -1090,7 +1090,7 @@
     "CurrentValue": 10850.0,
     "DepreciationRate": "30%",
     "RemarkCategory": "Excellent",
-    "AllocationRemark": "Assigned to balance total value (Group C: BDT 1,132,800)"
+    "AllocationRemark": "Assigned to balance total value (Group A: BDT 1,122,450)"
   },
   {
     "AssetType": "Monitor",
@@ -1105,7 +1105,7 @@
     "CurrentValue": 8400.0,
     "DepreciationRate": "30%",
     "RemarkCategory": "Excellent",
-    "AllocationRemark": "Assigned to balance total value (Group A: BDT 1,141,950)"
+    "AllocationRemark": "Assigned to balance total value (Group B: BDT 1,131,350)"
   },
   {
     "AssetType": "Monitor",
@@ -1120,7 +1120,7 @@
     "CurrentValue": 8400.0,
     "DepreciationRate": "30%",
     "RemarkCategory": "Excellent",
-    "AllocationRemark": "Assigned to balance total value (Group A: BDT 1,150,350)"
+    "AllocationRemark": "Assigned to balance total value (Group B: BDT 1,139,750)"
   },
   {
     "AssetType": "Monitor",
@@ -1135,7 +1135,7 @@
     "CurrentValue": 7000.0,
     "DepreciationRate": "30%",
     "RemarkCategory": "Excellent",
-    "AllocationRemark": "Assigned to balance total value (Group C: BDT 1,165,000)"
+    "AllocationRemark": "Assigned to balance total value (Group B: BDT 1,154,450)"
   },
   {
     "AssetType": "Monitor",
@@ -1150,7 +1150,7 @@
     "CurrentValue": 7000.0,
     "DepreciationRate": "30%",
     "RemarkCategory": "Excellent",
-    "AllocationRemark": "Assigned to balance total value (Group A: BDT 1,165,050)"
+    "AllocationRemark": "Assigned to balance total value (Group A: BDT 1,154,650)"
   },
   {
     "AssetType": "Monitor",
@@ -1165,7 +1165,7 @@
     "CurrentValue": 7700.0,
     "DepreciationRate": "30%",
     "RemarkCategory": "Excellent",
-    "AllocationRemark": "Assigned to balance total value (Group A: BDT 1,158,050)"
+    "AllocationRemark": "Assigned to balance total value (Group B: BDT 1,147,450)"
   },
   {
     "AssetType": "Monitor",
@@ -1180,7 +1180,7 @@
     "CurrentValue": 6000.0,
     "DepreciationRate": "40%",
     "RemarkCategory": "Good",
-    "AllocationRemark": "Assigned to balance total value (Group B: BDT 1,171,600)"
+    "AllocationRemark": "Assigned to balance total value (Group C: BDT 1,161,050)"
   },
   {
     "AssetType": "Monitor",
@@ -1195,7 +1195,7 @@
     "CurrentValue": 3600.0,
     "DepreciationRate": "40%",
     "RemarkCategory": "Good",
-    "AllocationRemark": "Assigned to balance total value (Group B: BDT 1,186,400)"
+    "AllocationRemark": "Assigned to balance total value (Group C: BDT 1,175,850)"
   },
   {
     "AssetType": "Monitor",
@@ -1210,7 +1210,7 @@
     "CurrentValue": 5700.0,
     "DepreciationRate": "40%",
     "RemarkCategory": "Good",
-    "AllocationRemark": "Assigned to balance total value (Group A: BDT 1,176,750)"
+    "AllocationRemark": "Assigned to balance total value (Group A: BDT 1,166,350)"
   },
   {
     "AssetType": "Printer Scaneer",
@@ -1225,7 +1225,7 @@
     "CurrentValue": 56000.0,
     "DepreciationRate": "30%",
     "RemarkCategory": "Excellent",
-    "AllocationRemark": "Assigned to balance total value (Group C: BDT 714,000)"
+    "AllocationRemark": "Assigned to balance total value (Group B: BDT 710,000)"
   },
   {
     "AssetType": "Printer Scaneer",
@@ -1240,7 +1240,7 @@
     "CurrentValue": 14700.0,
     "DepreciationRate": "30%",
     "RemarkCategory": "Excellent",
-    "AllocationRemark": "Assigned to balance total value (Group B: BDT 1,075,100)"
+    "AllocationRemark": "Assigned to balance total value (Group A: BDT 1,065,200)"
   },
   {
     "AssetType": "Printer Scaneer",
@@ -1255,7 +1255,7 @@
     "CurrentValue": 22400.0,
     "DepreciationRate": "30%",
     "RemarkCategory": "Excellent",
-    "AllocationRemark": "Assigned to balance total value (Group A: BDT 1,023,550)"
+    "AllocationRemark": "Assigned to balance total value (Group C: BDT 1,014,050)"
   },
   {
     "AssetType": "Printer Scaneer",
@@ -1270,7 +1270,7 @@
     "CurrentValue": 29400.0,
     "DepreciationRate": "30%",
     "RemarkCategory": "Excellent",
-    "AllocationRemark": "Assigned to balance total value (Group B: BDT 953,900)"
+    "AllocationRemark": "Assigned to balance total value (Group B: BDT 946,650)"
   },
   {
     "AssetType": "Printer Scaneer",
@@ -1285,7 +1285,7 @@
     "CurrentValue": 15400.0,
     "DepreciationRate": "30%",
     "RemarkCategory": "Excellent",
-    "AllocationRemark": "Assigned to balance total value (Group C: BDT 1,075,550)"
+    "AllocationRemark": "Assigned to balance total value (Group C: BDT 1,064,550)"
   },
   {
     "AssetType": "Printer Scaneer",
@@ -1300,7 +1300,7 @@
     "CurrentValue": 9800.0,
     "DepreciationRate": "30%",
     "RemarkCategory": "Excellent",
-    "AllocationRemark": "Assigned to balance total value (Group C: BDT 1,142,600)"
+    "AllocationRemark": "Assigned to balance total value (Group A: BDT 1,132,250)"
   },
   {
     "AssetType": "Printer Scaneer",
@@ -1315,7 +1315,7 @@
     "CurrentValue": 11200.0,
     "DepreciationRate": "30%",
     "RemarkCategory": "Excellent",
-    "AllocationRemark": "Assigned to balance total value (Group C: BDT 1,100,250)"
+    "AllocationRemark": "Assigned to balance total value (Group A: BDT 1,089,900)"
   },
   {
     "AssetType": "Printer Scaneer",
@@ -1330,7 +1330,7 @@
     "CurrentValue": 7700.0,
     "DepreciationRate": "30%",
     "RemarkCategory": "Excellent",
-    "AllocationRemark": "Assigned to balance total value (Group B: BDT 1,158,600)"
+    "AllocationRemark": "Assigned to balance total value (Group C: BDT 1,148,050)"
   },
   {
     "AssetType": "Printer Scaneer",
@@ -1345,7 +1345,7 @@
     "CurrentValue": 12600.0,
     "DepreciationRate": "30%",
     "RemarkCategory": "Excellent",
-    "AllocationRemark": "Assigned to balance total value (Group B: BDT 1,101,200)"
+    "AllocationRemark": "Assigned to balance total value (Group C: BDT 1,090,650)"
   },
   {
     "AssetType": "Printer Scaneer",
@@ -1360,7 +1360,7 @@
     "CurrentValue": 10500.0,
     "DepreciationRate": "30%",
     "RemarkCategory": "Excellent",
-    "AllocationRemark": "Assigned to balance total value (Group B: BDT 1,133,400)"
+    "AllocationRemark": "Assigned to balance total value (Group C: BDT 1,122,850)"
   },
   {
     "AssetType": "Printer Scaneer",
@@ -1375,7 +1375,7 @@
     "CurrentValue": 8400.0,
     "DepreciationRate": "30%",
     "RemarkCategory": "Excellent",
-    "AllocationRemark": "Assigned to balance total value (Group B: BDT 1,150,900)"
+    "AllocationRemark": "Assigned to balance total value (Group C: BDT 1,140,350)"
   },
   {
     "AssetType": "Printer Scaneer",
@@ -1390,7 +1390,7 @@
     "CurrentValue": 7000.0,
     "DepreciationRate": "30%",
     "RemarkCategory": "Excellent",
-    "AllocationRemark": "Assigned to balance total value (Group B: BDT 1,165,600)"
+    "AllocationRemark": "Assigned to balance total value (Group C: BDT 1,155,050)"
   },
   {
     "AssetType": "Server Room",
@@ -1402,7 +1402,7 @@
     "CurrentValue": 10500.0,
     "DepreciationRate": "30%",
     "RemarkCategory": "Excellent",
-    "AllocationRemark": "Assigned to balance total value (Group A: BDT 1,133,550)"
+    "AllocationRemark": "Assigned to balance total value (Group B: BDT 1,122,950)"
   },
   {
     "AssetType": "Server Room",
@@ -1414,7 +1414,7 @@
     "CurrentValue": 9100.0,
     "DepreciationRate": "30%",
     "RemarkCategory": "Excellent",
-    "AllocationRemark": "Assigned to balance total value (Group B: BDT 1,142,500)"
+    "AllocationRemark": "Assigned to balance total value (Group C: BDT 1,131,950)"
   },
   {
     "AssetType": "Server Room",
@@ -1426,7 +1426,7 @@
     "CurrentValue": 59500.0,
     "DepreciationRate": "30%",
     "RemarkCategory": "Excellent",
-    "AllocationRemark": "Assigned to balance total value (Group B: BDT 713,500)"
+    "AllocationRemark": "Assigned to balance total value (Group A: BDT 695,500)"
   },
   {
     "AssetType": "Server Room",
@@ -1438,7 +1438,7 @@
     "CurrentValue": 5250.0,
     "DepreciationRate": "30%",
     "RemarkCategory": "Excellent",
-    "AllocationRemark": "Assigned to balance total value (Group C: BDT 1,187,850)"
+    "AllocationRemark": "Assigned to balance total value (Group B: BDT 1,177,300)"
   },
   {
     "AssetType": "Server Room",
@@ -1450,7 +1450,7 @@
     "CurrentValue": 23100.0,
     "DepreciationRate": "30%",
     "RemarkCategory": "Excellent",
-    "AllocationRemark": "Assigned to balance total value (Group A: BDT 1,001,150)"
+    "AllocationRemark": "Assigned to balance total value (Group C: BDT 991,650)"
   },
   {
     "AssetType": "Server Room",
@@ -1462,7 +1462,7 @@
     "CurrentValue": 5600.0,
     "DepreciationRate": "30%",
     "RemarkCategory": "Excellent",
-    "AllocationRemark": "Assigned to balance total value (Group A: BDT 1,187,950)"
+    "AllocationRemark": "Assigned to balance total value (Group A: BDT 1,177,550)"
   },
   {
     "AssetType": "Server Room",
@@ -1474,7 +1474,7 @@
     "CurrentValue": 12600.0,
     "DepreciationRate": "30%",
     "RemarkCategory": "Excellent",
-    "AllocationRemark": "Assigned to balance total value (Group A: BDT 1,101,350)"
+    "AllocationRemark": "Assigned to balance total value (Group B: BDT 1,090,750)"
   },
   {
     "AssetType": "Server Room",
@@ -1486,7 +1486,7 @@
     "CurrentValue": 8400.0,
     "DepreciationRate": "30%",
     "RemarkCategory": "Excellent",
-    "AllocationRemark": "Assigned to balance total value (Group C: BDT 1,151,000)"
+    "AllocationRemark": "Assigned to balance total value (Group A: BDT 1,140,650)"
   },
   {
     "AssetType": "Server Room",
@@ -1498,7 +1498,7 @@
     "CurrentValue": 16100.0,
     "DepreciationRate": "30%",
     "RemarkCategory": "Excellent",
-    "AllocationRemark": "Assigned to balance total value (Group C: BDT 1,060,150)"
+    "AllocationRemark": "Assigned to balance total value (Group C: BDT 1,049,150)"
   },
   {
     "AssetType": "Server Room",
@@ -1510,7 +1510,7 @@
     "CurrentValue": 2450.0,
     "DepreciationRate": "30%",
     "RemarkCategory": "Excellent",
-    "AllocationRemark": "Assigned to balance total value (Group B: BDT 1,188,850)"
+    "AllocationRemark": "Assigned to balance total value (Group C: BDT 1,178,300)"
   },
   {
     "AssetType": "Server Room",
@@ -1522,7 +1522,7 @@
     "CurrentValue": 1400.0,
     "DepreciationRate": "30%",
     "RemarkCategory": "Excellent",
-    "AllocationRemark": "Assigned to balance total value (Group C: BDT 1,189,250)"
+    "AllocationRemark": "Assigned to balance total value (Group B: BDT 1,178,700)"
   },
   {
     "AssetType": "Server Room",
@@ -1534,7 +1534,7 @@
     "CurrentValue": 17500.0,
     "DepreciationRate": "30%",
     "RemarkCategory": "Excellent",
-    "AllocationRemark": "Assigned to balance total value (Group B: BDT 1,060,400)"
+    "AllocationRemark": "Assigned to balance total value (Group A: BDT 1,050,500)"
   },
   {
     "AssetType": "Server Room",
@@ -1542,11 +1542,11 @@
     "Name": "UPS",
     "Model": "APC/SRCE6KUX1",
     "Remarks": "Excellent",
-    "MarketPrice": 160000,
-    "CurrentValue": 112000.0,
+    "MarketPrice": 115000,
+    "CurrentValue": 80500.0,
     "DepreciationRate": "30%",
     "RemarkCategory": "Excellent",
-    "AllocationRemark": "Assigned to balance total value (Group A: BDT 567,000)"
+    "AllocationRemark": "Assigned to balance total value (Group C: BDT 626,500)"
   },
   {
     "AssetType": "Server Room",
@@ -1557,6 +1557,6 @@
     "CurrentValue": 112000.0,
     "DepreciationRate": "30%",
     "RemarkCategory": "Excellent",
-    "AllocationRemark": "Assigned to balance total value (Group C: BDT 658,000)"
+    "AllocationRemark": "Assigned to balance total value (Group A: BDT 567,000)"
   }
 ]

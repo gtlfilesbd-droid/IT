@@ -98,7 +98,9 @@ MARKET_PRICES = {
         'Cable Manager': 2000,  # Cable management
         'PBAX KX-Tes824BX': 25000,  # PABX controller
         'ACS Soyal AR-727CM-V3': 15000,  # Access control converter
-        'UPS generic': 160000,  # UPS system (16 PCS batteries)
+        'UPS APC/SRCE6KUX1': 115000,  # UPS APC model specific
+        'UPS Battery 16 PCS': 160000,  # UPS Battery 16 PCS
+        'UPS generic': 160000,  # UPS system generic
         'Switch generic': 10000,  # Generic switch
     }
 }
@@ -249,7 +251,12 @@ def get_market_price(asset):
         model_lower = model.lower()
         name_lower = name.lower()
         
-        if 'mikrotik' in name_lower:
+        # Check for specific UPS models first
+        if 'apc' in model_lower or 'srce6kux1' in model_lower:
+            return 115000
+        elif 'battery' in name_lower and '16' in name_lower:
+            return 160000
+        elif 'mikrotik' in name_lower:
             if 'ccr2004' in model_lower or '16g' in model_lower:
                 return 85000
             return 13000
