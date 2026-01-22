@@ -1046,6 +1046,9 @@ def generate_html(groups, group_values, group_counts, all_assets):
                 is_recond = asset.get('PurchaseType') == 'reconditioned' or asset['DepreciationRate'] in ['60%', '70%', '80%']
                 status_badge = '<span class="recond-badge">RECOND</span>' if is_recond else '<span class="new-badge">NEW</span>'
                 
+                # Format depreciation with remark
+                depreciation_display = f"{asset['DepreciationRate']}<br><small>({asset.get('RemarkCategory', 'N/A')})</small>"
+                
                 html += f"""
                             <tr>
                                 <td><strong>{asset.get('Serial', 'N/A')}</strong></td>
@@ -1054,7 +1057,7 @@ def generate_html(groups, group_values, group_counts, all_assets):
                                 <td><small>{user_info}</small></td>
                                 <td><small>{specs_str}</small></td>
                                 <td><small>BDT {asset['MarketPrice']:,.0f}</small></td>
-                                <td><small>{asset['DepreciationRate']}</small></td>
+                                <td><small>{depreciation_display}</small></td>
                                 <td><span class="value-badge">BDT {asset['CurrentValue']:,.0f}</span></td>
                             </tr>
 """
