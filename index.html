@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Genesis Technologies Ltd - Complete Asset Division (Equal Distribution)</title>
+    <title>Genesis Technologies Ltd - Complete Asset Division (Market Price Based)</title>
     <style>
         * {
             margin: 0;
@@ -239,10 +239,22 @@
             font-size: 0.9em;
         }
         
-        .level-badge {
-            padding: 4px 8px;
-            border-radius: 4px;
-            font-size: 0.85em;
+        .new-badge {
+            background: #2ecc71;
+            color: white;
+            padding: 3px 8px;
+            border-radius: 3px;
+            font-size: 0.8em;
+            margin-left: 8px;
+        }
+        
+        .recond-badge {
+            background: #e67e22;
+            color: white;
+            padding: 3px 8px;
+            border-radius: 3px;
+            font-size: 0.8em;
+            margin-left: 8px;
         }
         
         @media print {
@@ -265,38 +277,38 @@
 
     <div class="container">
         <div class="header">
-            <h1>🖥️ Genesis Technologies Ltd</h1>
-            <p>Complete Asset Division Report - Equal Distribution Among Three Groups</p>
+            <h1>Genesis Technologies Ltd</h1>
+            <p>Complete Asset Division Report - Market Price Based Valuation</p>
         </div>
         
         <div class="notice">
-            <strong>✅ Updated Asset Division:</strong> This report reflects only the assets currently available for sharing. Assets have been equally distributed among three groups based on total value.
+            <strong>Updated Pricing Methodology:</strong> All asset values are based on current market prices (January 2026). New assets are valued at 70% of market price (30% depreciation). Reconditioned assets are valued at 40% of market price (60% depreciation).
         </div>
         
         <div class="summary">
             <div class="summary-card">
                 <h3>Total Assets</h3>
-                <div class="value">52</div>
-                <div class="label">Available for Sharing</div>
+                <div class="value">91</div>
+                <div class="label">All Asset Types</div>
             </div>
             <div class="summary-card">
                 <h3>Laptops</h3>
-                <div class="value">10</div>
+                <div class="value">34</div>
                 <div class="label">Laptop Computers</div>
             </div>
             <div class="summary-card">
                 <h3>Desktop PCs</h3>
-                <div class="value">9</div>
-                <div class="label">Desktop Computers</div>
+                <div class="value">16</div>
+                <div class="label">Desktop & Servers</div>
             </div>
             <div class="summary-card">
                 <h3>Monitors</h3>
-                <div class="value">10</div>
+                <div class="value">15</div>
                 <div class="label">Display Monitors</div>
             </div>
             <div class="summary-card">
                 <h3>Printers</h3>
-                <div class="value">9</div>
+                <div class="value">12</div>
                 <div class="label">Printers & Scanners</div>
             </div>
             <div class="summary-card">
@@ -306,12 +318,12 @@
             </div>
             <div class="summary-card">
                 <h3>Total Value</h3>
-                <div class="value">৳1,711,450</div>
-                <div class="label">Combined Worth (BDT)</div>
+                <div class="value">BDT 3,692,500</div>
+                <div class="label">Combined Worth</div>
             </div>
             <div class="summary-card">
                 <h3>Target per Group</h3>
-                <div class="value">৳570,483</div>
+                <div class="value">BDT 1,230,833</div>
                 <div class="label">Equal Distribution Target</div>
             </div>
         </div>
@@ -326,34 +338,34 @@
                 <div class="group-stats">
                     <div class="stat">
                         <div class="stat-label">Total Assets</div>
-                        <div class="stat-value">17</div>
+                        <div class="stat-value">30</div>
                     </div>
                     <div class="stat">
                         <div class="stat-label">Total Value</div>
-                        <div class="stat-value">৳569,750</div>
+                        <div class="stat-value">BDT 1,230,350</div>
                     </div>
                     <div class="stat">
                         <div class="stat-label">Variance</div>
-                        <div class="stat-value">-0.13%</div>
+                        <div class="stat-value">-0.04%</div>
                     </div>
                     <div class="stat">
                         <div class="stat-label">Avg per Asset</div>
-                        <div class="stat-value">৳33,515</div>
+                        <div class="stat-value">BDT 41,012</div>
                     </div>
 
                     <div class="stat">
                         <div class="stat-label">Laptop</div>
-                        <div class="stat-value">3</div>
+                        <div class="stat-value">10</div>
                     </div>
 
                     <div class="stat">
-                        <div class="stat-label">Desktop PC</div>
-                        <div class="stat-value">2</div>
+                        <div class="stat-label">PC</div>
+                        <div class="stat-value">5</div>
                     </div>
 
                     <div class="stat">
                         <div class="stat-label">Monitor</div>
-                        <div class="stat-value">4</div>
+                        <div class="stat-value">6</div>
                     </div>
 
                     <div class="stat">
@@ -363,7 +375,7 @@
 
                     <div class="stat">
                         <div class="stat-label">Server</div>
-                        <div class="stat-value">5</div>
+                        <div class="stat-value">6</div>
                     </div>
 
                 </div>
@@ -371,275 +383,405 @@
                 <div class="asset-type-section">
 
                     <div class="asset-type-header">
-                        Laptops (3) - Total Value: ৳213,550
+                        Laptops (10) - Total Value: BDT 427,100
                     </div>
                     
                     <table class="asset-table">
                         <thead>
                             <tr>
                                 <th>Serial</th>
-                                <th>Name</th>
+                                <th>Name & Type</th>
                                 <th>Model</th>
                                 <th>Specs</th>
-                                <th>User/Location</th>
-                                <th>Status</th>
-                                <th>Value</th>
+                                <th>Market Price</th>
+                                <th>Depreciation</th>
+                                <th>Current Value</th>
                             </tr>
                         </thead>
                         <tbody>
 
                             <tr>
-                                <td><strong>5</strong></td>
-                                <td>HP</td>
-                                <td>probook 440 G8</td>
-                                <td><small>CPU: i5<br>RAM: 8GB<br>Storage: 500<br>GPU: 2GB<br>Gen: 11</small></td>
-                                <td><small>Md. Tariqul Islam<br>User</small></td>
-                                <td><small>N/A<br><small>Excellent</small></small></td>
-                                <td><span class="value-badge">৳73,150</span></td>
+                                <td><strong>1</strong></td>
+                                <td>DELL <span class="new-badge">NEW</span></td>
+                                <td>Inspiron 13 5310</td>
+                                <td><small>CPU: i7<br>RAM: 8GB<br>Storage: 500<br>Gen: 11</small></td>
+                                <td><small>BDT 115,000</small></td>
+                                <td><small>30%</small></td>
+                                <td><span class="value-badge">BDT 80,500</span></td>
                             </tr>
 
                             <tr>
                                 <td><strong>2</strong></td>
-                                <td>Dell Laptop</td>
+                                <td>Dell Laptop <span class="new-badge">NEW</span></td>
                                 <td>P106F</td>
                                 <td><small>CPU: i7<br>RAM: 8GB<br>Storage: 500<br>Gen: 11</small></td>
-                                <td><small>Nahid<br>In Stock</small></td>
-                                <td><small>N/A<br><small>Good</small></small></td>
-                                <td><span class="value-badge">৳72,000</span></td>
+                                <td><small>BDT 110,000</small></td>
+                                <td><small>30%</small></td>
+                                <td><span class="value-badge">BDT 77,000</span></td>
                             </tr>
 
                             <tr>
-                                <td><strong>6</strong></td>
-                                <td>HP Laptop</td>
-                                <td>RTL8822CE</td>
-                                <td><small>CPU: i5<br>RAM: 8GB<br>Storage: 240<br>Gen: 12</small></td>
-                                <td><small>Aminul T3<br>In Stock</small></td>
-                                <td><small>N/A<br><small>Good</small></small></td>
-                                <td><span class="value-badge">৳68,400</span></td>
+                                <td><strong>7</strong></td>
+                                <td>DELL <span class="new-badge">NEW</span></td>
+                                <td>Inspiron 3511</td>
+                                <td><small>CPU: i5<br>RAM: 8GB<br>Storage: 500<br>GPU: 2GB</small></td>
+                                <td><small>BDT 75,000</small></td>
+                                <td><small>30%</small></td>
+                                <td><span class="value-badge">BDT 52,500</span></td>
+                            </tr>
+
+                            <tr>
+                                <td><strong>11</strong></td>
+                                <td>DELL <span class="new-badge">NEW</span></td>
+                                <td>Inspiron 3511</td>
+                                <td><small>CPU: i5<br>RAM: 8GB<br>Storage: 500<br>GPU: 2GB</small></td>
+                                <td><small>BDT 75,000</small></td>
+                                <td><small>30%</small></td>
+                                <td><span class="value-badge">BDT 52,500</span></td>
+                            </tr>
+
+                            <tr>
+                                <td><strong>4</strong></td>
+                                <td>HP Laptop <span class="new-badge">NEW</span></td>
+                                <td>N/A</td>
+                                <td><small>CPU: i5<br>RAM: 8GB<br>Storage: 500<br>Gen: 12</small></td>
+                                <td><small>BDT 68,000</small></td>
+                                <td><small>30%</small></td>
+                                <td><span class="value-badge">BDT 47,600</span></td>
+                            </tr>
+
+                            <tr>
+                                <td><strong>15</strong></td>
+                                <td>DELL <span class="new-badge">NEW</span></td>
+                                <td>Inspiron 3511</td>
+                                <td><small>CPU: i3<br>RAM: 4GB<br>Storage: 128/256<br>Gen: 11</small></td>
+                                <td><small>BDT 50,000</small></td>
+                                <td><small>30%</small></td>
+                                <td><span class="value-badge">BDT 35,000</span></td>
+                            </tr>
+
+                            <tr>
+                                <td><strong>18</strong></td>
+                                <td>LENOVO <span class="new-badge">NEW</span></td>
+                                <td>V14-G2-ITL</td>
+                                <td><small>CPU: i3<br>RAM: 4GB<br>Storage: 1000<br>Gen: 11</small></td>
+                                <td><small>BDT 48,000</small></td>
+                                <td><small>30%</small></td>
+                                <td><span class="value-badge">BDT 33,600</span></td>
+                            </tr>
+
+                            <tr>
+                                <td><strong>20</strong></td>
+                                <td>HP <span class="recond-badge">RECOND</span></td>
+                                <td>Elitbook 840 G3</td>
+                                <td><small>CPU: i5<br>RAM: 7GB<br>Storage: 500<br>Gen: 8</small></td>
+                                <td><small>BDT 48,000</small></td>
+                                <td><small>60%</small></td>
+                                <td><span class="value-badge">BDT 19,200</span></td>
+                            </tr>
+
+                            <tr>
+                                <td><strong>24</strong></td>
+                                <td>HP <span class="recond-badge">RECOND</span></td>
+                                <td>Elitbook840 G3</td>
+                                <td><small>CPU: i5<br>RAM: 8GB<br>Storage: 240<br>Gen: 7</small></td>
+                                <td><small>BDT 45,000</small></td>
+                                <td><small>60%</small></td>
+                                <td><span class="value-badge">BDT 18,000</span></td>
+                            </tr>
+
+                            <tr>
+                                <td><strong>29</strong></td>
+                                <td>LENOVO <span class="recond-badge">RECOND</span></td>
+                                <td>X230</td>
+                                <td><small>CPU: i5<br>RAM: 4GB<br>Storage: 256<br>Gen: 3</small></td>
+                                <td><small>BDT 28,000</small></td>
+                                <td><small>60%</small></td>
+                                <td><span class="value-badge">BDT 11,200</span></td>
                             </tr>
 
                         </tbody>
                     </table>
 
                     <div class="asset-type-header">
-                        Desktop PCs (2) - Total Value: ৳183,400
+                        PCs (5) - Total Value: BDT 630,000
                     </div>
                     
                     <table class="asset-table">
                         <thead>
                             <tr>
                                 <th>Serial</th>
-                                <th>Name</th>
+                                <th>Name & Type</th>
                                 <th>Model</th>
                                 <th>Specs</th>
-                                <th>User/Location</th>
-                                <th>Status</th>
-                                <th>Value</th>
+                                <th>Market Price</th>
+                                <th>Depreciation</th>
+                                <th>Current Value</th>
                             </tr>
                         </thead>
                         <tbody>
 
                             <tr>
-                                <td><strong>6</strong></td>
-                                <td>Desktop</td>
-                                <td>Clone PC</td>
-                                <td><small>CPU: i9<br>RAM: 32GB<br>Storage: 1000/2000<br>Gen: 11</small></td>
-                                <td><small>IT Room<br>2nd Floor</small></td>
-                                <td><small>N/A<br><small>Excellent</small></small></td>
-                                <td><span class="value-badge">৳110,600</span></td>
-                            </tr>
-
-                            <tr>
                                 <td><strong>1</strong></td>
-                                <td>HP Server</td>
+                                <td>HP Server <span class="new-badge">NEW</span></td>
                                 <td>ProLiant DL380 Gen10 Plus</td>
                                 <td><small>CPU: Intel(R) Xeon(R) Silver 4310 CPU @ 2.10GHz 2.10 GHz<br>RAM: 32GB<br>Storage: 4TB<br>Gen: 4</small></td>
-                                <td><small>IT<br>Server Room</small></td>
-                                <td><small>N/A<br><small>Excellent</small></small></td>
-                                <td><span class="value-badge">৳72,800</span></td>
-                            </tr>
-
-                        </tbody>
-                    </table>
-
-                    <div class="asset-type-header">
-                        Monitors (4) - Total Value: ৳30,400
-                    </div>
-                    
-                    <table class="asset-table">
-                        <thead>
-                            <tr>
-                                <th>Serial</th>
-                                <th>Name</th>
-                                <th>Model</th>
-                                <th>Specs</th>
-                                <th>User/Location</th>
-                                <th>Status</th>
-                                <th>Value</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-
-                            <tr>
-                                <td><strong>1</strong></td>
-                                <td>HP Monitor</td>
-                                <td>M22f</td>
-                                <td><small>N/A</small></td>
-                                <td><small>Masum<br>2nd Floor</small></td>
-                                <td><small>N/A<br><small>Excellent</small></small></td>
-                                <td><span class="value-badge">৳10,000</span></td>
+                                <td><small>BDT 650,000</small></td>
+                                <td><small>30%</small></td>
+                                <td><span class="value-badge">BDT 455,000</span></td>
                             </tr>
 
                             <tr>
-                                <td><strong>4</strong></td>
-                                <td>HP Monitor</td>
-                                <td>M22f</td>
-                                <td><small>N/A</small></td>
-                                <td><small>Nayon<br>2nd Floor</small></td>
-                                <td><small>N/A<br><small>Excellent</small></small></td>
-                                <td><span class="value-badge">৳10,000</span></td>
-                            </tr>
-
-                            <tr>
-                                <td><strong>8</strong></td>
-                                <td>HP Monitor</td>
-                                <td>LV1911</td>
-                                <td><small>N/A</small></td>
-                                <td><small>Design Team<br>3rd Floor</small></td>
-                                <td><small>N/A<br><small>Excellent</small></small></td>
-                                <td><span class="value-badge">৳5,600</span></td>
-                            </tr>
-
-                            <tr>
-                                <td><strong>9</strong></td>
-                                <td>Dell Monitor</td>
-                                <td>E1916HVF</td>
-                                <td><small>N/A</small></td>
-                                <td><small>Comercial Room<br>2nd Floor</small></td>
-                                <td><small>N/A<br><small>Good</small></small></td>
-                                <td><span class="value-badge">৳4,800</span></td>
-                            </tr>
-
-                        </tbody>
-                    </table>
-
-                    <div class="asset-type-header">
-                        Printer/Scanners (3) - Total Value: ৳71,000
-                    </div>
-                    
-                    <table class="asset-table">
-                        <thead>
-                            <tr>
-                                <th>Serial</th>
-                                <th>Name</th>
-                                <th>Model</th>
-                                <th>Specs</th>
-                                <th>User/Location</th>
-                                <th>Status</th>
-                                <th>Value</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-
-                            <tr>
-                                <td><strong>1</strong></td>
-                                <td>EPSON A3</td>
-                                <td>C722B1</td>
-                                <td><small>N/A</small></td>
-                                <td><small>X88L009083<br>Color, Copy, Scanner, Duplex</small></td>
-                                <td><small>1️⃣<br><small></small></small></td>
-                                <td><span class="value-badge">৳50,000</span></td>
-                            </tr>
-
-                            <tr>
-                                <td><strong>3</strong></td>
-                                <td>HP</td>
-                                <td>HP Laser Pro MFP M26nw</td>
-                                <td><small>N/A</small></td>
-                                <td><small>CNBKKCSGDZ<br>Copy, Scanner, Duplex</small></td>
-                                <td><small>3️⃣<br><small></small></small></td>
-                                <td><span class="value-badge">৳12,000</span></td>
-                            </tr>
-
-                            <tr>
-                                <td><strong>8</strong></td>
-                                <td>T3 Project Printer</td>
-                                <td>N/A</td>
-                                <td><small>N/A</small></td>
-                                <td><small>N/A<br>N/A</small></td>
-                                <td><small>N/A<br><small></small></small></td>
-                                <td><span class="value-badge">৳9,000</span></td>
-                            </tr>
-
-                        </tbody>
-                    </table>
-
-                    <div class="asset-type-header">
-                        Servers (5) - Total Value: ৳71,400
-                    </div>
-                    
-                    <table class="asset-table">
-                        <thead>
-                            <tr>
-                                <th>Serial</th>
-                                <th>Name</th>
-                                <th>Model</th>
-                                <th>Specs</th>
-                                <th>User/Location</th>
-                                <th>Status</th>
-                                <th>Value</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-
-                            <tr>
-                                <td><strong>13</strong></td>
-                                <td>UPS</td>
-                                <td>APC/SRCE6KUX1</td>
-                                <td><small>N/A</small></td>
-                                <td><small>N/A<br>N/A</small></td>
-                                <td><small>N/A<br><small>Excellent</small></small></td>
-                                <td><span class="value-badge">৳21,000</span></td>
-                            </tr>
-
-                            <tr>
-                                <td><strong>2</strong></td>
-                                <td>MikroTik Router Board</td>
-                                <td>RB2011UiAS-RM</td>
-                                <td><small>N/A</small></td>
-                                <td><small>N/A<br>N/A</small></td>
-                                <td><small>N/A<br><small>Excellent</small></small></td>
-                                <td><span class="value-badge">৳17,500</span></td>
-                            </tr>
-
-                            <tr>
-                                <td><strong>4</strong></td>
-                                <td>TP-Link Switch 24 Port</td>
-                                <td>TL-SG1024D</td>
-                                <td><small>N/A</small></td>
-                                <td><small>N/A<br>N/A</small></td>
-                                <td><small>N/A<br><small>Excellent</small></small></td>
-                                <td><span class="value-badge">৳14,000</span></td>
+                                <td><strong>10</strong></td>
+                                <td>Desktop <span class="new-badge">NEW</span></td>
+                                <td>Clone PC</td>
+                                <td><small>CPU: i5<br>RAM: 8GB<br>Storage: 1000<br>Gen: 10</small></td>
+                                <td><small>BDT 85,000</small></td>
+                                <td><small>30%</small></td>
+                                <td><span class="value-badge">BDT 59,500</span></td>
                             </tr>
 
                             <tr>
                                 <td><strong>12</strong></td>
-                                <td>PBAX Controller</td>
-                                <td>KX-Tes824BX</td>
-                                <td><small>N/A</small></td>
-                                <td><small>N/A<br>N/A</small></td>
-                                <td><small>N/A<br><small>Excellent</small></small></td>
-                                <td><span class="value-badge">৳10,500</span></td>
+                                <td>Desktop <span class="new-badge">NEW</span></td>
+                                <td>HP ProDesk</td>
+                                <td><small>CPU: i5<br>RAM: 8GB<br>Storage: 1000<br>Gen: 7</small></td>
+                                <td><small>BDT 75,000</small></td>
+                                <td><small>30%</small></td>
+                                <td><span class="value-badge">BDT 52,500</span></td>
+                            </tr>
+
+                            <tr>
+                                <td><strong>7</strong></td>
+                                <td>Desktop <span class="new-badge">NEW</span></td>
+                                <td>Clone PC</td>
+                                <td><small>CPU: i3<br>RAM: 8GB<br>Storage: 128/1000<br>Gen: 10</small></td>
+                                <td><small>BDT 55,000</small></td>
+                                <td><small>30%</small></td>
+                                <td><span class="value-badge">BDT 38,500</span></td>
+                            </tr>
+
+                            <tr>
+                                <td><strong>6</strong></td>
+                                <td>Desktop <span class="new-badge">NEW</span></td>
+                                <td>Clone PC</td>
+                                <td><small>CPU: i3<br>RAM: 8GB<br>Storage: 256/1000<br>Gen: 4</small></td>
+                                <td><small>BDT 35,000</small></td>
+                                <td><small>30%</small></td>
+                                <td><span class="value-badge">BDT 24,500</span></td>
+                            </tr>
+
+                        </tbody>
+                    </table>
+
+                    <div class="asset-type-header">
+                        Monitors (6) - Total Value: BDT 53,200
+                    </div>
+                    
+                    <table class="asset-table">
+                        <thead>
+                            <tr>
+                                <th>Serial</th>
+                                <th>Name & Type</th>
+                                <th>Model</th>
+                                <th>Specs</th>
+                                <th>Market Price</th>
+                                <th>Depreciation</th>
+                                <th>Current Value</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+
+                            <tr>
+                                <td><strong>3</strong></td>
+                                <td>HP Monitor <span class="new-badge">NEW</span></td>
+                                <td>M22f</td>
+                                <td><small>User: Commercial Room<br>Loc: 2nd Floor</small></td>
+                                <td><small>BDT 15,500</small></td>
+                                <td><small>30%</small></td>
+                                <td><span class="value-badge">BDT 10,850</span></td>
+                            </tr>
+
+                            <tr>
+                                <td><strong>6</strong></td>
+                                <td>HP Monitor <span class="new-badge">NEW</span></td>
+                                <td>M22f</td>
+                                <td><small>User: Faysal Design<br>Loc: 3th Floor</small></td>
+                                <td><small>BDT 15,500</small></td>
+                                <td><small>30%</small></td>
+                                <td><span class="value-badge">BDT 10,850</span></td>
                             </tr>
 
                             <tr>
                                 <td><strong>8</strong></td>
-                                <td>Hikvision DVR 8 Port</td>
-                                <td>DS-720BHGH1-F2</td>
+                                <td>Dell Monitor <span class="new-badge">NEW</span></td>
+                                <td>52240Lc</td>
+                                <td><small>User: Design Team<br>Loc: 3rd Floor</small></td>
+                                <td><small>BDT 12,000</small></td>
+                                <td><small>30%</small></td>
+                                <td><span class="value-badge">BDT 8,400</span></td>
+                            </tr>
+
+                            <tr>
+                                <td><strong>9</strong></td>
+                                <td>Dell Monitor <span class="new-badge">NEW</span></td>
+                                <td>52240Lc</td>
+                                <td><small>User: Design Team<br>Loc: 3rd Floor</small></td>
+                                <td><small>BDT 12,000</small></td>
+                                <td><small>30%</small></td>
+                                <td><span class="value-badge">BDT 8,400</span></td>
+                            </tr>
+
+                            <tr>
+                                <td><strong>12</strong></td>
+                                <td>Dell Monitor <span class="new-badge">NEW</span></td>
+                                <td>G2QR5D2</td>
+                                <td><small>User: Kawser<br>Loc: 3rd Floor</small></td>
+                                <td><small>BDT 11,000</small></td>
+                                <td><small>30%</small></td>
+                                <td><span class="value-badge">BDT 7,700</span></td>
+                            </tr>
+
+                            <tr>
+                                <td><strong>13</strong></td>
+                                <td>Dell Monitor <span class="new-badge">NEW</span></td>
+                                <td>E1916HVF</td>
+                                <td><small>User: Comercial Room<br>Loc: 2nd Floor</small></td>
+                                <td><small>BDT 10,000</small></td>
+                                <td><small>30%</small></td>
+                                <td><span class="value-badge">BDT 7,000</span></td>
+                            </tr>
+
+                        </tbody>
+                    </table>
+
+                    <div class="asset-type-header">
+                        Printer Scaneers (3) - Total Value: BDT 48,300
+                    </div>
+                    
+                    <table class="asset-table">
+                        <thead>
+                            <tr>
+                                <th>Serial</th>
+                                <th>Name & Type</th>
+                                <th>Model</th>
+                                <th>Specs</th>
+                                <th>Market Price</th>
+                                <th>Depreciation</th>
+                                <th>Current Value</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+
+                            <tr>
+                                <td><strong>3</strong></td>
+                                <td>HP <span class="new-badge">NEW</span></td>
+                                <td>HP Laser Pro MFP M26nw</td>
+                                <td><small>Loc: 2nd Floor Director  Room</small></td>
+                                <td><small>BDT 32,000</small></td>
+                                <td><small>30%</small></td>
+                                <td><span class="value-badge">BDT 22,400</span></td>
+                            </tr>
+
+                            <tr>
+                                <td><strong>2</strong></td>
+                                <td>EPSON <span class="new-badge">NEW</span></td>
+                                <td>L3250</td>
+                                <td><small>Loc: 3rd Floor CO Sir Room</small></td>
+                                <td><small>BDT 21,000</small></td>
+                                <td><small>30%</small></td>
+                                <td><span class="value-badge">BDT 14,700</span></td>
+                            </tr>
+
+                            <tr>
+                                <td><strong>7</strong></td>
+                                <td>Canon <span class="new-badge">NEW</span></td>
+                                <td>F166500</td>
+                                <td><small>Loc: 3rd Floor Accounts Room</small></td>
+                                <td><small>BDT 16,000</small></td>
+                                <td><small>30%</small></td>
+                                <td><span class="value-badge">BDT 11,200</span></td>
+                            </tr>
+
+                        </tbody>
+                    </table>
+
+                    <div class="asset-type-header">
+                        Server Rooms (6) - Total Value: BDT 71,750
+                    </div>
+                    
+                    <table class="asset-table">
+                        <thead>
+                            <tr>
+                                <th>Serial</th>
+                                <th>Name & Type</th>
+                                <th>Model</th>
+                                <th>Specs</th>
+                                <th>Market Price</th>
+                                <th>Depreciation</th>
+                                <th>Current Value</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+
+                            <tr>
+                                <td><strong>14</strong></td>
+                                <td>UPS Battery 16 PCS <span class="new-badge">NEW</span></td>
+                                <td>N/A</td>
                                 <td><small>N/A</small></td>
-                                <td><small>N/A<br>N/A</small></td>
-                                <td><small>N/A<br><small>Excellent</small></small></td>
-                                <td><span class="value-badge">৳8,400</span></td>
+                                <td><small>BDT 35,000</small></td>
+                                <td><small>30%</small></td>
+                                <td><span class="value-badge">BDT 24,500</span></td>
+                            </tr>
+
+                            <tr>
+                                <td><strong>9</strong></td>
+                                <td>Hikvision DVR 16 Port <span class="new-badge">NEW</span></td>
+                                <td>DS-7216HQH1-K2</td>
+                                <td><small>N/A</small></td>
+                                <td><small>BDT 23,000</small></td>
+                                <td><small>30%</small></td>
+                                <td><span class="value-badge">BDT 16,100</span></td>
+                            </tr>
+
+                            <tr>
+                                <td><strong>7</strong></td>
+                                <td>TP-Link Switch 8 Port <span class="new-badge">NEW</span></td>
+                                <td>T1500G-10PS</td>
+                                <td><small>N/A</small></td>
+                                <td><small>BDT 18,000</small></td>
+                                <td><small>30%</small></td>
+                                <td><span class="value-badge">BDT 12,600</span></td>
+                            </tr>
+
+                            <tr>
+                                <td><strong>1</strong></td>
+                                <td>ACS Soyal Conveter <span class="new-badge">NEW</span></td>
+                                <td>AR-727CM-V3</td>
+                                <td><small>N/A</small></td>
+                                <td><small>BDT 15,000</small></td>
+                                <td><small>30%</small></td>
+                                <td><span class="value-badge">BDT 10,500</span></td>
+                            </tr>
+
+                            <tr>
+                                <td><strong>6</strong></td>
+                                <td>KVM Switch 8 Port <span class="new-badge">NEW</span></td>
+                                <td>KVM-0831</td>
+                                <td><small>N/A</small></td>
+                                <td><small>BDT 8,000</small></td>
+                                <td><small>30%</small></td>
+                                <td><span class="value-badge">BDT 5,600</span></td>
+                            </tr>
+
+                            <tr>
+                                <td><strong>10</strong></td>
+                                <td>Patch Panel 24 Port <span class="new-badge">NEW</span></td>
+                                <td>Net Key</td>
+                                <td><small>N/A</small></td>
+                                <td><small>BDT 3,500</small></td>
+                                <td><small>30%</small></td>
+                                <td><span class="value-badge">BDT 2,450</span></td>
                             </tr>
 
                         </tbody>
@@ -656,44 +798,44 @@
                 <div class="group-stats">
                     <div class="stat">
                         <div class="stat-label">Total Assets</div>
-                        <div class="stat-value">17</div>
+                        <div class="stat-value">30</div>
                     </div>
                     <div class="stat">
                         <div class="stat-label">Total Value</div>
-                        <div class="stat-value">৳571,000</div>
+                        <div class="stat-value">BDT 1,230,300</div>
                     </div>
                     <div class="stat">
                         <div class="stat-label">Variance</div>
-                        <div class="stat-value">+0.09%</div>
+                        <div class="stat-value">-0.04%</div>
                     </div>
                     <div class="stat">
                         <div class="stat-label">Avg per Asset</div>
-                        <div class="stat-value">৳33,588</div>
+                        <div class="stat-value">BDT 41,010</div>
                     </div>
 
                     <div class="stat">
                         <div class="stat-label">Laptop</div>
-                        <div class="stat-value">3</div>
+                        <div class="stat-value">10</div>
                     </div>
 
                     <div class="stat">
-                        <div class="stat-label">Desktop PC</div>
-                        <div class="stat-value">4</div>
+                        <div class="stat-label">PC</div>
+                        <div class="stat-value">5</div>
                     </div>
 
                     <div class="stat">
                         <div class="stat-label">Monitor</div>
-                        <div class="stat-value">3</div>
+                        <div class="stat-value">6</div>
                     </div>
 
                     <div class="stat">
                         <div class="stat-label">Printer</div>
-                        <div class="stat-value">1</div>
+                        <div class="stat-value">4</div>
                     </div>
 
                     <div class="stat">
                         <div class="stat-label">Server</div>
-                        <div class="stat-value">6</div>
+                        <div class="stat-value">5</div>
                     </div>
 
                 </div>
@@ -701,275 +843,405 @@
                 <div class="asset-type-section">
 
                     <div class="asset-type-header">
-                        Laptops (3) - Total Value: ৳207,200
+                        Laptops (10) - Total Value: BDT 318,900
                     </div>
                     
                     <table class="asset-table">
                         <thead>
                             <tr>
                                 <th>Serial</th>
-                                <th>Name</th>
+                                <th>Name & Type</th>
                                 <th>Model</th>
                                 <th>Specs</th>
-                                <th>User/Location</th>
-                                <th>Status</th>
-                                <th>Value</th>
+                                <th>Market Price</th>
+                                <th>Depreciation</th>
+                                <th>Current Value</th>
                             </tr>
                         </thead>
                         <tbody>
 
                             <tr>
-                                <td><strong>4</strong></td>
-                                <td>HP Laptop</td>
-                                <td>15s-fq5317TU</td>
-                                <td><small>CPU: i5<br>RAM: 8GB<br>Storage: 500<br>Gen: 12</small></td>
-                                <td><small>Jahidul Kabir<br>In Stock</small></td>
-                                <td><small>N/A<br><small>Excellent</small></small></td>
-                                <td><span class="value-badge">৳72,200</span></td>
-                            </tr>
-
-                            <tr>
-                                <td><strong>9</strong></td>
-                                <td>DELL</td>
-                                <td>Inspiron 3511</td>
-                                <td><small>CPU: i5<br>RAM: 8GB<br>Storage: 500<br>GPU: 2GB<br>Gen: 11</small></td>
-                                <td><small>Safaur Rahman<br>User</small></td>
-                                <td><small>N/A<br><small>Good</small></small></td>
-                                <td><span class="value-badge">৳69,300</span></td>
-                            </tr>
-
-                            <tr>
-                                <td><strong>8</strong></td>
-                                <td>Dell Laptop</td>
-                                <td>Inspiron 5410</td>
-                                <td><small>CPU: i5<br>RAM: 8GB<br>Storage: 500<br>Gen: 11</small></td>
-                                <td><small>Salim<br>In Stock</small></td>
-                                <td><small>N/A<br><small>Good</small></small></td>
-                                <td><span class="value-badge">৳65,700</span></td>
-                            </tr>
-
-                        </tbody>
-                    </table>
-
-                    <div class="asset-type-header">
-                        Desktop PCs (4) - Total Value: ৳252,100
-                    </div>
-                    
-                    <table class="asset-table">
-                        <thead>
-                            <tr>
-                                <th>Serial</th>
-                                <th>Name</th>
-                                <th>Model</th>
-                                <th>Specs</th>
-                                <th>User/Location</th>
-                                <th>Status</th>
-                                <th>Value</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-
-                            <tr>
-                                <td><strong>2</strong></td>
-                                <td>Desktop</td>
-                                <td>Clone PC</td>
-                                <td><small>CPU: i9<br>RAM: 16GB<br>Storage: 256/1000<br>GPU: 4GB<br>Gen: 13</small></td>
-                                <td><small>Humayon Design<br>3rd Floor</small></td>
-                                <td><small>N/A<br><small>Excellent</small></small></td>
-                                <td><span class="value-badge">৳100,800</span></td>
-                            </tr>
-
-                            <tr>
-                                <td><strong>4</strong></td>
-                                <td>Desktop</td>
-                                <td>Clone PC</td>
-                                <td><small>CPU: i9<br>RAM: 16GB<br>Storage: 256/1000<br>GPU: 4GB<br>Gen: 13</small></td>
-                                <td><small>Design Team<br>3rd Floor</small></td>
-                                <td><small>N/A<br><small>Excellent</small></small></td>
-                                <td><span class="value-badge">৳100,800</span></td>
-                            </tr>
-
-                            <tr>
-                                <td><strong>7</strong></td>
-                                <td>Desktop</td>
-                                <td>Clone PC</td>
-                                <td><small>CPU: i3<br>RAM: 4GB<br>Storage: 1000<br>Gen: 4</small></td>
-                                <td><small>Comercial Room<br>2nd Floor</small></td>
-                                <td><small>N/A<br><small>Moderate</small></small></td>
-                                <td><span class="value-badge">৳26,500</span></td>
-                            </tr>
-
-                            <tr>
-                                <td><strong>8</strong></td>
-                                <td>Desktop</td>
-                                <td>Clone PC</td>
-                                <td><small>CPU: Dual core<br>RAM: 4GB<br>Gen: 4</small></td>
-                                <td><small>Management Room<br>2nd Floor</small></td>
-                                <td><small>N/A<br><small>Moderate</small></small></td>
-                                <td><span class="value-badge">৳24,000</span></td>
-                            </tr>
-
-                        </tbody>
-                    </table>
-
-                    <div class="asset-type-header">
-                        Monitors (3) - Total Value: ৳24,800
-                    </div>
-                    
-                    <table class="asset-table">
-                        <thead>
-                            <tr>
-                                <th>Serial</th>
-                                <th>Name</th>
-                                <th>Model</th>
-                                <th>Specs</th>
-                                <th>User/Location</th>
-                                <th>Status</th>
-                                <th>Value</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-
-                            <tr>
-                                <td><strong>2</strong></td>
-                                <td>HP Monitor</td>
-                                <td>M22f</td>
-                                <td><small>N/A</small></td>
-                                <td><small>IT Room<br>2nd Floor</small></td>
-                                <td><small>N/A<br><small>Excellent</small></small></td>
-                                <td><span class="value-badge">৳10,000</span></td>
-                            </tr>
-
-                            <tr>
-                                <td><strong>5</strong></td>
-                                <td>HP Monitor</td>
-                                <td>M22f</td>
-                                <td><small>N/A</small></td>
-                                <td><small>Faysal Design<br>3th Floor</small></td>
-                                <td><small>N/A<br><small>Excellent</small></small></td>
-                                <td><span class="value-badge">৳10,000</span></td>
+                                <td><strong>6</strong></td>
+                                <td>HP <span class="new-badge">NEW</span></td>
+                                <td>probook 440 G8</td>
+                                <td><small>CPU: i5<br>RAM: 8GB<br>Storage: 500<br>GPU: 2GB</small></td>
+                                <td><small>BDT 85,000</small></td>
+                                <td><small>30%</small></td>
+                                <td><span class="value-badge">BDT 59,500</span></td>
                             </tr>
 
                             <tr>
                                 <td><strong>10</strong></td>
-                                <td>Dell Monitor</td>
-                                <td>E170SC</td>
-                                <td><small>N/A</small></td>
-                                <td><small>Reception<br>8th Floor</small></td>
-                                <td><small>N/A<br><small>Good</small></small></td>
-                                <td><span class="value-badge">৳4,800</span></td>
+                                <td>Dell Laptop <span class="new-badge">NEW</span></td>
+                                <td>Inspiron 5410</td>
+                                <td><small>CPU: i5<br>RAM: 8GB<br>Storage: 500<br>Gen: 11</small></td>
+                                <td><small>BDT 75,000</small></td>
+                                <td><small>30%</small></td>
+                                <td><span class="value-badge">BDT 52,500</span></td>
+                            </tr>
+
+                            <tr>
+                                <td><strong>13</strong></td>
+                                <td>DELL <span class="new-badge">NEW</span></td>
+                                <td>Inspiron 3493</td>
+                                <td><small>CPU: i5<br>RAM: 4GB<br>Storage: 1000<br>GPU: 128MB</small></td>
+                                <td><small>BDT 75,000</small></td>
+                                <td><small>30%</small></td>
+                                <td><span class="value-badge">BDT 52,500</span></td>
+                            </tr>
+
+                            <tr>
+                                <td><strong>5</strong></td>
+                                <td>HP Laptop <span class="new-badge">NEW</span></td>
+                                <td>15s-fq5317TU</td>
+                                <td><small>CPU: i5<br>RAM: 8GB<br>Storage: 500<br>Gen: 12</small></td>
+                                <td><small>BDT 68,000</small></td>
+                                <td><small>30%</small></td>
+                                <td><span class="value-badge">BDT 47,600</span></td>
+                            </tr>
+
+                            <tr>
+                                <td><strong>17</strong></td>
+                                <td>LENOVO <span class="new-badge">NEW</span></td>
+                                <td>V14-G2-ITL</td>
+                                <td><small>CPU: i3<br>RAM: 4GB<br>Storage: 1000<br>Gen: 11</small></td>
+                                <td><small>BDT 48,000</small></td>
+                                <td><small>30%</small></td>
+                                <td><span class="value-badge">BDT 33,600</span></td>
+                            </tr>
+
+                            <tr>
+                                <td><strong>25</strong></td>
+                                <td>HP <span class="recond-badge">RECOND</span></td>
+                                <td>HSN-112C</td>
+                                <td><small>CPU: i5<br>RAM: 8GB<br>Storage: 256<br>Gen: 8</small></td>
+                                <td><small>BDT 50,000</small></td>
+                                <td><small>60%</small></td>
+                                <td><span class="value-badge">BDT 20,000</span></td>
+                            </tr>
+
+                            <tr>
+                                <td><strong>23</strong></td>
+                                <td>HP Laptop <span class="recond-badge">RECOND</span></td>
+                                <td>N/A</td>
+                                <td><small>CPU: i5<br>RAM: 4GB<br>Storage: 256<br>GPU: 128MB</small></td>
+                                <td><small>BDT 45,000</small></td>
+                                <td><small>60%</small></td>
+                                <td><span class="value-badge">BDT 18,000</span></td>
+                            </tr>
+
+                            <tr>
+                                <td><strong>32</strong></td>
+                                <td>DELL <span class="recond-badge">RECOND</span></td>
+                                <td>inspiron 3542</td>
+                                <td><small>CPU: i3<br>RAM: 4GB<br>Storage: 1000<br>Gen: 4</small></td>
+                                <td><small>BDT 32,000</small></td>
+                                <td><small>60%</small></td>
+                                <td><span class="value-badge">BDT 12,800</span></td>
+                            </tr>
+
+                            <tr>
+                                <td><strong>27</strong></td>
+                                <td>LENOVO <span class="recond-badge">RECOND</span></td>
+                                <td>X230</td>
+                                <td><small>CPU: i5<br>RAM: 4GB<br>Storage: 256<br>Gen: 3</small></td>
+                                <td><small>BDT 28,000</small></td>
+                                <td><small>60%</small></td>
+                                <td><span class="value-badge">BDT 11,200</span></td>
+                            </tr>
+
+                            <tr>
+                                <td><strong>30</strong></td>
+                                <td>LENOVO <span class="recond-badge">RECOND</span></td>
+                                <td>X230</td>
+                                <td><small>CPU: i5<br>RAM: 4GB<br>Storage: 256<br>Gen: 3</small></td>
+                                <td><small>BDT 28,000</small></td>
+                                <td><small>60%</small></td>
+                                <td><span class="value-badge">BDT 11,200</span></td>
                             </tr>
 
                         </tbody>
                     </table>
 
                     <div class="asset-type-header">
-                        Printer/Scanners (1) - Total Value: ৳12,000
+                        PCs (5) - Total Value: BDT 675,500
                     </div>
                     
                     <table class="asset-table">
                         <thead>
                             <tr>
                                 <th>Serial</th>
-                                <th>Name</th>
+                                <th>Name & Type</th>
                                 <th>Model</th>
                                 <th>Specs</th>
-                                <th>User/Location</th>
-                                <th>Status</th>
-                                <th>Value</th>
+                                <th>Market Price</th>
+                                <th>Depreciation</th>
+                                <th>Current Value</th>
                             </tr>
                         </thead>
                         <tbody>
+
+                            <tr>
+                                <td><strong>2</strong></td>
+                                <td>Desktop <span class="new-badge">NEW</span></td>
+                                <td>Clone PC</td>
+                                <td><small>CPU: i9<br>RAM: 16GB<br>Storage: 256/1000<br>GPU: 4GB</small></td>
+                                <td><small>BDT 280,000</small></td>
+                                <td><small>30%</small></td>
+                                <td><span class="value-badge">BDT 196,000</span></td>
+                            </tr>
 
                             <tr>
                                 <td><strong>4</strong></td>
-                                <td>HP</td>
-                                <td>Laser jet Pro M404dw</td>
-                                <td><small>N/A</small></td>
-                                <td><small>PHFYH03206<br>Duplex</small></td>
-                                <td><small>4️⃣<br><small></small></small></td>
-                                <td><span class="value-badge">৳12,000</span></td>
+                                <td>Desktop <span class="new-badge">NEW</span></td>
+                                <td>Clone PC</td>
+                                <td><small>CPU: i9<br>RAM: 16GB<br>Storage: 256/1000<br>GPU: 4GB</small></td>
+                                <td><small>BDT 280,000</small></td>
+                                <td><small>30%</small></td>
+                                <td><span class="value-badge">BDT 196,000</span></td>
+                            </tr>
+
+                            <tr>
+                                <td><strong>5</strong></td>
+                                <td>Desktop <span class="new-badge">NEW</span></td>
+                                <td>Clone PC</td>
+                                <td><small>CPU: i9<br>RAM: 16GB<br>Storage: 256/1000<br>GPU: 4GB</small></td>
+                                <td><small>BDT 280,000</small></td>
+                                <td><small>30%</small></td>
+                                <td><span class="value-badge">BDT 196,000</span></td>
+                            </tr>
+
+                            <tr>
+                                <td><strong>13</strong></td>
+                                <td>Desktop <span class="new-badge">NEW</span></td>
+                                <td>Clone PC</td>
+                                <td><small>User: Management Room<br>Loc: 2nd Floor</small></td>
+                                <td><small>BDT 70,000</small></td>
+                                <td><small>30%</small></td>
+                                <td><span class="value-badge">BDT 49,000</span></td>
+                            </tr>
+
+                            <tr>
+                                <td><strong>8</strong></td>
+                                <td>Desktop <span class="new-badge">NEW</span></td>
+                                <td>Clone PC</td>
+                                <td><small>CPU: i3<br>RAM: 8GB<br>Storage: 256/1000<br>Gen: 10</small></td>
+                                <td><small>BDT 55,000</small></td>
+                                <td><small>30%</small></td>
+                                <td><span class="value-badge">BDT 38,500</span></td>
                             </tr>
 
                         </tbody>
                     </table>
 
                     <div class="asset-type-header">
-                        Servers (6) - Total Value: ৳74,900
+                        Monitors (6) - Total Value: BDT 53,200
                     </div>
                     
                     <table class="asset-table">
                         <thead>
                             <tr>
                                 <th>Serial</th>
-                                <th>Name</th>
+                                <th>Name & Type</th>
                                 <th>Model</th>
                                 <th>Specs</th>
-                                <th>User/Location</th>
-                                <th>Status</th>
-                                <th>Value</th>
+                                <th>Market Price</th>
+                                <th>Depreciation</th>
+                                <th>Current Value</th>
                             </tr>
                         </thead>
                         <tbody>
 
                             <tr>
-                                <td><strong>14</strong></td>
-                                <td>UPS Battery 16 PCS</td>
-                                <td>N/A</td>
-                                <td><small>N/A</small></td>
-                                <td><small>N/A<br>N/A</small></td>
-                                <td><small>N/A<br><small>Excellent</small></small></td>
-                                <td><span class="value-badge">৳21,000</span></td>
+                                <td><strong>1</strong></td>
+                                <td>HP Monitor <span class="new-badge">NEW</span></td>
+                                <td>M22f</td>
+                                <td><small>User: Masum<br>Loc: 2nd Floor</small></td>
+                                <td><small>BDT 15,500</small></td>
+                                <td><small>30%</small></td>
+                                <td><span class="value-badge">BDT 10,850</span></td>
                             </tr>
 
                             <tr>
-                                <td><strong>3</strong></td>
-                                <td>Mikrotik Switch 16 Port</td>
-                                <td>CCR2004-16G-2S+</td>
-                                <td><small>N/A</small></td>
-                                <td><small>N/A<br>N/A</small></td>
-                                <td><small>N/A<br><small>Excellent</small></small></td>
-                                <td><span class="value-badge">৳17,500</span></td>
-                            </tr>
-
-                            <tr>
-                                <td><strong>9</strong></td>
-                                <td>Hikvision DVR 16 Port</td>
-                                <td>DS-7216HQH1-K2</td>
-                                <td><small>N/A</small></td>
-                                <td><small>N/A<br>N/A</small></td>
-                                <td><small>N/A<br><small>Excellent</small></small></td>
-                                <td><span class="value-badge">৳12,600</span></td>
-                            </tr>
-
-                            <tr>
-                                <td><strong>6</strong></td>
-                                <td>KVM Switch 8 Port</td>
-                                <td>KVM-0831</td>
-                                <td><small>N/A</small></td>
-                                <td><small>N/A<br>N/A</small></td>
-                                <td><small>N/A<br><small>Excellent</small></small></td>
-                                <td><span class="value-badge">৳8,400</span></td>
+                                <td><strong>4</strong></td>
+                                <td>HP Monitor <span class="new-badge">NEW</span></td>
+                                <td>M22f</td>
+                                <td><small>User: Nayon<br>Loc: 2nd Floor</small></td>
+                                <td><small>BDT 15,500</small></td>
+                                <td><small>30%</small></td>
+                                <td><span class="value-badge">BDT 10,850</span></td>
                             </tr>
 
                             <tr>
                                 <td><strong>7</strong></td>
-                                <td>TP-Link Switch 8 Port</td>
-                                <td>T1500G-10PS</td>
-                                <td><small>N/A</small></td>
-                                <td><small>N/A<br>N/A</small></td>
-                                <td><small>N/A<br><small>Excellent</small></small></td>
-                                <td><span class="value-badge">৳8,400</span></td>
+                                <td>ASUS Monitor <span class="new-badge">NEW</span></td>
+                                <td>VP229HE</td>
+                                <td><small>User: Faysal Comercial<br>Loc: 2nd Floor</small></td>
+                                <td><small>BDT 15,500</small></td>
+                                <td><small>30%</small></td>
+                                <td><span class="value-badge">BDT 10,850</span></td>
                             </tr>
 
                             <tr>
+                                <td><strong>10</strong></td>
+                                <td>HP Monitor <span class="new-badge">NEW</span></td>
+                                <td>LV1911</td>
+                                <td><small>User: Design Team<br>Loc: 3rd Floor</small></td>
+                                <td><small>BDT 10,000</small></td>
+                                <td><small>30%</small></td>
+                                <td><span class="value-badge">BDT 7,000</span></td>
+                            </tr>
+
+                            <tr>
+                                <td><strong>11</strong></td>
+                                <td>Dell Monitor <span class="new-badge">NEW</span></td>
+                                <td>D1918Ho</td>
+                                <td><small>User: Mostak<br>Loc: 3th Floor</small></td>
+                                <td><small>BDT 10,000</small></td>
+                                <td><small>30%</small></td>
+                                <td><span class="value-badge">BDT 7,000</span></td>
+                            </tr>
+
+                            <tr>
+                                <td><strong>15</strong></td>
+                                <td>SAMSUNG <span class="new-badge">NEW</span></td>
+                                <td>S19C300B</td>
+                                <td><small>User: Common PC<br>Loc: 3th Floor</small></td>
+                                <td><small>BDT 9,500</small></td>
+                                <td><small>30%</small></td>
+                                <td><span class="value-badge">BDT 6,650</span></td>
+                            </tr>
+
+                        </tbody>
+                    </table>
+
+                    <div class="asset-type-header">
+                        Printer Scaneers (4) - Total Value: BDT 107,800
+                    </div>
+                    
+                    <table class="asset-table">
+                        <thead>
+                            <tr>
+                                <th>Serial</th>
+                                <th>Name & Type</th>
+                                <th>Model</th>
+                                <th>Specs</th>
+                                <th>Market Price</th>
+                                <th>Depreciation</th>
+                                <th>Current Value</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+
+                            <tr>
                                 <td><strong>1</strong></td>
-                                <td>ACS Soyal Conveter</td>
-                                <td>AR-727CM-V3</td>
+                                <td>EPSON A3 <span class="new-badge">NEW</span></td>
+                                <td>C722B1</td>
+                                <td><small>Loc: 2nd Floor Marketing Room</small></td>
+                                <td><small>BDT 80,000</small></td>
+                                <td><small>30%</small></td>
+                                <td><span class="value-badge">BDT 56,000</span></td>
+                            </tr>
+
+                            <tr>
+                                <td><strong>4</strong></td>
+                                <td>HP <span class="new-badge">NEW</span></td>
+                                <td>Laser jet Pro M404dw</td>
+                                <td><small>Loc: 2nd Floor Marketing Room</small></td>
+                                <td><small>BDT 42,000</small></td>
+                                <td><small>30%</small></td>
+                                <td><span class="value-badge">BDT 29,400</span></td>
+                            </tr>
+
+                            <tr>
+                                <td><strong>9</strong></td>
+                                <td>SAMSUNG <span class="new-badge">NEW</span></td>
+                                <td>Xpress M2820ND</td>
+                                <td><small>Loc: 2nd Floor Commercial  Room</small></td>
+                                <td><small>BDT 18,000</small></td>
+                                <td><small>30%</small></td>
+                                <td><span class="value-badge">BDT 12,600</span></td>
+                            </tr>
+
+                            <tr>
+                                <td><strong>6</strong></td>
+                                <td>PANTUiM <span class="new-badge">NEW</span></td>
+                                <td>P3010DW</td>
+                                <td><small>Loc: 3rd Floor Supply Manager Room</small></td>
+                                <td><small>BDT 14,000</small></td>
+                                <td><small>30%</small></td>
+                                <td><span class="value-badge">BDT 9,800</span></td>
+                            </tr>
+
+                        </tbody>
+                    </table>
+
+                    <div class="asset-type-header">
+                        Server Rooms (5) - Total Value: BDT 74,900
+                    </div>
+                    
+                    <table class="asset-table">
+                        <thead>
+                            <tr>
+                                <th>Serial</th>
+                                <th>Name & Type</th>
+                                <th>Model</th>
+                                <th>Specs</th>
+                                <th>Market Price</th>
+                                <th>Depreciation</th>
+                                <th>Current Value</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+
+                            <tr>
+                                <td><strong>13</strong></td>
+                                <td>UPS <span class="new-badge">NEW</span></td>
+                                <td>APC/SRCE6KUX1</td>
                                 <td><small>N/A</small></td>
-                                <td><small>N/A<br>N/A</small></td>
-                                <td><small>N/A<br><small>Excellent</small></small></td>
-                                <td><span class="value-badge">৳7,000</span></td>
+                                <td><small>BDT 35,000</small></td>
+                                <td><small>30%</small></td>
+                                <td><span class="value-badge">BDT 24,500</span></td>
+                            </tr>
+
+                            <tr>
+                                <td><strong>5</strong></td>
+                                <td>Cisco Switch 24 Port <span class="new-badge">NEW</span></td>
+                                <td>CBS350-24T-4G</td>
+                                <td><small>N/A</small></td>
+                                <td><small>BDT 33,000</small></td>
+                                <td><small>30%</small></td>
+                                <td><span class="value-badge">BDT 23,100</span></td>
+                            </tr>
+
+                            <tr>
+                                <td><strong>12</strong></td>
+                                <td>PBAX Controller <span class="new-badge">NEW</span></td>
+                                <td>KX-Tes824BX</td>
+                                <td><small>N/A</small></td>
+                                <td><small>BDT 25,000</small></td>
+                                <td><small>30%</small></td>
+                                <td><span class="value-badge">BDT 17,500</span></td>
+                            </tr>
+
+                            <tr>
+                                <td><strong>8</strong></td>
+                                <td>Hikvision DVR 8 Port <span class="new-badge">NEW</span></td>
+                                <td>DS-720BHGH1-F2</td>
+                                <td><small>N/A</small></td>
+                                <td><small>BDT 12,000</small></td>
+                                <td><small>30%</small></td>
+                                <td><span class="value-badge">BDT 8,400</span></td>
+                            </tr>
+
+                            <tr>
+                                <td><strong>11</strong></td>
+                                <td>Cable Manager <span class="new-badge">NEW</span></td>
+                                <td>AMP</td>
+                                <td><small>N/A</small></td>
+                                <td><small>BDT 2,000</small></td>
+                                <td><small>30%</small></td>
+                                <td><span class="value-badge">BDT 1,400</span></td>
                             </tr>
 
                         </tbody>
@@ -986,29 +1258,29 @@
                 <div class="group-stats">
                     <div class="stat">
                         <div class="stat-label">Total Assets</div>
-                        <div class="stat-value">18</div>
+                        <div class="stat-value">31</div>
                     </div>
                     <div class="stat">
                         <div class="stat-label">Total Value</div>
-                        <div class="stat-value">৳570,700</div>
+                        <div class="stat-value">BDT 1,231,850</div>
                     </div>
                     <div class="stat">
                         <div class="stat-label">Variance</div>
-                        <div class="stat-value">+0.04%</div>
+                        <div class="stat-value">+0.08%</div>
                     </div>
                     <div class="stat">
                         <div class="stat-label">Avg per Asset</div>
-                        <div class="stat-value">৳31,706</div>
+                        <div class="stat-value">BDT 39,737</div>
                     </div>
 
                     <div class="stat">
                         <div class="stat-label">Laptop</div>
-                        <div class="stat-value">4</div>
+                        <div class="stat-value">14</div>
                     </div>
 
                     <div class="stat">
-                        <div class="stat-label">Desktop PC</div>
-                        <div class="stat-value">3</div>
+                        <div class="stat-label">PC</div>
+                        <div class="stat-value">6</div>
                     </div>
 
                     <div class="stat">
@@ -1031,285 +1303,415 @@
                 <div class="asset-type-section">
 
                     <div class="asset-type-header">
-                        Laptops (4) - Total Value: ৳226,500
+                        Laptops (14) - Total Value: BDT 432,100
                     </div>
                     
                     <table class="asset-table">
                         <thead>
                             <tr>
                                 <th>Serial</th>
-                                <th>Name</th>
+                                <th>Name & Type</th>
                                 <th>Model</th>
                                 <th>Specs</th>
-                                <th>User/Location</th>
-                                <th>Status</th>
-                                <th>Value</th>
+                                <th>Market Price</th>
+                                <th>Depreciation</th>
+                                <th>Current Value</th>
                             </tr>
                         </thead>
                         <tbody>
 
                             <tr>
-                                <td><strong>1</strong></td>
-                                <td>DELL</td>
-                                <td>N/A</td>
-                                <td><small>CPU: i7<br>RAM: 8GB<br>Storage: 500<br>Gen: 11</small></td>
-                                <td><small>Masum Billah<br>User</small></td>
-                                <td><small>N/A<br><small>Good</small></small></td>
-                                <td><span class="value-badge">৳72,000</span></td>
-                            </tr>
-
-                            <tr>
                                 <td><strong>3</strong></td>
-                                <td>HP</td>
+                                <td>HP <span class="new-badge">NEW</span></td>
                                 <td>Probook 440 G4</td>
                                 <td><small>CPU: i7<br>RAM: 8GB<br>Storage: 128/1000<br>Gen: 7</small></td>
-                                <td><small>Faysal Hossain(Design)<br>User</small></td>
-                                <td><small>N/A<br><small>Moderate</small></small></td>
-                                <td><span class="value-badge">৳69,300</span></td>
+                                <td><small>BDT 95,000</small></td>
+                                <td><small>30%</small></td>
+                                <td><span class="value-badge">BDT 66,500</span></td>
                             </tr>
 
                             <tr>
-                                <td><strong>7</strong></td>
-                                <td>Dell Laptop</td>
+                                <td><strong>9</strong></td>
+                                <td>Dell Laptop <span class="new-badge">NEW</span></td>
                                 <td>Inspiron 15 3511</td>
                                 <td><small>CPU: i5<br>RAM: 8GB<br>Storage: 500<br>Gen: 11</small></td>
-                                <td><small>Tareq<br>In Stock</small></td>
-                                <td><small>N/A<br><small>Good</small></small></td>
-                                <td><span class="value-badge">৳65,700</span></td>
+                                <td><small>BDT 75,000</small></td>
+                                <td><small>30%</small></td>
+                                <td><span class="value-badge">BDT 52,500</span></td>
                             </tr>
 
                             <tr>
-                                <td><strong>10</strong></td>
-                                <td>DELL</td>
+                                <td><strong>12</strong></td>
+                                <td>DELL <span class="new-badge">NEW</span></td>
+                                <td>Inspiron 3511</td>
+                                <td><small>CPU: i5<br>RAM: 8GB<br>Storage: 500<br>GPU: 2GB</small></td>
+                                <td><small>BDT 75,000</small></td>
+                                <td><small>30%</small></td>
+                                <td><span class="value-badge">BDT 52,500</span></td>
+                            </tr>
+
+                            <tr>
+                                <td><strong>14</strong></td>
+                                <td>HP <span class="new-badge">NEW</span></td>
+                                <td>15s-fq2643TU</td>
+                                <td><small>CPU: i5<br>RAM: 8GB<br>Storage: 500<br>Gen: 11</small></td>
+                                <td><small>BDT 70,000</small></td>
+                                <td><small>30%</small></td>
+                                <td><span class="value-badge">BDT 49,000</span></td>
+                            </tr>
+
+                            <tr>
+                                <td><strong>8</strong></td>
+                                <td>HP Laptop <span class="new-badge">NEW</span></td>
+                                <td>RTL8822CE</td>
+                                <td><small>CPU: i5<br>RAM: 8GB<br>Storage: 240<br>Gen: 12</small></td>
+                                <td><small>BDT 68,000</small></td>
+                                <td><small>30%</small></td>
+                                <td><span class="value-badge">BDT 47,600</span></td>
+                            </tr>
+
+                            <tr>
+                                <td><strong>16</strong></td>
+                                <td>LENOVO <span class="new-badge">NEW</span></td>
+                                <td>V14-G2-ITL</td>
+                                <td><small>CPU: i3<br>RAM: 4GB<br>Storage: 1000<br>Gen: 11</small></td>
+                                <td><small>BDT 48,000</small></td>
+                                <td><small>30%</small></td>
+                                <td><span class="value-badge">BDT 33,600</span></td>
+                            </tr>
+
+                            <tr>
+                                <td><strong>19</strong></td>
+                                <td>HP <span class="recond-badge">RECOND</span></td>
+                                <td>440-G4</td>
+                                <td><small>CPU: i7<br>RAM: 8GB<br>Storage: 240<br>GPU: 2GB</small></td>
+                                <td><small>BDT 60,000</small></td>
+                                <td><small>60%</small></td>
+                                <td><span class="value-badge">BDT 24,000</span></td>
+                            </tr>
+
+                            <tr>
+                                <td><strong>21</strong></td>
+                                <td>HP <span class="recond-badge">RECOND</span></td>
+                                <td>830 G5</td>
+                                <td><small>CPU: i5<br>RAM: 4GB<br>Storage: 256<br>Gen: 8</small></td>
+                                <td><small>BDT 55,000</small></td>
+                                <td><small>60%</small></td>
+                                <td><span class="value-badge">BDT 22,000</span></td>
+                            </tr>
+
+                            <tr>
+                                <td><strong>22</strong></td>
+                                <td>HP <span class="recond-badge">RECOND</span></td>
+                                <td>Elitbook</td>
+                                <td><small>CPU: i5<br>RAM: 8GB<br>Storage: 256<br>GPU: 128MB</small></td>
+                                <td><small>BDT 45,000</small></td>
+                                <td><small>60%</small></td>
+                                <td><span class="value-badge">BDT 18,000</span></td>
+                            </tr>
+
+                            <tr>
+                                <td><strong>26</strong></td>
+                                <td>HP <span class="recond-badge">RECOND</span></td>
+                                <td>Elitbook840 G3</td>
+                                <td><small>CPU: i5<br>RAM: 8GB<br>Storage: 240<br>GPU: 128MB</small></td>
+                                <td><small>BDT 45,000</small></td>
+                                <td><small>60%</small></td>
+                                <td><span class="value-badge">BDT 18,000</span></td>
+                            </tr>
+
+                            <tr>
+                                <td><strong>31</strong></td>
+                                <td>DELL <span class="recond-badge">RECOND</span></td>
                                 <td>Latitute 3350</td>
-                                <td><small>CPU: i3<br>RAM: 4GB<br>Storage: 500<br>GPU: 128MB<br>Gen: 5</small></td>
-                                <td><small>Debasish Mondol<br>User</small></td>
-                                <td><small>N/A<br><small>Moderate</small></small></td>
-                                <td><span class="value-badge">৳19,500</span></td>
+                                <td><small>CPU: i3<br>RAM: 4GB<br>Storage: 500<br>GPU: 128MB</small></td>
+                                <td><small>BDT 35,000</small></td>
+                                <td><small>60%</small></td>
+                                <td><span class="value-badge">BDT 14,000</span></td>
+                            </tr>
+
+                            <tr>
+                                <td><strong>33</strong></td>
+                                <td>HP <span class="recond-badge">RECOND</span></td>
+                                <td>440-G2</td>
+                                <td><small>CPU: i3<br>RAM: 4GB<br>Storage: 1000<br>Gen: 5</small></td>
+                                <td><small>BDT 30,000</small></td>
+                                <td><small>60%</small></td>
+                                <td><span class="value-badge">BDT 12,000</span></td>
+                            </tr>
+
+                            <tr>
+                                <td><strong>28</strong></td>
+                                <td>Lenovo Thinkpad <span class="recond-badge">RECOND</span></td>
+                                <td>X230</td>
+                                <td><small>CPU: i5<br>RAM: 4GB<br>Storage: 256<br>Gen: 3</small></td>
+                                <td><small>BDT 28,000</small></td>
+                                <td><small>60%</small></td>
+                                <td><span class="value-badge">BDT 11,200</span></td>
+                            </tr>
+
+                            <tr>
+                                <td><strong>34</strong></td>
+                                <td>ASUS <span class="recond-badge">RECOND</span></td>
+                                <td>N/A</td>
+                                <td><small>CPU: i3<br>RAM: 4GB<br>Storage: 1000<br>Gen: 6</small></td>
+                                <td><small>BDT 28,000</small></td>
+                                <td><small>60%</small></td>
+                                <td><span class="value-badge">BDT 11,200</span></td>
                             </tr>
 
                         </tbody>
                     </table>
 
                     <div class="asset-type-header">
-                        Desktop PCs (3) - Total Value: ৳225,600
+                        PCs (6) - Total Value: BDT 651,000
                     </div>
                     
                     <table class="asset-table">
                         <thead>
                             <tr>
                                 <th>Serial</th>
-                                <th>Name</th>
+                                <th>Name & Type</th>
                                 <th>Model</th>
                                 <th>Specs</th>
-                                <th>User/Location</th>
-                                <th>Status</th>
-                                <th>Value</th>
+                                <th>Market Price</th>
+                                <th>Depreciation</th>
+                                <th>Current Value</th>
                             </tr>
                         </thead>
                         <tbody>
 
                             <tr>
                                 <td><strong>3</strong></td>
-                                <td>Desktop</td>
+                                <td>Desktop <span class="new-badge">NEW</span></td>
                                 <td>Clone PC</td>
-                                <td><small>CPU: i9<br>RAM: 16GB<br>Storage: 256/1000<br>GPU: 4GB<br>Gen: 13</small></td>
-                                <td><small>Faysal Design<br>3rd Floor</small></td>
-                                <td><small>N/A<br><small>Excellent</small></small></td>
-                                <td><span class="value-badge">৳100,800</span></td>
+                                <td><small>CPU: i9<br>RAM: 16GB<br>Storage: 256/1000<br>GPU: 4GB</small></td>
+                                <td><small>BDT 280,000</small></td>
+                                <td><small>30%</small></td>
+                                <td><span class="value-badge">BDT 196,000</span></td>
                             </tr>
 
                             <tr>
-                                <td><strong>5</strong></td>
-                                <td>Desktop</td>
+                                <td><strong>4</strong></td>
+                                <td>Desktop <span class="new-badge">NEW</span></td>
                                 <td>Clone PC</td>
-                                <td><small>CPU: i9<br>RAM: 16GB<br>Storage: 256/1000<br>GPU: 4GB<br>Gen: 13</small></td>
-                                <td><small>Nayon Design<br>2nd Floor</small></td>
-                                <td><small>N/A<br><small>Excellent</small></small></td>
-                                <td><span class="value-badge">৳100,800</span></td>
+                                <td><small>CPU: i9<br>RAM: 16GB<br>Storage: 256/1000<br>GPU: 4GB</small></td>
+                                <td><small>BDT 280,000</small></td>
+                                <td><small>30%</small></td>
+                                <td><span class="value-badge">BDT 196,000</span></td>
                             </tr>
 
                             <tr>
                                 <td><strong>9</strong></td>
-                                <td>Desktop</td>
+                                <td>Desktop <span class="new-badge">NEW</span></td>
                                 <td>Clone PC</td>
-                                <td><small>CPU: Dual core<br>RAM: 4GB<br>Gen: 4</small></td>
-                                <td><small>IT Room<br>2nd Floor</small></td>
-                                <td><small>N/A<br><small>Moderate</small></small></td>
-                                <td><span class="value-badge">৳24,000</span></td>
-                            </tr>
-
-                        </tbody>
-                    </table>
-
-                    <div class="asset-type-header">
-                        Monitors (3) - Total Value: ৳25,400
-                    </div>
-                    
-                    <table class="asset-table">
-                        <thead>
-                            <tr>
-                                <th>Serial</th>
-                                <th>Name</th>
-                                <th>Model</th>
-                                <th>Specs</th>
-                                <th>User/Location</th>
-                                <th>Status</th>
-                                <th>Value</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-
-                            <tr>
-                                <td><strong>3</strong></td>
-                                <td>HP Monitor</td>
-                                <td>M22f</td>
-                                <td><small>N/A</small></td>
-                                <td><small>Commercial Room<br>2nd Floor</small></td>
-                                <td><small>N/A<br><small>Excellent</small></small></td>
-                                <td><span class="value-badge">৳10,000</span></td>
+                                <td><small>CPU: i9<br>RAM: 32GB<br>Storage: 1000/2000<br>Gen: 11</small></td>
+                                <td><small>BDT 220,000</small></td>
+                                <td><small>30%</small></td>
+                                <td><span class="value-badge">BDT 154,000</span></td>
                             </tr>
 
                             <tr>
-                                <td><strong>6</strong></td>
-                                <td>Dell Monitor</td>
-                                <td>52240Lc</td>
-                                <td><small>N/A</small></td>
-                                <td><small>Design Team<br>3rd Floor</small></td>
-                                <td><small>N/A<br><small>Excellent</small></small></td>
-                                <td><span class="value-badge">৳7,700</span></td>
+                                <td><strong>14</strong></td>
+                                <td>Desktop <span class="new-badge">NEW</span></td>
+                                <td>Clone PC</td>
+                                <td><small>User: IT Room<br>Loc: 2nd Floor</small></td>
+                                <td><small>BDT 70,000</small></td>
+                                <td><small>30%</small></td>
+                                <td><span class="value-badge">BDT 49,000</span></td>
                             </tr>
 
                             <tr>
-                                <td><strong>7</strong></td>
-                                <td>Dell Monitor</td>
-                                <td>52240Lc</td>
-                                <td><small>N/A</small></td>
-                                <td><small>Design Team<br>3rd Floor</small></td>
-                                <td><small>N/A<br><small>Excellent</small></small></td>
-                                <td><span class="value-badge">৳7,700</span></td>
-                            </tr>
-
-                        </tbody>
-                    </table>
-
-                    <div class="asset-type-header">
-                        Printer/Scanners (5) - Total Value: ৳75,000
-                    </div>
-                    
-                    <table class="asset-table">
-                        <thead>
-                            <tr>
-                                <th>Serial</th>
-                                <th>Name</th>
-                                <th>Model</th>
-                                <th>Specs</th>
-                                <th>User/Location</th>
-                                <th>Status</th>
-                                <th>Value</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-
-                            <tr>
-                                <td><strong>5</strong></td>
-                                <td>HP</td>
-                                <td>Laser jet Pro M402dn</td>
-                                <td><small>N/A</small></td>
-                                <td><small>PHCND75197<br>Duplex</small></td>
-                                <td><small>4️⃣<br><small></small></small></td>
-                                <td><span class="value-badge">৳30,000</span></td>
-                            </tr>
-
-                            <tr>
-                                <td><strong>2</strong></td>
-                                <td>EPSON</td>
-                                <td>L3250</td>
-                                <td><small>N/A</small></td>
-                                <td><small>N/A<br>Color, Copy, Scanner, Duplex</small></td>
-                                <td><small>2️⃣<br><small></small></small></td>
-                                <td><span class="value-badge">৳15,000</span></td>
-                            </tr>
-
-                            <tr>
-                                <td><strong>7</strong></td>
-                                <td>HP</td>
-                                <td>HP Laser 107w</td>
-                                <td><small>N/A</small></td>
-                                <td><small>CNB3PD60YJ<br>Single</small></td>
-                                <td><small>6️⃣<br><small></small></small></td>
-                                <td><span class="value-badge">৳12,000</span></td>
-                            </tr>
-
-                            <tr>
-                                <td><strong>6</strong></td>
-                                <td>PANTUiM</td>
-                                <td>P3010DW</td>
-                                <td><small>N/A</small></td>
-                                <td><small>CM5C00D405<br>Duplex</small></td>
-                                <td><small>5️⃣<br><small></small></small></td>
-                                <td><span class="value-badge">৳9,000</span></td>
-                            </tr>
-
-                            <tr>
-                                <td><strong>9</strong></td>
-                                <td>EPSON(Scaneer)</td>
-                                <td>J371A</td>
-                                <td><small>N/A</small></td>
-                                <td><small>VCHY136633<br>Scaneer</small></td>
-                                <td><small>1️⃣<br><small></small></small></td>
-                                <td><span class="value-badge">৳9,000</span></td>
-                            </tr>
-
-                        </tbody>
-                    </table>
-
-                    <div class="asset-type-header">
-                        Servers (3) - Total Value: ৳18,200
-                    </div>
-                    
-                    <table class="asset-table">
-                        <thead>
-                            <tr>
-                                <th>Serial</th>
-                                <th>Name</th>
-                                <th>Model</th>
-                                <th>Specs</th>
-                                <th>User/Location</th>
-                                <th>Status</th>
-                                <th>Value</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-
-                            <tr>
-                                <td><strong>5</strong></td>
-                                <td>Cisco Switch 24 Port</td>
-                                <td>CBS350-24T-4G</td>
-                                <td><small>N/A</small></td>
-                                <td><small>N/A<br>N/A</small></td>
-                                <td><small>N/A<br><small>Excellent</small></small></td>
-                                <td><span class="value-badge">৳14,000</span></td>
-                            </tr>
-
-                            <tr>
-                                <td><strong>10</strong></td>
-                                <td>Patch Panel 24 Port</td>
-                                <td>Net Key</td>
-                                <td><small>N/A</small></td>
-                                <td><small>N/A<br>N/A</small></td>
-                                <td><small>N/A<br><small>Excellent</small></small></td>
-                                <td><span class="value-badge">৳2,100</span></td>
+                                <td><strong>15</strong></td>
+                                <td>Desktop <span class="new-badge">NEW</span></td>
+                                <td>Dell Optiplex 3020</td>
+                                <td><small>CPU: i3<br>RAM: 8GB<br>Storage: 256<br>Gen: 5</small></td>
+                                <td><small>BDT 45,000</small></td>
+                                <td><small>30%</small></td>
+                                <td><span class="value-badge">BDT 31,500</span></td>
                             </tr>
 
                             <tr>
                                 <td><strong>11</strong></td>
-                                <td>Cable Manager</td>
-                                <td>AMP</td>
+                                <td>Desktop <span class="new-badge">NEW</span></td>
+                                <td>Clone PC</td>
+                                <td><small>CPU: i3<br>RAM: 4GB<br>Storage: 1000<br>Gen: 4</small></td>
+                                <td><small>BDT 35,000</small></td>
+                                <td><small>30%</small></td>
+                                <td><span class="value-badge">BDT 24,500</span></td>
+                            </tr>
+
+                        </tbody>
+                    </table>
+
+                    <div class="asset-type-header">
+                        Monitors (3) - Total Value: BDT 25,900
+                    </div>
+                    
+                    <table class="asset-table">
+                        <thead>
+                            <tr>
+                                <th>Serial</th>
+                                <th>Name & Type</th>
+                                <th>Model</th>
+                                <th>Specs</th>
+                                <th>Market Price</th>
+                                <th>Depreciation</th>
+                                <th>Current Value</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+
+                            <tr>
+                                <td><strong>2</strong></td>
+                                <td>HP Monitor <span class="new-badge">NEW</span></td>
+                                <td>M22f</td>
+                                <td><small>User: IT Room<br>Loc: 2nd Floor</small></td>
+                                <td><small>BDT 15,500</small></td>
+                                <td><small>30%</small></td>
+                                <td><span class="value-badge">BDT 10,850</span></td>
+                            </tr>
+
+                            <tr>
+                                <td><strong>5</strong></td>
+                                <td>HP Monitor <span class="new-badge">NEW</span></td>
+                                <td>M22f</td>
+                                <td><small>User: Enamul<br>Loc: 3rd Floor</small></td>
+                                <td><small>BDT 15,500</small></td>
+                                <td><small>30%</small></td>
+                                <td><span class="value-badge">BDT 10,850</span></td>
+                            </tr>
+
+                            <tr>
+                                <td><strong>14</strong></td>
+                                <td>Dell Monitor <span class="new-badge">NEW</span></td>
+                                <td>E170SC</td>
+                                <td><small>User: Reception<br>Loc: 8th Floor</small></td>
+                                <td><small>BDT 6,000</small></td>
+                                <td><small>30%</small></td>
+                                <td><span class="value-badge">BDT 4,200</span></td>
+                            </tr>
+
+                        </tbody>
+                    </table>
+
+                    <div class="asset-type-header">
+                        Printer Scaneers (5) - Total Value: BDT 49,000
+                    </div>
+                    
+                    <table class="asset-table">
+                        <thead>
+                            <tr>
+                                <th>Serial</th>
+                                <th>Name & Type</th>
+                                <th>Model</th>
+                                <th>Specs</th>
+                                <th>Market Price</th>
+                                <th>Depreciation</th>
+                                <th>Current Value</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+
+                            <tr>
+                                <td><strong>5</strong></td>
+                                <td>HP <span class="new-badge">NEW</span></td>
+                                <td>Laser jet Pro M402dn</td>
+                                <td><small>Loc: 3rd Floor  Open Space</small></td>
+                                <td><small>BDT 22,000</small></td>
+                                <td><small>30%</small></td>
+                                <td><span class="value-badge">BDT 15,400</span></td>
+                            </tr>
+
+                            <tr>
+                                <td><strong>10</strong></td>
+                                <td>T3 Project Printer <span class="new-badge">NEW</span></td>
+                                <td>Canon F166400</td>
+                                <td><small>Loc: GTL Warehouse</small></td>
+                                <td><small>BDT 15,000</small></td>
+                                <td><small>30%</small></td>
+                                <td><span class="value-badge">BDT 10,500</span></td>
+                            </tr>
+
+                            <tr>
+                                <td><strong>11</strong></td>
+                                <td>EPSON(Scaneer) <span class="new-badge">NEW</span></td>
+                                <td>J371A</td>
+                                <td><small>Loc: 2nd Floor Marketing Room</small></td>
+                                <td><small>BDT 12,000</small></td>
+                                <td><small>30%</small></td>
+                                <td><span class="value-badge">BDT 8,400</span></td>
+                            </tr>
+
+                            <tr>
+                                <td><strong>8</strong></td>
+                                <td>HP <span class="new-badge">NEW</span></td>
+                                <td>HP Laser 107w</td>
+                                <td><small>Loc: 2nd Floor FPT Room</small></td>
+                                <td><small>BDT 11,000</small></td>
+                                <td><small>30%</small></td>
+                                <td><span class="value-badge">BDT 7,700</span></td>
+                            </tr>
+
+                            <tr>
+                                <td><strong>12</strong></td>
+                                <td>Canon(Scaneer) <span class="new-badge">NEW</span></td>
+                                <td>Canon EUROPA</td>
+                                <td><small>Loc: 2nd Floor Commercial  Room</small></td>
+                                <td><small>BDT 10,000</small></td>
+                                <td><small>30%</small></td>
+                                <td><span class="value-badge">BDT 7,000</span></td>
+                            </tr>
+
+                        </tbody>
+                    </table>
+
+                    <div class="asset-type-header">
+                        Server Rooms (3) - Total Value: BDT 73,850
+                    </div>
+                    
+                    <table class="asset-table">
+                        <thead>
+                            <tr>
+                                <th>Serial</th>
+                                <th>Name & Type</th>
+                                <th>Model</th>
+                                <th>Specs</th>
+                                <th>Market Price</th>
+                                <th>Depreciation</th>
+                                <th>Current Value</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+
+                            <tr>
+                                <td><strong>3</strong></td>
+                                <td>Mikrotik Switch 16 Port <span class="new-badge">NEW</span></td>
+                                <td>CCR2004-16G-2S+</td>
                                 <td><small>N/A</small></td>
-                                <td><small>N/A<br>N/A</small></td>
-                                <td><small>N/A<br><small>Excellent</small></small></td>
-                                <td><span class="value-badge">৳2,100</span></td>
+                                <td><small>BDT 85,000</small></td>
+                                <td><small>30%</small></td>
+                                <td><span class="value-badge">BDT 59,500</span></td>
+                            </tr>
+
+                            <tr>
+                                <td><strong>2</strong></td>
+                                <td>MikroTik Router Board <span class="new-badge">NEW</span></td>
+                                <td>RB2011UiAS-RM</td>
+                                <td><small>N/A</small></td>
+                                <td><small>BDT 13,000</small></td>
+                                <td><small>30%</small></td>
+                                <td><span class="value-badge">BDT 9,100</span></td>
+                            </tr>
+
+                            <tr>
+                                <td><strong>4</strong></td>
+                                <td>TP-Link Switch 24 Port <span class="new-badge">NEW</span></td>
+                                <td>TL-SG1024D</td>
+                                <td><small>N/A</small></td>
+                                <td><small>BDT 7,500</small></td>
+                                <td><small>30%</small></td>
+                                <td><span class="value-badge">BDT 5,250</span></td>
                             </tr>
 
                         </tbody>

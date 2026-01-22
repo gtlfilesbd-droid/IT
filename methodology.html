@@ -334,180 +334,149 @@
                 <div class="overview-grid">
                     <div class="overview-card">
                         <h3>Total Assets</h3>
-                        <div class="value">52</div>
+                        <div class="value">91</div>
                         <div class="label">Available for Distribution</div>
                     </div>
                     <div class="overview-card">
                         <h3>Total Value</h3>
-                        <div class="value">৳1,711,450</div>
+                        <div class="value">৳3,692,500</div>
                         <div class="label">Combined Worth (BDT)</div>
                     </div>
                     <div class="overview-card">
                         <h3>Target per Group</h3>
-                        <div class="value">৳570,483</div>
+                        <div class="value">৳1,230,833</div>
                         <div class="label">Equal Distribution Target</div>
                     </div>
                     <div class="overview-card">
                         <h3>Distribution Method</h3>
-                        <div class="value">Greedy</div>
+                        <div class="value">Market-Based Greedy</div>
                         <div class="label">Algorithm Used</div>
                     </div>
                 </div>
                 
                 <div class="note-box">
-                    <strong>Note:</strong> All assets are used/second-hand equipment. Depreciation rates have been applied based on current condition to reflect fair market value.
+                    <strong>Updated Methodology (January 2026):</strong> All asset values are now based on current market prices researched from Bangladesh market. New assets are valued at 70% of market price (30% depreciation). Reconditioned/used assets are valued at 40% of market price (60% depreciation).
                 </div>
             </div>
 
             <!-- Section 2: Value Calculation Methodology -->
             <div class="section">
                 <h2>2. Value Calculation Methodology</h2>
-                <p>Each asset's current value is calculated using a comprehensive formula that considers type, specifications, and condition.</p>
+                <p>Each asset's current value is calculated based on <strong>current market prices</strong> (January 2026) with depreciation applied according to condition:</p>
                 
-                <h3>2.1 Laptops</h3>
                 <div class="formula-box">
-                    <strong>Base Formula (Used/Reconditioned):</strong>
-                    <code>Base Value = ৳30,000</code>
-                    <code>+ Processor Bonus (i7/Ryzen 7: ৳15,000 | i5/Ryzen 5: ৳8,000 | i3: ৳3,000)</code>
-                    <code>+ RAM × ৳1,500 per GB</code>
-                    <code>+ (Generation - 10) × ৳3,000 (if Gen ≥ 11)</code>
-                    <code>+ GPU Bonus (4GB: ৳8,000 | 2GB: ৳4,000)</code>
+                    <strong>Market-Based Valuation Formula:</strong>
+                    <code>Current Value = Market Price × Depreciation Rate</code>
                     <code></code>
-                    <code><strong>New Laptops:</strong></code>
-                    <code>Base Value = ৳50,000 (with minimal 5-10% depreciation)</code>
+                    <code>For NEW assets: Depreciation Rate = 70% (30% reduction)</code>
+                    <code>For RECONDITIONED assets: Depreciation Rate = 40% (60% reduction)</code>
+                </div>
+                
+                <h3>2.1 Laptops (Market Price Based)</h3>
+                <div class="formula-box">
+                    <strong>New Laptop Market Prices (Examples):</strong>
+                    <code>• Dell Inspiron 13 5310 (i7): ৳115,000 → Current Value: ৳80,500</code>
+                    <code>• HP 15s-fq5317TU (i5): ৳68,000 → Current Value: ৳47,600</code>
+                    <code>• Lenovo V14-G2-ITL (i3): ৳48,000 → Current Value: ৳33,600</code>
+                    <code></code>
+                    <code><strong>Reconditioned Laptop Market Prices (Examples):</strong></code>
+                    <code>• HP Elitebook 840 G3 (i5): ৳48,000 → Current Value: ৳19,200</code>
+                    <code>• Lenovo ThinkPad X230 (i5): ৳28,000 → Current Value: ৳11,200</code>
                 </div>
                 
                 <div class="example-box">
-                    <h4>Example: Used HP Laptop with i5, 8GB RAM, Gen 12, 2GB GPU</h4>
-                    <p>Base: ৳30,000</p>
-                    <p>+ i5 Processor: ৳8,000</p>
-                    <p>+ 8GB RAM: ৳12,000</p>
-                    <p>+ Gen 12: ৳6,000</p>
-                    <p>+ 2GB GPU: ৳4,000</p>
-                    <p><strong>Subtotal: ৳60,000</strong></p>
-                    <p>× Depreciation (Excellent = 70%): <strong>৳42,000 Final Value</strong></p>
+                    <h4>Example: NEW Dell Inspiron 3511 (i5, 8GB RAM, 500GB SSD)</h4>
+                    <p>Market Price (researched from Bangladesh market): <strong>৳75,000</strong></p>
+                    <p>Depreciation Rate: 70% (30% reduction for new assets)</p>
+                    <p><strong>Current Value: ৳52,500</strong></p>
                 </div>
                 
                 <div class="example-box">
-                    <h4>Example: New Laptop with i5, 8GB RAM, Gen 12, 2GB GPU</h4>
-                    <p>Base: ৳50,000</p>
-                    <p>+ i5 Processor: ৳8,000</p>
-                    <p>+ 8GB RAM: ৳12,000</p>
-                    <p>+ Gen 12: ৳6,000</p>
-                    <p>+ 2GB GPU: ৳4,000</p>
-                    <p><strong>Subtotal: ৳80,000</strong></p>
-                    <p>× Depreciation (New Excellent = 95%): <strong>৳76,000 Final Value</strong></p>
+                    <h4>Example: RECONDITIONED HP Elitebook 840 G3 (i5, 8GB RAM, 256GB SSD)</h4>
+                    <p>Market Price (used market in Bangladesh): <strong>৳48,000</strong></p>
+                    <p>Depreciation Rate: 40% (60% reduction for reconditioned assets)</p>
+                    <p><strong>Current Value: ৳19,200</strong></p>
                 </div>
                 
-                <h3>2.2 Desktop PCs</h3>
+                <h3>2.2 Desktop PCs & Servers (Market Price Based)</h3>
                 <div class="formula-box">
-                    <strong>Base Formula:</strong>
-                    <code>Base Value = ৳40,000</code>
-                    <code>+ Processor Bonus (i9: ৳50,000 | i7: ৳20,000 | i5: ৳10,000 | i3: ৳5,000)</code>
-                    <code>+ RAM × ৳2,000 per GB</code>
-                    <code>+ (Generation - 10) × ৳4,000 (if Gen ≥ 11)</code>
-                    <code>+ GPU Bonus (4GB: ৳10,000 | 2GB: ৳5,000)</code>
+                    <strong>Market Prices (Examples):</strong>
+                    <code>• HP ProLiant DL380 Gen10 Plus Server: ৳650,000 → Current Value: ৳455,000</code>
+                    <code>• i9 Gen 13 Desktop (16GB, 4GB GPU): ৳280,000 → Current Value: ৳196,000</code>
+                    <code>• i5 Gen 10 Desktop: ৳85,000 → Current Value: ৳59,500</code>
+                    <code>• i3 Gen 4 Desktop: ৳35,000 → Current Value: ৳24,500</code>
                 </div>
                 
                 <div class="example-box">
-                    <h4>Example: Desktop PC with i9, 16GB RAM, Gen 13, 4GB GPU</h4>
-                    <p>Base: ৳40,000</p>
-                    <p>+ i9 Processor: ৳50,000</p>
-                    <p>+ 16GB RAM: ৳32,000</p>
-                    <p>+ Gen 13: ৳12,000</p>
-                    <p>+ 4GB GPU: ৳10,000</p>
-                    <p><strong>Subtotal: ৳144,000</strong></p>
-                    <p>× Depreciation (Excellent = 70%): <strong>৳100,800 Final Value</strong></p>
+                    <h4>Example: Desktop PC with i9 Gen 13, 16GB RAM, 4GB GPU</h4>
+                    <p>Market Price (custom build, Bangladesh): <strong>৳280,000</strong></p>
+                    <p>Depreciation Rate: 70% (assumed new/excellent condition)</p>
+                    <p><strong>Current Value: ৳196,000</strong></p>
                 </div>
                 
-                <h3>2.3 Monitors</h3>
+                <h3>2.3 Monitors (Market Price Based)</h3>
                 <div class="formula-box">
-                    <strong>Base Formula:</strong>
-                    <code>Base Value = ৳8,000</code>
-                    <code>+ Brand Bonus (Dell/HP/LG: ৳2,000)</code>
-                    <code>+ Size Bonus (24"/27": ৳3,000)</code>
-                    <code></code>
-                    <code><strong>Manual Override:</strong></code>
-                    <code>• HP M22f Monitor: ৳10,000 (final value)</code>
+                    <strong>Market Prices (Examples):</strong>
+                    <code>• HP M22f (22" FHD): ৳15,500 → Current Value: ৳10,850</code>
+                    <code>• ASUS VP229HE (21.5" FHD): ৳15,500 → Current Value: ৳10,850</code>
+                    <code>• Dell E1916HVF (19"): ৳10,000 → Current Value: ৳7,000</code>
                 </div>
                 
-                <h3>2.4 Printers/Scanners</h3>
+                <h3>2.4 Printers/Scanners (Market Price Based)</h3>
                 <div class="formula-box">
-                    <strong>Base Formula:</strong>
-                    <code>Base Value = ৳15,000</code>
-                    <code>+ Brand Bonus (HP: ৳5,000)</code>
-                    <code>+ Type Bonus (LaserJet: ৳10,000)</code>
-                    <code></code>
-                    <code><strong>Manual Overrides (Final Values):</strong></code>
-                    <code>• Epson A3 Printer (L8180): ৳50,000</code>
-                    <code>• Epson L3250 Printer: ৳15,000</code>
-                    <code>• HP LaserJet Pro M402dn: ৳30,000</code>
+                    <strong>Market Prices (Examples):</strong>
+                    <code>• Epson A3 L8180 (Color): ৳80,000 → Current Value: ৳56,000</code>
+                    <code>• Epson L3250 (Inkjet MFP): ৳21,000 → Current Value: ৳14,700</code>
+                    <code>• HP LaserJet Pro M402dn: ৳22,000 → Current Value: ৳15,400</code>
+                    <code>• PANTUM P3010DW (Laser): ৳14,000 → Current Value: ৳9,800</code>
                 </div>
                 
-                <h3>2.5 Server/Network Equipment</h3>
+                <h3>2.5 Server/Network Equipment (Market Price Based)</h3>
                 <div class="formula-box">
-                    <strong>Equipment-Specific Values:</strong>
-                    <code>• Router/MikroTik: ৳25,000</code>
-                    <code>• Switch 24/16 Port: ৳20,000</code>
-                    <code>• Switch 8 Port: ৳12,000</code>
-                    <code>• DVR 16 Port: ৳18,000</code>
-                    <code>• DVR 8 Port: ৳12,000</code>
-                    <code>• UPS: ৳30,000</code>
-                    <code>• KVM Switch: ৳8,000</code>
-                    <code>• Patch Panel/Cable: ৳3,000</code>
-                    <code>• PBAX/Controller: ৳15,000</code>
-                    <code>• Other Equipment: ৳10,000-15,000</code>
+                    <strong>Market Prices (Examples):</strong>
+                    <code>• MikroTik CCR2004 Switch: ৳85,000 → Current Value: ৳59,500</code>
+                    <code>• Cisco CBS350-24T-4G: ৳33,000 → Current Value: ৳23,100</code>
+                    <code>• TP-Link TL-SG1024D (24-port): ৳7,500 → Current Value: ৳5,250</code>
+                    <code>• Hikvision DVR 16-ch: ৳23,000 → Current Value: ৳16,100</code>
+                    <code>• MikroTik RB2011UiAS-RM: ৳13,000 → Current Value: ৳9,100</code>
+                    <code>• PBAX Controller: ৳25,000 → Current Value: ৳17,500</code>
                 </div>
             </div>
 
             <!-- Section 3: Depreciation Policy -->
             <div class="section">
-                <h2>3. Depreciation Policy</h2>
-                <p>Depreciation is applied based on asset type and condition:</p>
+                <h2>3. Simplified Depreciation Policy (Market-Based)</h2>
+                <p>With the new market-based approach, depreciation is standardized and simplified:</p>
                 
-                <h3>3.1 Used/Reconditioned Assets</h3>
-                <p>Since most assets are used/second-hand equipment, standard depreciation is applied:</p>
+                <h3>3.1 New Assets</h3>
+                <p>All new assets (laptops, PCs, monitors, printers, networking equipment):</p>
                 <div class="depreciation-grid">
                     <div class="depreciation-card">
-                        <div class="condition">Excellent</div>
+                        <div class="condition">NEW</div>
                         <div class="rate">30% OFF</div>
                         <div class="value">70% Value</div>
-                        <p style="margin-top: 10px; color: #7f8c8d; font-size: 0.9em;">Well-maintained, fully functional</p>
-                    </div>
-                    <div class="depreciation-card">
-                        <div class="condition">Good</div>
-                        <div class="rate">40% OFF</div>
-                        <div class="value">60% Value</div>
-                        <p style="margin-top: 10px; color: #7f8c8d; font-size: 0.9em;">Working condition, minor wear</p>
-                    </div>
-                    <div class="depreciation-card">
-                        <div class="condition">Moderate/Fair</div>
-                        <div class="rate">50% OFF</div>
-                        <div class="value">50% Value</div>
-                        <p style="margin-top: 10px; color: #7f8c8d; font-size: 0.9em;">Functional but aged</p>
+                        <p style="margin-top: 10px; color: #7f8c8d; font-size: 0.9em;">Brand new or excellent condition</p>
                     </div>
                 </div>
                 
-                <h3>3.2 New Laptops</h3>
-                <p>New laptops receive minimal depreciation (5-10%):</p>
+                <h3>3.2 Reconditioned/Used Assets</h3>
+                <p>All reconditioned or used assets (identified by "Recondition Purchase" section or keyword):</p>
                 <div class="depreciation-grid">
                     <div class="depreciation-card">
-                        <div class="condition">Excellent</div>
-                        <div class="rate">5% OFF</div>
-                        <div class="value">95% Value</div>
-                        <p style="margin-top: 10px; color: #7f8c8d; font-size: 0.9em;">Brand new condition</p>
-                    </div>
-                    <div class="depreciation-card">
-                        <div class="condition">Good</div>
-                        <div class="rate">10% OFF</div>
-                        <div class="value">90% Value</div>
-                        <p style="margin-top: 10px; color: #7f8c8d; font-size: 0.9em;">Slightly used, excellent condition</p>
+                        <div class="condition">RECONDITIONED</div>
+                        <div class="rate">60% OFF</div>
+                        <div class="value">40% Value</div>
+                        <p style="margin-top: 10px; color: #7f8c8d; font-size: 0.9em;">Used/second-hand equipment</p>
                     </div>
                 </div>
                 
                 <div class="formula-box">
                     <strong>Final Value Formula:</strong>
-                    <code>Final Value = (Base Value + All Bonuses) × Depreciation Rate</code>
+                    <code>Final Value = Current Market Price × Depreciation Rate</code>
+                    <code></code>
+                    <code>Where Depreciation Rate is:</code>
+                    <code>  • 70% for NEW assets</code>
+                    <code>  • 40% for RECONDITIONED assets</code>
                 </div>
             </div>
 
@@ -567,53 +536,53 @@
                     <tbody>
                         <tr class="group-a-row">
                             <td><strong>Group A</strong></td>
-                            <td>17</td>
-                            <td>৳569,750</td>
-                            <td><span class="variance-badge variance-low">-0.13%</span></td>
-                            <td>3</td>
-                            <td>2</td>
-                            <td>4</td>
-                            <td>3</td>
+                            <td>30</td>
+                            <td>৳1,230,350</td>
+                            <td><span class="variance-badge variance-low">-0.04%</span></td>
+                            <td>10</td>
                             <td>5</td>
+                            <td>6</td>
+                            <td>3</td>
+                            <td>6</td>
                         </tr>
                         <tr class="group-b-row">
                             <td><strong>Group B</strong></td>
-                            <td>17</td>
-                            <td>৳571,000</td>
-                            <td><span class="variance-badge variance-low">+0.09%</span></td>
-                            <td>3</td>
-                            <td>4</td>
-                            <td>3</td>
-                            <td>1</td>
+                            <td>30</td>
+                            <td>৳1,230,300</td>
+                            <td><span class="variance-badge variance-low">-0.04%</span></td>
+                            <td>10</td>
+                            <td>5</td>
                             <td>6</td>
+                            <td>4</td>
+                            <td>5</td>
                         </tr>
                         <tr class="group-c-row">
                             <td><strong>Group C</strong></td>
-                            <td>18</td>
-                            <td>৳570,700</td>
-                            <td><span class="variance-badge variance-low">+0.04%</span></td>
-                            <td>4</td>
-                            <td>3</td>
+                            <td>31</td>
+                            <td>৳1,231,850</td>
+                            <td><span class="variance-badge variance-low">+0.08%</span></td>
+                            <td>14</td>
+                            <td>6</td>
                             <td>3</td>
                             <td>5</td>
                             <td>3</td>
                         </tr>
                         <tr style="background: #f0f0f0; font-weight: bold;">
                             <td>TOTAL</td>
-                            <td>52</td>
-                            <td>৳1,711,450</td>
+                            <td>91</td>
+                            <td>৳3,692,500</td>
                             <td>-</td>
-                            <td>10</td>
-                            <td>9</td>
-                            <td>10</td>
-                            <td>9</td>
+                            <td>34</td>
+                            <td>16</td>
+                            <td>15</td>
+                            <td>12</td>
                             <td>14</td>
                         </tr>
                     </tbody>
                 </table>
                 
                 <div class="note-box">
-                    <strong>Achievement:</strong> All three groups achieved variance within ±0.2% of the target value, demonstrating excellent fairness in distribution. The algorithm successfully balanced both asset count and total value.
+                    <strong>Achievement:</strong> All three groups achieved variance within ±0.1% of the target value, demonstrating excellent fairness in distribution. The market-based pricing and greedy algorithm successfully balanced both asset count and total value across all 91 assets.
                 </div>
             </div>
 
@@ -621,7 +590,7 @@
             <div class="section">
                 <h2>6. Asset Type Breakdown</h2>
                 
-                <h3>6.1 Laptops (10 total)</h3>
+                <h3>6.1 Laptops (34 total)</h3>
                 <table>
                     <thead>
                         <tr>
@@ -635,25 +604,43 @@
                         <tr>
                             <td>New i7 Laptops</td>
                             <td>3</td>
-                            <td>৳68,400 - ৳72,000</td>
-                            <td>৳70,200</td>
+                            <td>৳66,500 - ৳80,500</td>
+                            <td>৳73,500</td>
                         </tr>
                         <tr>
                             <td>New i5 Laptops</td>
-                            <td>6</td>
-                            <td>৳68,400 - ৳76,000</td>
-                            <td>৳72,133</td>
+                            <td>11</td>
+                            <td>৳45,500 - ৳59,500</td>
+                            <td>৳52,500</td>
                         </tr>
                         <tr>
-                            <td>Reconditioned i3 Laptop</td>
+                            <td>New i3 Laptops</td>
+                            <td>4</td>
+                            <td>৳33,600</td>
+                            <td>৳33,600</td>
+                        </tr>
+                        <tr>
+                            <td>Reconditioned i7 Laptops</td>
                             <td>1</td>
-                            <td>৳19,500</td>
-                            <td>৳19,500</td>
+                            <td>৳24,000</td>
+                            <td>৳24,000</td>
+                        </tr>
+                        <tr>
+                            <td>Reconditioned i5 Laptops</td>
+                            <td>11</td>
+                            <td>৳11,200 - ৳22,000</td>
+                            <td>৳18,400</td>
+                        </tr>
+                        <tr>
+                            <td>Reconditioned i3 Laptops</td>
+                            <td>4</td>
+                            <td>৳11,200 - ৳14,000</td>
+                            <td>৳12,600</td>
                         </tr>
                     </tbody>
                 </table>
                 
-                <h3>6.2 Desktop PCs (9 total)</h3>
+                <h3>6.2 Desktop PCs (16 total)</h3>
                 <table>
                     <thead>
                         <tr>
@@ -665,33 +652,51 @@
                     </thead>
                     <tbody>
                         <tr>
-                            <td>i9 High-End PCs (Gen 13)</td>
+                            <td>HP ProLiant DL380 Gen10 Plus Server</td>
                             <td>1</td>
-                            <td>৳110,600</td>
-                            <td>৳110,600</td>
+                            <td>৳455,000</td>
+                            <td>৳455,000</td>
                         </tr>
                         <tr>
-                            <td>i9 High-End PCs (Gen 11-13)</td>
-                            <td>4</td>
-                            <td>৳72,800 - ৳100,800</td>
-                            <td>৳93,800</td>
+                            <td>i9 Gen 13 Desktop PCs</td>
+                            <td>5</td>
+                            <td>৳196,000</td>
+                            <td>৳196,000</td>
                         </tr>
                         <tr>
-                            <td>HP Server (Xeon)</td>
+                            <td>i9 Gen 11 Desktop PC</td>
                             <td>1</td>
-                            <td>৳72,800</td>
-                            <td>৳72,800</td>
+                            <td>৳154,000</td>
+                            <td>৳154,000</td>
                         </tr>
                         <tr>
-                            <td>i3/Dual Core PCs</td>
+                            <td>i5 Gen 10 Desktop PC</td>
+                            <td>1</td>
+                            <td>৳59,500</td>
+                            <td>৳59,500</td>
+                        </tr>
+                        <tr>
+                            <td>i3 Gen 10 Desktop PCs</td>
+                            <td>2</td>
+                            <td>৳38,500</td>
+                            <td>৳38,500</td>
+                        </tr>
+                        <tr>
+                            <td>i3 Gen 4 Desktop PCs</td>
                             <td>3</td>
-                            <td>৳24,000 - ৳26,500</td>
-                            <td>৳25,000</td>
+                            <td>৳24,500</td>
+                            <td>৳24,500</td>
+                        </tr>
+                        <tr>
+                            <td>Other Desktop PCs</td>
+                            <td>3</td>
+                            <td>৳31,500 - ৳52,500</td>
+                            <td>৳42,000</td>
                         </tr>
                     </tbody>
                 </table>
                 
-                <h3>6.3 Monitors (10 total)</h3>
+                <h3>6.3 Monitors (15 total)</h3>
                 <table>
                     <thead>
                         <tr>
@@ -703,23 +708,28 @@
                     <tbody>
                         <tr>
                             <td>HP M22f Monitors</td>
-                            <td>5</td>
-                            <td>৳10,000 each</td>
+                            <td>6</td>
+                            <td>৳10,850 each</td>
                         </tr>
                         <tr>
-                            <td>Other HP Monitors</td>
-                            <td>4</td>
-                            <td>৳7,000 each</td>
-                        </tr>
-                        <tr>
-                            <td>Other Brands</td>
+                            <td>ASUS VP229HE</td>
                             <td>1</td>
-                            <td>৳4,800</td>
+                            <td>৳10,850</td>
+                        </tr>
+                        <tr>
+                            <td>Dell Monitors (19-21")</td>
+                            <td>6</td>
+                            <td>৳7,000 - ৳8,400</td>
+                        </tr>
+                        <tr>
+                            <td>Other Monitors</td>
+                            <td>2</td>
+                            <td>৳4,200 - ৳6,650</td>
                         </tr>
                     </tbody>
                 </table>
                 
-                <h3>6.4 Printers/Scanners (9 total)</h3>
+                <h3>6.4 Printers/Scanners (12 total)</h3>
                 <table>
                     <thead>
                         <tr>
@@ -730,24 +740,29 @@
                     </thead>
                     <tbody>
                         <tr>
-                            <td>Epson A3 Printer (L8180)</td>
+                            <td>Epson A3 Printer (L8180/C722B1)</td>
                             <td>1</td>
-                            <td>৳50,000</td>
+                            <td>৳56,000</td>
                         </tr>
                         <tr>
-                            <td>HP LaserJet Pro M402dn</td>
-                            <td>1</td>
-                            <td>৳30,000</td>
+                            <td>HP LaserJet Pro (M404dw, M402dn, M26nw)</td>
+                            <td>3</td>
+                            <td>৳15,400 - ৳29,400</td>
                         </tr>
                         <tr>
                             <td>Epson L3250</td>
                             <td>1</td>
-                            <td>৳15,000</td>
+                            <td>৳14,700</td>
                         </tr>
                         <tr>
-                            <td>HP Printers (Other Models)</td>
-                            <td>6</td>
-                            <td>৳10,500 - ৳12,000</td>
+                            <td>PANTUM, Canon, Samsung Printers</td>
+                            <td>5</td>
+                            <td>৳7,700 - ৳12,600</td>
+                        </tr>
+                        <tr>
+                            <td>Scanners (Epson, Canon)</td>
+                            <td>2</td>
+                            <td>৳7,000 - ৳8,400</td>
                         </tr>
                     </tbody>
                 </table>
@@ -763,29 +778,39 @@
                     </thead>
                     <tbody>
                         <tr>
-                            <td>Routers & High-End Switches</td>
-                            <td>3</td>
-                            <td>৳14,000 - ৳17,500</td>
-                        </tr>
-                        <tr>
-                            <td>DVR Systems</td>
-                            <td>2</td>
-                            <td>৳8,400 - ৳12,600</td>
-                        </tr>
-                        <tr>
-                            <td>UPS Systems</td>
+                            <td>MikroTik High-End Switch (CCR2004)</td>
                             <td>1</td>
-                            <td>৳21,000</td>
+                            <td>৳59,500</td>
                         </tr>
                         <tr>
-                            <td>Switches (8-24 port)</td>
+                            <td>Cisco CBS350 24-Port Switch</td>
+                            <td>1</td>
+                            <td>৳23,100</td>
+                        </tr>
+                        <tr>
+                            <td>Hikvision DVR (8ch, 16ch)</td>
+                            <td>2</td>
+                            <td>৳8,400 - ৳16,100</td>
+                        </tr>
+                        <tr>
+                            <td>PBAX Controller</td>
+                            <td>1</td>
+                            <td>৳17,500</td>
+                        </tr>
+                        <tr>
+                            <td>UPS System</td>
+                            <td>1</td>
+                            <td>৳24,500</td>
+                        </tr>
+                        <tr>
+                            <td>TP-Link Switches, Routers</td>
                             <td>3</td>
-                            <td>৳8,400 - ৳14,000</td>
+                            <td>৳5,250 - ৳12,600</td>
                         </tr>
                         <tr>
-                            <td>Other Equipment</td>
+                            <td>Other Equipment (KVM, Patch Panel, ACS, etc.)</td>
                             <td>5</td>
-                            <td>৳2,100 - ৳10,500</td>
+                            <td>৳1,400 - ৳10,500</td>
                         </tr>
                     </tbody>
                 </table>
@@ -794,14 +819,15 @@
             <!-- Section 7: Conclusion -->
             <div class="section">
                 <h2>7. Conclusion</h2>
-                <p>The fair distribution algorithm successfully allocated all 52 assets across three groups with the following achievements:</p>
+                <p>The market-based fair distribution algorithm successfully allocated all 91 assets across three groups with the following achievements:</p>
                 
                 <ul style="line-height: 2; margin: 20px 0 20px 30px;">
-                    <li><strong>Excellent Value Balance:</strong> All groups within ±0.2% of target value</li>
-                    <li><strong>Fair Asset Distribution:</strong> Each group received 17-18 assets</li>
-                    <li><strong>Diverse Mix:</strong> Each group has a mix of all asset types</li>
-                    <li><strong>Transparent Methodology:</strong> Clear calculation formulas and depreciation rates</li>
-                    <li><strong>Condition-Based Valuation:</strong> Proper depreciation for used equipment</li>
+                    <li><strong>Excellent Value Balance:</strong> All groups within ±0.1% of target value</li>
+                    <li><strong>Fair Asset Distribution:</strong> Each group received 30-31 assets</li>
+                    <li><strong>Diverse Mix:</strong> Each group has a balanced mix of all 5 asset types</li>
+                    <li><strong>Market-Based Pricing:</strong> All values based on researched current market prices (January 2026)</li>
+                    <li><strong>Simplified Depreciation:</strong> 70% for new assets, 40% for reconditioned assets</li>
+                    <li><strong>Comprehensive Coverage:</strong> 91 total assets across Laptops, PCs, Monitors, Printers, and Server equipment</li>
                 </ul>
                 
                 <div class="note-box">
