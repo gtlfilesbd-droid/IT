@@ -355,7 +355,7 @@
                 </div>
                 
                 <div class="note-box">
-                    <strong>Updated Methodology (January 2026):</strong> All asset values are now based on current market prices researched from Bangladesh market. New assets are valued at 70% of market price (30% depreciation). Reconditioned/used assets are valued at 40% of market price (60% depreciation).
+                    <strong>Updated Methodology (January 2026):</strong> All asset values are now based on current market prices with <strong>remarks-based depreciation</strong>. Depreciation rates vary based on the condition (Excellent/Good/Moderate) indicated in the Remarks field, with reconditioned laptops having higher depreciation rates.
                 </div>
             </div>
 
@@ -365,11 +365,18 @@
                 <p>Each asset's current value is calculated based on <strong>current market prices</strong> (January 2026) with depreciation applied according to condition:</p>
                 
                 <div class="formula-box">
-                    <strong>Market-Based Valuation Formula:</strong>
+                    <strong>Remarks-Based Valuation Formula:</strong>
                     <code>Current Value = Market Price × Depreciation Rate</code>
                     <code></code>
-                    <code>For NEW assets: Depreciation Rate = 70% (30% reduction)</code>
-                    <code>For RECONDITIONED assets: Depreciation Rate = 40% (60% reduction)</code>
+                    <code><strong>For ALL NEW ASSETS (Laptops, PCs, Monitors, Printers, Servers):</strong></code>
+                    <code>  • Excellent Remarks: 70% value (30% reduction)</code>
+                    <code>  • Good Remarks: 60% value (40% reduction)</code>
+                    <code>  • Moderate Remarks: 50% value (50% reduction)</code>
+                    <code></code>
+                    <code><strong>For RECONDITIONED LAPTOPS (Higher Depreciation):</strong></code>
+                    <code>  • Excellent Remarks: 40% value (60% reduction)</code>
+                    <code>  • Good Remarks: 30% value (70% reduction)</code>
+                    <code>  • Moderate Remarks: 20% value (80% reduction)</code>
                 </div>
                 
                 <h3>2.1 Laptops (Market Price Based)</h3>
@@ -385,17 +392,37 @@
                 </div>
                 
                 <div class="example-box">
-                    <h4>Example: NEW Dell Inspiron 3511 (i5, 8GB RAM, 500GB SSD)</h4>
-                    <p>Market Price (researched from Bangladesh market): <strong>৳75,000</strong></p>
-                    <p>Depreciation Rate: 70% (30% reduction for new assets)</p>
+                    <h4>Example 1: NEW Dell Inspiron 3511 (i5, 8GB RAM) - Excellent Remarks</h4>
+                    <p>Market Price: <strong>৳75,000</strong></p>
+                    <p>Remarks: Excellent</p>
+                    <p>Depreciation: 30% reduction → 70% value</p>
                     <p><strong>Current Value: ৳52,500</strong></p>
                 </div>
                 
                 <div class="example-box">
-                    <h4>Example: RECONDITIONED HP Elitebook 840 G3 (i5, 8GB RAM, 256GB SSD)</h4>
-                    <p>Market Price (used market in Bangladesh): <strong>৳48,000</strong></p>
-                    <p>Depreciation Rate: 40% (60% reduction for reconditioned assets)</p>
+                    <h4>Example 2: NEW Desktop PC (i3 Gen 10) - Good Remarks</h4>
+                    <p>Market Price: <strong>৳55,000</strong></p>
+                    <p>Remarks: Good</p>
+                    <p>Depreciation: 40% reduction → 60% value</p>
+                    <p><strong>Current Value: ৳33,000</strong></p>
+                </div>
+                
+                <div class="example-box">
+                    <h4>Example 3: RECONDITIONED HP Elitebook 840 G3 (i5) - Excellent Remarks</h4>
+                    <p>Market Price: <strong>৳48,000</strong></p>
+                    <p>Type: Reconditioned Laptop</p>
+                    <p>Remarks: Excellent</p>
+                    <p>Depreciation: 60% reduction → 40% value</p>
                     <p><strong>Current Value: ৳19,200</strong></p>
+                </div>
+                
+                <div class="example-box">
+                    <h4>Example 4: RECONDITIONED Lenovo X230 (i5) - Moderate Remarks</h4>
+                    <p>Market Price: <strong>৳28,000</strong></p>
+                    <p>Type: Reconditioned Laptop</p>
+                    <p>Remarks: Moderate</p>
+                    <p>Depreciation: 80% reduction → 20% value</p>
+                    <p><strong>Current Value: ৳5,600</strong></p>
                 </div>
                 
                 <h3>2.2 Desktop PCs & Servers (Market Price Based)</h3>
@@ -445,38 +472,60 @@
 
             <!-- Section 3: Depreciation Policy -->
             <div class="section">
-                <h2>3. Simplified Depreciation Policy (Market-Based)</h2>
-                <p>With the new market-based approach, depreciation is standardized and simplified:</p>
+                <h2>3. Remarks-Based Depreciation Policy</h2>
+                <p>Depreciation is now determined by the <strong>Remarks field</strong> in the asset data, which indicates the condition (Excellent/Good/Moderate):</p>
                 
-                <h3>3.1 New Assets</h3>
-                <p>All new assets (laptops, PCs, monitors, printers, networking equipment):</p>
+                <h3>3.1 New Assets (All Types)</h3>
+                <p>For new laptops, PCs, monitors, printers, and networking equipment, depreciation is based on condition:</p>
                 <div class="depreciation-grid">
                     <div class="depreciation-card">
-                        <div class="condition">NEW</div>
+                        <div class="condition">Excellent</div>
                         <div class="rate">30% OFF</div>
                         <div class="value">70% Value</div>
-                        <p style="margin-top: 10px; color: #7f8c8d; font-size: 0.9em;">Brand new or excellent condition</p>
+                        <p style="margin-top: 10px; color: #7f8c8d; font-size: 0.9em;">Best condition, fully functional</p>
+                    </div>
+                    <div class="depreciation-card">
+                        <div class="condition">Good</div>
+                        <div class="rate">40% OFF</div>
+                        <div class="value">60% Value</div>
+                        <p style="margin-top: 10px; color: #7f8c8d; font-size: 0.9em;">Working well, minor wear</p>
+                    </div>
+                    <div class="depreciation-card">
+                        <div class="condition">Moderate</div>
+                        <div class="rate">50% OFF</div>
+                        <div class="value">50% Value</div>
+                        <p style="margin-top: 10px; color: #7f8c8d; font-size: 0.9em;">Functional but showing age</p>
                     </div>
                 </div>
                 
-                <h3>3.2 Reconditioned/Used Assets</h3>
-                <p>All reconditioned or used assets (identified by "Recondition Purchase" section or keyword):</p>
+                <h3>3.2 Reconditioned Laptops (Higher Depreciation)</h3>
+                <p>Reconditioned/used laptops have higher depreciation rates to reflect their second-hand status:</p>
                 <div class="depreciation-grid">
                     <div class="depreciation-card">
-                        <div class="condition">RECONDITIONED</div>
+                        <div class="condition">Excellent</div>
                         <div class="rate">60% OFF</div>
                         <div class="value">40% Value</div>
-                        <p style="margin-top: 10px; color: #7f8c8d; font-size: 0.9em;">Used/second-hand equipment</p>
+                        <p style="margin-top: 10px; color: #7f8c8d; font-size: 0.9em;">Best reconditioned condition</p>
+                    </div>
+                    <div class="depreciation-card">
+                        <div class="condition">Good</div>
+                        <div class="rate">70% OFF</div>
+                        <div class="value">30% Value</div>
+                        <p style="margin-top: 10px; color: #7f8c8d; font-size: 0.9em;">Good working condition</p>
+                    </div>
+                    <div class="depreciation-card">
+                        <div class="condition">Moderate</div>
+                        <div class="rate">80% OFF</div>
+                        <div class="value">20% Value</div>
+                        <p style="margin-top: 10px; color: #7f8c8d; font-size: 0.9em;">Older equipment, functional</p>
                     </div>
                 </div>
                 
                 <div class="formula-box">
                     <strong>Final Value Formula:</strong>
-                    <code>Final Value = Current Market Price × Depreciation Rate</code>
+                    <code>Final Value = Current Market Price × Value Rate (based on Remarks)</code>
                     <code></code>
-                    <code>Where Depreciation Rate is:</code>
-                    <code>  • 70% for NEW assets</code>
-                    <code>  • 40% for RECONDITIONED assets</code>
+                    <code>The Remarks field determines which rate to apply</code>
                 </div>
             </div>
 

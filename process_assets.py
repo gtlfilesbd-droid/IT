@@ -284,28 +284,55 @@ def get_market_price(asset):
     return 50000  # Final fallback
 
 def calculate_asset_value(asset):
-    """Calculate current value based on market price and condition."""
+    """Calculate current value based on market price and remarks-based depreciation."""
     # Get market price
     market_price = get_market_price(asset)
     
-    # Check if reconditioned
-    is_reconditioned = False
+    # Check if reconditioned (laptops only)
+    is_reconditioned_laptop = False
+    if asset.get('AssetType') == 'Laptop':
+        if asset.get('PurchaseType') == 'reconditioned':
+            is_reconditioned_laptop = True
+        # Check all string fields for "recondition" keyword
+        for key, value in asset.items():
+            if isinstance(value, str) and 'recondition' in value.lower():
+                is_reconditioned_laptop = True
+                break
     
-    # Check PurchaseType field (laptops)
-    if asset.get('PurchaseType') == 'reconditioned':
-        is_reconditioned = True
+    # Get remarks field
+    remarks = asset.get('Remarks', '').lower()
     
-    # Check all string fields for "recondition" keyword
-    for key, value in asset.items():
-        if isinstance(value, str) and 'recondition' in value.lower():
-            is_reconditioned = True
-            break
-    
-    # Apply depreciation
-    if is_reconditioned:
-        final_value = market_price * 0.40  # 60% reduction for reconditioned
+    # Determine depreciation rate based on remarks and asset type
+    if is_reconditioned_laptop:
+        # Reconditioned laptops: Higher depreciation
+        if 'excellent' in remarks:
+            depreciation_rate = 0.40  # 60% reduction
+            depreciation_label = '60%'
+        elif 'good' in remarks:
+            depreciation_rate = 0.30  # 70% reduction
+            depreciation_label = '70%'
+        elif 'moderate' in remarks or 'fair' in remarks:
+            depreciation_rate = 0.20  # 80% reduction
+            depreciation_label = '80%'
+        else:
+            depreciation_rate = 0.30  # Default to 70% reduction for reconditioned
+            depreciation_label = '70%'
     else:
-        final_value = market_price * 0.70  # 30% reduction for new
+        # All other assets (new laptops, all PCs, monitors, printers, servers)
+        if 'excellent' in remarks:
+            depreciation_rate = 0.70  # 30% reduction
+            depreciation_label = '30%'
+        elif 'good' in remarks:
+            depreciation_rate = 0.60  # 40% reduction
+            depreciation_label = '40%'
+        elif 'moderate' in remarks or 'fair' in remarks:
+            depreciation_rate = 0.50  # 50% reduction
+            depreciation_label = '50%'
+        else:
+            depreciation_rate = 0.70  # Default to 30% reduction
+            depreciation_label = '30%'
+    
+    final_value = market_price * depreciation_rate
     
     return round(final_value, 2)
 
@@ -858,7 +885,7 @@ def generate_html(groups, group_values, group_counts, all_assets):
         </div>
         
         <div class="notice">
-            <strong>Updated Pricing Methodology:</strong> All asset values are based on current market prices (January 2026). New assets are valued at 70% of market price (30% depreciation). Reconditioned assets are valued at 40% of market price (60% depreciation).
+            <strong>Updated Pricing Methodology:</strong> All asset values are based on current market prices (January 2026) with remarks-based depreciation. <strong>NEW ASSETS:</strong> Excellent: 70% value (30% reduction), Good: 60% value (40% reduction), Moderate: 50% value (50% reduction). <strong>RECONDITIONED LAPTOPS:</strong> Excellent: 40% value (60% reduction), Good: 30% value (70% reduction), Moderate: 20% value (80% reduction).
         </div>
         
         <div class="summary">
@@ -1016,7 +1043,7 @@ def generate_html(groups, group_values, group_counts, all_assets):
                 user_info = asset.get('User', 'N/A')
                 
                 # Determine if new or reconditioned
-                is_recond = asset.get('PurchaseType') == 'reconditioned' or asset['DepreciationRate'] == '60%'
+                is_recond = asset.get('PurchaseType') == 'reconditioned' or asset['DepreciationRate'] in ['60%', '70%', '80%']
                 status_badge = '<span class="recond-badge">RECOND</span>' if is_recond else '<span class="new-badge">NEW</span>'
                 
                 html += f"""
