@@ -14,13 +14,13 @@ MARKET_PRICES = {
         'HP Probook 440 G4': 95000,  # i7 7th gen (older)
         
         # New Laptops (i5)
-        'HP 15s-fq5317TU': 68000,  # i5 12th gen
+        'HP 15s-fq5317TU': 72500,  # i5 12th gen (updated price)
         'HP Probook 440 G8': 85000,  # i5 11th gen
         'Dell Inspiron 3511': 75000,  # i5 11th gen
         'Dell Inspiron 5410': 78000,  # i5 11th gen
         'Dell Inspiron 3493': 65000,  # i5 10th gen
         'HP 15s-fq2643TU': 70000,  # i5 11th gen
-        'HP RTL8822CE': 68000,  # i5 12th gen
+        'HP RTL8822CE': 72500,  # i5 12th gen (same model family)
         
         # New Laptops (i3)
         'LENOVO V14-G2-ITL': 48000,  # i3 11th gen
@@ -153,7 +153,7 @@ def get_market_price(asset):
                 if 'i7' in processor:
                     return 100000 if not is_recond else 60000
                 elif 'i5' in processor:
-                    return 68000 if not is_recond else 45000
+                    return 72500 if not is_recond else 45000
                 elif 'i3' in processor:
                     return 48000 if not is_recond else 30000
         elif 'LENOVO' in name.upper() or 'Lenovo' in name:
@@ -605,7 +605,7 @@ def divide_into_groups(assets):
         # Store remark category for display
         asset['RemarkCategory'] = remark_category
     
-    # Sort assets by value (descending)
+    # Sort all assets by value (descending) for standard greedy algorithm
     sorted_assets = sorted(assets, key=lambda x: x['CurrentValue'], reverse=True)
     
     # Initialize groups
@@ -613,7 +613,7 @@ def divide_into_groups(assets):
     group_values = {'A': 0, 'B': 0, 'C': 0}
     group_counts = {'A': defaultdict(int), 'B': defaultdict(int), 'C': defaultdict(int)}
     
-    # Assign each asset to the group with lowest total value
+    # Standard greedy algorithm - assign each asset to group with lowest total value
     for asset in sorted_assets:
         # Find group with minimum value
         min_group = min(group_values, key=group_values.get)
