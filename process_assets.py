@@ -984,6 +984,7 @@ def generate_html(groups, group_values, group_counts, all_assets):
                                 <th>Serial</th>
                                 <th>Name & Type</th>
                                 <th>Model</th>
+                                <th>User</th>
                                 <th>Specs</th>
                                 <th>Market Price</th>
                                 <th>Depreciation</th>
@@ -1006,12 +1007,13 @@ def generate_html(groups, group_values, group_counts, all_assets):
                     specs.append(f"GPU: {asset['GPU']}")
                 if asset.get('Gen'):
                     specs.append(f"Gen: {asset['Gen']}")
-                if asset.get('User'):
-                    specs.append(f"User: {asset['User']}")
                 if asset.get('Location'):
                     specs.append(f"Loc: {asset['Location']}")
                 
                 specs_str = '<br>'.join(specs[:4]) if specs else 'N/A'  # Limit to 4 lines
+                
+                # Get user info
+                user_info = asset.get('User', 'N/A')
                 
                 # Determine if new or reconditioned
                 is_recond = asset.get('PurchaseType') == 'reconditioned' or asset['DepreciationRate'] == '60%'
@@ -1022,6 +1024,7 @@ def generate_html(groups, group_values, group_counts, all_assets):
                                 <td><strong>{asset.get('Serial', 'N/A')}</strong></td>
                                 <td>{asset.get('Name', 'N/A')} {status_badge}</td>
                                 <td>{asset.get('Model', 'N/A')}</td>
+                                <td><small>{user_info}</small></td>
                                 <td><small>{specs_str}</small></td>
                                 <td><small>BDT {asset['MarketPrice']:,.0f}</small></td>
                                 <td><small>{asset['DepreciationRate']}</small></td>
