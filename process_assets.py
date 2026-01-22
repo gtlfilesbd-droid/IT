@@ -564,8 +564,46 @@ def divide_into_groups(assets):
     for asset in assets:
         asset['MarketPrice'] = get_market_price(asset)
         asset['CurrentValue'] = calculate_asset_value(asset)
-        asset['DepreciationRate'] = '60%' if (asset.get('PurchaseType') == 'reconditioned' or 
-            any('recondition' in str(v).lower() for v in asset.values() if isinstance(v, str))) else '30%'
+        
+        # Determine depreciation label and remark category based on remarks and type
+        is_reconditioned_laptop = False
+        if asset.get('AssetType') == 'Laptop' and asset.get('PurchaseType') == 'reconditioned':
+            is_reconditioned_laptop = True
+        
+        remarks = asset.get('Remarks', '').lower()
+        
+        # Determine remark category for display
+        if 'excellent' in remarks:
+            remark_category = 'Excellent'
+        elif 'good' in remarks:
+            remark_category = 'Good'
+        elif 'moderate' in remarks or 'fair' in remarks:
+            remark_category = 'Moderate'
+        else:
+            remark_category = 'Excellent'  # Default
+        
+        if is_reconditioned_laptop:
+            if 'excellent' in remarks:
+                asset['DepreciationRate'] = '60%'
+            elif 'good' in remarks:
+                asset['DepreciationRate'] = '70%'
+            elif 'moderate' in remarks or 'fair' in remarks:
+                asset['DepreciationRate'] = '80%'
+            else:
+                asset['DepreciationRate'] = '70%'
+                remark_category = 'Good'  # Default for reconditioned
+        else:
+            if 'excellent' in remarks:
+                asset['DepreciationRate'] = '30%'
+            elif 'good' in remarks:
+                asset['DepreciationRate'] = '40%'
+            elif 'moderate' in remarks or 'fair' in remarks:
+                asset['DepreciationRate'] = '50%'
+            else:
+                asset['DepreciationRate'] = '30%'
+        
+        # Store remark category for display
+        asset['RemarkCategory'] = remark_category
     
     # Sort assets by value (descending)
     sorted_assets = sorted(assets, key=lambda x: x['CurrentValue'], reverse=True)

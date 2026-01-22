@@ -18,6 +18,7 @@
           "MarketPrice": 650000,
           "CurrentValue": 455000.0,
           "DepreciationRate": "30%",
+          "RemarkCategory": "Excellent",
           "AllocationRemark": "Assigned to balance total value (Group A: BDT 455,000)"
         },
         {
@@ -36,7 +37,8 @@
           "Remarks": "Good",
           "MarketPrice": 115000,
           "CurrentValue": 69000.0,
-          "DepreciationRate": "30%",
+          "DepreciationRate": "40%",
+          "RemarkCategory": "Good",
           "AllocationRemark": "Assigned to balance total value (Group A: BDT 524,000)"
         },
         {
@@ -55,7 +57,8 @@
           "Remarks": "Good",
           "MarketPrice": 110000,
           "CurrentValue": 66000.0,
-          "DepreciationRate": "30%",
+          "DepreciationRate": "40%",
+          "RemarkCategory": "Good",
           "AllocationRemark": "Assigned to balance total value (Group A: BDT 590,000)"
         },
         {
@@ -70,6 +73,7 @@
           "MarketPrice": 80000,
           "CurrentValue": 56000.0,
           "DepreciationRate": "30%",
+          "RemarkCategory": "Excellent",
           "AllocationRemark": "Assigned to balance total value (Group A: BDT 646,000)"
         },
         {
@@ -87,7 +91,8 @@
           "Remarks": "Good",
           "MarketPrice": 85000,
           "CurrentValue": 51000.0,
-          "DepreciationRate": "30%",
+          "DepreciationRate": "40%",
+          "RemarkCategory": "Good",
           "AllocationRemark": "Assigned to balance total value (Group A: BDT 697,000)"
         },
         {
@@ -106,7 +111,8 @@
           "Remarks": "Good",
           "MarketPrice": 75000,
           "CurrentValue": 45000.0,
-          "DepreciationRate": "30%",
+          "DepreciationRate": "40%",
+          "RemarkCategory": "Good",
           "AllocationRemark": "Assigned to balance total value (Group A: BDT 742,000)"
         },
         {
@@ -126,7 +132,8 @@
           "Remarks": "Good",
           "MarketPrice": 75000,
           "CurrentValue": 45000.0,
-          "DepreciationRate": "30%",
+          "DepreciationRate": "40%",
+          "RemarkCategory": "Good",
           "AllocationRemark": "Assigned to balance total value (Group A: BDT 787,000)"
         },
         {
@@ -146,7 +153,8 @@
           "Remarks": "Moderate",
           "MarketPrice": 75000,
           "CurrentValue": 37500.0,
-          "DepreciationRate": "30%",
+          "DepreciationRate": "50%",
+          "RemarkCategory": "Moderate",
           "AllocationRemark": "Assigned to balance total value (Group A: BDT 824,500)"
         },
         {
@@ -160,7 +168,8 @@
           "Remarks": "Moderate",
           "MarketPrice": 70000,
           "CurrentValue": 35000.0,
-          "DepreciationRate": "30%",
+          "DepreciationRate": "50%",
+          "RemarkCategory": "Moderate",
           "AllocationRemark": "Assigned to balance total value (Group A: BDT 859,500)"
         },
         {
@@ -179,7 +188,8 @@
           "Remarks": "Good",
           "MarketPrice": 50000,
           "CurrentValue": 30000.0,
-          "DepreciationRate": "30%",
+          "DepreciationRate": "40%",
+          "RemarkCategory": "Good",
           "AllocationRemark": "Assigned to balance total value (Group A: BDT 889,500)"
         },
         {
@@ -198,7 +208,8 @@
           "Remarks": "Good",
           "MarketPrice": 48000,
           "CurrentValue": 28800.0,
-          "DepreciationRate": "30%",
+          "DepreciationRate": "40%",
+          "RemarkCategory": "Good",
           "AllocationRemark": "Assigned to balance total value (Group A: BDT 918,300)"
         },
         {
@@ -217,7 +228,8 @@
           "Remarks": "Moderate",
           "MarketPrice": 48000,
           "CurrentValue": 24000.0,
-          "DepreciationRate": "30%",
+          "DepreciationRate": "50%",
+          "RemarkCategory": "Moderate",
           "AllocationRemark": "Assigned to balance total value (Group A: BDT 942,300)"
         },
         {
@@ -235,7 +247,8 @@
           "Remarks": "Moderate",
           "MarketPrice": 45000,
           "CurrentValue": 22500.0,
-          "DepreciationRate": "30%",
+          "DepreciationRate": "50%",
+          "RemarkCategory": "Moderate",
           "AllocationRemark": "Assigned to balance total value (Group A: BDT 964,800)"
         },
         {
@@ -255,6 +268,7 @@
           "MarketPrice": 48000,
           "CurrentValue": 19200.0,
           "DepreciationRate": "60%",
+          "RemarkCategory": "Excellent",
           "AllocationRemark": "Assigned to balance total value (Group A: BDT 984,000)"
         },
         {
@@ -275,6 +289,7 @@
           "MarketPrice": 45000,
           "CurrentValue": 18000.0,
           "DepreciationRate": "60%",
+          "RemarkCategory": "Excellent",
           "AllocationRemark": "Assigned to balance total value (Group A: BDT 1,002,000)"
         },
         {
@@ -286,6 +301,7 @@
           "MarketPrice": 23000,
           "CurrentValue": 16100.0,
           "DepreciationRate": "30%",
+          "RemarkCategory": "Excellent",
           "AllocationRemark": "Assigned to balance total value (Group A: BDT 1,018,100)"
         },
         {
@@ -300,6 +316,7 @@
           "MarketPrice": 21000,
           "CurrentValue": 14700.0,
           "DepreciationRate": "30%",
+          "RemarkCategory": "Excellent",
           "AllocationRemark": "Assigned to balance total value (Group A: BDT 1,032,800)"
         },
         {
@@ -311,6 +328,7 @@
           "MarketPrice": 18000,
           "CurrentValue": 12600.0,
           "DepreciationRate": "30%",
+          "RemarkCategory": "Excellent",
           "AllocationRemark": "Assigned to balance total value (Group A: BDT 1,045,400)"
         },
         {
@@ -325,6 +343,7 @@
           "MarketPrice": 15500,
           "CurrentValue": 10850.0,
           "DepreciationRate": "30%",
+          "RemarkCategory": "Excellent",
           "AllocationRemark": "Assigned to balance total value (Group A: BDT 1,056,250)"
         },
         {
@@ -339,6 +358,7 @@
           "MarketPrice": 15500,
           "CurrentValue": 10850.0,
           "DepreciationRate": "30%",
+          "RemarkCategory": "Excellent",
           "AllocationRemark": "Assigned to balance total value (Group A: BDT 1,067,100)"
         },
         {
@@ -353,6 +373,7 @@
           "MarketPrice": 15500,
           "CurrentValue": 10850.0,
           "DepreciationRate": "30%",
+          "RemarkCategory": "Excellent",
           "AllocationRemark": "Assigned to balance total value (Group A: BDT 1,077,950)"
         },
         {
@@ -367,6 +388,7 @@
           "MarketPrice": 14000,
           "CurrentValue": 9800.0,
           "DepreciationRate": "30%",
+          "RemarkCategory": "Excellent",
           "AllocationRemark": "Assigned to balance total value (Group A: BDT 1,087,750)"
         },
         {
@@ -381,6 +403,7 @@
           "MarketPrice": 12000,
           "CurrentValue": 8400.0,
           "DepreciationRate": "30%",
+          "RemarkCategory": "Excellent",
           "AllocationRemark": "Assigned to balance total value (Group A: BDT 1,096,150)"
         },
         {
@@ -395,6 +418,7 @@
           "MarketPrice": 11000,
           "CurrentValue": 7700.0,
           "DepreciationRate": "30%",
+          "RemarkCategory": "Excellent",
           "AllocationRemark": "Assigned to balance total value (Group A: BDT 1,103,850)"
         },
         {
@@ -414,7 +438,8 @@
           "Remarks": "Moderate",
           "MarketPrice": 35000,
           "CurrentValue": 7000.0,
-          "DepreciationRate": "60%",
+          "DepreciationRate": "80%",
+          "RemarkCategory": "Moderate",
           "AllocationRemark": "Assigned to balance total value (Group A: BDT 1,110,850)"
         },
         {
@@ -429,6 +454,7 @@
           "MarketPrice": 10000,
           "CurrentValue": 7000.0,
           "DepreciationRate": "30%",
+          "RemarkCategory": "Excellent",
           "AllocationRemark": "Assigned to balance total value (Group A: BDT 1,117,850)"
         },
         {
@@ -447,7 +473,8 @@
           "Remarks": "Moderate",
           "MarketPrice": 28000,
           "CurrentValue": 5600.0,
-          "DepreciationRate": "60%",
+          "DepreciationRate": "80%",
+          "RemarkCategory": "Moderate",
           "AllocationRemark": "Assigned to balance total value (Group A: BDT 1,123,450)"
         },
         {
@@ -466,7 +493,8 @@
           "Remarks": "Moderate",
           "MarketPrice": 28000,
           "CurrentValue": 5600.0,
-          "DepreciationRate": "60%",
+          "DepreciationRate": "80%",
+          "RemarkCategory": "Moderate",
           "AllocationRemark": "Assigned to balance total value (Group A: BDT 1,129,050)"
         },
         {
@@ -478,6 +506,7 @@
           "MarketPrice": 7500,
           "CurrentValue": 5250.0,
           "DepreciationRate": "30%",
+          "RemarkCategory": "Excellent",
           "AllocationRemark": "Assigned to balance total value (Group A: BDT 1,134,300)"
         },
         {
@@ -491,7 +520,8 @@
           "Remarks": "Good",
           "MarketPrice": 6000,
           "CurrentValue": 3600.0,
-          "DepreciationRate": "30%",
+          "DepreciationRate": "40%",
+          "RemarkCategory": "Good",
           "AllocationRemark": "Assigned to balance total value (Group A: BDT 1,137,900)"
         }
       ],
@@ -517,6 +547,7 @@
           "MarketPrice": 280000,
           "CurrentValue": 196000.0,
           "DepreciationRate": "30%",
+          "RemarkCategory": "Excellent",
           "AllocationRemark": "Assigned to balance total value (Group B: BDT 196,000)"
         },
         {
@@ -536,6 +567,7 @@
           "MarketPrice": 280000,
           "CurrentValue": 196000.0,
           "DepreciationRate": "30%",
+          "RemarkCategory": "Excellent",
           "AllocationRemark": "Assigned to balance total value (Group B: BDT 392,000)"
         },
         {
@@ -555,6 +587,7 @@
           "MarketPrice": 280000,
           "CurrentValue": 196000.0,
           "DepreciationRate": "30%",
+          "RemarkCategory": "Excellent",
           "AllocationRemark": "Assigned to balance total value (Group B: BDT 588,000)"
         },
         {
@@ -566,6 +599,7 @@
           "MarketPrice": 85000,
           "CurrentValue": 59500.0,
           "DepreciationRate": "30%",
+          "RemarkCategory": "Excellent",
           "AllocationRemark": "Assigned to balance total value (Group B: BDT 647,500)"
         },
         {
@@ -584,6 +618,7 @@
           "MarketPrice": 68000,
           "CurrentValue": 47600.0,
           "DepreciationRate": "30%",
+          "RemarkCategory": "Excellent",
           "AllocationRemark": "Assigned to balance total value (Group B: BDT 695,100)"
         },
         {
@@ -602,7 +637,8 @@
           "Remarks": "Moderate",
           "MarketPrice": 95000,
           "CurrentValue": 47500.0,
-          "DepreciationRate": "30%",
+          "DepreciationRate": "50%",
+          "RemarkCategory": "Moderate",
           "AllocationRemark": "Assigned to balance total value (Group B: BDT 742,600)"
         },
         {
@@ -622,7 +658,8 @@
           "Remarks": "Good",
           "MarketPrice": 75000,
           "CurrentValue": 45000.0,
-          "DepreciationRate": "30%",
+          "DepreciationRate": "40%",
+          "RemarkCategory": "Good",
           "AllocationRemark": "Assigned to balance total value (Group B: BDT 787,600)"
         },
         {
@@ -640,7 +677,8 @@
           "Remarks": "Moderate",
           "MarketPrice": 75000,
           "CurrentValue": 37500.0,
-          "DepreciationRate": "30%",
+          "DepreciationRate": "50%",
+          "RemarkCategory": "Moderate",
           "AllocationRemark": "Assigned to balance total value (Group B: BDT 825,100)"
         },
         {
@@ -654,7 +692,8 @@
           "Remarks": "Moderate",
           "MarketPrice": 70000,
           "CurrentValue": 35000.0,
-          "DepreciationRate": "30%",
+          "DepreciationRate": "50%",
+          "RemarkCategory": "Moderate",
           "AllocationRemark": "Assigned to balance total value (Group B: BDT 860,100)"
         },
         {
@@ -669,6 +708,7 @@
           "MarketPrice": 42000,
           "CurrentValue": 29400.0,
           "DepreciationRate": "30%",
+          "RemarkCategory": "Excellent",
           "AllocationRemark": "Assigned to balance total value (Group B: BDT 889,500)"
         },
         {
@@ -687,7 +727,8 @@
           "Remarks": "Good",
           "MarketPrice": 48000,
           "CurrentValue": 28800.0,
-          "DepreciationRate": "30%",
+          "DepreciationRate": "40%",
+          "RemarkCategory": "Good",
           "AllocationRemark": "Assigned to balance total value (Group B: BDT 918,300)"
         },
         {
@@ -708,6 +749,7 @@
           "MarketPrice": 60000,
           "CurrentValue": 24000.0,
           "DepreciationRate": "60%",
+          "RemarkCategory": "Excellent",
           "AllocationRemark": "Assigned to balance total value (Group B: BDT 942,300)"
         },
         {
@@ -722,6 +764,7 @@
           "MarketPrice": 32000,
           "CurrentValue": 22400.0,
           "DepreciationRate": "30%",
+          "RemarkCategory": "Excellent",
           "AllocationRemark": "Assigned to balance total value (Group B: BDT 964,700)"
         },
         {
@@ -739,7 +782,8 @@
           "Remarks": "Good",
           "MarketPrice": 35000,
           "CurrentValue": 21000.0,
-          "DepreciationRate": "30%",
+          "DepreciationRate": "40%",
+          "RemarkCategory": "Good",
           "AllocationRemark": "Assigned to balance total value (Group B: BDT 985,700)"
         },
         {
@@ -757,7 +801,8 @@
           "Remarks": "Moderate",
           "MarketPrice": 35000,
           "CurrentValue": 17500.0,
-          "DepreciationRate": "30%",
+          "DepreciationRate": "50%",
+          "RemarkCategory": "Moderate",
           "AllocationRemark": "Assigned to balance total value (Group B: BDT 1,003,200)"
         },
         {
@@ -772,6 +817,7 @@
           "MarketPrice": 22000,
           "CurrentValue": 15400.0,
           "DepreciationRate": "30%",
+          "RemarkCategory": "Excellent",
           "AllocationRemark": "Assigned to balance total value (Group B: BDT 1,018,600)"
         },
         {
@@ -789,7 +835,8 @@
           "Remarks": "Good",
           "MarketPrice": 45000,
           "CurrentValue": 13500.0,
-          "DepreciationRate": "60%",
+          "DepreciationRate": "70%",
+          "RemarkCategory": "Good",
           "AllocationRemark": "Assigned to balance total value (Group B: BDT 1,032,100)"
         },
         {
@@ -809,7 +856,8 @@
           "Remarks": "Good",
           "MarketPrice": 45000,
           "CurrentValue": 13500.0,
-          "DepreciationRate": "60%",
+          "DepreciationRate": "70%",
+          "RemarkCategory": "Good",
           "AllocationRemark": "Assigned to balance total value (Group B: BDT 1,045,600)"
         },
         {
@@ -824,6 +872,7 @@
           "MarketPrice": 15500,
           "CurrentValue": 10850.0,
           "DepreciationRate": "30%",
+          "RemarkCategory": "Excellent",
           "AllocationRemark": "Assigned to balance total value (Group B: BDT 1,056,450)"
         },
         {
@@ -838,6 +887,7 @@
           "MarketPrice": 15500,
           "CurrentValue": 10850.0,
           "DepreciationRate": "30%",
+          "RemarkCategory": "Excellent",
           "AllocationRemark": "Assigned to balance total value (Group B: BDT 1,067,300)"
         },
         {
@@ -852,6 +902,7 @@
           "MarketPrice": 15000,
           "CurrentValue": 10500.0,
           "DepreciationRate": "30%",
+          "RemarkCategory": "Excellent",
           "AllocationRemark": "Assigned to balance total value (Group B: BDT 1,077,800)"
         },
         {
@@ -863,6 +914,7 @@
           "MarketPrice": 15000,
           "CurrentValue": 10500.0,
           "DepreciationRate": "30%",
+          "RemarkCategory": "Excellent",
           "AllocationRemark": "Assigned to balance total value (Group B: BDT 1,088,300)"
         },
         {
@@ -877,6 +929,7 @@
           "MarketPrice": 12000,
           "CurrentValue": 8400.0,
           "DepreciationRate": "30%",
+          "RemarkCategory": "Excellent",
           "AllocationRemark": "Assigned to balance total value (Group B: BDT 1,096,700)"
         },
         {
@@ -891,6 +944,7 @@
           "MarketPrice": 11000,
           "CurrentValue": 7700.0,
           "DepreciationRate": "30%",
+          "RemarkCategory": "Excellent",
           "AllocationRemark": "Assigned to balance total value (Group B: BDT 1,104,400)"
         },
         {
@@ -905,6 +959,7 @@
           "MarketPrice": 10000,
           "CurrentValue": 7000.0,
           "DepreciationRate": "30%",
+          "RemarkCategory": "Excellent",
           "AllocationRemark": "Assigned to balance total value (Group B: BDT 1,111,400)"
         },
         {
@@ -923,7 +978,8 @@
           "Remarks": "Moderate",
           "MarketPrice": 30000,
           "CurrentValue": 6000.0,
-          "DepreciationRate": "60%",
+          "DepreciationRate": "80%",
+          "RemarkCategory": "Moderate",
           "AllocationRemark": "Assigned to balance total value (Group B: BDT 1,117,400)"
         },
         {
@@ -937,7 +993,8 @@
           "Remarks": "Good",
           "MarketPrice": 9500,
           "CurrentValue": 5700.0,
-          "DepreciationRate": "30%",
+          "DepreciationRate": "40%",
+          "RemarkCategory": "Good",
           "AllocationRemark": "Assigned to balance total value (Group B: BDT 1,123,100)"
         },
         {
@@ -956,7 +1013,8 @@
           "Remarks": "Moderate",
           "MarketPrice": 28000,
           "CurrentValue": 5600.0,
-          "DepreciationRate": "60%",
+          "DepreciationRate": "80%",
+          "RemarkCategory": "Moderate",
           "AllocationRemark": "Assigned to balance total value (Group B: BDT 1,128,700)"
         },
         {
@@ -974,7 +1032,8 @@
           "Remarks": "Moderate",
           "MarketPrice": 28000,
           "CurrentValue": 5600.0,
-          "DepreciationRate": "60%",
+          "DepreciationRate": "80%",
+          "RemarkCategory": "Moderate",
           "AllocationRemark": "Assigned to balance total value (Group B: BDT 1,134,300)"
         },
         {
@@ -986,6 +1045,7 @@
           "MarketPrice": 3500,
           "CurrentValue": 2450.0,
           "DepreciationRate": "30%",
+          "RemarkCategory": "Excellent",
           "AllocationRemark": "Assigned to balance total value (Group B: BDT 1,136,750)"
         }
       ],
@@ -1011,6 +1071,7 @@
           "MarketPrice": 280000,
           "CurrentValue": 196000.0,
           "DepreciationRate": "30%",
+          "RemarkCategory": "Excellent",
           "AllocationRemark": "Assigned to balance total value (Group C: BDT 196,000)"
         },
         {
@@ -1030,6 +1091,7 @@
           "MarketPrice": 280000,
           "CurrentValue": 196000.0,
           "DepreciationRate": "30%",
+          "RemarkCategory": "Excellent",
           "AllocationRemark": "Assigned to balance total value (Group C: BDT 392,000)"
         },
         {
@@ -1048,6 +1110,7 @@
           "MarketPrice": 220000,
           "CurrentValue": 154000.0,
           "DepreciationRate": "30%",
+          "RemarkCategory": "Excellent",
           "AllocationRemark": "Assigned to balance total value (Group C: BDT 546,000)"
         },
         {
@@ -1068,6 +1131,7 @@
           "MarketPrice": 85000,
           "CurrentValue": 59500.0,
           "DepreciationRate": "30%",
+          "RemarkCategory": "Excellent",
           "AllocationRemark": "Assigned to balance total value (Group C: BDT 605,500)"
         },
         {
@@ -1088,6 +1152,7 @@
           "MarketPrice": 75000,
           "CurrentValue": 52500.0,
           "DepreciationRate": "30%",
+          "RemarkCategory": "Excellent",
           "AllocationRemark": "Assigned to balance total value (Group C: BDT 658,000)"
         },
         {
@@ -1107,6 +1172,7 @@
           "MarketPrice": 68000,
           "CurrentValue": 47600.0,
           "DepreciationRate": "30%",
+          "RemarkCategory": "Excellent",
           "AllocationRemark": "Assigned to balance total value (Group C: BDT 705,600)"
         },
         {
@@ -1125,7 +1191,8 @@
           "Remarks": "Good",
           "MarketPrice": 75000,
           "CurrentValue": 45000.0,
-          "DepreciationRate": "30%",
+          "DepreciationRate": "40%",
+          "RemarkCategory": "Good",
           "AllocationRemark": "Assigned to balance total value (Group C: BDT 750,600)"
         },
         {
@@ -1144,7 +1211,8 @@
           "Remarks": "Good",
           "MarketPrice": 68000,
           "CurrentValue": 40800.0,
-          "DepreciationRate": "30%",
+          "DepreciationRate": "40%",
+          "RemarkCategory": "Good",
           "AllocationRemark": "Assigned to balance total value (Group C: BDT 791,400)"
         },
         {
@@ -1163,7 +1231,8 @@
           "Remarks": "Moderate",
           "MarketPrice": 70000,
           "CurrentValue": 35000.0,
-          "DepreciationRate": "30%",
+          "DepreciationRate": "50%",
+          "RemarkCategory": "Moderate",
           "AllocationRemark": "Assigned to balance total value (Group C: BDT 826,400)"
         },
         {
@@ -1181,7 +1250,8 @@
           "Remarks": "Good",
           "MarketPrice": 55000,
           "CurrentValue": 33000.0,
-          "DepreciationRate": "30%",
+          "DepreciationRate": "40%",
+          "RemarkCategory": "Good",
           "AllocationRemark": "Assigned to balance total value (Group C: BDT 859,400)"
         },
         {
@@ -1199,7 +1269,8 @@
           "Remarks": "Good",
           "MarketPrice": 55000,
           "CurrentValue": 33000.0,
-          "DepreciationRate": "30%",
+          "DepreciationRate": "40%",
+          "RemarkCategory": "Good",
           "AllocationRemark": "Assigned to balance total value (Group C: BDT 892,400)"
         },
         {
@@ -1211,6 +1282,7 @@
           "MarketPrice": 35000,
           "CurrentValue": 24500.0,
           "DepreciationRate": "30%",
+          "RemarkCategory": "Excellent",
           "AllocationRemark": "Assigned to balance total value (Group C: BDT 916,900)"
         },
         {
@@ -1221,6 +1293,7 @@
           "MarketPrice": 35000,
           "CurrentValue": 24500.0,
           "DepreciationRate": "30%",
+          "RemarkCategory": "Excellent",
           "AllocationRemark": "Assigned to balance total value (Group C: BDT 941,400)"
         },
         {
@@ -1232,6 +1305,7 @@
           "MarketPrice": 33000,
           "CurrentValue": 23100.0,
           "DepreciationRate": "30%",
+          "RemarkCategory": "Excellent",
           "AllocationRemark": "Assigned to balance total value (Group C: BDT 964,500)"
         },
         {
@@ -1251,6 +1325,7 @@
           "MarketPrice": 55000,
           "CurrentValue": 22000.0,
           "DepreciationRate": "60%",
+          "RemarkCategory": "Excellent",
           "AllocationRemark": "Assigned to balance total value (Group C: BDT 986,500)"
         },
         {
@@ -1262,6 +1337,7 @@
           "MarketPrice": 25000,
           "CurrentValue": 17500.0,
           "DepreciationRate": "30%",
+          "RemarkCategory": "Excellent",
           "AllocationRemark": "Assigned to balance total value (Group C: BDT 1,004,000)"
         },
         {
@@ -1280,7 +1356,8 @@
           "Remarks": "Good",
           "MarketPrice": 50000,
           "CurrentValue": 15000.0,
-          "DepreciationRate": "60%",
+          "DepreciationRate": "70%",
+          "RemarkCategory": "Good",
           "AllocationRemark": "Assigned to balance total value (Group C: BDT 1,019,000)"
         },
         {
@@ -1299,7 +1376,8 @@
           "Remarks": "Good",
           "MarketPrice": 45000,
           "CurrentValue": 13500.0,
-          "DepreciationRate": "60%",
+          "DepreciationRate": "70%",
+          "RemarkCategory": "Good",
           "AllocationRemark": "Assigned to balance total value (Group C: BDT 1,032,500)"
         },
         {
@@ -1314,6 +1392,7 @@
           "MarketPrice": 18000,
           "CurrentValue": 12600.0,
           "DepreciationRate": "30%",
+          "RemarkCategory": "Excellent",
           "AllocationRemark": "Assigned to balance total value (Group C: BDT 1,045,100)"
         },
         {
@@ -1328,6 +1407,7 @@
           "MarketPrice": 16000,
           "CurrentValue": 11200.0,
           "DepreciationRate": "30%",
+          "RemarkCategory": "Excellent",
           "AllocationRemark": "Assigned to balance total value (Group C: BDT 1,056,300)"
         },
         {
@@ -1342,6 +1422,7 @@
           "MarketPrice": 15500,
           "CurrentValue": 10850.0,
           "DepreciationRate": "30%",
+          "RemarkCategory": "Excellent",
           "AllocationRemark": "Assigned to balance total value (Group C: BDT 1,067,150)"
         },
         {
@@ -1356,6 +1437,7 @@
           "MarketPrice": 15500,
           "CurrentValue": 10850.0,
           "DepreciationRate": "30%",
+          "RemarkCategory": "Excellent",
           "AllocationRemark": "Assigned to balance total value (Group C: BDT 1,078,000)"
         },
         {
@@ -1367,6 +1449,7 @@
           "MarketPrice": 13000,
           "CurrentValue": 9100.0,
           "DepreciationRate": "30%",
+          "RemarkCategory": "Excellent",
           "AllocationRemark": "Assigned to balance total value (Group C: BDT 1,087,100)"
         },
         {
@@ -1381,6 +1464,7 @@
           "MarketPrice": 12000,
           "CurrentValue": 8400.0,
           "DepreciationRate": "30%",
+          "RemarkCategory": "Excellent",
           "AllocationRemark": "Assigned to balance total value (Group C: BDT 1,095,500)"
         },
         {
@@ -1392,6 +1476,7 @@
           "MarketPrice": 12000,
           "CurrentValue": 8400.0,
           "DepreciationRate": "30%",
+          "RemarkCategory": "Excellent",
           "AllocationRemark": "Assigned to balance total value (Group C: BDT 1,103,900)"
         },
         {
@@ -1406,6 +1491,7 @@
           "MarketPrice": 10000,
           "CurrentValue": 7000.0,
           "DepreciationRate": "30%",
+          "RemarkCategory": "Excellent",
           "AllocationRemark": "Assigned to balance total value (Group C: BDT 1,110,900)"
         },
         {
@@ -1424,7 +1510,8 @@
           "Remarks": "Moderate",
           "MarketPrice": 32000,
           "CurrentValue": 6400.0,
-          "DepreciationRate": "60%",
+          "DepreciationRate": "80%",
+          "RemarkCategory": "Moderate",
           "AllocationRemark": "Assigned to balance total value (Group C: BDT 1,117,300)"
         },
         {
@@ -1438,7 +1525,8 @@
           "Remarks": "Good",
           "MarketPrice": 10000,
           "CurrentValue": 6000.0,
-          "DepreciationRate": "30%",
+          "DepreciationRate": "40%",
+          "RemarkCategory": "Good",
           "AllocationRemark": "Assigned to balance total value (Group C: BDT 1,123,300)"
         },
         {
@@ -1457,7 +1545,8 @@
           "Remarks": "Moderate",
           "MarketPrice": 28000,
           "CurrentValue": 5600.0,
-          "DepreciationRate": "60%",
+          "DepreciationRate": "80%",
+          "RemarkCategory": "Moderate",
           "AllocationRemark": "Assigned to balance total value (Group C: BDT 1,128,900)"
         },
         {
@@ -1469,6 +1558,7 @@
           "MarketPrice": 8000,
           "CurrentValue": 5600.0,
           "DepreciationRate": "30%",
+          "RemarkCategory": "Excellent",
           "AllocationRemark": "Assigned to balance total value (Group C: BDT 1,134,500)"
         },
         {
@@ -1480,6 +1570,7 @@
           "MarketPrice": 2000,
           "CurrentValue": 1400.0,
           "DepreciationRate": "30%",
+          "RemarkCategory": "Excellent",
           "AllocationRemark": "Assigned to balance total value (Group C: BDT 1,135,900)"
         }
       ],
