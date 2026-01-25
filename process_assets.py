@@ -45,7 +45,7 @@ MARKET_PRICES = {
     
     # === DESKTOP PCs ===
     'PC': {
-        'HP ProLiant DL380 Gen10 Plus': 390000,  # Server (midrange spec) - 40% reduction
+        'HP ProLiant DL380 Gen10 Plus': 650000,  # Server (midrange spec)
         'Desktop i9 Gen 13': 280000,  # High-end gaming/workstation
         'Desktop i9 Gen 11': 220000,  # Slightly older i9
         'Desktop i5 Gen 10': 85000,  # Mid-range desktop
@@ -183,9 +183,9 @@ def get_market_price(asset):
     
     elif asset_type == 'PC':
         if 'server' in name.lower() or 'proliant' in name.lower():
-            return 390000
+            return 650000
         elif 'xeon' in processor:
-            return 390000
+            return 650000
         elif 'i9' in processor:
             gen = asset.get('Gen', 0)
             if gen >= 13:
@@ -296,6 +296,13 @@ def calculate_asset_value(asset):
     """Calculate current value based on market price and remarks-based depreciation."""
     # Get market price
     market_price = get_market_price(asset)
+    
+    # Special case: HP Server ProLiant DL380 Gen10 Plus gets 40% reduction (60% of market price)
+    if asset.get('AssetType') == 'PC':
+        model = asset.get('Model', '').lower()
+        if 'proliant' in model and 'dl380' in model:
+            final_value = market_price * 0.60  # 40% reduction = 60% value
+            return round(final_value, 2)
     
     # Special case: PC serials 11, 13, 14, 15 get 90% reduction (10% of market price)
     if asset.get('AssetType') == 'PC':
@@ -598,10 +605,28 @@ def divide_into_groups(assets):
         else:
             remark_category = 'Excellent'  # Default
         
-        # Special case: PC serials 11, 13, 14, 15 get 90% reduction
-        if asset.get('AssetType') == 'PC' and asset.get('Serial') in [11, 13, 14, 15]:
-            asset['DepreciationRate'] = '90%'
-            asset['RemarkCategory'] = 'Special'
+        # Special case: HP Server ProLiant DL380 Gen10 Plus gets 40% reduction
+        hp_server_special = False
+        if asset.get('AssetType') == 'PC':
+            model = asset.get('Model', '').lower()
+            if 'proliant' in model and 'dl380' in model:
+                asset['DepreciationRate'] = '40%'
+                asset['RemarkCategory'] = 'Special (40% reduction)'
+                hp_server_special = True
+            # Special case: PC serials 11, 13, 14, 15 get 90% reduction
+            elif asset.get('Serial') in [11, 13, 14, 15]:
+                asset['DepreciationRate'] = '90%'
+                asset['RemarkCategory'] = 'Special'
+            else:
+                # Normal PC depreciation based on remarks
+                if 'excellent' in remarks:
+                    asset['DepreciationRate'] = '30%'
+                elif 'good' in remarks:
+                    asset['DepreciationRate'] = '40%'
+                elif 'moderate' in remarks or 'fair' in remarks:
+                    asset['DepreciationRate'] = '50%'
+                else:
+                    asset['DepreciationRate'] = '30%'
         elif is_reconditioned_laptop:
             if 'excellent' in remarks:
                 asset['DepreciationRate'] = '60%'
@@ -613,6 +638,7 @@ def divide_into_groups(assets):
                 asset['DepreciationRate'] = '70%'
                 remark_category = 'Good'  # Default for reconditioned
         else:
+            # All other assets (new laptops, monitors, printers, servers)
             if 'excellent' in remarks:
                 asset['DepreciationRate'] = '30%'
             elif 'good' in remarks:
@@ -622,8 +648,9 @@ def divide_into_groups(assets):
             else:
                 asset['DepreciationRate'] = '30%'
         
-        # Store remark category for display
-        asset['RemarkCategory'] = remark_category
+        # Store remark category for display (unless already set by special cases)
+        if 'RemarkCategory' not in asset or not hp_server_special:
+            asset['RemarkCategory'] = remark_category
     
     # Sort all assets by value (descending) for standard greedy algorithm
     sorted_assets = sorted(assets, key=lambda x: x['CurrentValue'], reverse=True)
