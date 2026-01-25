@@ -202,6 +202,8 @@ def get_market_price(asset):
                 return 55000
             else:
                 return 35000
+        elif 'dual' in processor or ('core' in processor and 'dual' in processor):
+            return 30000  # Dual Core processors
         return 70000  # Generic desktop
     
     elif asset_type == 'Monitor':
