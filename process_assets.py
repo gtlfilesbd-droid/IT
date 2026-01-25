@@ -295,6 +295,13 @@ def calculate_asset_value(asset):
     # Get market price
     market_price = get_market_price(asset)
     
+    # Special case: PC serials 11, 13, 14, 15 get 90% reduction (10% of market price)
+    if asset.get('AssetType') == 'PC':
+        serial = asset.get('Serial')
+        if serial in [11, 13, 14, 15]:
+            final_value = market_price * 0.10  # 90% reduction
+            return round(final_value, 2)
+    
     # Check if reconditioned (laptops only)
     is_reconditioned_laptop = False
     if asset.get('AssetType') == 'Laptop':
@@ -589,7 +596,11 @@ def divide_into_groups(assets):
         else:
             remark_category = 'Excellent'  # Default
         
-        if is_reconditioned_laptop:
+        # Special case: PC serials 11, 13, 14, 15 get 90% reduction
+        if asset.get('AssetType') == 'PC' and asset.get('Serial') in [11, 13, 14, 15]:
+            asset['DepreciationRate'] = '90%'
+            asset['RemarkCategory'] = 'Special'
+        elif is_reconditioned_laptop:
             if 'excellent' in remarks:
                 asset['DepreciationRate'] = '60%'
             elif 'good' in remarks:
