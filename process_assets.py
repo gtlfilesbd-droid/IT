@@ -673,6 +673,19 @@ def divide_into_groups(assets):
         # Add allocation remark
         asset['AllocationRemark'] = f"Assigned to balance total value (Group {min_group}: BDT {group_values[min_group]:,.0f})"
     
+    # Swap Group A and Group C (Group C assets → Group A, Group A assets → Group C)
+    groups['A'], groups['C'] = groups['C'], groups['A']
+    group_values['A'], group_values['C'] = group_values['C'], group_values['A']
+    group_counts['A'], group_counts['C'] = group_counts['C'], group_counts['A']
+    
+    # Update allocation remarks for swapped assets
+    for asset in groups['A']:
+        if 'AllocationRemark' in asset:
+            asset['AllocationRemark'] = asset['AllocationRemark'].replace('Group C:', 'Group A:').replace('Group A:', 'Group A:')
+    for asset in groups['C']:
+        if 'AllocationRemark' in asset:
+            asset['AllocationRemark'] = asset['AllocationRemark'].replace('Group A:', 'Group C:').replace('Group C:', 'Group C:')
+    
     return groups, group_values, group_counts
 
 def generate_html(groups, group_values, group_counts, all_assets):
