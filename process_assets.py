@@ -45,7 +45,7 @@ MARKET_PRICES = {
     
     # === DESKTOP PCs ===
     'PC': {
-        'HP ProLiant DL380 Gen10 Plus': 650000,  # Server (midrange spec)
+        'HP ProLiant DL380 Gen10 Plus': 390000,  # Server (midrange spec) - 40% reduction
         'Desktop i9 Gen 13': 280000,  # High-end gaming/workstation
         'Desktop i9 Gen 11': 220000,  # Slightly older i9
         'Desktop i5 Gen 10': 85000,  # Mid-range desktop
@@ -183,9 +183,9 @@ def get_market_price(asset):
     
     elif asset_type == 'PC':
         if 'server' in name.lower() or 'proliant' in name.lower():
-            return 650000
+            return 390000
         elif 'xeon' in processor:
-            return 650000
+            return 390000
         elif 'i9' in processor:
             gen = asset.get('Gen', 0)
             if gen >= 13:
